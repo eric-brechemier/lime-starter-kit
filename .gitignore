@@ -1,0 +1,5 @@
+# ignore temp vim files
+*.swp
+
+# ignore temp OpenOffice.org files
+.~lock.*
