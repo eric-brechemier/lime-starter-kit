@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>CSS Styles for colors</title>
+    <style>
+    .black  { color-index:0; }
+    .red    { color-index:1; }
+    .green  { color-index:2; }
+    .yellow { color-index:3; }
+
+    .onblack  { background-color-index:0; }
+    .onred    { background-color-index:1; }
+    .ongreen  { background-color-index:2; }
+    .onyellow { background-color-index:3; }
+    .onwhite  { background-color-index:7; }
+
+    .fullscreen,
+    .tophalf,
+    .lefthalf,
+    .A1  { left:   0px; top:   0px; }
+    .A2  { left:   0px; top:  30px; }
+    .A3  { left:   0px; top:  60px; }
+    .A4  { left:   0px; top:  90px; }
+    .A5  { left:   0px; top: 120px; }
+    .A6  { left:   0px; top: 150px; }
+    .A7  { left:   0px; top: 180px; }
+    .A8  { left:   0px; top: 210px; }
+    .A9  { left:   0px; top: 240px; }
+    .bottomhalf,
+    .A10 { left:   0px; top: 270px; }
+
+    .B1  { left: 120px; top:   0px; }
+    .B2  { left: 120px; top:  30px; }
+    .B3  { left: 120px; top:  60px; }
+
+    .C1  { left: 240px; top:   0px; }
+    .D1  { left: 360px; top:   0px; }
+    .righthalf,
+    .E1  { left: 480px; top:   0px; }
+    .F1  { left: 600px; top:   0px; }
+    .G1  { left: 720px; top:   0px; }
+    .H1  { left: 840px; top:   0px; }
+
+    .cell           { width: 120px; height:  30px; }
+    .column         { width: 120px; height: 540px; }
+    .row            { width: 960px; height:  30px; }
+    .fullscreen     { width: 960px; height: 540px; }
+    .tophalf,
+    .bottomhalf     { width: 960px; height: 270px; }
+    .lefthalf,
+    .righthalf      { width: 480px; height: 540px; }
+
+    .x2cols { width: 240px; }
+    .x3cols { width: 360px; }
+    .x4cols { width: 480px; }
+    .x5cols { width: 600px; }
+    .x6cols { width: 720px; }
+    .x7cols { width: 840px; }
+    .x8cols { width: 960px; }
+
+    .x2rows  { height:  60px; }
+    .x3rows  { height:  90px; }
+    .x4rows  { height: 120px; }
+    .x5rows  { height: 150px; }
+    .x6rows  { height: 180px; }
+    .x7rows  { height: 210px; }
+    .x8rows  { height: 240px; }
+    .x9rows  { height: 270px; }
+    .x10rows { height: 300px; }
+    .x11rows { height: 330px; }
+    .x12rows { height: 360px; }
+    .x13rows { height: 390px; }
+    .x14rows { height: 420px; }
+    .x15rows { height: 450px; }
+    .x16rows { height: 480px; }
+    .x17rows { height: 510px; }
+    .x18rows { height: 540px; }
+
+    .square1 { width: 120px; height: 120px; }
+    .square2 { width: 240px; height: 240px; }
+    .square3 { width: 360px; height: 360px; }
+    .square4 { width: 480px; height: 480px; }
+
+    .center { text-align: center; }
+
+    </style>
+  </head>
+  <body class=" onyellow">
+    <div class="bottomhalf red ongreen">Start
+      <p class="righthalf black onwhite">Hello IPTV World!!!</p>
+    </div>
+  </body>
+</bml>

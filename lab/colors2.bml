@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>CSS Styles for colors, using an external file</title>
+    <link href="css/colors.css" />
+    <link href="css/colors2.css" />
+  </head>
+  <body class=" onyellow">
+    <p class="red ongreen" style="width:760px;height:40px;">Hello IPTV World!!!</p>
+  </body>
+</bml>

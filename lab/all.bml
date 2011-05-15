@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE bml PUBLIC
+  "-//IPTVF CDN:2008//DTD BML Document for IPTV//JA"
+  "http://www.iptvforum.jp/CDN/DTD/bml_100_0_iptv.dtd">
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>Maximum LIME-HTML document featuring all supported elements</title>
+  </head>
+  <body>
+  </body>
+</bml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>CSS Styles for colors</title>
+    <style>
+    .black  { color-index:0; }
+    .red    { color-index:1; }
+    .green  { color-index:2; }
+    .yellow { color-index:3; }
+
+    .onblack  { background-color-index:0; }
+    .onred    { background-color-index:1; }
+    .ongreen  { background-color-index:2; }
+    .onyellow { background-color-index:3; }
+    .onwhite  { background-color-index:7; }
+
+    p {
+      font-size: 40px;
+      line-height: 50px;
+      font-family: Georgia;
+
+      width: 100px;
+      height: 100px;
+      overflow: visible;
+    }
+    </style>
+  </head>
+  <body class=" onyellow">
+    <p class="red ongreen">Hello IPTV World!!!</p>
+  </body>
+</bml>

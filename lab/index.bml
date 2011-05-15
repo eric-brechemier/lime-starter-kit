@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>List of LIME-HTML documents part of LIME Starter Kit</title>
+    <link href="css/layout.css" />
+    <link href="css/colors.css" />
+  </head>
+  <body>
+    <p class="fromA1 toB1 onwhite">
+      <a href="min.bml">Minimal Document</a>
+    </p>
+    <p class="fromA2 toB2">
+      <a href="all.bml">Maximum Document Featuring All Elements</a>
+    </p>
+  </body>
+</bml>

@@ -1,0 +1,15 @@
+
+/* TO BE COMPLETED */
+.black  { color-index:0; }
+.red    { color-index:1; }
+.green  { color-index:2; }
+.yellow { color-index:3; }
+
+
+/* TO BE COMPLETED */
+
+.onblack  { background-color-index:0; }
+.onred    { background-color-index:1; }
+.ongreen  { background-color-index:2; }
+.onyellow { background-color-index:3; }
+.onwhite  { background-color-index:7; }
