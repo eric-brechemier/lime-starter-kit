@@ -1,35 +1,235 @@
 /*
  A grid system, for a 960 x 540 pixels display.
 
- Each cell is 60px wide and 20px tall. Columns are addressed with letters
- from A to P and lines with numbers from 1 to 27.
+ Each cell is 120px wide and 30px tall. Columns are addressed with letters
+ from A to H and lines with numbers from 1 to 18.
 
- A1  B1  C1  D1  E1  F1  G1  H1  I1  J1  K1  L1  M1  N1  O1  P1
- A2  B2  C2  D2  E2  F2  G2  H2  I2  J2  K2  L2  M2  N2  O2  P2
- A3  B3  C3  D3  E3  F3  G3  H3  I3  J3  K3  L3  M3  N3  O3  P3
- ...
- A27 B27 C27 D27 E27 F27 G27 H27 I27 J27 K27 L27 M27 N27 O27 P27
-
+        ---> 8 x 120px
+ 18   | A1  B1  C1  D1  E1  F1  G1  H1
+ x    | A2  B2  C2  D2  E2  F2  G2  H2
+ 30px | A3  B3  C3  D3  E3  F3  G3  H3
+      v ...
+        A18 B18 C18 D18 E18 F18 G18 H18
  */
 
-.fromA1 { left:   0px; top:   0px; }
-.fromA2 { left:   0px; top:  20px; }
-.fromA3 { left:   0px; top:  40px; }
+.fullscreen,
+.topHalf, .bottomHalf,
+.leftHalf,
+.A1,  .A2,  .A3,  .A4,  .A5,  .A6,  .A7,  .A8,  .A9,
+.A10, .A11, .A12, .A13, .A14, .A15, .A16, .A17, .A18
+{ left: 0px; }
 
-.fromB1 { left:  60px; top:   0px; }
-.fromB2 { left:  60px; top:  20px; }
-.fromB3 { left:  60px; top:  40px; }
+.B1,  .B2,  .B3,  .B4,  .B5,  .B6,  .B7,  .B8,  .B9,
+.B10, .B11, .B12, .B13, .B14, .B15, .B16, .B17, .B18
+{ left: 120px; }
 
-/*
-Not possible: right/bottom properties are not supported
-TODO: declare normalized sizes in cells instead: size1x1, size2x3, ...
+.C1,  .C2,  .C3,  .C4,  .C5,  .C6,  .C7,  .C8,  .C9,
+.C10, .C11, .C12, .C13, .C14, .C15, .C16, .C17, .C18
+{ left: 240px; }
 
-.toA1 { right:  60px; bottom: 520px; }
-.toA2 { right:  60px; bottom: 500px; }
-.toA3 { right:  60px; bottom: 480px; }
+.D1,  .D2,  .D3,  .D4,  .D5,  .D6,  .D7,  .D8,  .D9,
+.D10, .D11, .D12, .D13, .D14, .D15, .D16, .D17, .D18
+{ left: 360px; }
 
-.toB1 { right: 120px; bottom: 520px; }
-.toB2 { right: 120px; bottom: 500px; }
-.toB3 { right: 120px; bottom: 480px; }
-*/
+.rightHalf,
+.E1,  .E2,  .E3,  .E4,  .E5,  .E6,  .E7,  .E8,  .E9,
+.E10, .E11, .E12, .E13, .E14, .E15, .E16, .E17, .E18
+{ left: 480px; }
+
+.F1,  .F2,  .F3,  .F4,  .F5,  .F6,  .F7,  .F8,  .F9,
+.F10, .F11, .F12, .F13, .F14, .F15, .F16, .F17, .F18
+{ left: 600px; }
+
+.G1,  .G2,  .G3,  .G4,  .G5,  .G6,  .G7,  .G8,  .G9,
+.G10, .G11, .G12, .G13, .G14, .G15, .G16, .G17, .G18
+{ left: 720px; }
+
+.H1,  .H2,  .H3,  .H4,  .H5,  .H6,  .H7,  .H8,  .H9,
+.H10, .H11, .H12, .H13, .H14, .H15, .H16, .H17, .H18
+{ left: 840px; }
+
+.fullscreen,
+.topHalf,
+.leftHalf, .rightHalf,
+.A1, .B1, .C1, .D1,
+.E1, .F1, .G1, .H1
+{ top: 0px; }
+
+.A2, .B2, .C2, .D2,
+.E2, .F2, .G2, .H2
+{ top: 30px; }
+
+.A3, .B3, .C3, .D3,
+.E3, .F3, .G3, .H3
+{ top: 60px; }
+
+.A4, .B4, .C4, .D4,
+.E4, .F4, .G4, .H4
+{ top: 90px; }
+
+.A5, .B5, .C5, .D5,
+.E5, .F5, .G5, .H5
+{ top: 120px; }
+
+.A6, .B6, .C6, .D6,
+.E6, .F6, .G6, .H6
+{ top: 150px; }
+
+.A7, .B7, .C7, .D7,
+.E7, .F7, .G7, .H7
+{ top: 180px; }
+
+.A8, .B8, .C8, .D8,
+.E8, .F8, .G8, .H8
+{ top: 210px; }
+
+.A9, .B9, .C9, .D9,
+.E9, .F9, .G9, .H9
+{ top: 240px; }
+
+.bottomHalf,
+.A10, .B10, .C10, .D10,
+.E10, .F10, .G10, .H10
+{ top: 270px; }
+
+.A11, .B11, .C11, .D11,
+.E11, .F11, .G11, .H11
+{ top: 300px; }
+
+.A12, .B12, .C12, .D12,
+.E12, .F12, .G12, .H12
+{ top: 330px; }
+
+.A13, .B13, .C13, .D13,
+.E13, .F13, .G13, .H13
+{ top: 360px; }
+
+.A14, .B14, .C14, .D14,
+.E14, .F14, .G14, .H14
+{ top: 390px; }
+
+.A15, .B15, .C15, .D15,
+.E15, .F15, .G15, .H15
+{ top: 420px; }
+
+.A16, .B16, .C16, .D16,
+.E16, .F16, .G16, .H16
+{ top: 450px; }
+
+.A17, .B17, .C17, .D17,
+.E17, .F17, .G17, .H17
+{ top: 480px; }
+
+.A18, .B18, .C18, .D18,
+.E18, .F18, .G18, .H18
+{ top: 510px; }
+
+/* defaults: declare first for lowest priority */
+.topHalf, .bottomHalf,
+.x1row,   .x2rows,  .x3rows,  .x4rows,  .x5rows,  .x6rows,
+.x7rows,  .x8rows,  .x9rows,  .x10rows, .x11rows, .x12rows,
+.x13rows, .x14rows, .x15rows, .x16rows, .x17rows, .x18rows
+{ width: 960px; }
+
+.square1,
+.cell,
+.column,
+.x1col
+{ width: 120px; }
+
+.square2,
+.x2cols
+{ width: 240px; }
+
+.square3,
+.x3cols
+{ width: 360px; }
+
+.leftHalf, .rightHalf,
+.square4,
+.x4cols
+{ width: 480px; }
+
+.x5cols
+{ width: 600px; }
+
+.x6cols
+{ width: 720px; }
+
+.x7cols
+{ width: 840px; }
+
+.fullscreen,
+.row,
+.x8cols
+{ width: 960px; }
+
+/* defaults: declare first for lowest priority */
+.leftHalf, .rightHalf,
+.x1col,  .x2cols, .x3cols, .x4cols,
+.x5cols, .x6cols, .x7cols, .x8cols
+{ height: 540px; }
+
+.cell,
+.row,
+.x1row
+{ height: 30px; }
+
+.x2rows
+{ height: 60px; }
+
+.x3rows
+{ height: 90px; }
+
+.square1,
+.x4rows
+{ height: 120px; }
+
+.x5rows
+{ height: 150px; }
+
+.x6rows
+{ height: 180px; }
+
+.x7rows
+{ height: 210px; }
+
+.square2,
+.x8rows
+{ height: 240px; }
+
+.topHalf, bottomHalf,
+.x9rows
+{ height: 270px; }
+
+.x10rows
+{ height: 300px; }
+
+.x11rows
+{ height: 330px; }
+
+.square3,
+.x12rows
+{ height: 360px; }
+
+.x13rows
+{ height: 390px; }
+
+.x14rows
+{ height: 420px; }
+
+.x15rows
+{ height: 450px; }
+
+.square4,
+.x16rows
+{ height: 480px; }
+
+.x17rows
+{ height: 510px; }
+
+.fullscreen,
+.column,
+.x18rows
+{ height: 540px; }
 
