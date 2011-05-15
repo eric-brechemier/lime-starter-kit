@@ -5,13 +5,66 @@
     <title>List of LIME-HTML documents part of LIME Starter Kit</title>
     <link href="css/layout.css" />
     <link href="css/colors.css" />
+    <style>
+    .a1 {
+                    nav-index:  0; nav-right:  1;
+                    nav-down:   8;
+    }
+    .b1 {
+      nav-left:  0; nav-index:  1; nav-right:  2;
+                    nav-down:   9;
+    }
+    .c1 {
+      nav-left:  1; nav-index:  2; nav-right:  3;
+                    nav-down:  10;
+    }
+    .d1 {
+      nav-left:  2; nav-index:  3; nav-right:  4;
+                    nav-down:  11;
+    }
+    .e1 {
+      nav-left:  3; nav-index:  4; nav-right:  5;
+                    nav-down:  12;
+    }
+    .f1 {
+      nav-left:  4; nav-index:  5; nav-right:  6;
+                    nav-down:  13;
+    }
+    .g1 {
+      nav-left:  5; nav-index:  6; nav-right:  7;
+                    nav-down:  14;
+    }
+    .h1 {
+      nav-left:  6; nav-index:  7; nav-right:  8;
+                    nav-down:  15;
+    }
+    .a2 {
+                    nav-up:      0;
+                    nav-index:  8; nav-right:  9;
+                    nav-down:  16;
+    }
+    .a3 {
+                    nav-up:      8;
+                    nav-index: 16; nav-right: 17;
+                    nav-down:  24;
+    }
+
+
+    a:focus { background-color-index: 5; }
+    a { color-index: 4; }
+    a:focus { color-index: 7; }
+    a:active { color-index: 5; }
+    </style>
   </head>
   <body class="onblack">
     <p class="A1 row white">
-      <a href="min.bml">Minimal Document</a>
+      <a class="a1" href="min.bml">Minimal Document</a>
     </p>
     <p class="A2 row white">
-      <a href="all.bml">Maximum Document Featuring All Elements</a>
+      <a class="a2" href="all.bml">Maximum Document Featuring All Elements</a>
+    </p>
+    <p class="A3 row white">
+      <a class="a3" href="colors.bml">Colors</a>
     </p>
   </body>
 </bml>
