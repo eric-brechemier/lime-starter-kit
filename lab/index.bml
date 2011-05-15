@@ -6,11 +6,11 @@
     <link href="css/layout.css" />
     <link href="css/colors.css" />
   </head>
-  <body>
-    <p class="fromA1 toB1 onwhite">
+  <body class="onblack">
+    <p class="A1 row white">
       <a href="min.bml">Minimal Document</a>
     </p>
-    <p class="fromA2 toB2">
+    <p class="A2 row white">
       <a href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
   </body>
