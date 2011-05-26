@@ -1,0 +1,210 @@
+/*
+ITU-T H.763.1 (09/2010) - Cascading style sheets for IPTV services
+Annex B - Default style sheet
+
+This style sheet had been adapted to preview LIME HTML in a browser using the
+same defaults as LIME TV sets.
+
+It is unnecessary to include this style sheet for pages displayed on a TV.
+
+Fixes:
+  * fixed media query: added missing "@" before "media" in "media tv"
+  * removed bml from "display:none important!" rule, otherwise no part of the
+    document within can be displayed
+  * replaced p, input with body for the rule specifying the default font
+  * moved p, input to the rule specifying inherited font
+  * replaced body with bml for the rule specifying the background-color
+  * added body as selector to the rule specifying a transparent background
+  * added rule to define default color (black) including for link anchors
+
+Changes:
+  * reformatted for readability
+  * replaced tv with screen in the media to have these default styles applied
+    in a Web browser.
+  * added sans-serif to the font stack, in case "round gothic" is not found
+  * replaced rules using color indexes with equivalent rules using color
+    values. For grayscale-color-index, I defined an outline using the
+    text-shadow property, with the first color index value on top/left
+    and the second color index value on right/bottom
+  * added rule to remove underline text decoration of link anchors
+*/
+
+@media screen {
+/* @media tv { */
+
+  /* margin */
+
+  div, p, input, object {
+    margin: 0 !important
+  }
+
+
+  /* padding */
+
+  div, object {
+    padding-top    : 0 !important;
+    padding-right  : 0 !important;
+    padding-bottom : 0 !important;
+    padding-left   : 0 !important;
+  }
+
+
+  /* border */
+
+  div, p, span, a, input {
+    border-width : 0
+  }
+
+  object {
+    border-width : 0 !important;
+    border-style : none !important
+  }
+
+
+  /* display */
+
+  meta, title, script, style, head, /* bml, */ bevent, beitem {
+    display : none !important
+  }
+
+  body, div, p, object, input {
+    display : block !important
+  }
+
+  br, span, a {
+    display : inline !important
+  }
+
+
+  /* position */
+
+  p, div, object, input {
+    position : absolute !important
+  }
+
+  br, span, a {
+    position : static !important
+  }
+
+
+  /* top left width height */
+
+  p, div, input, object {
+    top    : 0;
+    left   : 0;
+    width  : 0;
+    height : 0
+  }
+
+
+  /* z-index */
+
+  div, p, br, span, a, input, object, body {
+    z-index : auto !important
+  }
+
+
+  /* line-height */
+
+  br, span, a {
+    line-height : inherit !important
+  }
+
+
+  /* visibility */
+
+  body {
+    visibility : visible !important
+  }
+
+  span, a {
+    visibility : inherit !important
+  }
+
+
+  /* overflow */
+
+  p, div, input, object {
+    overflow : hidden !important
+  }
+
+
+  /* background-repeat */
+
+  body {
+    background-repeat : repeat !important
+  }
+
+
+  /* text */
+
+  body {
+    font-family : "round gothic", sans-serif;
+    font-size : 24px
+  }
+
+  p, input, span, a {
+    font-family : inherit;
+    font-size : inherit
+  }
+
+  p, input {
+    text-align : left
+  }
+
+
+  /* letter-spacing */
+
+  span, a {
+    letter-spacing : inherit !important
+  }
+
+
+  /* white-space */
+
+  p, input {
+    white-space : normal !important
+  }
+
+
+  /* background-color-index */
+
+  bml {
+    /* background-color-index : 0 */
+    background-color: black;
+  }
+
+  body, div, p, span, a, input {
+    /* background-color-index : 8 */
+    background-color: transparent;
+  }
+
+  object {
+    /* background-color-index : 0 !important */
+    background-color: black !important;
+  }
+
+
+  /* grayscale-color-index */
+
+  p, input {
+    /* grayscale-color-index : 30 15 */
+    text-shadow: -1px  0   #555,
+                  0    1px #333,
+                  1px  0   #555,
+                  0   -1px #333;
+  }
+
+  /* color-index */
+
+  div, p, span, a, input {
+    /* color-index: 0 */
+    color: black;
+  }
+
+  /* miscelleanous */
+
+  a {
+    text-decoration: none;
+  }
+}
