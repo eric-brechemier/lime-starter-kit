@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head xmlns="http://www.w3.org/1999/xhtml">
+    <title>Unit Tests for CSS Styles for colors</title>
+    <link rel="stylesheet" href="../../../src/css/base.css" />
+    <style>
+    .test {
+      left:   192px;
+      top:    202px;
+      width:  576px;
+      height: 136px;
+    }
+    </style>
+    <link rel="stylesheet" href="../../../src/css/colors.css" />
+  </head>
+  <body xmlns="http://www.w3.org/1999/xhtml">
+    <p class="test black onyellow">Black on Yellow</p>
+  </body>
+</bml>
