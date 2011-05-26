@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?bml bml-version="100.0" ?>
 <bml>
-  <head>
+  <head xmlns="http://www.w3.org/1999/xhtml">
     <title>List of LIME-HTML documents part of LIME Starter Kit</title>
-    <link href="css/layout.css" />
-    <link href="css/colors.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/colors.css" />
     <style>
+    /* TODO: move to navigation.css */
+
     .a1 {
                     nav-index:  0; nav-right:  1;
                     nav-down:   8;
@@ -49,14 +52,13 @@
                     nav-down:  24;
     }
 
-
     a:focus { background-color-index: 5; }
     a { color-index: 4; }
     a:focus { color-index: 7; }
     a:active { color-index: 5; }
     </style>
   </head>
-  <body class="onblack">
+  <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="A1 row white">
       <a class="a1" href="min.bml">Minimal Document</a>
     </p>
