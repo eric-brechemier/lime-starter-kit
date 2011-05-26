@@ -1,4 +1,23 @@
 
-.black { color: black; }
+/* foreground colors (text and border) */
+.black   { color: #000; border-color: #000; }
+.red     { color: #F00; border-color: #F00; }
+.green   { color: #0F0; border-color: #0F0; }
+.yellow  { color: #FF0; border-color: #FF0; }
+.blue    { color: #00F; border-color: #00F; }
+.magenta { color: #F0F; border-color: #F0F; }
+.cyan    { color: #0FF; border-color: #0FF; }
+.white   { color: #FFF; border-color: #FFF; }
+.transparent { color: transparent; background-color: transparent; }
 
-.onyellow { background-color: yellow; }
+/* background colors */
+.onblack   { background-color: #000; }
+.onred     { background-color: #F00; }
+.ongreen   { background-color: #0F0; }
+.onyellow  { background-color: #FF0; }
+.onblue    { background-color: #00F; }
+.onmagenta { background-color: #F0F; }
+.oncyan    { background-color: #0FF; }
+.onwhite   { background-color: #FFF; }
+.ontransparent { background-color; transparent; }
+
