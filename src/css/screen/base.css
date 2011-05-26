@@ -1,0 +1,7 @@
+
+/* Base Styles: nicer defaults */
+
+/* inherit text color from parent */
+div, p, span, a, input {
+  color: inherit;
+}
