@@ -2,7 +2,7 @@
 <?bml bml-version="100.0" ?>
 <bml>
   <head xmlns="http://www.w3.org/1999/xhtml">
-    <title>Unit Tests for CSS Styles for colors: Black on Yellow</title>
+    <title>Unit Tests for CSS Styles for colors: Green on Yellow</title>
     <link rel="stylesheet" href="../../../src/css/base.css" />
     <style>
     .test {
@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="../../../src/css/colors.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
-    <div class="test black onyellow">
-      <p>Black on Yellow</p>
+    <div class="test green onyellow">
+      <p>Green on Yellow</p>
     </div>
   </body>
 </bml>
