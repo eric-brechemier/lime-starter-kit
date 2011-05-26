@@ -10,6 +10,8 @@
       top:    202px;
       width:  576px;
       height: 136px;
+      text-align:     center;
+      line-height:     136px;
     }
     </style>
     <link rel="stylesheet" href="../../../src/css/colors.css" />
