@@ -1,15 +1,69 @@
 @import url("screen/colors.css") screen;
 
 /* foreground colors (text and border) */
-.black   { color-index: 0; border-color-index: 0; }
-.red     { color-index: 1; border-color-index: 1; }
-.green   { color-index: 2; border-color-index: 2; }
-.yellow  { color-index: 3; border-color-index: 3; }
-.blue    { color-index: 4; border-color-index: 4; }
-.magenta { color-index: 5; border-color-index: 5; }
-.cyan    { color-index: 6; border-color-index: 6; }
-.white   { color-index: 7; border-color-index: 7; }
-.transparent { color-index: 8; border-color-index: 8; }
+.black   {
+  color-index:               0;
+  border-top-color-index:    0;
+  border-right-color-index:  0;
+  border-bottom-color-index: 0;
+  border-left-color-index:   0;
+}
+.red     {
+  color-index:               1;
+  border-top-color-index:    1;
+  border-right-color-index:  1;
+  border-bottom-color-index: 1;
+  border-left-color-index:   1;
+}
+.green   {
+  color-index:               2;
+  border-top-color-index:    2;
+  border-right-color-index:  2;
+  border-bottom-color-index: 2;
+  border-left-color-index:   2;
+}
+.yellow  {
+  color-index:               3;
+  border-top-color-index:    3;
+  border-right-color-index:  3;
+  border-bottom-color-index: 3;
+  border-left-color-index:   3;
+}
+.blue    {
+  color-index:               4;
+  border-top-color-index:    4;
+  border-right-color-index:  4;
+  border-bottom-color-index: 4;
+  border-left-color-index:   4;
+}
+.magenta {
+  color-index:               5;
+  border-top-color-index:    5;
+  border-right-color-index:  5;
+  border-bottom-color-index: 5;
+  border-left-color-index:   5;
+}
+.cyan    {
+  color-index:               6;
+  border-top-color-index:    6;
+  border-right-color-index:  6;
+  border-bottom-color-index: 6;
+  border-left-color-index:   6;
+}
+.white   {
+  color-index:               7;
+  border-top-color-index:    7;
+  border-right-color-index:  7;
+  border-bottom-color-index: 7;
+  border-left-color-index:   7;
+}
+.transparent {
+  color-index:               8;
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-bottom-color-index: 8;
+  border-left-color-index:   8;
+}
 
 /* background colors */
 .onblack   { background-color-index:0; }
