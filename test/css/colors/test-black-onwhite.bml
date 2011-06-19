@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="../../../src/css/colors.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
-    <div class="test black onwhite">
-      <p>Black on White</p>
+    <div class="test onwhite">
+      <p class="black">Black on White</p>
     </div>
   </body>
 </bml>
