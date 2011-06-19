@@ -11,13 +11,13 @@
 .transparent { color: transparent; background-color: transparent; }
 
 /* background colors */
-.onblack   { background-color: #000; }
-.onred     { background-color: #F00; }
-.ongreen   { background-color: #0F0; }
-.onyellow  { background-color: #FF0; }
-.onblue    { background-color: #00F; }
-.onmagenta { background-color: #F0F; }
-.oncyan    { background-color: #0FF; }
-.onwhite   { background-color: #FFF; }
+.onblack       { background-color: #000000; }
+.onred         { background-color: #FF0000; }
+.ongreen       { background-color: #0F0; }
+.onyellow      { background-color: #FF0; }
+.onblue        { background-color: #00F; }
+.onmagenta     { background-color: #F0F; }
+.oncyan        { background-color: #0FF; }
+.onwhite       { background-color: #FFF; }
 .ontransparent { background-color; transparent; }
 

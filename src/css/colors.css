@@ -66,13 +66,19 @@
 }
 
 /* background colors */
-.onblack   { background-color-index:0; }
-.onred     { background-color-index:1; }
-.ongreen   { background-color-index:2; }
-.onyellow  { background-color-index:3; }
-.onblue    { background-color-index:4; }
-.onmagenta { background-color-index:5; }
-.oncyan    { background-color-index:6; }
-.onwhite   { background-color-index:7; }
-.ontransparent { background-color-index:8; }
+.onblack       { background-color-index:   0; }
+.onred         { background-color-index:   1; }
+.ongreen       { background-color-index:   2; }
+.onyellow      { background-color-index:   3; }
+.onblue        { background-color-index:   4; }
+.onmagenta     { background-color-index:   5; }
+.oncyan        { background-color-index:   6; }
+.onwhite       { background-color-index:   7; }
+.ontransparent { background-color-index:   8; }
+
+
+
+
+
+
 
