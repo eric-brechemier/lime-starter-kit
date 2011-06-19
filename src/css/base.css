@@ -1,14 +1,4 @@
 @import url("screen/default.css") screen;
 @import url("screen/base.css") screen;
 
-/* Base styles: nicer defaults */
 
-/* inherit text color from parent */
-div, p, span, a, input {
-  border-top-color-index:    inherit;
-  border-right-color-index:  inherit;
-  border-bottom-color-index: inherit;
-  border-left-color-index:   inherit;
-  /* Note: not taken into account for some reason */
-  color-index:               inherit;
-}
