@@ -197,9 +197,12 @@ Changes:
 
   /* color-index */
 
-  div, p, span, a, input {
-    /* color-index: 0 */
+  body {
+    /* color-index: 0; */
     color: black;
+  }
+  div, p, span, a, input {
+    color: inherit;
   }
 
   /* miscelleanous */
