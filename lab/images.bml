@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>Images</title>
+  </head>
+  <body>
+
+    <div style="left:0px;top:0px;width:960px;height:540px;">
+      <object type="image/jpeg" data="img/radionette/tvset.jpg"
+        style="left:35px;top:15px;width:604px;height:540px;"/>
+
+      <!-- a matching color palette must be specified...
+      <style>
+      body{
+        clut:url(img/palette.clt);
+      }
+      </style>
+      -->
+      <!--object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
+        style="left:35px;top:15px;width:604px;height:540px;"/-->
+    </div>
+  </body>
+</bml>
