@@ -34,6 +34,11 @@ LICENSE
   BSD License
   http://creativecommons.org/licenses/BSD/
 
+SPECIAL THANKS
+
+  Tested on NetFront3 LIME Viewer, Copyright (c) 2003-2011 ACCESS CO.,LTD,
+  Courtesy of Access Japan.
+
 HISTORY
 
   2011-XX-XX, vX.Y.Z, No History Yet
