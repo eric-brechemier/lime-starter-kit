@@ -3,22 +3,24 @@
 <bml>
   <head>
     <title>Images</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <!-- a matching color palette must be specified for indexed colors...-->
+    <style>
+    body{
+      clut:url(img/palette.clt);
+    }
+    </style>
+
   </head>
   <body>
 
-    <div style="left:0px;top:0px;width:960px;height:540px;">
-      <object type="image/jpeg" data="img/radionette/tvset.jpg"
-        style="left:35px;top:15px;width:604px;height:540px;"/>
-
-      <!-- a matching color palette must be specified...
-      <style>
-      body{
-        clut:url(img/palette.clt);
-      }
-      </style>
-      -->
-      <!--object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
-        style="left:35px;top:15px;width:604px;height:540px;"/-->
+    <div class="fullscreen onyellow">
+      <object type="image/X-arib-png" data="img/radionette/screen-indexed.png"
+        class="A2" style="width:604px;height:540px;"/>
+      <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
+        class="B1" style="width:604px;height:540px;"/>
     </div>
   </body>
 </bml>
