@@ -3,3 +3,6 @@
 
 # ignore temp OpenOffice.org files
 .~lock.*
+
+# ignore Windows Thumbnails
+Thumbs.db
