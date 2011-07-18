@@ -1,0 +1,110 @@
+/*
+ * File: navigation.css
+ * Styles for focus of navigation links
+ *
+ * Author:  Eric Bréchemier
+ * License: http://creativecommons.org/licenses/BSD/
+ * Version: 2011-07-18
+ */
+
+/* partial definition of a grid for navigation (to be completed) */
+
+/* 
+   TODO: number indexes from top to bottom first, then from left to right?
+*/
+
+.a1 {
+                nav-index:  0; nav-right:  1;
+                nav-down:   8;
+}
+.b1 {
+  nav-left:  0; nav-index:  1; nav-right:  2;
+                nav-down:   9;
+}
+.c1 {
+  nav-left:  1; nav-index:  2; nav-right:  3;
+                nav-down:  10;
+}
+.d1 {
+  nav-left:  2; nav-index:  3; nav-right:  4;
+                nav-down:  11;
+}
+.e1 {
+  nav-left:  3; nav-index:  4; nav-right:  5;
+                nav-down:  12;
+}
+.f1 {
+  nav-left:  4; nav-index:  5; nav-right:  6;
+                nav-down:  13;
+}
+.g1 {
+  nav-left:  5; nav-index:  6; nav-right:  7;
+                nav-down:  14;
+}
+.h1 {
+  nav-left:  6; nav-index:  7; nav-right:  8;
+                nav-down:  15;
+}
+.a2 {
+                nav-up:     0;
+                nav-index:  8; nav-right:  9;
+                nav-down:  16;
+}
+.b2 {
+  nav-left:  8; nav-index:  9; nav-right: 10;
+                nav-down:  17;
+}
+.a3 {
+                nav-up:     8;
+                nav-index: 16; nav-right: 17;
+                nav-down:  24;
+}
+.a4 {
+                nav-up:    16;
+                nav-index: 24; nav-right: 25;
+                nav-down:  32;
+}
+.a4 {
+                nav-up:    16;
+                nav-index: 24; nav-right: 25;
+                nav-down:  32;
+}
+.a5 {
+                nav-up:    24;
+                nav-index: 32; nav-right: 33;
+                nav-down:  40;
+}
+.a6 {
+                nav-up:    32;
+                nav-index: 40; nav-right: 41;
+                nav-down:  48;
+}
+.a7 {
+                nav-up:    40;
+                nav-index: 48; nav-right: 49;
+                nav-down:  56;
+}
+
+/*
+   TODO: is it possible to define a class to loop to the last one as well?
+         The issue is: its index depends on the number of items used...
+ */
+.loopup {
+                nav-down:   0;
+}
+
+/* TODO?: define relative navigation classes instead? or as a complement?
+   above1, below1, after1, before1...?
+
+Cycling list, with left/right navigation from nav2 to nav3
+  nav0 upto4
+  nav1
+  nav2 rightto3
+  nav3 leftto2
+  nav4 downto0
+ */
+
+a:focus { background-color-index: 5; }
+a { color-index: 4; }
+a:focus { color-index: 7; }
+a:active { color-index: 5; }
