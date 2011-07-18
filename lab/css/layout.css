@@ -1,4 +1,13 @@
 /*
+ * File: layout.css
+ * Styles for layout using a grid system
+ *
+ * Author:  Eric Bréchemier
+ * License: http://creativecommons.org/licenses/BSD/
+ * Version: 2011-07-18
+ */
+
+/*
  A grid system, for a 960 x 540 pixels display.
 
  Each cell is 120px wide and 30px tall. Columns are addressed with letters

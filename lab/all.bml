@@ -6,6 +6,9 @@
 <bml>
   <head>
     <title>Maximum LIME-HTML document featuring all supported elements</title>
+    <meta name="DC.creator" content="Eric Bréchemier" />
+    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
+    <meta name="DC.date" content="2011-07-18" />
   </head>
   <body>
   </body>

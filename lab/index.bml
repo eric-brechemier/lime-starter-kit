@@ -3,6 +3,9 @@
 <bml>
   <head xmlns="http://www.w3.org/1999/xhtml">
     <title>List of LIME-HTML documents part of LIME Starter Kit</title>
+    <meta name="DC.creator" content="Eric Bréchemier" />
+    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
+    <meta name="DC.date" content="2011-07-18" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
