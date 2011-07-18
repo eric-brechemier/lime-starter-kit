@@ -1,34 +1,41 @@
 /*
-ITU-T H.763.1 (09/2010) - Cascading style sheets for IPTV services
-Annex B - Default style sheet
-
-This style sheet has been adapted to preview LIME HTML in a browser using the
-same defaults as LIME TV sets.
-
-It is unnecessary to include this style sheet for pages displayed on a TV.
-
-Fixes:
-  * fixed media query: added missing "@" before "media" in "media tv"
-  * removed bml from "display:none important!" rule, otherwise no part of the
-    document within can be displayed
-  * replaced p, input with body for the rule specifying the default font
-  * moved p, input to the rule specifying inherited font
-  * replaced body with bml for the rule specifying the background-color
-  * added body as selector to the rule specifying a transparent background
-  * added rule to define default color (black) including for link anchors
-
-Changes:
-  * reformatted for readability
-  * replaced tv with screen in the media to have these default styles applied
-    in a Web browser.
-  * added sans-serif to the font stack, in case "round gothic" is not found
-  * replaced rules using color indexes with equivalent rules using color
-    values. For grayscale-color-index, I defined an outline using the
-    text-shadow property, with the first color index value on top/left
-    and the second color index value on right/bottom
-  * added rule to remove underline text decoration of link anchors
-*/
-
+ * File: screen/base.css
+ * Base Styles for (PC) Browser Environment
+ * 
+ * This stylesheet is based on "Annex B - Default style sheet" of
+ * ITU-T H.763.1 (09/2010) - Cascading style sheets for IPTV services
+ *
+ * This style sheet has been adapted to preview LIME HTML in a browser using
+ * the same defaults as LIME TV sets.
+ *
+ * It is unnecessary to include this style sheet for pages displayed on a TV.
+ *
+ * Fixes:
+ * - fixed media query: added missing "@" before "media" in "media tv"
+ * - removed bml from "display:none important!" rule, otherwise no part of the
+ *   document within can be displayed
+ * - replaced p, input with body for the rule specifying the default font
+ * - moved p, input to the rule specifying inherited font
+ * - replaced body with bml for the rule specifying the background-color
+ * - added body as selector to the rule specifying a transparent background
+ * - added rule to define default color (black) including for link anchors
+ *
+ * Changes:
+ * - reformatted for readability
+ * - replaced tv with screen in the media to have these default styles applied
+ *   in a Web browser.
+ * - added sans-serif to the font stack, in case "round gothic" is not found
+ * - replaced rules using color indexes with equivalent rules using color
+ *   values. For grayscale-color-index, I defined an outline using the
+ *   text-shadow property, with the first color index value on top/left
+ *   and the second color index value on right/bottom
+ * - added rule to remove underline text decoration of link anchors
+ *
+ * (for the modifications)
+ * Author:  Eric Bréchemier
+ * License: http://creativecommons.org/licenses/BSD/
+ * Version: 2011-07-18
+ */
 @media screen {
 /* @media tv { */
 
