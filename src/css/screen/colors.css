@@ -1,3 +1,11 @@
+/*
+ * File: screen/colors.css
+ * Styles for colors in (PC) Browser Environment
+ *
+ * Author:  Eric Bréchemier
+ * License: http://creativecommons.org/licenses/BSD/
+ * Version: 2011-07-18
+ */
 
 /* foreground colors (text and border) */
 .black   { color: #000; border-color: #000; }

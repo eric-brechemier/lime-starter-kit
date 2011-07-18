@@ -1,3 +1,11 @@
+/*
+ * File: colors.css
+ * Styles for foreground (text, borders) and background colors
+ *
+ * Author:  Eric Bréchemier
+ * License: http://creativecommons.org/licenses/BSD/
+ * Version: 2011-07-18
+ */
 @import url("screen/colors.css") screen;
 
 /* foreground colors (text and border) */
