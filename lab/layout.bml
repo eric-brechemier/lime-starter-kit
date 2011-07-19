@@ -2,10 +2,10 @@
 <?bml bml-version="100.0" ?>
 <bml>
   <head>
-    <title>CSS Styles for colors</title>
+    <title>CSS Styles for layout</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-18" />
+    <meta name="DC.date" content="2011-07-19" />
     <style>
     .black  { color-index:0; }
     .red    { color-index:1; }
