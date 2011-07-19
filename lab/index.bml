@@ -13,13 +13,16 @@
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="A1 row white">
-      <a class="a1" href="min.bml">Minimal Document</a>
+      <a class="link1of3"
+        href="min.bml">Minimal Document</a>
     </p>
     <p class="A2 row white">
-      <a class="a2" href="all.bml">Maximum Document Featuring All Elements</a>
+      <a class="link2of3"
+        href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
     <p class="A3 row white">
-      <a class="a3" href="colors.bml">Colors</a>
+      <a class="link3of3"
+        href="colors.bml">Colors</a>
     </p>
   </body>
 </bml>

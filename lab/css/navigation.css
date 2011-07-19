@@ -4,107 +4,200 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-18
+ * Version: 2011-07-19
  */
 
-/* partial definition of a grid for navigation (to be completed) */
+/*
+   Navigation index definition
+ + right/down goes to next item by default
+ */
 
-/* 
-   TODO: number indexes from top to bottom first, then from left to right?
-*/
+.link1of1, .link1of2, .link1of3, .link1of4,  .link1of5,  .link1of6,
+.link1of7, .link1of8, .link1of9, .link1of10, .link1of11, .link1of12 {
+  nav-index: 0;
+  nav-down:  1; nav-right: 1;
+}
 
-.a1 {
-                nav-index:  0; nav-right:  1;
-                nav-down:   8;
+           .link2of2, .link2of3, .link2of4,  .link2of5,  .link2of6,
+.link2of7, .link2of8, .link2of9, .link2of10, .link2of11, .link2of12 {
+  nav-index: 1;
+  nav-down:  2; nav-right: 2;
 }
-.b1 {
-  nav-left:  0; nav-index:  1; nav-right:  2;
-                nav-down:   9;
+
+                      .link3of3, .link3of4,  .link3of5,  .link3of6,
+.link3of7, .link3of8, .link3of9, .link3of10, .link3of11, .link3of12 {
+  nav-index: 2;
+  nav-down:  3; nav-right: 3;
 }
-.c1 {
-  nav-left:  1; nav-index:  2; nav-right:  3;
-                nav-down:  10;
+
+                                 .link4of4,  .link4of5,  .link4of6,
+.link4of7, .link4of8, .link4of9, .link4of10, .link4of11, .link4of12 {
+  nav-index: 3;
+  nav-down:  4; nav-right: 4;
 }
-.d1 {
-  nav-left:  2; nav-index:  3; nav-right:  4;
-                nav-down:  11;
+
+                                             .link5of5,  .link5of6,
+.link5of7, .link5of8, .link5of9, .link5of10, .link5of11, .link5of12 {
+  nav-index: 4;
+  nav-down:  5; nav-right: 5;
 }
-.e1 {
-  nav-left:  3; nav-index:  4; nav-right:  5;
-                nav-down:  12;
+
+                                                         .link6of6,
+.link6of7, .link6of8, .link6of9, .link6of10, .link6of11, .link6of12 {
+  nav-index: 5;
+  nav-down:  6; nav-right: 6;
 }
-.f1 {
-  nav-left:  4; nav-index:  5; nav-right:  6;
-                nav-down:  13;
+
+.link7of7, .link7of8, .link7of9, .link7of10, .link7of11, .link7of12 {
+  nav-index: 6;
+  nav-down:  7; nav-right: 7;
 }
-.g1 {
-  nav-left:  5; nav-index:  6; nav-right:  7;
-                nav-down:  14;
+
+           .link8of8, .link8of9, .link8of10, .link8of11, .link8of12 {
+  nav-index: 7;
+  nav-down:  8; nav-right: 8;
 }
-.h1 {
-  nav-left:  6; nav-index:  7; nav-right:  8;
-                nav-down:  15;
+
+                      .link9of9, .link9of10, .link9of11, .link9of12 {
+  nav-index: 8;
+  nav-down:  9; nav-right: 9;
 }
-.a2 {
-                nav-up:     0;
-                nav-index:  8; nav-right:  9;
-                nav-down:  16;
+
+                                .link10of10, .link10of11, .link10of12 {
+  nav-index: 9;
+  nav-down:  10; nav-right: 10;
 }
-.b2 {
-  nav-left:  8; nav-index:  9; nav-right: 10;
-                nav-down:  17;
+
+                                             .link11of11, .link11of12 {
+  nav-index: 10;
+  nav-down:  11; nav-right: 11;
 }
-.a3 {
-                nav-up:     8;
-                nav-index: 16; nav-right: 17;
-                nav-down:  24;
+
+                                                          .link12of12 {
+  nav-index: 11;
+  nav-down:  12; nav-right: 12;
 }
-.a4 {
-                nav-up:    16;
-                nav-index: 24; nav-right: 25;
-                nav-down:  32;
-}
-.a4 {
-                nav-up:    16;
-                nav-index: 24; nav-right: 25;
-                nav-down:  32;
-}
-.a5 {
-                nav-up:    24;
-                nav-index: 32; nav-right: 33;
-                nav-down:  40;
-}
-.a6 {
-                nav-up:    32;
-                nav-index: 40; nav-right: 41;
-                nav-down:  48;
-}
-.a7 {
-                nav-up:    40;
-                nav-index: 48; nav-right: 49;
-                nav-down:  56;
+
+
+/*
+   right/down loops back to first item on last item
+ */
+
+           .link2of2, .link3of3, .link4of4,   .link5of5,   .link6of6,
+.link7of7, .link8of8, .link9of9, .link10of10, .link11of11, .link12of12 {
+  nav-down: 0; nav-right: 0;
 }
 
 /*
-   TODO: is it possible to define a class to loop to the last one as well?
-         The issue is: its index depends on the number of items used...
+   left/up loops back to last item on first item
  */
-.loopup {
-                nav-down:   0;
+
+.link1of2 {
+  nav-left: 1; nav-up: 1;
 }
 
-/* TODO?: define relative navigation classes instead? or as a complement?
-   above1, below1, after1, before1...?
+.link1of3 {
+  nav-left: 2; nav-up: 2;
+}
 
-Cycling list, with left/right navigation from nav2 to nav3
-  nav0 upto4
-  nav1
-  nav2 rightto3
-  nav3 leftto2
-  nav4 downto0
+.link1of4 {
+  nav-left: 3; nav-up: 3;
+}
+
+.link1of5 {
+  nav-left: 4; nav-up: 4;
+}
+
+.link1of6 {
+  nav-left: 5; nav-up: 5;
+}
+
+.link1of7 {
+  nav-left: 6; nav-up: 6;
+}
+
+.link1of8 {
+  nav-left: 7; nav-up: 7;
+}
+
+.link1of9 {
+  nav-left: 8; nav-up: 8;
+}
+
+.link1of10 {
+  nav-left: 9; nav-up: 9;
+}
+
+.link1of11 {
+  nav-left: 10; nav-up: 10;
+}
+
+.link1of12 {
+  nav-left: 11; nav-up: 11;
+}
+
+/*
+   left/up goes back to previous item on all but first item
  */
 
-a:focus { background-color-index: 5; }
-a { color-index: 4; }
-a:focus { color-index: 7; }
-a:active { color-index: 5; }
+           .link2of2, .link2of3, .link2of4,  .link2of5,  .link2of6,
+.link2of7, .link2of8, .link2of9, .link2of10, .link2of11, .link2of12 {
+  nav-left: 0; nav-up: 0;
+}
+
+                      .link3of3, .link3of4,  .link3of5,  .link3of6,
+.link3of7, .link3of8, .link3of9, .link3of10, .link3of11, .link3of12 {
+  nav-left: 1; nav-up: 1;
+}
+
+                                 .link4of4,  .link4of5,  .link4of6,
+.link4of7, .link4of8, .link4of9, .link4of10, .link4of11, .link4of12 {
+  nav-left: 2; nav-up: 2;
+}
+
+                                             .link5of5,  .link5of6,
+.link5of7, .link5of8, .link5of9, .link5of10, .link5of11, .link5of12 {
+  nav-left: 3; nav-up: 3;
+}
+
+                                                         .link6of6,
+.link6of7, .link6of8, .link6of9, .link6of10, .link6of11, .link6of12 {
+  nav-left: 4; nav-up: 4;
+}
+
+.link7of7, .link7of8, .link7of9, .link7of10, .link7of11, .link7of12 {
+  nav-left: 5; nav-up: 5;
+}
+
+           .link8of8, .link8of9, .link8of10, .link8of11, .link8of12 {
+  nav-left: 6; nav-up: 6;
+}
+
+                      .link9of9, .link9of10, .link9of11, .link9of12 {
+  nav-left: 7; nav-up: 7;
+}
+
+                                .link10of10, .link10of11, .link10of12 {
+  nav-left: 8; nav-up: 8;
+}
+
+                                             .link11of11, .link11of12 {
+  nav-left: 9; nav-up: 9;
+}
+
+                                                          .link12of12 {
+  nav-left: 10; nav-up: 10;
+}
+
+/* Styles for links in default/focused/active states */
+
+a {
+  color-index: 4;
+}
+a:focus {
+  background-color-index: 5;
+  color-index: 7;
+}
+a:active {
+  color-index: 5;
+}
