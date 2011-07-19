@@ -196,25 +196,6 @@ a {
   grayscale-color-index:  8  8;
 }
 a:focus {
-  /* ignored
-  border-style: dotted;
-  border-width: 2px;
-  border-top-color-index: 1;
-  border-right-color-index: 1;
-  border-bottom-color-index: 1;
-  border-left-color-index: 1;
-  */
-
-  /* ignored
-  letter-spacing: 5px;
-  text-align: center;
-  */
-
-  /*background-color-index: 72;
-  color-index: 7;*/
-  /*grayscale-color-index: 71 71;*/
-
-  grayscale-color-index: 2 2;
   grayscale-color-index: 4 4;
   color-index: 6;
   font-weight: bold;
