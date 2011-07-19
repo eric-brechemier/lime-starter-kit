@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>Grid using CSS Styles for layout</title>
+    <meta name="DC.creator" content="Eric Bréchemier" />
+    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
+    <meta name="DC.date" content="2011-07-19" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+  </head>
+  <body class="onred">
+    <!-- row 1 -->
+    <p class="A1 cell black onwhite">A1</p>
+    <p class="B1 cell white onblack">B1</p>
+    <p class="C1 cell black onwhite">C1</p>
+    <p class="D1 cell white onblack">D1</p>
+    <p class="E1 cell black onwhite">E1</p>
+    <p class="F1 cell white onblack">F1</p>
+    <p class="G1 cell black onwhite">G1</p>
+    <p class="H1 cell white onblack">H1</p>
+
+    <!-- row 2 -->
+    <p class="A2 cell white onblack">A2</p>
+    <p class="B2 cell black onwhite">B2</p>
+    <p class="C2 cell white onblack">C2</p>
+    <p class="D2 cell black onwhite">D2</p>
+    <p class="E2 cell white onblack">E2</p>
+    <p class="F2 cell black onwhite">F2</p>
+    <p class="G2 cell white onblack">G2</p>
+    <p class="H2 cell black onwhite">H2</p>
+
+    <!-- row 3 -->
+    <p class="A3 cell black onwhite">A3</p>
+    <p class="B3 cell white onblack">B3</p>
+    <p class="C3 cell black onwhite">C3</p>
+    <p class="D3 cell white onblack">D3</p>
+    <p class="E3 cell black onwhite">E3</p>
+    <p class="F3 cell white onblack">F3</p>
+    <p class="G3 cell black onwhite">G3</p>
+    <p class="H3 cell white onblack">H3</p>
+
+    <!-- row 4 -->
+    <p class="A4 cell white onblack">A4</p>
+    <p class="B4 cell black onwhite">B4</p>
+    <p class="C4 cell white onblack">C4</p>
+    <p class="D4 cell black onwhite">D4</p>
+    <p class="E4 cell white onblack">E4</p>
+    <p class="F4 cell black onwhite">F4</p>
+    <p class="G4 cell white onblack">G4</p>
+    <p class="H4 cell black onwhite">H4</p>
+
+    <!-- row 5 -->
+    <p class="A5 cell black onwhite">A5</p>
+    <p class="B5 cell white onblack">B5</p>
+    <p class="C5 cell black onwhite">C5</p>
+    <p class="D5 cell white onblack">D5</p>
+    <p class="E5 cell black onwhite">E5</p>
+    <p class="F5 cell white onblack">F5</p>
+    <p class="G5 cell black onwhite">G5</p>
+    <p class="H5 cell white onblack">H5</p>
+
+    <!-- row 6 -->
+    <p class="A6 cell white onblack">A6</p>
+    <p class="B6 cell black onwhite">B6</p>
+    <p class="C6 cell white onblack">C6</p>
+    <p class="D6 cell black onwhite">D6</p>
+    <p class="E6 cell white onblack">E6</p>
+    <p class="F6 cell black onwhite">F6</p>
+    <p class="G6 cell white onblack">G6</p>
+    <p class="H6 cell black onwhite">H6</p>
+
+    <!-- row 7 -->
+    <p class="A7 cell black onwhite">A7</p>
+    <p class="B7 cell white onblack">B7</p>
+    <p class="C7 cell black onwhite">C7</p>
+    <p class="D7 cell white onblack">D7</p>
+    <p class="E7 cell black onwhite">E7</p>
+    <p class="F7 cell white onblack">F7</p>
+    <p class="G7 cell black onwhite">G7</p>
+    <p class="H7 cell white onblack">H7</p>
+
+    <!-- row 8 -->
+    <p class="A8 cell white onblack">A8</p>
+    <p class="B8 cell black onwhite">B8</p>
+    <p class="C8 cell white onblack">C8</p>
+    <p class="D8 cell black onwhite">D8</p>
+    <p class="E8 cell white onblack">E8</p>
+    <p class="F8 cell black onwhite">F8</p>
+    <p class="G8 cell white onblack">G8</p>
+    <p class="H8 cell black onwhite">H8</p>
+
+    <!-- row 9 -->
+    <p class="A9 cell black onwhite">A9</p>
+    <p class="B9 cell white onblack">B9</p>
+    <p class="C9 cell black onwhite">C9</p>
+    <p class="D9 cell white onblack">D9</p>
+    <p class="E9 cell black onwhite">E9</p>
+    <p class="F9 cell white onblack">F9</p>
+    <p class="G9 cell black onwhite">G9</p>
+    <p class="H9 cell white onblack">H9</p>
+
+    <!-- row 10 -->
+    <p class="A10 cell white onblack">A10</p>
+    <p class="B10 cell black onwhite">B10</p>
+    <p class="C10 cell white onblack">C10</p>
+    <p class="D10 cell black onwhite">D10</p>
+    <p class="E10 cell white onblack">E10</p>
+    <p class="F10 cell black onwhite">F10</p>
+    <p class="G10 cell white onblack">G10</p>
+    <p class="H10 cell black onwhite">H10</p>
+
+    <!-- row 11 -->
+    <p class="A11 cell black onwhite">A11</p>
+    <p class="B11 cell white onblack">B11</p>
+    <p class="C11 cell black onwhite">C11</p>
+    <p class="D11 cell white onblack">D11</p>
+    <p class="E11 cell black onwhite">E11</p>
+    <p class="F11 cell white onblack">F11</p>
+    <p class="G11 cell black onwhite">G11</p>
+    <p class="H11 cell white onblack">H11</p>
+
+    <!-- row 12 -->
+    <p class="A12 cell white onblack">A12</p>
+    <p class="B12 cell black onwhite">B12</p>
+    <p class="C12 cell white onblack">C12</p>
+    <p class="D12 cell black onwhite">D12</p>
+    <p class="E12 cell white onblack">E12</p>
+    <p class="F12 cell black onwhite">F12</p>
+    <p class="G12 cell white onblack">G12</p>
+    <p class="H12 cell black onwhite">H12</p>
+
+    <!-- row 13 -->
+    <p class="A13 cell black onwhite">A13</p>
+    <p class="B13 cell white onblack">B13</p>
+    <p class="C13 cell black onwhite">C13</p>
+    <p class="D13 cell white onblack">D13</p>
+    <p class="E13 cell black onwhite">E13</p>
+    <p class="F13 cell white onblack">F13</p>
+    <p class="G13 cell black onwhite">G13</p>
+    <p class="H13 cell white onblack">H13</p>
+
+    <!-- row 14 -->
+    <p class="A14 cell white onblack">A14</p>
+    <p class="B14 cell black onwhite">B14</p>
+    <p class="C14 cell white onblack">C14</p>
+    <p class="D14 cell black onwhite">D14</p>
+    <p class="E14 cell white onblack">E14</p>
+    <p class="F14 cell black onwhite">F14</p>
+    <p class="G14 cell white onblack">G14</p>
+    <p class="H14 cell black onwhite">H14</p>
+
+    <!-- row 15 -->
+    <p class="A15 cell black onwhite">A15</p>
+    <p class="B15 cell white onblack">B15</p>
+    <p class="C15 cell black onwhite">C15</p>
+    <p class="D15 cell white onblack">D15</p>
+    <p class="E15 cell black onwhite">E15</p>
+    <p class="F15 cell white onblack">F15</p>
+    <p class="G15 cell black onwhite">G15</p>
+    <p class="H15 cell white onblack">H15</p>
+
+    <!-- row 16 -->
+    <p class="A16 cell white onblack">A16</p>
+    <p class="B16 cell black onwhite">B16</p>
+    <p class="C16 cell white onblack">C16</p>
+    <p class="D16 cell black onwhite">D16</p>
+    <p class="E16 cell white onblack">E16</p>
+    <p class="F16 cell black onwhite">F16</p>
+    <p class="G16 cell white onblack">G16</p>
+    <p class="H16 cell black onwhite">H16</p>
+
+    <!-- row 17 -->
+    <p class="A17 cell black onwhite">A17</p>
+    <p class="B17 cell white onblack">B17</p>
+    <p class="C17 cell black onwhite">C17</p>
+    <p class="D17 cell white onblack">D17</p>
+    <p class="E17 cell black onwhite">E17</p>
+    <p class="F17 cell white onblack">F17</p>
+    <p class="G17 cell black onwhite">G17</p>
+    <p class="H17 cell white onblack">H17</p>
+
+    <!-- row 18 -->
+    <p class="A18 cell white onblack">A18</p>
+    <p class="B18 cell black onwhite">B18</p>
+    <p class="C18 cell white onblack">C18</p>
+    <p class="D18 cell black onwhite">D18</p>
+    <p class="E18 cell white onblack">E18</p>
+    <p class="F18 cell black onwhite">F18</p>
+    <p class="G18 cell white onblack">G18</p>
+    <p class="H18 cell black onwhite">H18</p>
+
+  </body>
+</bml>
