@@ -1,10 +1,10 @@
-/*
+/
  * File: layout.css
  * Styles for layout using a grid system
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-19
+ * Version: 2011-07-22
  */
 
 /*
@@ -516,6 +516,13 @@
 .AP27, .AQ27, .AR27, .AS27, .AT27, .AU27, .AV27
 { top: 520px; }
 
+
+/*
+ IDEA:
+ Add aliases on1line, on2lines... or x1line, x2lines... for x1row, x2rows?
+ It makes sense for text at the default font size. It might be confusing at
+ different font sizes when one line of text spans several rows.
+ */
 
 /* defaults: declare first for lowest priority */
 .topHalf, .bottomHalf,
