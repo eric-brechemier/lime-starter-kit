@@ -251,9 +251,7 @@
 .topHalf, .bottomHalf,
 .x1row,   .x2rows,  .x3rows,  .x4rows,  .x5rows,  .x6rows,
 .x7rows,  .x8rows,  .x9rows,  .x10rows, .x11rows, .x12rows,
-.x13rows, .x14rows, .x15rows, .x16rows, .x17rows, .x18rows,
-.x19rows, .x20rows, .x21rows, .x22rows, .x23rows, .x24rows,
-.x25rows, .x26rows, .x27rows
+.x13rows, .x14rows, .x15rows, .x16rows, .x17rows, .x18rows
 { width: 960px; }
 
 .square1,
