@@ -418,7 +418,7 @@
 .x8rows
 { height: 240px; }
 
-.topHalf, bottomHalf,
+.topHalf, .bottomHalf,
 .square9,
 .x9rows
 { height: 270px; }
