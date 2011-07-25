@@ -247,13 +247,6 @@
 .W18, .X18, .Y18, .Z18, .AA18, .AB18, .AC18, .AD18, .AE18, .AF18
 { top: 510px; }
 
-/*
- IDEA:
- Add aliases on1line, on2lines... or x1line, x2lines... for x1row, x2rows?
- It makes sense for text at the default font size. It might be confusing at
- different font sizes when one line of text spans several rows.
- */
-
 /* defaults: declare first for lowest priority */
 .topHalf, .bottomHalf,
 .x1row,   .x2rows,  .x3rows,  .x4rows,  .x5rows,  .x6rows,
