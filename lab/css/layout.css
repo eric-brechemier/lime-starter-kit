@@ -390,8 +390,7 @@
 .x16cols, .x17cols, .x18cols, .x19cols, .x20cols,
 .x21cols, .x22cols, .x23cols, .x24cols, .x25cols,
 .x26cols, .x27cols, .x28cols, .x29cols, .x30cols,
-.x31cols, .x32cols, .x33cols, .x34cols, .x35cols,
-.x36cols, .x37cols, .x38cols, .x39cols, .x40cols
+.x31cols, .x32cols
 { height: 540px; }
 
 .square1,
