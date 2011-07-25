@@ -22,8 +22,8 @@
  */
 
 .fullscreen,
-.topHalf, .bottomHalf,
-.leftHalf,
+.tophalf, .bottomhalf,
+.lefthalf,
 .A1,  .A2,  .A3,  .A4,  .A5,  .A6,  .A7,  .A8,  .A9,
 .A10, .A11, .A12, .A13, .A14, .A15, .A16, .A17, .A18
 { left: 0px; }
@@ -88,7 +88,7 @@
 .P10, .P11, .P12, .P13, .P14, .P15, .P16, .P17, .P18
 { left: 450px; }
 
-.rightHalf,
+.righthalf,
 .Q1,  .Q2,  .Q3,  .Q4,  .Q5,  .Q6,  .Q7,  .Q8,  .Q9,
 .Q10, .Q11, .Q12, .Q13, .Q14, .Q15, .Q16, .Q17, .Q18
 { left: 480px; }
@@ -154,8 +154,8 @@
 { left: 930px; }
 
 .fullscreen,
-.topHalf,
-.leftHalf, .rightHalf,
+.tophalf,
+.lefthalf, .righthalf,
 .A1, .B1, .C1, .D1, .E1, .F1, .G1, .H1, .I1, .J1, .K1,
 .L1, .M1, .N1, .O1, .P1, .Q1, .R1, .S1, .T1, .U1, .V1,
 .W1, .X1, .Y1, .Z1, .AA1, .AB1, .AC1, .AD1, .AE1, .AF1
@@ -201,7 +201,7 @@
 .W9, .X9, .Y9, .Z9, .AA9, .AB9, .AC9, .AD9, .AE9, .AF9
 { top: 240px; }
 
-.bottomHalf,
+.bottomhalf,
 .A10, .B10, .C10, .D10, .E10, .F10, .G10, .H10, .I10, .J10, .K10,
 .L10, .M10, .N10, .O10, .P10, .Q10, .R10, .S10, .T10, .U10, .V10,
 .W10, .X10, .Y10, .Z10, .AA10, .AB10, .AC10, .AD10, .AE10, .AF10
@@ -248,7 +248,7 @@
 { top: 510px; }
 
 /* defaults: declare first for lowest priority */
-.topHalf, .bottomHalf,
+.tophalf, .bottomhalf,
 .on1row,   .on2rows,  .on3rows,  .on4rows,  .on5rows,  .on6rows,
 .on7rows,  .on8rows,  .on9rows,  .on10rows, .on11rows, .on12rows,
 .on13rows, .on14rows, .on15rows, .on16rows, .on17rows, .on18rows
@@ -361,7 +361,7 @@
 .on15cols
 { width: 450px; }
 
-.leftHalf, .rightHalf,
+.lefthalf, .righthalf,
 .square16,
 .on16x1, .on16x2, .on16x3, .on16x4, .on16x5, .on16x6,
 .on16x7, .on16x8, .on16x9, .on16x10, .on16x11, .on16x12,
@@ -470,7 +470,7 @@
 { width: 960px; }
 
 /* defaults: declare first for lowest priority */
-.leftHalf, .rightHalf,
+.lefthalf, .righthalf,
 .on1col,  .on2cols, .on3cols, .on4cols, .on5cols,
 .on6cols, .on7cols, .on8cols, .on9cols, .on10cols,
 .on11cols, .on12cols, .on13cols, .on14cols, .on15cols,
@@ -562,7 +562,7 @@
 .on8rows
 { height: 240px; }
 
-.topHalf, .bottomHalf,
+.tophalf, .bottomhalf,
 .square9,
 .on1x9, .on2x9, .on3x9, .on4x9, .on5x9, .on6x9,
 .on7x9, .on8x9, .on9x9, .on10x9, .on11x9, .on12x9,
