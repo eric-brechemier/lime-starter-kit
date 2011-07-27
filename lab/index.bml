@@ -17,16 +17,31 @@
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="B2 row">
-      <a class="link1of3"
+      <a class="link1of7"
         href="min.bml">Minimal Document</a>
     </p>
     <p class="B3 row">
-      <a class="link2of3"
+      <a class="link2of7"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
     <p class="B4 row">
-      <a class="link3of3"
+      <a class="link3of7"
         href="colors.bml">Colors</a>
+    </p>
+    <p class="B5 row">
+      <a class="link4of7"
+        href="images.bml">Images</a>
+    </p>
+    <p class="B6 row white">
+      <a class="link5of7"
+        href="layout.bml">Layout</a>
+      /
+      <a class="link6of7"
+        href="grid.bml">Grid</a>
+    </p>
+    <p class="B7 row">
+      <a class="link7of7"
+        href="text.bml">Text</a>
     </p>
   </body>
 </bml>
