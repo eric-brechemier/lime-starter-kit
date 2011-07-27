@@ -12,25 +12,74 @@
     <style>
     .bold { font-weight: bold; }
 
-    .left { text-alignt: left; }
-    .center { text-align: center; }
-    .right { text-align: right; }
+    .left    { text-alignt: left; }
+    .center  { text-align: center; }
+    .right   { text-align: right; }
 
-    .on1row { line-height: 30px; }
+    .lineheightx1 { line-height: 30px; }
+    .lineheightx2 { line-height: 60px; }
+    .lineheightx3 { line-height: 90px; }
+
+    .xx-small  { font-size: 14px; }
+    .x-small   { font-size: 16px; }
+    .small     { font-size: 20px; }
+    .medium    { font-size: 24px; }
+    .large     { font-size: 28px; }
+    .x-large   { font-size: 36px; }
+    .xx-large  { font-size: 48px; }
+
+    .xx-narrow  { letter-spacing: -4px; }
+    .x-narrow   { letter-spacing: -2px; }
+    .narrow     { letter-spacing: -1px; }
+    .wide       { letter-spacing:  1px; }
+    .x-wide     { letter-spacing:  4px; }
+    .xx-wide    { letter-spacing:  8px; }
+
+    .with-padding {
+      padding-top:    2px;
+      padding-right:  2px;
+      padding-left:   2px;
+      padding-bottom: 2px;
+    }
+
     </style>
   </head>
-  <body>
-    <p class="black onwhite B2 on5x1">Default</p>
-    <p class="black onwhite B3 on5x1 bold">Bold</p>
+  <body class="mincho">
+    <p class="black onwhite B2 on6x1">Default</p>
+    <p class="black onwhite B3 on6x1 left">Left</p>
+    <p class="black onwhite B4 on6x1 center">Center</p>
+    <p class="black onwhite B5 on6x1 right">Right</p>
 
-    <p class="black onwhite H2 on5x1">Default</p>
-    <p class="black onwhite H3 on5x1 left">Left</p>
-    <p class="black onwhite H4 on5x1 center">Center</p>
-    <p class="black onwhite H5 on5x1 right">Right</p>
+    <p class="black onwhite I2 on5x1">Default</p>
+    <p class="black onwhite I3 on5x1 bold">Bold</p>
 
-    <p class="black onyellow B7 row">Default</p>
-    <p class="yellow onblack B8 on1row">1 Line</p>
-    <p class="black onyellow B9 on2rows">Default</p>
-    <p class="yellow onblack B10 on3rows">Default</p>
+    <p class="black onyellow B7 on6x1">Default</p>
+    <p class="yellow onblack B8 on6x1 lineheightx1">Line Height x1</p>
+    <p class="black onyellow B9 on6x2 lineheightx2">Line Height x2</p>
+    <p class="yellow onblack B11 on6x3 lineheightx3">Line Height x3</p>
+    <p class="black onyellow B14 on6x1"></p>
+
+    <p class="black onwhite I7 on7x1">Default</p>
+    <p class="white onblack I8 on7x1 xx-small">xx-small</p>
+    <p class="black onwhite I9 on7x1 x-small">x-small</p>
+    <p class="white onblack I10 on7x1 small">small</p>
+    <p class="black onwhite I11 on7x1 medium">medium</p>
+    <p class="white onblack I12 on7x1 large">large</p>
+    <p class="black onwhite I13 on7x2 x-large lineheightx2">x-large</p>
+    <p class="white onblack I15 on7x2 xx-large lineheightx2">xx-large</p>
+    <p class="black onwhite I17 on7x1"></p>
+
+    <p class="black onwhite Q7 on5x1 xx-narrow">xx-narrow</p>
+    <p class="black onwhite Q8 on5x1 x-narrow">x-narrow</p>
+    <p class="black onwhite Q9 on5x1 narrow">narrow</p>
+    <p class="black onwhite Q10 on5x1">Default</p>
+    <p class="black onwhite Q11 on5x1 wide">WIDE</p>
+    <p class="black onwhite Q12 on5x1 x-wide">X-WIDE</p>
+    <p class="black onwhite Q13 on5x1 xx-wide">XX-WIDE</p>
+
+    <p class="black onwhite Q2 on5x1">Default</p>
+    <p class="white onblack Q3 on5x1 with-padding">With Padding</p>
+    <p class="black onwhite Q4 on5x1"></p>
+
   </body>
 </bml>
