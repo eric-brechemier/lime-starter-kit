@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head>
+    <title>CSS Styles for text</title>
+    <meta name="DC.creator" content="Eric Bréchemier" />
+    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
+    <meta name="DC.date" content="2011-07-27" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <style>
+    .bold { font-weight: bold; }
+
+    .left { text-alignt: left; }
+    .center { text-align: center; }
+    .right { text-align: right; }
+
+    .on1row { line-height: 30px; }
+    </style>
+  </head>
+  <body>
+    <p class="black onwhite B2 on5x1">Default</p>
+    <p class="black onwhite B3 on5x1 bold">Bold</p>
+
+    <p class="black onwhite H2 on5x1">Default</p>
+    <p class="black onwhite H3 on5x1 left">Left</p>
+    <p class="black onwhite H4 on5x1 center">Center</p>
+    <p class="black onwhite H5 on5x1 right">Right</p>
+
+    <p class="black onyellow B7 row">Default</p>
+    <p class="yellow onblack B8 on1row">1 Line</p>
+    <p class="black onyellow B9 on2rows">Default</p>
+    <p class="yellow onblack B10 on3rows">Default</p>
+  </body>
+</bml>
