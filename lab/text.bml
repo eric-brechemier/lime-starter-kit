@@ -44,7 +44,7 @@
 
     </style>
   </head>
-  <body class="mincho">
+  <body>
     <p class="black onwhite B2 on6x1">Default</p>
     <p class="black onwhite B3 on6x1 left">Left</p>
     <p class="black onwhite B4 on6x1 center">Center</p>
