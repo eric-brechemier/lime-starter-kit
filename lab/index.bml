@@ -17,35 +17,40 @@
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="B2 row">
-      <a class="link1of8"
+      <a class="link1of9"
         href="min.bml">Minimal Document</a>
     </p>
     <p class="B3 row">
-      <a class="link2of8"
+      <a class="link2of9"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
     <p class="B4 row">
-      <a class="link3of8"
+      <a class="link3of9"
         href="colors.bml">Colors</a>
     </p>
     <p class="B5 row">
-      <a class="link4of8"
+      <a class="link4of9"
         href="images.bml">Images</a>
     </p>
     <p class="B6 row white">
-      <a class="link5of8"
+      <a class="link5of9"
         href="layout.bml">Layout</a>
       /
-      <a class="link6of8"
+      <a class="link6of9"
         href="grid.bml">Grid</a>
     </p>
     <p class="B7 row">
-      <a class="link7of8"
+      <a class="link7of9"
         href="text.bml">Text</a>
     </p>
     <p class="B8 row">
-      <a class="link8of8"
+      <a class="link8of9"
         href="borders.bml">Borders</a>
+    </p>
+
+    <p class="B10 row">
+      <a class="link9of9"
+        href="define.bml">define.js</a>
     </p>
 
   </body>
