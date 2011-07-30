@@ -142,8 +142,6 @@ function define(id, factory){
 
   /* call the factory immediately */
   require.exports[id] = exports;
-
-  document.getElementById('bezen.log').firstChild.data += "Call factory for "+id+": "+factory+"\n";
   factory(require, exports);
 
   /* Clean-up globals */
