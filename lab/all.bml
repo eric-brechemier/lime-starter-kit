@@ -3,13 +3,103 @@
   "-//IPTVF CDN:2008//DTD BML Document for IPTV//JA"
   "http://www.iptvforum.jp/CDN/DTD/bml_100_0_iptv.dtd">
 <?bml bml-version="100.0" ?>
-<bml>
+<bml invisible="invisible">
+  <!-- Maximum contents allowed according to the LIME-HTML DTD -->
   <head>
     <title>Maximum LIME-HTML document featuring all supported elements</title>
+    <!-- ISSUE: no more than one meta element is allowed in DTD -->
     <meta name="DC.creator" content="Eric Bréchemier" />
-    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-18" />
+    <!-- ISSUE: no more than one style element is allowed in DTD -->
+    <style>
+    * {
+      color-index: 4;
+      grayscale-color-index: 4 4;
+      line-height: 30px;
+    }
+    body{
+      clut:url(img/palette.clt);
+    }
+    .title {
+      font-weight: bold;
+    }
+    .onwhite {
+      background-color-index: 7;
+    }
+    .onyellow {
+      background-color-index: 3;
+    }
+    </style>
+    <!-- ISSUE: no more than one link element is allowed in DTD -->
+    <link href="css/layout.css" />
+    <script src="js/define.js"></script>
+    <script>
+    <![CDATA[
+    /* when scripts run, all elements in the document are already available */
+    /*document.getElementById('body').normalStyle.backgroundColorIndex = 1;*/
+
+    function color_bgcolor(index){
+      /* sets the background color index of the element with id 'body' */
+      document.getElementById('body').normalStyle.backgroundColorIndex = index;
+    }
+    function color_factory(require, exports){
+      /* define the color module api */
+      exports.bgcolor = color_bgcolor;
+    }
+    define("color", color_factory);
+    ]]>
+    </script>
+    <script>
+    function onload(){
+      require("color").bgcolor(2);
+    }
+    function onTimerFired(){
+      require("color").bgcolor(3);
+    }
+    function onCCStatusChanged(){
+      require("color").bgcolor(4);
+    }
+    function onMediaStopped(){
+      require("color").bgcolor(5);
+    }
+    function onDataButtonPressed(){
+      require("color").bgcolor(6);
+    }
+    function onunload(){
+      require("color").bgcolor(7);
+    }
+    </script>
+    <bevent id="bevent">
+      <beitem id="TimerFired" type="TimerFired"
+              time_mode="absolute"
+              time_value="0"
+              onoccur="onTimerFired();" />
+      <beitem id="CCStatusChanged" type="CCStatusChanged"
+              language_tag="2"
+              onoccur="onCCStatusChanged();" />
+      <beitem id="MediaStopped" type="MediaStopped"
+              es_ref="arib://0123.4567.8910"
+              object_id="audio/X-arib-mpeg2-aac"
+              onoccur="onMediaStopped();" />
+      <beitem id="DataButtonPressed" type="DataButtonPressed"
+              onoccur="onDataButtonPressed();" subscribe="subscribe" />
+    </bevent>
   </head>
-  <body>
+  <body id="body" class="body" style="background-color-index: 0"
+        onload="onload();" onunload="onunload();">
+    <div class="G2 on18x15 onyellow"></div>
+    <div class="F1 fullscreen">
+      <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
+        class="A1 fullscreen"/>
+    </div>
+
+    <p class="I4 row title">Title</p>
+    <p class="I6 on3rows">
+      Line 1
+      Line 2
+      Line 3
+    </p>
+    <div class="I10 row">
+      <input />
+    </div>
   </body>
 </bml>
