@@ -25,7 +25,8 @@
 /* An underline is a border with all but the bottom border transparent.
    This rule overrides default color declarations in colors.css;
    for this to work, this stylesheet must be included after colors.css */
-.underline, .underline1, .underline2, .underline3, .underline4 {
+.underline, .underline1, .underline2, .underline3, .underline4,
+.underline:focus, .underline1:focus, .underline2:focus, .underline4:focus {
   border-top-color-index:    8;
   border-right-color-index:  8;
   border-left-color-index:   8;
