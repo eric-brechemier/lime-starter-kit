@@ -12,41 +12,43 @@
     <link rel="stylesheet" href="css/typography.css" />
   </head>
   <body>
-    <p class="black onwhite B2 on6x1">Default</p>
-    <p class="black onwhite B3 on6x1 left">Left</p>
-    <p class="black onwhite B4 on6x1 center">Center</p>
-    <p class="black onwhite B5 on6x1 right">Right</p>
+    <p class="black onwhite A1 on6x1">Default</p>
+    <p class="black onwhite A2 on6x1 left">Left</p>
+    <p class="black onwhite A3 on6x1 center">Center</p>
+    <p class="black onwhite A4 on6x1 right">Right</p>
 
-    <p class="black onwhite I2 on5x1">Default</p>
-    <p class="black onwhite I3 on5x1 bold">Bold</p>
+    <p class="black onwhite G1 on7x1">Default</p>
+    <p class="black onwhite G2 on7x1 bold">Bold</p>
+    <p class="black onwhite G3 on7x1">ABC</p>
+    <p class="black onwhite G4 on7x1">XYZ</p>
 
-    <p class="black onyellow B7 on6x1">Default</p>
-    <p class="yellow onblack B8 on6x1 lineheightx1">Line Height x1</p>
-    <p class="black onyellow B9 on6x2 lineheightx2">Line Height x2</p>
-    <p class="yellow onblack B11 on6x3 lineheightx3">Line Height x3</p>
-    <p class="black onyellow B14 on6x1"></p>
+    <p class="black onyellow A6 on6x1">Default</p>
+    <p class="yellow onblack A7 on6x1 lineheightx1">Line Height x1</p>
+    <p class="black onyellow A8 on6x2 lineheightx2">Line Height x2</p>
+    <p class="yellow onblack A10 on6x3 lineheightx3">Line Height x3</p>
+    <p class="black onyellow A13 on6x1"></p>
 
-    <p class="black onwhite I7 on7x1">Default</p>
-    <p class="white onblack I8 on7x1 xx-small">xx-small</p>
-    <p class="black onwhite I9 on7x1 x-small">x-small</p>
-    <p class="white onblack I10 on7x1 small">small</p>
-    <p class="black onwhite I11 on7x1 medium">medium</p>
-    <p class="white onblack I12 on7x1 large">large</p>
-    <p class="black onwhite I13 on7x2 x-large lineheightx2">x-large</p>
-    <p class="white onblack I15 on7x2 xx-large lineheightx2">xx-large</p>
-    <p class="black onwhite I17 on7x1"></p>
+    <p class="black onwhite G6 on7x1">Default</p>
+    <p class="white onblack G7 on7x1 xx-small">xx-small</p>
+    <p class="black onwhite G8 on7x1 x-small">x-small</p>
+    <p class="white onblack G9 on7x1 small">small</p>
+    <p class="black onwhite G10 on7x1 medium">medium</p>
+    <p class="white onblack G11 on7x1 large">large</p>
+    <p class="black onwhite G12 on7x2 x-large lineheightx2">x-large</p>
+    <p class="white onblack G14 on7x2 xx-large lineheightx2">xx-large</p>
+    <p class="black onwhite G16 on7x1"></p>
 
-    <p class="black onwhite Q7 on5x1 xx-narrow">xx-narrow</p>
-    <p class="black onwhite Q8 on5x1 x-narrow">x-narrow</p>
-    <p class="black onwhite Q9 on5x1 narrow">narrow</p>
-    <p class="black onwhite Q10 on5x1">Default</p>
-    <p class="black onwhite Q11 on5x1 wide">WIDE</p>
-    <p class="black onwhite Q12 on5x1 x-wide">X-WIDE</p>
-    <p class="black onwhite Q13 on5x1 xx-wide">XX-WIDE</p>
+    <p class="black onwhite N2 on5x1">Default</p>
+    <p class="white onblack N3 on5x1 with-padding">With Padding</p>
+    <p class="black onwhite N4 on5x1"></p>
 
-    <p class="black onwhite Q2 on5x1">Default</p>
-    <p class="white onblack Q3 on5x1 with-padding">With Padding</p>
-    <p class="black onwhite Q4 on5x1"></p>
+    <p class="black onwhite N7 on5x1 xx-narrow">xx-narrow</p>
+    <p class="black onwhite N8 on5x1 x-narrow">x-narrow</p>
+    <p class="black onwhite N9 on5x1 narrow">narrow</p>
+    <p class="black onwhite N10 on5x1">Default</p>
+    <p class="black onwhite N11 on5x1 wide">WIDE</p>
+    <p class="black onwhite N12 on5x1 x-wide">X-WIDE</p>
+    <p class="black onwhite N13 on5x1 xx-wide">XX-WIDE</p>
 
   </body>
 </bml>
