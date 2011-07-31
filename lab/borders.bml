@@ -49,43 +49,43 @@
     }
     </style>
   </head>
-  <body class="onwhite">
-    <p class="black onwhite B2 on3x1">Default</p>
-    <p class="black onwhite B3 on3x1 border">Border</p>
-    <p class="black onwhite B4 on3x1 border1">Border1</p>
-    <p class="black onwhite B5 on3x1 border2">Border2</p>
-    <p class="black onwhite B6 on3x1 border3">Border3</p>
-    <p class="black onwhite B7 on3x1 border4">Border4</p>
+  <body class="black onwhite">
+    <p class="B2 on3x1">Default</p>
+    <p class="B3 on3x1 border">Border</p>
+    <p class="B4 on3x1 border1">Border1</p>
+    <p class="B5 on3x1 border2">Border2</p>
+    <p class="B6 on3x1 border3">Border3</p>
+    <p class="B7 on3x1 border4">Border4</p>
 
-    <p class="black onwhite G3 on6x1 dashed border">Dashed Border</p>
-    <p class="black onwhite G4 on6x1 dashed border1">Dashed Border1</p>
-    <p class="black onwhite G5 on6x1 dashed border2">Dashed Border2</p>
-    <p class="black onwhite G6 on6x1 dashed border3">Dashed Border3</p>
-    <p class="black onwhite G7 on6x1 dashed border4">Dashed Border4</p>
+    <p class="G3 on6x1 dashed border">Dashed Border</p>
+    <p class="G4 on6x1 dashed border1">Dashed Border1</p>
+    <p class="G5 on6x1 dashed border2">Dashed Border2</p>
+    <p class="G6 on6x1 dashed border3">Dashed Border3</p>
+    <p class="G7 on6x1 dashed border4">Dashed Border4</p>
 
-    <p class="black onwhite O3 on6x1 dotted border">Dotted Border</p>
-    <p class="black onwhite O4 on6x1 dotted border1">Dotted Border1</p>
-    <p class="black onwhite O5 on6x1 dotted border2">Dotted Border2</p>
-    <p class="black onwhite O6 on6x1 dotted border3">Dotted Border3</p>
-    <p class="black onwhite O7 on6x1 dotted border4">Dotted Border4</p>
+    <p class="O3 on6x1 dotted border">Dotted Border</p>
+    <p class="O4 on6x1 dotted border1">Dotted Border1</p>
+    <p class="O5 on6x1 dotted border2">Dotted Border2</p>
+    <p class="O6 on6x1 dotted border3">Dotted Border3</p>
+    <p class="O7 on6x1 dotted border4">Dotted Border4</p>
 
-    <p class="black onwhite B10 on4x1 underline">Underline</p>
-    <p class="black onwhite B11 on4x1 underline1">Underline1</p>
-    <p class="black onwhite B12 on4x1 underline2">Underline2</p>
-    <p class="black onwhite B13 on4x1 underline3">Underline3</p>
-    <p class="black onwhite B14 on4x1 underline4">Underline4</p>
+    <p class="B10 on4x1 underline">Underline</p>
+    <p class="B11 on4x1 underline1">Underline1</p>
+    <p class="B12 on4x1 underline2">Underline2</p>
+    <p class="B13 on4x1 underline3">Underline3</p>
+    <p class="B14 on4x1 underline4">Underline4</p>
 
-    <p class="black onwhite G10 on7x1 dashed underline">Dashed Underline</p>
-    <p class="black onwhite G11 on7x1 dashed underline1">Dashed Underline1</p>
-    <p class="black onwhite G12 on7x1 dashed underline2">Dashed Underline2</p>
-    <p class="black onwhite G13 on7x1 dashed underline3">Dashed Underline3</p>
-    <p class="black onwhite G14 on7x1 dashed underline4">Dashed Underline4</p>
+    <p class="G10 on7x1 dashed underline">Dashed Underline</p>
+    <p class="G11 on7x1 dashed underline1">Dashed Underline1</p>
+    <p class="G12 on7x1 dashed underline2">Dashed Underline2</p>
+    <p class="G13 on7x1 dashed underline3">Dashed Underline3</p>
+    <p class="G14 on7x1 dashed underline4">Dashed Underline4</p>
 
-    <p class="black onwhite O10 on7x1 dotted underline">Dotted Underline</p>
-    <p class="black onwhite O11 on7x1 dotted underline1">Dotted Underline1</p>
-    <p class="black onwhite O12 on7x1 dotted underline2">Dotted Underline2</p>
-    <p class="black onwhite O13 on7x1 dotted underline3">Dotted Underline3</p>
-    <p class="black onwhite O14 on7x1 dotted underline4">Dotted Underline4</p>
+    <p class="O10 on7x1 dotted underline">Dotted Underline</p>
+    <p class="O11 on7x1 dotted underline1">Dotted Underline1</p>
+    <p class="O12 on7x1 dotted underline2">Dotted Underline2</p>
+    <p class="O13 on7x1 dotted underline3">Dotted Underline3</p>
+    <p class="O14 on7x1 dotted underline4">Dotted Underline4</p>
 
   </body>
 </bml>
