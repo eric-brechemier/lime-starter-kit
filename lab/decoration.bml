@@ -10,44 +10,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
-    <style>
-    .border, .border1, .border2, .border3, .border4,
-    .underline, .underline1, .underline2, .underline3, .underline4 {
-      border-style: solid;
-    }
-
-    /* this rule overrides default color declarations in colors.css;
-       for this to work, this stylesheet must be included after colors.css */
-    .underline, .underline1, .underline2, .underline3, .underline4 {
-      border-top-color-index:    8;
-      border-right-color-index:  8;
-      border-left-color-index:   8;
-    }
-
-    .border, .border1,
-    .underline, .underline1 {
-      border-width: 1px;
-    }
-    .border2,
-    .underline2 {
-      border-width: 2px;
-    }
-    .border3,
-    .underline3 {
-      border-width: 3px;
-    }
-    .border4,
-    .underline4 {
-      border-width: 4px;
-    }
-
-    .dashed {
-      border-style: dashed;
-    }
-    .dotted {
-      border-style: dotted;
-    }
-    </style>
+    <link rel="stylesheet" href="css/decoration.css" />
   </head>
   <body class="black onwhite">
     <p class="B2 on3x1">Default</p>
