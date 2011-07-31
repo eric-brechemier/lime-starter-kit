@@ -5,7 +5,7 @@
     <title>Tests for define.js</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-30" />
+    <meta name="DC.date" content="2011-07-31" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -55,6 +55,20 @@
     define("module3",module3_factory);
 
     document.getElementById('bezen.log').firstChild.data += "Module3 defined: "+require("module3").id+"\n";
+
+    function alpha_submodule_action(){
+      require("alpha").verb() * 2;
+    }
+
+    function alpha_submodule_factory(require, exports){
+      exports.id = "alpha/submodule";
+      exports.verb = require("alpha").verb;
+      exports.action = alpha_submodule_action;
+    }
+
+    define("alpha/submodule",alpha_submodule_factory);
+
+    document.getElementById('bezen.log').firstChild.data += "Submodule defined: "+require("alpha/submodule").id+"\n";
 
     document.getElementById('bezen.log').firstChild.data += "End\n";
     ]]>

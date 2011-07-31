@@ -30,9 +30,8 @@
  * This basic implementation is intended to be used in LIME TV environment,
  * which allows only the definition of named functions at the global level. To
  * overcome this limitation while preserving the privacy of each module, this
- * define() function cleans up the global space by deleting any global property
- * whose name starts with the given id followed by an underscore after running
- * the factory function.
+ * define() function cleans up the global space by deleting global properties
+ * declared by the module following a convention using the module id as prefix.
  *
  * In this context, the three examples of the AMD API Specification would have
  * to be adapted to call define(id,factory), use require() to get dependencies
@@ -77,6 +76,21 @@
  * |
  * | define("module3",module3_factory);
  *
+ * The functions declared by a submodule of "alpha" would not be deleted, even
+ * though their name starts with the prefix "alpha_", because their name
+ * contain an extra underscore after the prefix:
+ *
+ * | function alpha_submodule_action(){
+ * |   require("alpha").verb() * 2;
+ * | }
+ * |
+ * | function alpha_submodule_factory(require, exports){
+ * |   exports.verb = require("alpha").verb;
+ * |   exports.action = alpha_submodule_action;
+ * | }
+ * |
+ * | define("alpha/submodule",alpha_submodule_factory);
+ *
  * Notes:
  *   o all arguments must be set explicitly for this implementation of define()
  *   o object literal notation {} is not supported, it must be replaced with
@@ -99,7 +113,7 @@
  * http://creativecommons.org/licenses/BSD/
  *
  * Version:
- * 2011-07-30
+ * 2011-07-31
  */
 /*global require, define */
 
@@ -125,6 +139,22 @@ function define(id, factory){
   /* Function: define(id, factory)
    * Define a module created by a factory.
    *
+   * The factory function is called immediately and is expected to set
+   * properties on the exports object it receives as argument for each function
+   * that it wishes to publish. This object is stored and associated with given
+   * id, which enables modules to retrieve the exported object by calling
+   * require() with the same id.
+   *
+   * All global properties of the module are expected to be named with
+   * following conventions; they will be deleted from the global scope:
+   *  - name starts with the id, with any '/' replaced with '_' separator,
+   *  - followed with an '_' separator,
+   *  - followed with a name in camelCase with no further '_'.
+   *
+   * The intent is to protect properties declared by other modules as well as
+   * properties declared by submodules (whose id starts with the module id
+   * followed with a '/' e.g. "module1/submodule1").
+   *
    * Parameters:
    *   id - string, absolute identifier of the module.
    *   factory - function(require,exports,module): any, callback which will be
@@ -136,8 +166,12 @@ function define(id, factory){
    *                         in calls to require() with the given id
    */
 
-  var name,
-      prefix = id + '_',      /* string, prefix for global scope clean-up */
+  var i,
+      name,
+      nameParts,              /* array, parts of name split on '_' */
+      idParts,                /* array, parts of id split on '_' */
+      isMatch,                /* boolean, whether name matches conventions
+                                 for properties declared by the module */
       exports = new Object(); /* object, exports object of the new module */
 
   /* call the factory immediately */
@@ -145,9 +179,18 @@ function define(id, factory){
   factory(require, exports);
 
   /* Clean-up globals */
+  idParts = id.split("_");
+  length = idParts.length;
   for (name in this) {
-    if ( name.indexOf(prefix) == 0 ) { /* name starts with prefix */
-      delete this[name];
+    nameParts = name.split("_");
+    if ( nameParts.length == length + 1){
+      isMatch = true;
+      for (i=0; i<length && isMatch; i++) {
+        isMatch = (nameParts[i] == idParts[i]);
+      }
+      if (isMatch) {
+        delete this[name];
+      }
     }
   }
 
