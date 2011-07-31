@@ -9,21 +9,35 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/typography.css" />
     <style>
-    .border, .border1, .border2, .border3, .border4 {
+    .border, .border1, .border2, .border3, .border4,
+    .underline, .underlin1, .underline2, .underline3, .underline4 {
       border-style: solid;
     }
 
-    .border, .border1 {
+    /* this rule overrides default color declarations in colors.css;
+       for this to work, this stylesheet must be included after colors.css */
+    .underline, .underline1, .underline2, .underline3, .underline4 {
+      border-top-color-index:    8;
+      border-right-color-index:  8;
+      border-left-color-index:   8;
+    }
+
+    .border, .border1,
+    .underline, .underline1 {
       border-width: 1px;
     }
-    .border2 {
+    .border2,
+    .underline2 {
       border-width: 2px;
     }
-    .border3 {
+    .border3,
+    .underline3 {
       border-width: 3px;
     }
-    .border4 {
+    .border4,
+    .underline4 {
       border-width: 4px;
     }
 
@@ -54,6 +68,24 @@
     <p class="black onwhite O5 on6x1 dotted border2">Dotted Border2</p>
     <p class="black onwhite O6 on6x1 dotted border3">Dotted Border3</p>
     <p class="black onwhite O7 on6x1 dotted border4">Dotted Border4</p>
+
+    <p class="black onwhite B10 on4x1 underline">Underline</p>
+    <p class="black onwhite B11 on4x1 underline1">Underline1</p>
+    <p class="black onwhite B12 on4x1 underline2">Underline2</p>
+    <p class="black onwhite B13 on4x1 underline3">Underline3</p>
+    <p class="black onwhite B14 on4x1 underline4">Underline4</p>
+
+    <p class="black onwhite G10 on7x1 dashed underline">Dashed Underline</p>
+    <p class="black onwhite G11 on7x1 dashed underline1">Dashed Underline1</p>
+    <p class="black onwhite G12 on7x1 dashed underline2">Dashed Underline2</p>
+    <p class="black onwhite G13 on7x1 dashed underline3">Dashed Underline3</p>
+    <p class="black onwhite G14 on7x1 dashed underline4">Dashed Underline4</p>
+
+    <p class="black onwhite O10 on7x1 dotted underline">Dotted Underline</p>
+    <p class="black onwhite O11 on7x1 dotted underline1">Dotted Underline1</p>
+    <p class="black onwhite O12 on7x1 dotted underline2">Dotted Underline2</p>
+    <p class="black onwhite O13 on7x1 dotted underline3">Dotted Underline3</p>
+    <p class="black onwhite O14 on7x1 dotted underline4">Dotted Underline4</p>
 
   </body>
 </bml>
