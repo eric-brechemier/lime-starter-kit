@@ -5,44 +5,11 @@
     <title>CSS Styles for text</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-27" />
+    <meta name="DC.date" content="2011-07-31" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
-    <style>
-    .bold { font-weight: bold; }
-
-    .left    { text-alignt: left; }
-    .center  { text-align: center; }
-    .right   { text-align: right; }
-
-    .lineheightx1 { line-height: 30px; }
-    .lineheightx2 { line-height: 60px; }
-    .lineheightx3 { line-height: 90px; }
-
-    .xx-small  { font-size: 14px; }
-    .x-small   { font-size: 16px; }
-    .small     { font-size: 20px; }
-    .medium    { font-size: 24px; }
-    .large     { font-size: 28px; }
-    .x-large   { font-size: 36px; }
-    .xx-large  { font-size: 48px; }
-
-    .xx-narrow  { letter-spacing: -4px; }
-    .x-narrow   { letter-spacing: -2px; }
-    .narrow     { letter-spacing: -1px; }
-    .wide       { letter-spacing:  1px; }
-    .x-wide     { letter-spacing:  4px; }
-    .xx-wide    { letter-spacing:  8px; }
-
-    .with-padding {
-      padding-top:    2px;
-      padding-right:  2px;
-      padding-left:   2px;
-      padding-bottom: 2px;
-    }
-
-    </style>
+    <link rel="stylesheet" href="css/typography.css" />
   </head>
   <body>
     <p class="black onwhite B2 on6x1">Default</p>
