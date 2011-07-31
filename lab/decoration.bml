@@ -32,6 +32,19 @@
     <p class="O6 on6x1 dotted border3">Dotted Border3</p>
     <p class="O7 on6x1 dotted border4">Dotted Border4</p>
 
+    <p class="X3 on8x1 no-top-border border">No Top Border</p>
+    <p class="X5 on8x1 no-right-border border">No Right Border</p>
+    <p class="X7 on8x1 no-bottom-border border">No Bottom Border</p>
+    <p class="X9 on8x1 no-left-border border">No Left Border</p>
+    <p class="X11 on8x2 border no-top-border no-left-border">
+      No Top Border<br/>
+      No Left Border
+    </p>
+    <p class="X14 on8x2 border no-bottom-border no-right-border">
+      No Bottom Border<br/>
+      No Right Border
+    </p>
+
     <p class="B10 on4x1 underline">Underline</p>
     <p class="B11 on4x1 underline1">Underline1</p>
     <p class="B12 on4x1 underline2">Underline2</p>

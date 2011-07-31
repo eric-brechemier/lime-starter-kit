@@ -32,6 +32,26 @@
   border-left-color-index:   8;
 }
 
+.no-top-border,
+.no-top-border:focus {
+  border-top-color-index:    8;
+}
+
+.no-right-border,
+.no-right-border:focus {
+  border-right-color-index:  8;
+}
+
+.no-bottom-border,
+.no-bottom-border:focus {
+  border-bottom-color-index: 8;
+}
+
+.no-left-border,
+.no-left-border:focus {
+  border-left-color-index:   8;
+}
+
 /* rules to determine the thickness of lines for borders and underline:
    - the number in the end indicates the thickness in px:
      border1, border2, ..., underline1, underline2 ...
