@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <style>
+    .border, .border1, .border2, .border3, .border4 {
+      border-style: solid;
+    }
+
     .border, .border1 {
       border-width: 1px;
     }
@@ -23,9 +27,6 @@
       border-width: 4px;
     }
 
-    .solid {
-      border-style: solid;
-    }
     .dashed {
       border-style: dashed;
     }
@@ -35,21 +36,24 @@
     </style>
   </head>
   <body class="onwhite">
-    <p class="black onwhite B2 on6x1">Default</p>
-    <p class="black onwhite B3 on6x1 solid border">Solid Border</p>
-    <p class="black onwhite B4 on6x1 solid border2">Solid Border2</p>
-    <p class="black onwhite B5 on6x1 solid border3">Solid Border3</p>
-    <p class="black onwhite B6 on6x1 solid border4">Solid Border4</p>
+    <p class="black onwhite B2 on3x1">Default</p>
+    <p class="black onwhite B3 on3x1 border">Border</p>
+    <p class="black onwhite B4 on3x1 border1">Border1</p>
+    <p class="black onwhite B5 on3x1 border2">Border2</p>
+    <p class="black onwhite B6 on3x1 border3">Border3</p>
+    <p class="black onwhite B7 on3x1 border4">Border4</p>
 
-    <p class="black onwhite I3 on6x1 dashed border">Dashed Border</p>
-    <p class="black onwhite I4 on6x1 dashed border2">Dashed Border2</p>
-    <p class="black onwhite I5 on6x1 dashed border3">Dashed Border3</p>
-    <p class="black onwhite I6 on6x1 dashed border4">Dashed Border4</p>
+    <p class="black onwhite G3 on6x1 dashed border">Dashed Border</p>
+    <p class="black onwhite G4 on6x1 dashed border1">Dashed Border1</p>
+    <p class="black onwhite G5 on6x1 dashed border2">Dashed Border2</p>
+    <p class="black onwhite G6 on6x1 dashed border3">Dashed Border3</p>
+    <p class="black onwhite G7 on6x1 dashed border4">Dashed Border4</p>
 
-    <p class="black onwhite P3 on6x1 dotted border">Dotted Border</p>
-    <p class="black onwhite P4 on6x1 dotted border2">Dotted Border2</p>
-    <p class="black onwhite P5 on6x1 dotted border3">Dotted Border3</p>
-    <p class="black onwhite P6 on6x1 dotted border4">Dotted Border4</p>
+    <p class="black onwhite O3 on6x1 dotted border">Dotted Border</p>
+    <p class="black onwhite O4 on6x1 dotted border1">Dotted Border1</p>
+    <p class="black onwhite O5 on6x1 dotted border2">Dotted Border2</p>
+    <p class="black onwhite O6 on6x1 dotted border3">Dotted Border3</p>
+    <p class="black onwhite O7 on6x1 dotted border4">Dotted Border4</p>
 
   </body>
 </bml>
