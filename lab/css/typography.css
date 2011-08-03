@@ -22,6 +22,7 @@ div, p {
 .x-large   { font-size: 36px; line-height: 60px; }
 .xx-large  { font-size: 48px; line-height: 60px; }
 
+/* letter spacing */
 .xx-narrow  { letter-spacing: -4px; }
 .x-narrow   { letter-spacing: -2px; }
 .narrow     { letter-spacing: -1px; }
