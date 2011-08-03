@@ -5,7 +5,7 @@
     <title>CSS Styles for text</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-31" />
+    <meta name="DC.date" content="2011-08-03" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -37,10 +37,6 @@
     <p class="black onwhite G12 on7x2 x-large lineheightx2">x-large</p>
     <p class="white onblack G14 on7x2 xx-large lineheightx2">xx-large</p>
     <p class="black onwhite G16 on7x1"></p>
-
-    <p class="black onwhite N2 on5x1">Default</p>
-    <p class="white onblack N3 on5x1 with-padding">With Padding</p>
-    <p class="black onwhite N4 on5x1"></p>
 
     <p class="black onwhite N7 on5x1 xx-narrow">xx-narrow</p>
     <p class="black onwhite N8 on5x1 x-narrow">x-narrow</p>
