@@ -14,13 +14,13 @@ div, p {
 }
 
 /* font size and associated line height */
-.xx-small  { font-size: 14px; }
-.x-small   { font-size: 16px; }
-.small     { font-size: 20px; }
-.medium    { font-size: 24px; }
-.large     { font-size: 28px; }
-.x-large   { font-size: 36px; }
-.xx-large  { font-size: 48px; }
+.xx-small  { font-size: 14px; line-height: 30px; }
+.x-small   { font-size: 16px; line-height: 30px; }
+.small     { font-size: 20px; line-height: 30px; }
+.medium    { font-size: 24px; line-height: 30px; }
+.large     { font-size: 28px; line-height: 30px; }
+.x-large   { font-size: 36px; line-height: 60px; }
+.xx-large  { font-size: 48px; line-height: 60px; }
 
 .xx-narrow  { letter-spacing: -4px; }
 .x-narrow   { letter-spacing: -2px; }
@@ -28,10 +28,6 @@ div, p {
 .wide       { letter-spacing:  1px; }
 .x-wide     { letter-spacing:  4px; }
 .xx-wide    { letter-spacing:  8px; }
-
-.lineheightx1 { line-height: 30px; }
-.lineheightx2 { line-height: 60px; }
-.lineheightx3 { line-height: 90px; }
 
 /* text alignment */
 .left    { text-align: left; }
