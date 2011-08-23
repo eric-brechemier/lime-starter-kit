@@ -86,7 +86,7 @@
   </head>
   <body id="body" class="body" style="background-color-index: 0"
         onload="onload();" onunload="onunload();">
-    <div class="G2 on18x15 onyellow"></div>
+    <div class="G2 on18x15 on-yellow"></div>
     <div class="F1 fullscreen">
       <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
         class="A1 fullscreen"/>

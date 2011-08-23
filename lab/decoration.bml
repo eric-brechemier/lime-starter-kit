@@ -5,14 +5,14 @@
     <title>CSS Styles for borders and underlines</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-31" />
+    <meta name="DC.date" content="2011-08-23" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/decoration.css" />
   </head>
-  <body class="black onwhite">
+  <body class="black on-white">
     <p class="B2 on3x1">Default</p>
     <p class="B3 on3x1 border">Border</p>
     <p class="B4 on3x1 border1">Border1</p>

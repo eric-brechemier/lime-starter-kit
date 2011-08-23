@@ -5,7 +5,7 @@
     <title>Images</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-07-18" />
+    <meta name="DC.date" content="2011-08-23" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -19,7 +19,7 @@
   </head>
   <body>
 
-    <div class="fullscreen onyellow">
+    <div class="fullscreen on-bright-yellow">
       <object type="image/X-arib-png" data="img/radionette/screen-indexed.png"
         class="A2" style="width:604px;height:540px;"/>
       <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"

@@ -4,82 +4,1760 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-30
+ * Version: 2011-08-23
  */
 
 /* foreground colors (text and border) */
+
 .black   {
-  color-index:               0;
-  border-top-color-index:    0;
-  border-right-color-index:  0;
-  border-bottom-color-index: 0;
-  border-left-color-index:   0;
+  color-index:                 0;
+  border-top-color-index:      0;
+  border-right-color-index:    0;
+  border-bottom-color-index:   0;
+  border-left-color-index:     0;
 }
-.red     {
-  color-index:               1;
-  border-top-color-index:    1;
-  border-right-color-index:  1;
-  border-bottom-color-index: 1;
-  border-left-color-index:   1;
+
+.red,
+.bright-red {
+  color-index:                 1;
+  border-top-color-index:      1;
+  border-right-color-index:    1;
+  border-bottom-color-index:   1;
+  border-left-color-index:     1;
 }
-.green   {
-  color-index:               2;
-  border-top-color-index:    2;
-  border-right-color-index:  2;
-  border-bottom-color-index: 2;
-  border-left-color-index:   2;
+
+.bright-green {
+  color-index:                 2;
+  border-top-color-index:      2;
+  border-right-color-index:    2;
+  border-bottom-color-index:   2;
+  border-left-color-index:     2;
 }
-.yellow  {
-  color-index:               3;
-  border-top-color-index:    3;
-  border-right-color-index:  3;
-  border-bottom-color-index: 3;
-  border-left-color-index:   3;
+
+.bright-yellow {
+  color-index:                 3;
+  border-top-color-index:      3;
+  border-right-color-index:    3;
+  border-bottom-color-index:   3;
+  border-left-color-index:     3;
 }
-.blue    {
-  color-index:               4;
-  border-top-color-index:    4;
-  border-right-color-index:  4;
-  border-bottom-color-index: 4;
-  border-left-color-index:   4;
+
+.bright-blue {
+  color-index:                 4;
+  border-top-color-index:      4;
+  border-right-color-index:    4;
+  border-bottom-color-index:   4;
+  border-left-color-index:     4;
 }
-.magenta {
-  color-index:               5;
-  border-top-color-index:    5;
-  border-right-color-index:  5;
-  border-bottom-color-index: 5;
-  border-left-color-index:   5;
+
+.bright-magenta {
+  color-index:                 5;
+  border-top-color-index:      5;
+  border-right-color-index:    5;
+  border-bottom-color-index:   5;
+  border-left-color-index:     5;
 }
-.cyan    {
-  color-index:               6;
-  border-top-color-index:    6;
-  border-right-color-index:  6;
-  border-bottom-color-index: 6;
-  border-left-color-index:   6;
+
+.bright-cyan {
+  color-index:                 6;
+  border-top-color-index:      6;
+  border-right-color-index:    6;
+  border-bottom-color-index:   6;
+  border-left-color-index:     6;
 }
-.white   {
-  color-index:               7;
-  border-top-color-index:    7;
-  border-right-color-index:  7;
-  border-bottom-color-index: 7;
-  border-left-color-index:   7;
+
+.white {
+  color-index:                 7;
+  border-top-color-index:      7;
+  border-right-color-index:    7;
+  border-bottom-color-index:   7;
+  border-left-color-index:     7;
 }
+
 .transparent {
-  color-index:               8;
-  border-top-color-index:    8;
-  border-right-color-index:  8;
-  border-bottom-color-index: 8;
-  border-left-color-index:   8;
+  color-index:                 8;
+  border-top-color-index:      8;
+  border-right-color-index:    8;
+  border-bottom-color-index:   8;
+  border-left-color-index:     8;
+}
+
+.orange-brown,
+.dark-orange-brown,
+.dark-orange,
+.dark-brown,
+.dark-red {
+  color-index:                 9;
+  border-top-color-index:      9;
+  border-right-color-index:    9;
+  border-bottom-color-index:   9;
+  border-left-color-index:     9;
+}
+
+.dark-yellow-green,
+.dark-green {
+  color-index:                10;
+  border-top-color-index:     10;
+  border-right-color-index:   10;
+  border-bottom-color-index:  10;
+  border-left-color-index:    10;
+}
+
+.yellow-brown,
+.dark-yellow-brown,
+.dark-yellow {
+  color-index:                11;
+  border-top-color-index:     11;
+  border-right-color-index:   11;
+  border-bottom-color-index:  11;
+  border-left-color-index:    11;
+}
+
+.purple-blue,
+.dark-purple-blue,
+.dark-blue {
+  color-index:                12;
+  border-top-color-index:     12;
+  border-right-color-index:   12;
+  border-bottom-color-index:  12;
+  border-left-color-index:    12;
+}
+
+.dark-magenta {
+  color-index:                13;
+  border-top-color-index:     13;
+  border-right-color-index:   13;
+  border-bottom-color-index:  13;
+  border-left-color-index:    13;
+}
+
+.dark-cyan {
+  color-index:                14;
+  border-top-color-index:     14;
+  border-right-color-index:   14;
+  border-bottom-color-index:  14;
+  border-left-color-index:    14;
+}
+
+.gray,
+.grey,
+.light-gray,
+.light-grey,
+.medium-gray,
+.medium-grey,
+.bright-gray,
+.bright-grey {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+
+.darker-blue,
+.darker-purple,
+.darker-purple-blue {
+  color-index:                16;
+  border-top-color-index:     16;
+  border-right-color-index:   16;
+  border-bottom-color-index:  16;
+  border-left-color-index:    16;
+}
+
+.darker-blue-green,
+.darker-green,
+.darker-yellow-green {
+  color-index:                17;
+  border-top-color-index:     17;
+  border-right-color-index:   17;
+  border-bottom-color-index:  17;
+  border-left-color-index:    17;
+}
+
+.darker-cyan {
+  color-index:                18;
+  border-top-color-index:     18;
+  border-right-color-index:   18;
+  border-bottom-color-index:  18;
+  border-left-color-index:    18;
+}
+
+.dull-purple-blue,
+.dull-blue {
+  color-index:                19;
+  border-top-color-index:     19;
+  border-right-color-index:   19;
+  border-bottom-color-index:  19;
+  border-left-color-index:    19;
+}
+
+.blue,
+.medium-blue {
+  color-index:                20;
+  border-top-color-index:     20;
+  border-right-color-index:   20;
+  border-bottom-color-index:  20;
+  border-left-color-index:    20;
+}
+
+.dark-blue-green {
+  color-index:                21;
+  border-top-color-index:     21;
+  border-right-color-index:   21;
+  border-bottom-color-index:  21;
+  border-left-color-index:    21;
+}
+
+.light-blue {
+  color-index:                22;
+  border-top-color-index:     22;
+  border-right-color-index:   22;
+  border-bottom-color-index:  22;
+  border-left-color-index:    22;
+}
+
+.green,
+.medium-green {
+  color-index:                23;
+  border-top-color-index:     23;
+  border-right-color-index:   23;
+  border-bottom-color-index:  23;
+  border-left-color-index:    23;
+}
+
+.bright-blue-green {
+  color-index:                24;
+  border-top-color-index:     24;
+  border-right-color-index:   24;
+  border-bottom-color-index:  24;
+  border-left-color-index:    24;
+}
+
+.darker-orange-brown,
+.darker-orange,
+.brown,
+.darker-brown,
+.darker-purple-brown,
+.darker-pink {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
+
+.darker-magenta {
+  color-index:                26;
+  border-top-color-index:     26;
+  border-right-color-index:   26;
+  border-bottom-color-index:  26;
+  border-left-color-index:    26;
+}
+
+.purple,
+.dark-purple {
+  color-index:                27;
+  border-top-color-index:     27;
+  border-right-color-index:   27;
+  border-bottom-color-index:  27;
+  border-left-color-index:    27;
+}
+
+.bright-purple-blue {
+  color-index:                28;
+  border-top-color-index:     28;
+  border-right-color-index:   28;
+  border-bottom-color-index:  28;
+  border-left-color-index:    28;
+}
+
+.darker-yellow-brown,
+.darker-yellow {
+  color-index:                29;
+  border-top-color-index:     29;
+  border-right-color-index:   29;
+  border-bottom-color-index:  29;
+  border-left-color-index:    29;
+}
+
+.dark-gray,
+.dark-grey,
+.dull-gray,
+.dull-grey,
+.darker-gray,
+.darker-grey {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
+
+.dull-purple {
+  color-index:                31;
+  border-top-color-index:     31;
+  border-right-color-index:   31;
+  border-bottom-color-index:  31;
+  border-left-color-index:    31;
+}
+
+.medium-purple-blue {
+  color-index:                32;
+  border-top-color-index:     32;
+  border-right-color-index:   32;
+  border-bottom-color-index:  32;
+  border-left-color-index:    32;
+}
+
+.dull-yellow-green,
+.dull-green {
+  color-index:                33;
+  border-top-color-index:     33;
+  border-right-color-index:   33;
+  border-bottom-color-index:  33;
+  border-left-color-index:    33;
+}
+
+.dull-blue-green {
+  color-index:                34;
+  border-top-color-index:     34;
+  border-right-color-index:   34;
+  border-bottom-color-index:  34;
+  border-left-color-index:    34;
+}
+
+.dull-cyan {
+  color-index:                35;
+  border-top-color-index:     35;
+  border-right-color-index:   35;
+  border-bottom-color-index:  35;
+  border-left-color-index:    35;
+}
+
+.light-purple-blue {
+  color-index:                36;
+  border-top-color-index:     36;
+  border-right-color-index:   36;
+  border-bottom-color-index:  36;
+  border-left-color-index:    36;
+}
+
+.bright-yellow-green {
+  color-index:                37;
+  border-top-color-index:     37;
+  border-right-color-index:   37;
+  border-bottom-color-index:  37;
+  border-left-color-index:    37;
+}
+
+.light-green {
+  color-index:                38;
+  border-top-color-index:     38;
+  border-right-color-index:   38;
+  border-bottom-color-index:  38;
+  border-left-color-index:    38;
+}
+
+.blue-green,
+.medium-blue-green {
+  color-index:                39;
+  border-top-color-index:     39;
+  border-right-color-index:   39;
+  border-bottom-color-index:  39;
+  border-left-color-index:    39;
+}
+
+.cyan,
+.medium-cyan {
+  color-index:                40;
+  border-top-color-index:     40;
+  border-right-color-index:   40;
+  border-bottom-color-index:  40;
+  border-left-color-index:    40;
+}
+
+.purple-brown,
+.dark-purple-brown,
+.dark-pink {
+  color-index:                41;
+  border-top-color-index:     41;
+  border-right-color-index:   41;
+  border-bottom-color-index:  41;
+  border-left-color-index:    41;
+}
+
+.bright-purple {
+  color-index:                42;
+  border-top-color-index:     42;
+  border-right-color-index:   42;
+  border-bottom-color-index:  42;
+  border-left-color-index:    42;
+}
+
+.dull-orange-brown,
+.dull-orange,
+.dull-brown,
+.dull-red {
+  color-index:                43;
+  border-top-color-index:     43;
+  border-right-color-index:   43;
+  border-bottom-color-index:  43;
+  border-left-color-index:    43;
+}
+
+.dull-purple-brown,
+.dull-pink {
+  color-index:                44;
+  border-top-color-index:     44;
+  border-right-color-index:   44;
+  border-bottom-color-index:  44;
+  border-left-color-index:    44;
+}
+
+.dull-magenta {
+  color-index:                45;
+  border-top-color-index:     45;
+  border-right-color-index:   45;
+  border-bottom-color-index:  45;
+  border-left-color-index:    45;
+}
+
+.medium-purple {
+  color-index:                46;
+  border-top-color-index:     46;
+  border-right-color-index:   46;
+  border-bottom-color-index:  46;
+  border-left-color-index:    46;
+}
+
+.dull-yellow-brown,
+.dull-yellow {
+  color-index:                47;
+  border-top-color-index:     47;
+  border-right-color-index:   47;
+  border-bottom-color-index:  47;
+  border-left-color-index:    47;
+}
+
+.light-purple {
+  color-index:                48;
+  border-top-color-index:     48;
+  border-right-color-index:   48;
+  border-bottom-color-index:  48;
+  border-left-color-index:    48;
+}
+
+.medium-yellow-green {
+  color-index:                49;
+  border-top-color-index:     49;
+  border-right-color-index:   49;
+  border-bottom-color-index:  49;
+  border-left-color-index:    49;
+}
+
+.light-yellow-green {
+  color-index:                50;
+  border-top-color-index:     50;
+  border-right-color-index:   50;
+  border-bottom-color-index:  50;
+  border-left-color-index:    50;
+}
+
+.light-blue-green {
+  color-index:                51;
+  border-top-color-index:     51;
+  border-right-color-index:   51;
+  border-bottom-color-index:  51;
+  border-left-color-index:    51;
+}
+
+.light-cyan {
+  color-index:                52;
+  border-top-color-index:     52;
+  border-right-color-index:   52;
+  border-bottom-color-index:  52;
+  border-left-color-index:    52;
+}
+
+.pink-red,
+.medium-pink-red,
+.medium-red {
+  color-index:                53;
+  border-top-color-index:     53;
+  border-right-color-index:   53;
+  border-bottom-color-index:  53;
+  border-left-color-index:    53;
+}
+
+.bright-pink {
+  color-index:                54;
+  border-top-color-index:     54;
+  border-right-color-index:   54;
+  border-bottom-color-index:  54;
+  border-left-color-index:    54;
+}
+
+.bright-orange {
+  color-index:                55;
+  border-top-color-index:     55;
+  border-right-color-index:   55;
+  border-bottom-color-index:  55;
+  border-left-color-index:    55;
+}
+
+.light-pink-red,
+.light-red {
+  color-index:                56;
+  border-top-color-index:     56;
+  border-right-color-index:   56;
+  border-bottom-color-index:  56;
+  border-left-color-index:    56;
+}
+
+.pink,
+.medium-pink {
+  color-index:                57;
+  border-top-color-index:     57;
+  border-right-color-index:   57;
+  border-bottom-color-index:  57;
+  border-left-color-index:    57;
+}
+
+.magenta,
+.medium-magenta {
+  color-index:                58;
+  border-top-color-index:     58;
+  border-right-color-index:   58;
+  border-bottom-color-index:  58;
+  border-left-color-index:    58;
+}
+
+.orange,
+.medium-orange {
+  color-index:                59;
+  border-top-color-index:     59;
+  border-right-color-index:   59;
+  border-bottom-color-index:  59;
+  border-left-color-index:    59;
+}
+
+.light-orange {
+  color-index:                60;
+  border-top-color-index:     60;
+  border-right-color-index:   60;
+  border-bottom-color-index:  60;
+  border-left-color-index:    60;
+}
+
+.light-pink {
+  color-index:                61;
+  border-top-color-index:     61;
+  border-right-color-index:   61;
+  border-bottom-color-index:  61;
+  border-left-color-index:    61;
+}
+
+.light-magenta {
+  color-index:                62;
+  border-top-color-index:     62;
+  border-right-color-index:   62;
+  border-bottom-color-index:  62;
+  border-left-color-index:    62;
+}
+
+.yellow,
+.medium-yellow {
+  color-index:                63;
+  border-top-color-index:     63;
+  border-right-color-index:   63;
+  border-bottom-color-index:  63;
+  border-left-color-index:    63;
+}
+
+.light-yellow {
+  color-index:                64;
+  border-top-color-index:     64;
+  border-right-color-index:   64;
+  border-bottom-color-index:  64;
+  border-left-color-index:    64;
+}
+
+.half-transparent,
+.transparent-black {
+  color-index:                65;
+  border-top-color-index:     65;
+  border-right-color-index:   65;
+  border-bottom-color-index:  65;
+  border-left-color-index:    65;
+}
+
+.transparent-red,
+.transparent-bright-red {
+  color-index:                66;
+  border-top-color-index:     66;
+  border-right-color-index:   66;
+  border-bottom-color-index:  66;
+  border-left-color-index:    66;
+}
+
+.transparent-bright-green {
+  color-index:                67;
+  border-top-color-index:     67;
+  border-right-color-index:   67;
+  border-bottom-color-index:  67;
+  border-left-color-index:    67;
+}
+
+.transparent-bright-yellow {
+  color-index:                68;
+  border-top-color-index:     68;
+  border-right-color-index:   68;
+  border-bottom-color-index:  68;
+  border-left-color-index:    68;
+}
+
+.transparent-bright-blue {
+  color-index:                69;
+  border-top-color-index:     69;
+  border-right-color-index:   69;
+  border-bottom-color-index:  69;
+  border-left-color-index:    69;
+}
+
+.transparent-bright-magenta {
+  color-index:                70;
+  border-top-color-index:     70;
+  border-right-color-index:   70;
+  border-bottom-color-index:  70;
+  border-left-color-index:    70;
+}
+
+.transparent-bright-cyan {
+  color-index:                71;
+  border-top-color-index:     71;
+  border-right-color-index:   71;
+  border-bottom-color-index:  71;
+  border-left-color-index:    71;
+}
+
+.transparent-white {
+  color-index:                72;
+  border-top-color-index:     72;
+  border-right-color-index:   72;
+  border-bottom-color-index:  72;
+  border-left-color-index:    72;
+}
+
+.transparent-orange-brown,
+.transparent-dark-orange-brown,
+.transparent-dark-orange,
+.transparent-dark-brown,
+.transparent-dark-red {
+  color-index:                73;
+  border-top-color-index:     73;
+  border-right-color-index:   73;
+  border-bottom-color-index:  73;
+  border-left-color-index:    73;
+}
+
+.transparent-dark-yellow-green,
+.transparent-dark-green {
+  color-index:                74;
+  border-top-color-index:     74;
+  border-right-color-index:   74;
+  border-bottom-color-index:  74;
+  border-left-color-index:    74;
+}
+
+.transparent-yellow-brown,
+.transparent-dark-yellow-brown,
+.transparent-dark-yellow {
+  color-index:                75;
+  border-top-color-index:     75;
+  border-right-color-index:   75;
+  border-bottom-color-index:  75;
+  border-left-color-index:    75;
+}
+
+.transparent-purple-blue,
+.transparent-dark-purple-blue,
+.transparent-dark-blue {
+  color-index:                76;
+  border-top-color-index:     76;
+  border-right-color-index:   76;
+  border-bottom-color-index:  76;
+  border-left-color-index:    76;
+}
+
+.transparent-dark-magenta {
+  color-index:                77;
+  border-top-color-index:     77;
+  border-right-color-index:   77;
+  border-bottom-color-index:  77;
+  border-left-color-index:    77;
+}
+
+.transparent-dark-cyan {
+  color-index:                78;
+  border-top-color-index:     78;
+  border-right-color-index:   78;
+  border-bottom-color-index:  78;
+  border-left-color-index:    78;
+}
+
+.transparent-gray,
+.transparent-grey,
+.transparent-light-gray,
+.transparent-light-grey,
+.transparent-medium-gray,
+.transparent-medium-grey,
+.transparent-bright-gray,
+.transparent-bright-grey {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+
+.transparent-darker-blue,
+.transparent-darker-purple,
+.transparent-darker-purple-blue {
+  color-index:                80;
+  border-top-color-index:     80;
+  border-right-color-index:   80;
+  border-bottom-color-index:  80;
+  border-left-color-index:    80;
+}
+
+.transparent-darker-blue-green,
+.transparent-darker-green,
+.transparent-darker-yellow-green {
+  color-index:                81;
+  border-top-color-index:     81;
+  border-right-color-index:   81;
+  border-bottom-color-index:  81;
+  border-left-color-index:    81;
+}
+
+.transparent-darker-cyan {
+  color-index:                82;
+  border-top-color-index:     82;
+  border-right-color-index:   82;
+  border-bottom-color-index:  82;
+  border-left-color-index:    82;
+}
+
+.transparent-dull-purple-blue,
+.transparent-dull-blue {
+  color-index:                83;
+  border-top-color-index:     83;
+  border-right-color-index:   83;
+  border-bottom-color-index:  83;
+  border-left-color-index:    83;
+}
+
+.transparent-blue,
+.transparent-medium-blue {
+  color-index:                84;
+  border-top-color-index:     84;
+  border-right-color-index:   84;
+  border-bottom-color-index:  84;
+  border-left-color-index:    84;
+}
+
+.transparent-dark-blue-green ,
+  color-index:                85;
+  border-top-color-index:     85;
+  border-right-color-index:   85;
+  border-bottom-color-index:  85;
+  border-left-color-index:    85;
+}
+
+.transparent-light-blue {
+  color-index:                86;
+  border-top-color-index:     86;
+  border-right-color-index:   86;
+  border-bottom-color-index:  86;
+  border-left-color-index:    86;
+}
+
+.transparent-green,
+.transparent-medium-green {
+  color-index:                87;
+  border-top-color-index:     87;
+  border-right-color-index:   87;
+  border-bottom-color-index:  87;
+  border-left-color-index:    87;
+}
+
+.transparent-bright-blue-green {
+  color-index:                88;
+  border-top-color-index:     88;
+  border-right-color-index:   88;
+  border-bottom-color-index:  88;
+  border-left-color-index:    88;
+}
+
+.transparent-darker-orange-brown,
+.transparent-darker-orange,
+.transparent-brown,
+.transparent-darker-brown,
+.transparent-darker-purple-brown,
+.transparent-darker-pink {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
+
+.transparent-darker-magenta {
+  color-index:                90;
+  border-top-color-index:     90;
+  border-right-color-index:   90;
+  border-bottom-color-index:  90;
+  border-left-color-index:    90;
+}
+
+.transparent-purple,
+.transparent-dark-purple {
+  color-index:                91;
+  border-top-color-index:     91;
+  border-right-color-index:   91;
+  border-bottom-color-index:  91;
+  border-left-color-index:    91;
+}
+
+.transparent-bright-purple-blue {
+  color-index:                92;
+  border-top-color-index:     92;
+  border-right-color-index:   92;
+  border-bottom-color-index:  92;
+  border-left-color-index:    92;
+}
+
+.transparent-darker-yellow-brown,
+.transparent-darker-yellow {
+  color-index:                93;
+  border-top-color-index:     93;
+  border-right-color-index:   93;
+  border-bottom-color-index:  93;
+  border-left-color-index:    93;
+}
+
+.transparent-dark-gray,
+.transparent-dark-grey,
+.transparent-dull-gray,
+.transparent-dull-grey,
+.transparent-darker-gray,
+.transparent-darker-grey {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
+
+.transparent-dull-purple {
+  color-index:                95;
+  border-top-color-index:     95;
+  border-right-color-index:   95;
+  border-bottom-color-index:  95;
+  border-left-color-index:    95;
+}
+
+.transparent-medium-purple-blue {
+  color-index:                96;
+  border-top-color-index:     96;
+  border-right-color-index:   96;
+  border-bottom-color-index:  96;
+  border-left-color-index:    96;
+}
+
+.transparent-dull-yellow-green,
+.transparent-dull-green {
+  color-index:                97;
+  border-top-color-index:     97;
+  border-right-color-index:   97;
+  border-bottom-color-index:  97;
+  border-left-color-index:    97;
+}
+
+.transparent-dull-blue-green {
+  color-index:                98;
+  border-top-color-index:     98;
+  border-right-color-index:   98;
+  border-bottom-color-index:  98;
+  border-left-color-index:    98;
+}
+
+.transparent-dull-cyan {
+  color-index:                99;
+  border-top-color-index:     99;
+  border-right-color-index:   99;
+  border-bottom-color-index:  99;
+  border-left-color-index:    99;
+}
+
+.transparent-light-purple-blue {
+  color-index:               100;
+  border-top-color-index:    100;
+  border-right-color-index:  100;
+  border-bottom-color-index: 100;
+  border-left-color-index:   100;
+}
+
+.transparent-bright-yellow-green {
+  color-index:               101;
+  border-top-color-index:    101;
+  border-right-color-index:  101;
+  border-bottom-color-index: 101;
+  border-left-color-index:   101;
+}
+
+.transparent-light-green {
+  color-index:               102;
+  border-top-color-index:    102;
+  border-right-color-index:  102;
+  border-bottom-color-index: 102;
+  border-left-color-index:   102;
+}
+
+.transparent-blue-green,
+.transparent-medium-blue-green {
+  color-index:               103;
+  border-top-color-index:    103;
+  border-right-color-index:  103;
+  border-bottom-color-index: 103;
+  border-left-color-index:   103;
+}
+
+.transparent-cyan,
+.transparent-medium-cyan {
+  color-index:               104;
+  border-top-color-index:    104;
+  border-right-color-index:  104;
+  border-bottom-color-index: 104;
+  border-left-color-index:   104;
+}
+
+.transparent-purple-brown,
+.transparent-dark-purple-brown,
+.transparent-dark-pink {
+  color-index:               105;
+  border-top-color-index:    105;
+  border-right-color-index:  105;
+  border-bottom-color-index: 105;
+  border-left-color-index:   105;
+}
+
+.transparent-bright-purple {
+  color-index:               106;
+  border-top-color-index:    106;
+  border-right-color-index:  106;
+  border-bottom-color-index: 106;
+  border-left-color-index:   106;
+}
+
+.transparent-dull-orange-brown,
+.transparent-dull-orange,
+.transparent-dull-brown,
+.transparent-dull-red {
+  color-index:               107;
+  border-top-color-index:    107;
+  border-right-color-index:  107;
+  border-bottom-color-index: 107;
+  border-left-color-index:   107;
+}
+
+.transparent-dull-purple-brown,
+.transparent-dull-pink {
+  color-index:               108;
+  border-top-color-index:    108;
+  border-right-color-index:  108;
+  border-bottom-color-index: 108;
+  border-left-color-index:   108;
+}
+
+.transparent-dull-magenta {
+  color-index:               109;
+  border-top-color-index:    109;
+  border-right-color-index:  109;
+  border-bottom-color-index: 109;
+  border-left-color-index:   109;
+}
+
+.transparent-medium-purple {
+  color-index:               110;
+  border-top-color-index:    110;
+  border-right-color-index:  110;
+  border-bottom-color-index: 110;
+  border-left-color-index:   110;
+}
+
+.transparent-dull-yellow-brown,
+.transparent-dull-yellow {
+  color-index:               111;
+  border-top-color-index:    111;
+  border-right-color-index:  111;
+  border-bottom-color-index: 111;
+  border-left-color-index:   111;
+}
+
+.transparent-light-purple {
+  color-index:               112;
+  border-top-color-index:    112;
+  border-right-color-index:  112;
+  border-bottom-color-index: 112;
+  border-left-color-index:   112;
+}
+
+.transparent-medium-yellow-green {
+  color-index:               113;
+  border-top-color-index:    113;
+  border-right-color-index:  113;
+  border-bottom-color-index: 113;
+  border-left-color-index:   113;
+}
+
+.transparent-light-yellow-green {
+  color-index:               114;
+  border-top-color-index:    114;
+  border-right-color-index:  114;
+  border-bottom-color-index: 114;
+  border-left-color-index:   114;
+}
+
+.transparent-light-blue-green {
+  color-index:               115;
+  border-top-color-index:    115;
+  border-right-color-index:  115;
+  border-bottom-color-index: 115;
+  border-left-color-index:   115;
+}
+
+.transparent-light-cyan {
+  color-index:               116;
+  border-top-color-index:    116;
+  border-right-color-index:  116;
+  border-bottom-color-index: 116;
+  border-left-color-index:   116;
+}
+
+.transparent-pink-red,
+.transparent-medium-pink-red,
+.transparent-medium-red {
+  color-index:               117;
+  border-top-color-index:    117;
+  border-right-color-index:  117;
+  border-bottom-color-index: 117;
+  border-left-color-index:   117;
+}
+
+.transparent-bright-pink {
+  color-index:               118;
+  border-top-color-index:    118;
+  border-right-color-index:  118;
+  border-bottom-color-index: 118;
+  border-left-color-index:   118;
+}
+
+.transparent-bright-orange {
+  color-index:               119;
+  border-top-color-index:    119;
+  border-right-color-index:  119;
+  border-bottom-color-index: 119;
+  border-left-color-index:   119;
+}
+
+.transparent-light-pink-red,
+.transparent-light-red {
+  color-index:               120;
+  border-top-color-index:    120;
+  border-right-color-index:  120;
+  border-bottom-color-index: 120;
+  border-left-color-index:   120;
+}
+
+.transparent-pink,
+.transparent-medium-pink {
+  color-index:               121;
+  border-top-color-index:    121;
+  border-right-color-index:  121;
+  border-bottom-color-index: 121;
+  border-left-color-index:   121;
+}
+
+.transparent-magenta,
+.transparent-medium-magenta {
+  color-index:               122;
+  border-top-color-index:    122;
+  border-right-color-index:  122;
+  border-bottom-color-index: 122;
+  border-left-color-index:   122;
+}
+
+.transparent-orange,
+.transparent-medium-orange {
+  color-index:               123;
+  border-top-color-index:    123;
+  border-right-color-index:  123;
+  border-bottom-color-index: 123;
+  border-left-color-index:   123;
+}
+
+.transparent-light-orange {
+  color-index:               124;
+  border-top-color-index:    124;
+  border-right-color-index:  124;
+  border-bottom-color-index: 124;
+  border-left-color-index:   124;
+}
+
+.transparent-light-pink {
+  color-index:               125;
+  border-top-color-index:    125;
+  border-right-color-index:  125;
+  border-bottom-color-index: 125;
+  border-left-color-index:   125;
+}
+
+.transparent-light-magenta {
+  color-index:               126;
+  border-top-color-index:    126;
+  border-right-color-index:  126;
+  border-bottom-color-index: 126;
+  border-left-color-index:   126;
+}
+
+.transparent-yellow,
+.transparent-medium-yellow {
+  color-index:               127;
+  border-top-color-index:    127;
+  border-right-color-index:  127;
+  border-bottom-color-index: 127;
+  border-left-color-index:   127;
 }
 
 /* background colors */
-.onblack       { background-color-index:   0; }
-.onred         { background-color-index:   1; }
-.ongreen       { background-color-index:   2; }
-.onyellow      { background-color-index:   3; }
-.onblue        { background-color-index:   4; }
-.onmagenta     { background-color-index:   5; }
-.oncyan        { background-color-index:   6; }
-.onwhite       { background-color-index:   7; }
-.ontransparent { background-color-index:   8; }
+
+.on-black {
+  background-color-index:      0;
+}
+
+.on-red,
+.on-bright-red {
+  background-color-index:      1;
+}
+
+.on-bright-green {
+  background-color-index:      2;
+}
+
+.on-bright-yellow {
+  background-color-index:      3;
+}
+
+.on-bright-blue {
+  background-color-index:      4;
+}
+
+.on-bright-magenta {
+  background-color-index:      5;
+}
+
+.on-bright-cyan {
+  background-color-index:      6;
+}
+
+.on-white {
+  background-color-index:      7;
+}
+
+.on-transparent {
+  background-color-index:      8;
+}
+
+.on-orange-brown,
+.on-dark-orange-brown,
+.on-dark-orange,
+.on-dark-brown,
+.on-dark-red {
+  background-color-index:      9;
+}
+
+.on-dark-yellow-green,
+.on-dark-green {
+  background-color-index:     10;
+}
+
+.on-yellow-brown,
+.on-dark-yellow-brown,
+.on-dark-yellow {
+  background-color-index:     11;
+}
+
+.on-purple-blue,
+.on-dark-purple-blue,
+.on-dark-blue {
+  background-color-index:     12;
+}
+
+.on-dark-magenta {
+  background-color-index:     13;
+}
+
+.on-dark-cyan {
+  background-color-index:     14;
+}
+
+.on-gray,
+.on-grey,
+.on-light-gray,
+.on-light-grey,
+.on-medium-gray,
+.on-medium-grey,
+.on-bright-gray,
+.on-bright-grey {
+  background-color-index:     15;
+}
+
+.on-darker-blue,
+.on-darker-purple,
+.on-darker-purple-blue {
+  background-color-index:     16;
+}
+
+.on-darker-blue-green,
+.on-darker-green,
+.on-darker-yellow-green {
+  background-color-index:     17;
+}
+
+.on-darker-cyan {
+  background-color-index:     18;
+}
+
+.on-dull-purple-blue,
+.on-dull-blue {
+  background-color-index:     19;
+}
+
+.on-blue,
+.on-medium-blue {
+  background-color-index:     20;
+}
+
+.on-dark-blue-green {
+  background-color-index:     21;
+}
+
+.on-light-blue {
+  background-color-index:     22;
+}
+
+.on-green,
+.on-medium-green {
+  background-color-index:     23;
+}
+
+.on-bright-blue-green {
+  background-color-index:     24;
+}
+
+.on-darker-orange-brown,
+.on-darker-orange,
+.on-brown,
+.on-darker-brown,
+.on-darker-purple-brown,
+.on-darker-pink {
+  background-color-index:     25;
+}
+
+.on-darker-magenta {
+  background-color-index:     26;
+}
+
+.on-purple,
+.on-dark-purple {
+  background-color-index:     27;
+}
+
+.on-bright-purple-blue {
+  background-color-index:     28;
+}
+
+.on-darker-yellow-brown,
+.on-darker-yellow {
+  background-color-index:     29;
+}
+
+.on-dark-gray,
+.on-dark-grey,
+.on-dull-gray,
+.on-dull-grey,
+.on-darker-gray,
+.on-darker-grey {
+  background-color-index:     30;
+}
+
+.on-dull-purple {
+  background-color-index:     31;
+}
+
+.on-medium-purple-blue {
+  background-color-index:     32;
+}
+
+.on-dull-yellow-green,
+.on-dull-green {
+  background-color-index:     33;
+}
+
+.on-dull-blue-green {
+  background-color-index:     34;
+}
+
+.on-dull-cyan {
+  background-color-index:     35;
+}
+
+.on-light-purple-blue {
+  background-color-index:     36;
+}
+
+.on-bright-yellow-green {
+  background-color-index:     37;
+}
+
+.on-light-green {
+  background-color-index:     38;
+}
+
+.on-blue-green,
+.on-medium-blue-green {
+  background-color-index:     39;
+}
+
+.on-cyan,
+.on-medium-cyan {
+  background-color-index:     40;
+}
+
+.on-purple-brown,
+.on-dark-purple-brown,
+.on-dark-pink {
+  background-color-index:     41;
+}
+
+.on-bright-purple {
+  background-color-index:     42;
+}
+
+.on-dull-orange-brown,
+.on-dull-orange,
+.on-dull-brown,
+.on-dull-red {
+  background-color-index:     43;
+}
+
+.on-dull-purple-brown,
+.on-dull-pink {
+  background-color-index:     44;
+}
+
+.on-dull-magenta {
+  background-color-index:     45;
+}
+
+.on-medium-purple {
+  background-color-index:     46;
+}
+
+.on-dull-yellow-brown,
+.on-dull-yellow {
+  background-color-index:     47;
+}
+
+.on-light-purple {
+  background-color-index:     48;
+}
+
+.on-medium-yellow-green {
+  background-color-index:     49;
+}
+
+.on-light-yellow-green {
+  background-color-index:     50;
+}
+
+.on-light-blue-green {
+  background-color-index:     51;
+}
+
+.on-light-cyan {
+  background-color-index:     52;
+}
+
+.on-pink-red,
+.on-medium-pink-red,
+.on-medium-red {
+  background-color-index:     53;
+}
+
+.on-bright-pink {
+  background-color-index:     54;
+}
+
+.on-bright-orange {
+  background-color-index:     55;
+}
+
+.on-light-pink-red,
+.on-light-red {
+  background-color-index:     56;
+}
+
+.on-pink,
+.on-medium-pink {
+  background-color-index:     57;
+}
+
+.on-magenta,
+.on-medium-magenta {
+  background-color-index:     58;
+}
+
+.on-orange,
+.on-medium-orange {
+  background-color-index:     59;
+}
+
+.on-light-orange {
+  background-color-index:     60;
+}
+
+.on-light-pink {
+  background-color-index:     61;
+}
+
+.on-light-magenta {
+  background-color-index:     62;
+}
+
+.on-yellow,
+.on-medium-yellow {
+  background-color-index:     63;
+}
+
+.on-light-yellow {
+  background-color-index:     64;
+}
+
+.on-half-transparent,
+.on-transparent-black {
+  background-color-index:     65;
+}
+
+.on-transparent-red,
+.on-transparent-bright-red {
+  background-color-index:     66;
+}
+
+.on-transparent-bright-green {
+  background-color-index:     67;
+}
+
+.on-transparent-bright-yellow {
+  background-color-index:     68;
+}
+
+.on-transparent-bright-blue {
+  background-color-index:     69;
+}
+
+.on-transparent-bright-magenta {
+  background-color-index:     70;
+}
+
+.on-transparent-bright-cyan {
+  background-color-index:     71;
+}
+
+.on-transparent-white {
+  background-color-index:     72;
+}
+
+.on-transparent-orange-brown,
+.on-transparent-dark-orange-brown,
+.on-transparent-dark-orange,
+.on-transparent-dark-brown,
+.on-transparent-dark-red {
+  background-color-index:     73;
+}
+
+.on-transparent-dark-yellow-green,
+.on-transparent-dark-green {
+  background-color-index:     74;
+}
+
+.on-transparent-yellow-brown,
+.on-transparent-dark-yellow-brown,
+.on-transparent-dark-yellow {
+  background-color-index:     75;
+}
+
+.on-transparent-purple-blue,
+.on-transparent-dark-purple-blue,
+.on-transparent-dark-blue {
+  background-color-index:     76;
+}
+
+.on-transparent-dark-magenta {
+  background-color-index:     77;
+}
+
+.on-transparent-dark-cyan {
+  background-color-index:     78;
+}
+
+.on-transparent-gray,
+.on-transparent-grey,
+.on-transparent-light-gray,
+.on-transparent-light-grey,
+.on-transparent-medium-gray,
+.on-transparent-medium-grey,
+.on-transparent-bright-gray,
+.on-transparent-bright-grey {
+  background-color-index:     79;
+}
+
+.on-transparent-darker-blue,
+.on-transparent-darker-purple,
+.on-transparent-darker-purple-blue {
+  background-color-index:     80;
+}
+
+.on-transparent-darker-blue-green,
+.on-transparent-darker-green,
+.on-transparent-darker-yellow-green {
+  background-color-index:     81;
+}
+
+.on-transparent-darker-cyan {
+  background-color-index:     82;
+}
+
+.on-transparent-dull-purple-blue,
+.on-transparent-dull-blue {
+  background-color-index:     83;
+}
+
+.on-transparent-blue,
+.on-transparent-medium-blue {
+  background-color-index:     84;
+}
+
+.on-transparent-dark-blue-green ,
+  background-color-index:     85;
+}
+
+.on-transparent-light-blue {
+  background-color-index:     86;
+}
+
+.on-transparent-green,
+.on-transparent-medium-green {
+  background-color-index:     87;
+}
+
+.on-transparent-bright-blue-green {
+  background-color-index:     88;
+}
+
+.on-transparent-darker-orange-brown,
+.on-transparent-darker-orange,
+.on-transparent-brown,
+.on-transparent-darker-brown,
+.on-transparent-darker-purple-brown,
+.on-transparent-darker-pink {
+  background-color-index:     89;
+}
+
+.on-transparent-darker-magenta {
+  background-color-index:     90;
+}
+
+.on-transparent-purple,
+.on-transparent-dark-purple {
+  background-color-index:     91;
+}
+
+.on-transparent-bright-purple-blue {
+  background-color-index:     92;
+}
+
+.on-transparent-darker-yellow-brown,
+.on-transparent-darker-yellow {
+  background-color-index:     93;
+}
+
+.on-transparent-dark-gray,
+.on-transparent-dark-grey,
+.on-transparent-dull-gray,
+.on-transparent-dull-grey,
+.on-transparent-darker-gray,
+.on-transparent-darker-grey {
+  background-color-index:     94;
+}
+
+.on-transparent-dull-purple {
+  background-color-index:     95;
+}
+
+.on-transparent-medium-purple-blue {
+  background-color-index:     96;
+}
+
+.on-transparent-dull-yellow-green,
+.on-transparent-dull-green {
+  background-color-index:     97;
+}
+
+.on-transparent-dull-blue-green {
+  background-color-index:     98;
+}
+
+.on-transparent-dull-cyan {
+  background-color-index:     99;
+}
+
+.on-transparent-light-purple-blue {
+  background-color-index:    100;
+}
+
+.on-transparent-bright-yellow-green {
+  background-color-index:    101;
+}
+
+.on-transparent-light-green {
+  background-color-index:    102;
+}
+
+.on-transparent-blue-green,
+.on-transparent-medium-blue-green {
+  background-color-index:    103;
+}
+
+.on-transparent-cyan,
+.on-transparent-medium-cyan {
+  background-color-index:    104;
+}
+
+.on-transparent-purple-brown,
+.on-transparent-dark-purple-brown,
+.on-transparent-dark-pink {
+  background-color-index:    105;
+}
+
+.on-transparent-bright-purple {
+  background-color-index:    106;
+}
+
+.on-transparent-dull-orange-brown,
+.on-transparent-dull-orange,
+.on-transparent-dull-brown,
+.on-transparent-dull-red {
+  background-color-index:    107;
+}
+
+.on-transparent-dull-purple-brown,
+.on-transparent-dull-pink {
+  background-color-index:    108;
+}
+
+.on-transparent-dull-magenta {
+  background-color-index:    109;
+}
+
+.on-transparent-medium-purple {
+  background-color-index:    110;
+}
+
+.on-transparent-dull-yellow-brown,
+.on-transparent-dull-yellow {
+  background-color-index:    111;
+}
+
+.on-transparent-light-purple {
+  background-color-index:    112;
+}
+
+.on-transparent-medium-yellow-green {
+  background-color-index:    113;
+}
+
+.on-transparent-light-yellow-green {
+  background-color-index:    114;
+}
+
+.on-transparent-light-blue-green {
+  background-color-index:    115;
+}
+
+.on-transparent-light-cyan {
+  background-color-index:    116;
+}
+
+.on-transparent-pink-red,
+.on-transparent-medium-pink-red,
+.on-transparent-medium-red {
+  background-color-index:    117;
+}
+
+.on-transparent-bright-pink {
+  background-color-index:    118;
+}
+
+.on-transparent-bright-orange {
+  background-color-index:    119;
+}
+
+.on-transparent-light-pink-red,
+.on-transparent-light-red {
+  background-color-index:    120;
+}
+
+.on-transparent-pink,
+.on-transparent-medium-pink {
+  background-color-index:    121;
+}
+
+.on-transparent-magenta,
+.on-transparent-medium-magenta {
+  background-color-index:    122;
+}
+
+.on-transparent-orange,
+.on-transparent-medium-orange {
+  background-color-index:    123;
+}
+
+.on-transparent-light-orange {
+  background-color-index:    124;
+}
+
+.on-transparent-light-pink {
+  background-color-index:    125;
+}
+
+.on-transparent-light-magenta {
+  background-color-index:    126;
+}
+
+.on-transparent-yellow,
+.on-transparent-medium-yellow {
+  background-color-index:    127;
+}
 
