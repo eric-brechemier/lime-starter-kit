@@ -4,23 +4,33 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-08-03
+ * Version: 2011-08-24
  */
 
 /* Define default line-height to match the height of a row in the grid layout,
    in order to center the text vertically in one cell */
 div, p {
-  line-height: 30px;
+  line-height: 26px;
 }
 
 /* font size and associated line height */
-.xx-small  { font-size: 14px; line-height: 30px; }
-.x-small   { font-size: 16px; line-height: 30px; }
-.small     { font-size: 20px; line-height: 30px; }
-.medium    { font-size: 24px; line-height: 30px; }
-.large     { font-size: 28px; line-height: 30px; }
-.x-large   { font-size: 36px; line-height: 60px; }
-.xx-large  { font-size: 48px; line-height: 60px; }
+/* These font sizes follow a Double-Stranded Fibonacci series,
+   inspired by the one described in [1].
+
+   [1] Design for Software: Typography Part 1
+   by Erik Klimczak
+   http://blogs.claritycon.com/design/2011/08/14/design-for-software-typography-part-1/
+*/
+/* center vertically in one cell */
+.xx-small  { font-size: 14px; line-height: 26px; }
+.x-small   { font-size: 16px; line-height: 26px; }
+.small     { font-size: 20px; line-height: 26px; }
+.medium    { font-size: 24px; line-height: 26px; }
+/* center vertically in two cells */
+.large     { font-size: 34px; line-height: 61px; }
+.x-large   { font-size: 40px; line-height: 61px; }
+.xx-large  { font-size: 48px; line-height: 61px; }
+/* Note: the largest font size available in LIME Viewer is 49px */
 
 /* letter spacing */
 .xx-narrow  { letter-spacing: -4px; }
@@ -31,9 +41,9 @@ div, p {
 .xx-wide    { letter-spacing:  8px; }
 
 /* text alignment */
-.left    { text-align: left; }
-.center  { text-align: center; }
-.right   { text-align: right; }
+.align-left    { text-align: left; }
+.align-center  { text-align: center; }
+.align-right   { text-align: right; }
 
 /* font-weight */
 .bold { font-weight: bold; }

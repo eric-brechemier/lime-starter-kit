@@ -4,627 +4,633 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-25
+ * Version: 2011-08-24
  */
 
 /*
  A grid system, for a 960 x 540 pixels display.
 
- Each cell is 30px wide and 30px tall. Columns are addressed with letters
- from A to AF and lines with numbers from 1 to 18.
+ Each cell is 26px wide and 26px tall.
+ Cells are separated from other cells by a 9px gutter and from the edge of the
+ screen by a 12px gutter.
 
-        ---> 32 x 30px
- 18   | A1  B1  C1  D1  E1  F1  ... X1  Y1  Z1  AA1  AB1  ... AF1
- x    | A2  B2  C2  D2  E2  F2  ... X2  Y2  Y2  AA2  AB2  ... AF2
- 30px | A3  B3  C3  D3  E3  F3  ... X3  Y3  Y3  AA3  AB3  ... AF3
-      v ...
-        A27 B27 C27 D27 E27 F27 ... X27 Y27 Y27 AA27 AB27 ... AF27
+ Columns are addressed with letters from A to AA;
+ lines with numbers from 1 to 15.
+
+  |->   12px, 26px, 9px, 26px, 9px, 26px, 9px, ..., 26px, 9px, 26px, 12px
+  v    ----------------------------------------------------------------------
+ 12px |
+ 26px |       A1         B1         C1         ...  Z1         AA1
+  9px |
+ 26px |       A2         B2         C2         ...  Z2         AA2
+  9px |
+ 26px |       A3         B3         C3         ...  Z3         AA3
+  9px |
+      |       ...        ...        ...        ...  ...        ...
+  9px |
+ 26px |       A15        B15        C15        ...  Z15        AA15
+ 12px |
  */
 
+/* position: left */
+
 .fullscreen,
-.tophalf, .bottomhalf,
-.lefthalf,
-.A1,  .A2,  .A3,  .A4,  .A5,  .A6,  .A7,  .A8,  .A9,
-.A10, .A11, .A12, .A13, .A14, .A15, .A16, .A17, .A18
-{ left: 0px; }
+.top-half,
+.bottom-half,
+.left-half
+{ left:   0px; }
 
-.B1,  .B2,  .B3,  .B4,  .B5,  .B6,  .B7,  .B8,  .B9,
-.B10, .B11, .B12, .B13, .B14, .B15, .B16, .B17, .B18
-{ left: 30px; }
-
-.C1,  .C2,  .C3,  .C4,  .C5,  .C6,  .C7,  .C8,  .C9,
-.C10, .C11, .C12, .C13, .C14, .C15, .C16, .C17, .C18
-{ left: 60px; }
-
-.D1,  .D2,  .D3,  .D4,  .D5,  .D6,  .D7,  .D8,  .D9,
-.D10, .D11, .D12, .D13, .D14, .D15, .D16, .D17, .D18
-{ left: 90px; }
-
-.E1,  .E2,  .E3,  .E4,  .E5,  .E6,  .E7,  .E8,  .E9,
-.E10, .E11, .E12, .E13, .E14, .E15, .E16, .E17, .E18
-{ left: 120px; }
-
-.F1,  .F2,  .F3,  .F4,  .F5,  .F6,  .F7,  .F8,  .F9,
-.F10, .F11, .F12, .F13, .F14, .F15, .F16, .F17, .F18
-{ left: 150px; }
-
-.G1,  .G2,  .G3,  .G4,  .G5,  .G6,  .G7,  .G8,  .G9,
-.G10, .G11, .G12, .G13, .G14, .G15, .G16, .G17, .G18
-{ left: 180px; }
-
-.H1,  .H2,  .H3,  .H4,  .H5,  .H6,  .H7,  .H8,  .H9,
-.H10, .H11, .H12, .H13, .H14, .H15, .H16, .H17, .H18
-{ left: 210px; }
-
-.I1,  .I2,  .I3,  .I4,  .I5,  .I6,  .I7,  .I8,  .I9,
-.I10, .I11, .I12, .I13, .I14, .I15, .I16, .I17, .I18
-{ left: 240px; }
-
-.J1,  .J2,  .J3,  .J4,  .J5,  .J6,  .J7,  .J8,  .J9,
-.J10, .J11, .J12, .J13, .J14, .J15, .J16, .J17, .J18
-{ left: 270px; }
-
-.K1,  .K2,  .K3,  .K4,  .K5,  .K6,  .K7,  .K8,  .K9,
-.K10, .K11, .K12, .K13, .K14, .K15, .K16, .K17, .K18
-{ left: 300px; }
-
-.L1,  .L2,  .L3,  .L4,  .L5,  .L6,  .L7,  .L8,  .L9,
-.L10, .L11, .L12, .L13, .L14, .L15, .L16, .L17, .L18
-{ left: 330px; }
-
-.M1,  .M2,  .M3,  .M4,  .M5,  .M6,  .M7,  .M8,  .M9,
-.M10, .M11, .M12, .M13, .M14, .M15, .M16, .M17, .M18
-{ left: 360px; }
-
-.N1,  .N2,  .N3,  .N4,  .N5,  .N6,  .N7,  .N8,  .N9,
-.N10, .N11, .N12, .N13, .N14, .N15, .N16, .N17, .N18
-{ left: 390px; }
-
-.O1,  .O2,  .O3,  .O4,  .O5,  .O6,  .O7,  .O8,  .O9,
-.O10, .O11, .O12, .O13, .O14, .O15, .O16, .O17, .O18
-{ left: 420px; }
-
-.P1,  .P2,  .P3,  .P4,  .P5,  .P6,  .P7,  .P8,  .P9,
-.P10, .P11, .P12, .P13, .P14, .P15, .P16, .P17, .P18
-{ left: 450px; }
-
-.righthalf,
-.Q1,  .Q2,  .Q3,  .Q4,  .Q5,  .Q6,  .Q7,  .Q8,  .Q9,
-.Q10, .Q11, .Q12, .Q13, .Q14, .Q15, .Q16, .Q17, .Q18
+.right-half
 { left: 480px; }
 
-.R1,  .R2,  .R3,  .R4,  .R5,  .R6,  .R7,  .R8,  .R9,
-.R10, .R11, .R12, .R13, .R14, .R15, .R16, .R17, .R18
-{ left: 510px; }
+.north-west,
+.west,
+.south-west,
+.A1,  .A2,  .A3,  .A4,  .A5,
+.A6,  .A7,  .A8,  .A9,  .A10,
+.A11, .A12, .A13, .A14, .A15
+{ left:  12px; }
 
-.S1,  .S2,  .S3,  .S4,  .S5,  .S6,  .S7,  .S8,  .S9,
-.S10, .S11, .S12, .S13, .S14, .S15, .S16, .S17, .S18
-{ left: 540px; }
+.B1,  .B2,  .B3,  .B4,  .B5,
+.B6,  .B7,  .B8,  .B9,  .B10,
+.B11, .B12, .B13, .B14, .B15
+{ left:  47px; }
 
-.T1,  .T2,  .T3,  .T4,  .T5,  .T6,  .T7,  .T8,  .T9,
-.T10, .T11, .T12, .T13, .T14, .T15, .T16, .T17, .T18
-{ left: 570px; }
+.C1,  .C2,  .C3,  .C4,  .C5,
+.C6,  .C7,  .C8,  .C9,  .C10,
+.C11, .C12, .C13, .C14, .C15
+{ left:  82px; }
 
-.U1,  .U2,  .U3,  .U4,  .U5,  .U6,  .U7,  .U8,  .U9,
-.U10, .U11, .U12, .U13, .U14, .U15, .U16, .U17, .U18
-{ left: 600px; }
+.D1,  .D2,  .D3,  .D4,  .D5,
+.D6,  .D7,  .D8,  .D9,  .D10,
+.D11, .D12, .D13, .D14, .D15
+{ left: 117px; }
 
-.V1,  .V2,  .V3,  .V4,  .V5,  .V6,  .V7,  .V8,  .V9,
-.V10, .V11, .V12, .V13, .V14, .V15, .V16, .V17, .V18
-{ left: 630px; }
+.E1,  .E2,  .E3,  .E4,  .E5,
+.E6,  .E7,  .E8,  .E9,  .E10,
+.E11, .E12, .E13, .E14, .E15
+{ left: 152px; }
 
-.W1,  .W2,  .W3,  .W4,  .W5,  .W6,  .W7,  .W8,  .W9,
-.W10, .W11, .W12, .W13, .W14, .W15, .W16, .W17, .W18
-{ left: 660px; }
+.F1,  .F2,  .F3,  .F4,  .F5,
+.F6,  .F7,  .F8,  .F9,  .F10,
+.F11, .F12, .F13, .F14, .F15
+{ left: 187px; }
 
-.X1,  .X2,  .X3,  .X4,  .X5,  .X6,  .X7,  .X8,  .X9,
-.X10, .X11, .X12, .X13, .X14, .X15, .X16, .X17, .X18
-{ left: 690px; }
+.G1,  .G2,  .G3,  .G4,  .G5,
+.G6,  .G7,  .G8,  .G9,  .G10,
+.G11, .G12, .G13, .G14, .G15
+{ left: 222px; }
 
-.Y1,  .Y2,  .Y3,  .Y4,  .Y5,  .Y6,  .Y7,  .Y8,  .Y9,
-.Y10, .Y11, .Y12, .Y13, .Y14, .Y15, .Y16, .Y17, .Y18
-{ left: 720px; }
+.H1,  .H2,  .H3,  .H4,  .H5,
+.H6,  .H7,  .H8,  .H9,  .H10,
+.H11, .H12, .H13, .H14, .H15
+{ left: 257px; }
 
-.Z1,  .Z2,  .Z3,  .Z4,  .Z5,  .Z6,  .Z7,  .Z8,  .Z9,
-.Z10, .Z11, .Z12, .Z13, .Z14, .Z15, .Z16, .Z17, .Z18
-{ left: 750px; }
+.I1,  .I2,  .I3,  .I4,  .I5,
+.I6,  .I7,  .I8,  .I9,  .I10,
+.I11, .I12, .I13, .I14, .I15
+{ left: 292px; }
 
-.AA1,  .AA2,  .AA3,  .AA4,  .AA5,  .AA6,  .AA7,  .AA8,  .AA9,
-.AA10, .AA11, .AA12, .AA13, .AA14, .AA15, .AA16, .AA17, .AA18
-{ left: 780px; }
+.north,
+.center,
+.south,
+.J1,  .J2,  .J3,  .J4,  .J5,
+.J6,  .J7,  .J8,  .J9,  .J10,
+.J11, .J12, .J13, .J14, .J15
+{ left: 327px; }
 
-.AB1,  .AB2,  .AB3,  .AB4,  .AB5,  .AB6,  .AB7,  .AB8,  .AB9,
-.AB10, .AB11, .AB12, .AB13, .AB14, .AB15, .AB16, .AB17, .AB18
-{ left: 810px; }
+.K1,  .K2,  .K3,  .K4,  .K5,
+.K6,  .K7,  .K8,  .K9,  .K10,
+.K11, .K12, .K13, .K14, .K15
+{ left: 362px; }
 
-.AC1,  .AC2,  .AC3,  .AC4,  .AC5,  .AC6,  .AC7,  .AC8,  .AC9,
-.AC10, .AC11, .AC12, .AC13, .AC14, .AC15, .AC16, .AC17, .AC18
-{ left: 840px; }
+.L1,  .L2,  .L3,  .L4,  .L5,
+.L6,  .L7,  .L8,  .L9,  .L10,
+.L11, .L12, .L13, .L14, .L15
+{ left: 397px; }
 
-.AD1,  .AD2,  .AD3,  .AD4,  .AD5,  .AD6,  .AD7,  .AD8,  .AD9,
-.AD10, .AD11, .AD12, .AD13, .AD14, .AD15, .AD16, .AD17, .AD18
-{ left: 870px; }
+.M1,  .M2,  .M3,  .M4,  .M5,
+.M6,  .M7,  .M8,  .M9,  .M10,
+.M11, .M12, .M13, .M14, .M15
+{ left: 432px; }
 
-.AE1,  .AE2,  .AE3,  .AE4,  .AE5,  .AE6,  .AE7,  .AE8,  .AE9,
-.AE10, .AE11, .AE12, .AE13, .AE14, .AE15, .AE16, .AE17, .AE18
-{ left: 900px; }
+.N1,  .N2,  .N3,  .N4,  .N5,
+.N6,  .N7,  .N8,  .N9,  .N10,
+.N11, .N12, .N13, .N14, .N15
+{ left: 467px; }
 
-.AF1,  .AF2,  .AF3,  .AF4,  .AF5,  .AF6,  .AF7,  .AF8,  .AF9,
-.AF10, .AF11, .AF12, .AF13, .AF14, .AF15, .AF16, .AF17, .AF18
-{ left: 930px; }
+.O1,  .O2,  .O3,  .O4,  .O5,
+.O6,  .O7,  .O8,  .O9,  .O10,
+.O11, .O12, .O13, .O14, .O15
+{ left: 502px; }
+
+.P1,  .P2,  .P3,  .P4,  .P5,
+.P6,  .P7,  .P8,  .P9,  .P10,
+.P11, .P12, .P13, .P14, .P15
+{ left: 537px; }
+
+.Q1,  .Q2,  .Q3,  .Q4,  .Q5,
+.Q6,  .Q7,  .Q8,  .Q9,  .Q10,
+.Q11, .Q12, .Q13, .Q14, .Q15
+{ left: 572px; }
+
+.R1,  .R2,  .R3,  .R4,  .R5,
+.R6,  .R7,  .R8,  .R9,  .R10,
+.R11, .R12, .R13, .R14, .R15
+{ left: 607px; }
+
+.north-east,
+.east,
+.south-east,
+.S1,  .S2,  .S3,  .S4,  .S5,
+.S6,  .S7,  .S8,  .S9,  .S10,
+.S11, .S12, .S13, .S14, .S15
+{ left: 642px; }
+
+.T1,  .T2,  .T3,  .T4,  .T5,
+.T6,  .T7,  .T8,  .T9,  .T10,
+.T11, .T12, .T13, .T14, .T15
+{ left: 677px; }
+
+.U1,  .U2,  .U3,  .U4,  .U5,
+.U6,  .U7,  .U8,  .U9,  .U10,
+.U11, .U12, .U13, .U14, .U15
+{ left: 712px; }
+
+.V1,  .V2,  .V3,  .V4,  .V5,
+.V6,  .V7,  .V8,  .V9,  .V10,
+.V11, .V12, .V13, .V14, .V15
+{ left: 747px; }
+
+.W1,  .W2,  .W3,  .W4,  .W5,
+.W6,  .W7,  .W8,  .W9,  .W10,
+.W11, .W12, .W13, .W14, .W15
+{ left: 782px; }
+
+.X1,  .X2,  .X3,  .X4,  .X5,
+.X6,  .X7,  .X8,  .X9,  .X10,
+.X11, .X12, .X13, .X14, .X15
+{ left: 817px; }
+
+.Y1,  .Y2,  .Y3,  .Y4,  .Y5,
+.Y6,  .Y7,  .Y8,  .Y9,  .Y10,
+.Y11, .Y12, .Y13, .Y14, .Y15
+{ left: 852px; }
+
+.Z1,  .Z2,  .Z3,  .Z4,  .Z5,
+.Z6,  .Z7,  .Z8,  .Z9,  .Z10,
+.Z11, .Z12, .Z13, .Z14, .Z15
+{ left: 887px; }
+
+.AA1, .AA2, .AA3, .AA4, .AA5,
+.AA6, .AA7, .AA8, .AA9, .AA10,
+.AA11,.AA12,.AA13,.AA14,.AA15
+{ left: 922px; }
+
+/* position: top */
 
 .fullscreen,
-.tophalf,
-.lefthalf, .righthalf,
-.A1, .B1, .C1, .D1, .E1, .F1, .G1, .H1, .I1, .J1, .K1,
-.L1, .M1, .N1, .O1, .P1, .Q1, .R1, .S1, .T1, .U1, .V1,
-.W1, .X1, .Y1, .Z1, .AA1, .AB1, .AC1, .AD1, .AE1, .AF1
-{ top: 0px; }
+.top-half,
+.left-half,
+.right-half
+{ top:   0px; }
 
-.A2, .B2, .C2, .D2, .E2, .F2, .G2, .H2, .I2, .J2, .K2,
-.L2, .M2, .N2, .O2, .P2, .Q2, .R2, .S2, .T2, .U2, .V2,
-.W2, .X2, .Y2, .Z2, .AA2, .AB2, .AC2, .AD2, .AE2, .AF2
-{ top: 30px; }
-
-.A3, .B3, .C3, .D3, .E3, .F3, .G3, .H3, .I3, .J3, .K3,
-.L3, .M3, .N3, .O3, .P3, .Q3, .R3, .S3, .T3, .U3, .V3,
-.W3, .X3, .Y3, .Z3, .AA3, .AB3, .AC3, .AD3, .AE3, .AF3
-{ top: 60px; }
-
-.A4, .B4, .C4, .D4, .E4, .F4, .G4, .H4, .I4, .J4, .K4,
-.L4, .M4, .N4, .O4, .P4, .Q4, .R4, .S4, .T4, .U4, .V4,
-.W4, .X4, .Y4, .Z4, .AA4, .AB4, .AC4, .AD4, .AE4, .AF4
-{ top: 90px; }
-
-.A5, .B5, .C5, .D5, .E5, .F5, .G5, .H5, .I5, .J5, .K5,
-.L5, .M5, .N5, .O5, .P5, .Q5, .R5, .S5, .T5, .U5, .V5,
-.W5, .X5, .Y5, .Z5, .AA5, .AB5, .AC5, .AD5, .AE5, .AF5
-{ top: 120px; }
-
-.A6, .B6, .C6, .D6, .E6, .F6, .G6, .H6, .I6, .J6, .K6,
-.L6, .M6, .N6, .O6, .P6, .Q6, .R6, .S6, .T6, .U6, .V6,
-.W6, .X6, .Y6, .Z6, .AA6, .AB6, .AC6, .AD6, .AE6, .AF6
-{ top: 150px; }
-
-.A7, .B7, .C7, .D7, .E7, .F7, .G7, .H7, .I7, .J7, .K7,
-.L7, .M7, .N7, .O7, .P7, .Q7, .R7, .S7, .T7, .U7, .V7,
-.W7, .X7, .Y7, .Z7, .AA7, .AB7, .AC7, .AD7, .AE7, .AF7
-{ top: 180px; }
-
-.A8, .B8, .C8, .D8, .E8, .F8, .G8, .H8, .I8, .J8, .K8,
-.L8, .M8, .N8, .O8, .P8, .Q8, .R8, .S8, .T8, .U8, .V8,
-.W8, .X8, .Y8, .Z8, .AA8, .AB8, .AC8, .AD8, .AE8, .AF8
-{ top: 210px; }
-
-.A9, .B9, .C9, .D9, .E9, .F9, .G9, .H9, .I9, .J9, .K9,
-.L9, .M9, .N9, .O9, .P9, .Q9, .R9, .S9, .T9, .U9, .V9,
-.W9, .X9, .Y9, .Z9, .AA9, .AB9, .AC9, .AD9, .AE9, .AF9
-{ top: 240px; }
-
-.bottomhalf,
-.A10, .B10, .C10, .D10, .E10, .F10, .G10, .H10, .I10, .J10, .K10,
-.L10, .M10, .N10, .O10, .P10, .Q10, .R10, .S10, .T10, .U10, .V10,
-.W10, .X10, .Y10, .Z10, .AA10, .AB10, .AC10, .AD10, .AE10, .AF10
+.bottom-half
 { top: 270px; }
 
-.A11, .B11, .C11, .D11, .E11, .F11, .G11, .H11, .I11, .J11, .K11,
-.L11, .M11, .N11, .O11, .P11, .Q11, .R11, .S11, .T11, .U11, .V11,
-.W11, .X11, .Y11, .Z11, .AA11, .AB11, .AC11, .AD11, .AE11, .AF11
-{ top: 300px; }
+.north-west,
+.north,
+.north-east,
+.A1, .B1, .C1, .D1, .E1, .F1, .G1, .H1, .I1,
+.J1, .K1, .L1, .M1, .N1, .O1, .P1, .Q1, .R1,
+.S1, .T1, .U1, .V1, .W1, .X1, .Y1, .Z1, .AA1
+{ top:  12px; }
 
-.A12, .B12, .C12, .D12, .E12, .F12, .G12, .H12, .I12, .J12, .K12,
-.L12, .M12, .N12, .O12, .P12, .Q12, .R12, .S12, .T12, .U12, .V12,
-.W12, .X12, .Y12, .Z12, .AA12, .AB12, .AC12, .AD12, .AE12, .AF12
-{ top: 330px; }
+.A2, .B2, .C2, .D2, .E2, .F2, .G2, .H2, .I2,
+.J2, .K2, .L2, .M2, .N2, .O2, .P2, .Q2, .R2,
+.S2, .T2, .U2, .V2, .W2, .X2, .Y2, .Z2, .AA2
+{ top:  47px; }
 
-.A13, .B13, .C13, .D13, .E13, .F13, .G13, .H13, .I13, .J13, .K13,
-.L13, .M13, .N13, .O13, .P13, .Q13, .R13, .S13, .T13, .U13, .V13,
-.W13, .X13, .Y13, .Z13, .AA13, .AB13, .AC13, .AD13, .AE13, .AF13
-{ top: 360px; }
+.A3, .B3, .C3, .D3, .E3, .F3, .G3, .H3, .I3,
+.J3, .K3, .L3, .M3, .N3, .O3, .P3, .Q3, .R3,
+.S3, .T3, .U3, .V3, .W3, .X3, .Y3, .Z3, .AA3
+{ top:  82px; }
 
-.A14, .B14, .C14, .D14, .E14, .F14, .G14, .H14, .I14, .J14, .K14,
-.L14, .M14, .N14, .O14, .P14, .Q14, .R14, .S14, .T14, .U14, .V14,
-.W14, .X14, .Y14, .Z14, .AA14, .AB14, .AC14, .AD14, .AE14, .AF14
-{ top: 390px; }
+.A4, .B4, .C4, .D4, .E4, .F4, .G4, .H4, .I4,
+.J4, .K4, .L4, .M4, .N4, .O4, .P4, .Q4, .R4,
+.S4, .T4, .U4, .V4, .W4, .X4, .Y4, .Z4, .AA4
+{ top: 117px; }
 
-.A15, .B15, .C15, .D15, .E15, .F15, .G15, .H15, .I15, .J15, .K15,
-.L15, .M15, .N15, .O15, .P15, .Q15, .R15, .S15, .T15, .U15, .V15,
-.W15, .X15, .Y15, .Z15, .AA15, .AB15, .AC15, .AD15, .AE15, .AF15
-{ top: 420px; }
+.A5, .B5, .C5, .D5, .E5, .F5, .G5, .H5, .I5,
+.J5, .K5, .L5, .M5, .N5, .O5, .P5, .Q5, .R5,
+.S5, .T5, .U5, .V5, .W5, .X5, .Y5, .Z5, .AA5
+{ top: 152px; }
 
-.A16, .B16, .C16, .D16, .E16, .F16, .G16, .H16, .I16, .J16, .K16,
-.L16, .M16, .N16, .O16, .P16, .Q16, .R16, .S16, .T16, .U16, .V16,
-.W16, .X16, .Y16, .Z16, .AA16, .AB16, .AC16, .AD16, .AE16, .AF16
-{ top: 450px; }
+.west,
+.center,
+.east,
+.A6, .B6, .C6, .D6, .E6, .F6, .G6, .H6, .I6,
+.J6, .K6, .L6, .M6, .N6, .O6, .P6, .Q6, .R6,
+.S6, .T6, .U6, .V6, .W6, .X6, .Y6, .Z6, .AA6
+{ top: 187px; }
 
-.A17, .B17, .C17, .D17, .E17, .F17, .G17, .H17, .I17, .J17, .K17,
-.L17, .M17, .N17, .O17, .P17, .Q17, .R17, .S17, .T17, .U17, .V17,
-.W17, .X17, .Y17, .Z17, .AA17, .AB17, .AC17, .AD17, .AE17, .AF17
-{ top: 480px; }
+.A7, .B7, .C7, .D7, .E7, .F7, .G7, .H7, .I7,
+.J7, .K7, .L7, .M7, .N7, .O7, .P7, .Q7, .R7,
+.S7, .T7, .U7, .V7, .W7, .X7, .Y7, .Z7, .AA7
+{ top: 222px; }
 
-.A18, .B18, .C18, .D18, .E18, .F18, .G18, .H18, .I18, .J18, .K18,
-.L18, .M18, .N18, .O18, .P18, .Q18, .R18, .S18, .T18, .U18, .V18,
-.W18, .X18, .Y18, .Z18, .AA18, .AB18, .AC18, .AD18, .AE18, .AF18
-{ top: 510px; }
+.A8, .B8, .C8, .D8, .E8, .F8, .G8, .H8, .I8,
+.J8, .K8, .L8, .M8, .N8, .O8, .P8, .Q8, .R8,
+.S8, .T8, .U8, .V8, .W8, .X8, .Y8, .Z8, .AA8
+{ top: 257px; }
 
-/* defaults: declare first for lowest priority */
-.tophalf, .bottomhalf,
-.on1row,   .on2rows,  .on3rows,  .on4rows,  .on5rows,  .on6rows,
-.on7rows,  .on8rows,  .on9rows,  .on10rows, .on11rows, .on12rows,
-.on13rows, .on14rows, .on15rows, .on16rows, .on17rows, .on18rows
+.A9, .B9, .C9, .D9, .E9, .F9, .G9, .H9, .I9,
+.J9, .K9, .L9, .M9, .N9, .O9, .P9, .Q9, .R9,
+.S9, .T9, .U9, .V9, .W9, .X9, .Y9, .Z9, .AA9
+{ top: 292px; }
+
+.A10, .B10, .C10, .D10, .E10, .F10, .G10, .H10, .I10,
+.J10, .K10, .L10, .M10, .N10, .O10, .P10, .Q10, .R10,
+.S10, .T10, .U10, .V10, .W10, .X10, .Y10, .Z10, .AA10
+{ top: 327px; }
+
+.south-east,
+.south,
+.south-west,
+.A11, .B11, .C11, .D11, .E11, .F11, .G11, .H11, .I11,
+.J11, .K11, .L11, .M11, .N11, .O11, .P11, .Q11, .R11,
+.S11, .T11, .U11, .V11, .W11, .X11, .Y11, .Z11, .AA11
+{ top: 362px; }
+
+.A12, .B12, .C12, .D12, .E12, .F12, .G12, .H12, .I12,
+.J12, .K12, .L12, .M12, .N12, .O12, .P12, .Q12, .R12,
+.S12, .T12, .U12, .V12, .W12, .X12, .Y12, .Z12, .AA12
+{ top: 397px; }
+
+.A13, .B13, .C13, .D13, .E13, .F13, .G13, .H13, .I13,
+.J13, .K13, .L13, .M13, .N13, .O13, .P13, .Q13, .R13,
+.S13, .T13, .U13, .V13, .W13, .X13, .Y13, .Z13, .AA13
+{ top: 432px; }
+
+.A14, .B14, .C14, .D14, .E14, .F14, .G14, .H14, .I14,
+.J14, .K14, .L14, .M14, .N14, .O14, .P14, .Q14, .R14,
+.S14, .T14, .U14, .V14, .W14, .X14, .Y14, .Z14, .AA14
+{ top: 467px; }
+
+.A15, .B15, .C15, .D15, .E15, .F15, .G15, .H15, .I15,
+.J15, .K15, .L15, .M15, .N15, .O15, .P15, .Q15, .R15,
+.S15, .T15, .U15, .V15, .W15, .X15, .Y15, .Z15, .AA15
+{ top: 502px; }
+
+/* size: width */
+
+.fullscreen,
+.top-half,
+.bottom-half
 { width: 960px; }
+
+.right-half,
+.left-half
+{ width: 480px; }
 
 .cell,
 .column,
-.on1x1, .on1x2, .on1x3, .on1x4, .on1x5, .on1x6,
-.on1x7, .on1x8, .on1x9, .on1x10, .on1x11, .on1x12,
-.on1x13, .on1x14, .on1x15, .on1x16, .on1x17, .on1x18,
-.on1col
-{ width: 30px; }
+.on-1x1, .on-1x2, .on-1x3, .on-1x4, .on-1x5,
+.on-1x6, .on-1x7, .on-1x8, .on-1x9, .on-1x10,
+.on-1x11,.on-1x12,.on1x13, .on-1x14,.on-1x15
+{ width:  26px; }
 
-.on2x1, .on2x2, .on2x3, .on2x4, .on2x5, .on2x6,
-.on2x7, .on2x8, .on2x9, .on2x10, .on2x11, .on2x12,
-.on2x13, .on2x14, .on2x15, .on2x16, .on2x17, .on2x18,
-.on2cols
-{ width: 60px; }
+.on-2x1, .on-2x2, .on-2x3, .on-2x4, .on-2x5,
+.on-2x6, .on-2x7, .on-2x8, .on-2x9, .on-2x10,
+.on-2x11,.on-2x12,.on-2x13,.on-2x14,.on-2x15
+{ width:  61px; }
 
-.on3x1, .on3x2, .on3x3, .on3x4, .on3x5, .on3x6,
-.on3x7, .on3x8, .on3x9, .on3x10, .on3x11, .on3x12,
-.on3x13, .on3x14, .on3x15, .on3x16, .on3x17, .on3x18,
-.on3cols
-{ width: 90px; }
+.on-3x1, .on-3x2, .on-3x3, .on-3x4, .on-3x5,
+.on-3x6, .on-3x7, .on-3x8, .on-3x9, .on-3x10,
+.on-3x11,.on-3x12,.on-3x13,.on-3x14,.on-3x15
+{ width:  96px; }
 
-.on4x1, .on4x2, .on4x3, .on4x4, .on4x5, .on4x6,
-.on4x7, .on4x8, .on4x9, .on4x10, .on4x11, .on4x12,
-.on4x13, .on4x14, .on4x15, .on4x16, .on4x17, .on4x18,
-.on4cols
-{ width: 120px; }
+.on-4x1, .on-4x2, .on-4x3, .on-4x4, .on-4x5,
+.on-4x6, .on-4x7, .on-4x8, .on-4x9, .on-4x10,
+.on-4x11,.on-4x12,.on-4x13,.on-4x14,.on-4x15
+{ width: 131px; }
 
-.on5x1, .on5x2, .on5x3, .on5x4, .on5x5, .on5x6,
-.on5x7, .on5x8, .on5x9, .on5x10, .on5x11, .on5x12,
-.on5x13, .on5x14, .on5x15, .on5x16, .on5x17, .on5x18,
-.on5cols
-{ width: 150px; }
+.on-5x1, .on-5x2, .on-5x3, .on-5x4, .on-5x5,
+.on-5x6, .on-5x7, .on-5x8, .on-5x9, .on-5x10,
+.on-5x11,.on-5x12,.on-5x13,.on-5x14,.on-5x15
+{ width: 166px; }
 
-.on6x1, .on6x2, .on6x3, .on6x4, .on6x5, .on6x6,
-.on6x7, .on6x8, .on6x9, .on6x10, .on6x11, .on6x12,
-.on6x13, .on6x14, .on6x15, .on6x16, .on6x17, .on6x18,
-.on6cols
-{ width: 180px; }
+.on-6x1, .on-6x2, .on-6x3, .on-6x4, .on-6x5,
+.on-6x6, .on-6x7, .on-6x8, .on-6x9, .on-6x10,
+.on-6x11,.on-6x12,.on-6x13,.on-6x14,.on-6x15
+{ width: 201px; }
 
-.on7x1, .on7x2, .on7x3, .on7x4, .on7x5, .on7x6,
-.on7x7, .on7x8, .on7x9, .on7x10, .on7x11, .on7x12,
-.on7x13, .on7x14, .on7x15, .on7x16, .on7x17, .on7x18,
-.on7cols
-{ width: 210px; }
+.on-7x1, .on-7x2, .on-7x3, .on-7x4, .on-7x5,
+.on-7x6, .on-7x7, .on-7x8, .on-7x9, .on-7x10,
+.on-7x11,.on-7x12,.on-7x13,.on-7x14,.on-7x15
+{ width: 236px; }
 
-.on8x1, .on8x2, .on8x3, .on8x4, .on8x5, .on8x6,
-.on8x7, .on8x8, .on8x9, .on8x10, .on8x11, .on8x12,
-.on8x13, .on8x14, .on8x15, .on8x16, .on8x17, .on8x18,
-.on8cols
-{ width: 240px; }
+.on-8x1, .on-8x2, .on-8x3, .on-8x4, .on-8x5,
+.on-8x6, .on-8x7, .on-8x8, .on-8x9, .on-8x10,
+.on-8x11,.on-8x12,.on-8x13,.on-8x14,.on-8x15
+{ width: 271px; }
 
-.on9x1, .on9x2, .on9x3, .on9x4, .on9x5, .on9x6,
-.on9x7, .on9x8, .on9x9, .on9x10, .on9x11, .on9x12,
-.on9x13, .on9x14, .on9x15, .on9x16, .on9x17, .on9x18,
-.on9cols
-{ width: 270px; }
+.north-west,
+.north,
+.north-east,
+.west,
+.center,
+.east,
+.south-west,
+.south,
+.south-east,
+.one-third-wide,
+.on-9x1, .on-9x2, .on-9x3, .on-9x4, .on-9x5,
+.on-9x6, .on-9x7, .on-9x8, .on-9x9, .on-9x10,
+.on-9x11,.on-9x12,.on-9x13,.on-9x14,.on-9x15
+{ width: 306px; }
 
-.on10x1, .on10x2, .on10x3, .on10x4, .on10x5, .on10x6,
-.on10x7, .on10x8, .on10x9, .on10x10, .on10x11, .on10x12,
-.on10x13, .on10x14, .on10x15, .on10x16, .on10x17, .on10x18,
-.on10cols
-{ width: 300px; }
+.on-10x1, .on-10x2, .on-10x3, .on-10x4, .on-10x5,
+.on-10x6, .on-10x7, .on-10x8, .on-10x9, .on-10x10,
+.on-10x11,.on-10x12,.on-10x13,.on-10x14,.on-10x15
+{ width: 341px; }
 
-.on11x1, .on11x2, .on11x3, .on11x4, .on11x5, .on11x6,
-.on11x7, .on11x8, .on11x9, .on11x10, .on11x11, .on11x12,
-.on11x13, .on11x14, .on11x15, .on11x16, .on11x17, .on11x18,
-.on11cols
-{ width: 330px; }
+.on-11x1, .on-11x2, .on-11x3, .on-11x4, .on-11x5,
+.on-11x6, .on-11x7, .on-11x8, .on-11x9, .on-11x10,
+.on-11x11,.on-11x12,.on-11x13,.on-11x14,.on-11x15
+{ width: 376px; }
 
-.on12x1, .on12x2, .on12x3, .on12x4, .on12x5, .on12x6,
-.on12x7, .on12x8, .on12x9, .on12x10, .on12x11, .on12x12,
-.on12x13, .on12x14, .on12x15, .on12x16, .on12x17, .on12x18,
-.on12cols
-{ width: 360px; }
+.on-12x1, .on-12x2, .on-12x3, .on-12x4, .on-12x5,
+.on-12x6, .on-12x7, .on-12x8, .on-12x9, .on-12x10,
+.on-12x11,.on-12x12,.on-12x13,.on-12x14,.on-12x15
+{ width: 411px; }
 
-.on13x1, .on13x2, .on13x3, .on13x4, .on13x5, .on13x6,
-.on13x7, .on13x8, .on13x9, .on13x10, .on13x11, .on13x12,
-.on13x13, .on13x14, .on13x15, .on13x16, .on13x17, .on13x18,
-.on13cols
-{ width: 390px; }
+.on-13x1, .on-13x2, .on-13x3, .on-13x4, .on-13x5,
+.on-13x6, .on-13x7, .on-13x8, .on-13x9, .on-13x10,
+.on-13x11,.on-13x12,.on-13x13,.on-13x14,.on-13x15
+{ width: 446px; }
 
-.on14x1, .on14x2, .on14x3, .on14x4, .on14x5, .on14x6,
-.on14x7, .on14x8, .on14x9, .on14x10, .on14x11, .on14x12,
-.on14x13, .on14x14, .on14x15, .on14x16, .on14x17, .on14x18,
-.on14cols
-{ width: 420px; }
+.on-14x1, .on-14x2, .on-14x3, .on-14x4, .on-14x5,
+.on-14x6, .on-14x7, .on-14x8, .on-14x9, .on-14x10,
+.on-14x11,.on-14x12,.on-14x13,.on-14x14,.on-14x15
+{ width: 481px; }
 
-.on15x1, .on15x2, .on15x3, .on15x4, .on15x5, .on15x6,
-.on15x7, .on15x8, .on15x9, .on15x10, .on15x11, .on15x12,
-.on15x13, .on15x14, .on15x15, .on15x16, .on15x17, .on15x18,
-.on15cols
-{ width: 450px; }
+.on-15x1, .on-15x2, .on-15x3, .on-15x4, .on-15x5,
+.on-15x6, .on-15x7, .on-15x8, .on-15x9, .on-15x10,
+.on-15x11,.on-15x12,.on-15x13,.on-15x14,.on-15x15
+{ width: 516px; }
 
-.lefthalf, .righthalf,
-.on16x1, .on16x2, .on16x3, .on16x4, .on16x5, .on16x6,
-.on16x7, .on16x8, .on16x9, .on16x10, .on16x11, .on16x12,
-.on16x13, .on16x14, .on16x15, .on16x16, .on16x17, .on16x18,
-.on16cols
-{ width: 480px; }
+.on-16x1, .on-16x2, .on-16x3, .on-16x4, .on-16x5,
+.on-16x6, .on-16x7, .on-16x8, .on-16x9, .on-16x10,
+.on-16x11,.on-16x12,.on-16x13,.on-16x14,.on-16x15
+{ width: 551px; }
 
-.on17x1, .on17x2, .on17x3, .on17x4, .on17x5, .on17x6,
-.on17x7, .on17x8, .on17x9, .on17x10, .on17x11, .on17x12,
-.on17x13, .on17x14, .on17x15, .on17x16, .on17x17, .on17x18,
-.on17cols
-{ width: 510px; }
+.on-17x1, .on-17x2, .on-17x3, .on-17x4, .on-17x5,
+.on-17x6, .on-17x7, .on-17x8, .on-17x9, .on-17x10,
+.on-17x11,.on-17x12,.on-17x13,.on-17x14,.on-17x15
+{ width: 586px; }
 
-.on18x1, .on18x2, .on18x3, .on18x4, .on18x5, .on18x6,
-.on18x7, .on18x8, .on18x9, .on18x10, .on18x11, .on18x12,
-.on18x13, .on18x14, .on18x15, .on18x16, .on18x17, .on18x18,
-.on18cols
-{ width: 540px; }
+.two-thirds-wide,
+.on-18x1, .on-18x2, .on-18x3, .on-18x4, .on-18x5,
+.on-18x6, .on-18x7, .on-18x8, .on-18x9, .on-18x10,
+.on-18x11,.on-18x12,.on-18x13,.on-18x14,.on-18x15
+{ width: 621px; }
 
-.on19x1, .on19x2, .on19x3, .on19x4, .on19x5, .on19x6,
-.on19x7, .on19x8, .on19x9, .on19x10, .on19x11, .on19x12,
-.on19x13, .on19x14, .on19x15, .on19x16, .on19x17, .on19x18,
-.on19cols
-{ width: 570px; }
+.on-19x1, .on-19x2, .on-19x3, .on-19x4, .on-19x5,
+.on-19x6, .on-19x7, .on-19x8, .on-19x9, .on-19x10,
+.on-19x11,.on-19x12,.on-19x13,.on-19x14,.on-19x15
+{ width: 656px; }
 
-.on20x1, .on20x2, .on20x3, .on20x4, .on20x5, .on20x6,
-.on20x7, .on20x8, .on20x9, .on20x10, .on20x11, .on20x12,
-.on20x13, .on20x14, .on20x15, .on20x16, .on20x17, .on20x18,
-.on20cols
-{ width: 600px; }
+.on-20x1, .on-20x2, .on-20x3, .on-20x4, .on-20x5,
+.on-20x6, .on-20x7, .on-20x8, .on-20x9, .on-20x10,
+.on-20x11,.on-20x12,.on-20x13,.on-20x14,.on-20x15
+{ width: 691px; }
 
-.on21x1, .on21x2, .on21x3, .on21x4, .on21x5, .on21x6,
-.on21x7, .on21x8, .on21x9, .on21x10, .on21x11, .on21x12,
-.on21x13, .on21x14, .on21x15, .on21x16, .on21x17, .on21x18,
-.on21cols
-{ width: 630px; }
+.on-21x1, .on-21x2, .on-21x3, .on-21x4, .on-21x5,
+.on-21x6, .on-21x7, .on-21x8, .on-21x9, .on-21x10,
+.on-21x11,.on-21x12,.on-21x13,.on-21x14,.on-21x15
+{ width: 726px; }
 
-.on22x1, .on22x2, .on22x3, .on22x4, .on22x5, .on22x6,
-.on22x7, .on22x8, .on22x9, .on22x10, .on22x11, .on22x12,
-.on22x13, .on22x14, .on22x15, .on22x16, .on22x17, .on22x18,
-.on22cols
-{ width: 660px; }
+.on-22x1, .on-22x2, .on-22x3, .on-22x4, .on-22x5,
+.on-22x6, .on-22x7, .on-22x8, .on-22x9, .on-22x10,
+.on-22x11,.on-22x12,.on-22x13,.on-22x14,.on-22x15
+{ width: 761px; }
 
-.on23x1, .on23x2, .on23x3, .on23x4, .on23x5, .on23x6,
-.on23x7, .on23x8, .on23x9, .on23x10, .on23x11, .on23x12,
-.on23x13, .on23x14, .on23x15, .on23x16, .on23x17, .on23x18,
-.on23cols
-{ width: 690px; }
+.on-23x1, .on-23x2, .on-23x3, .on-23x4, .on-23x5,
+.on-23x6, .on-23x7, .on-23x8, .on-23x9, .on-23x10,
+.on-23x11,.on-23x12,.on-23x13,.on-23x14,.on-23x15
+{ width: 796px; }
 
-.on24x1, .on24x2, .on24x3, .on24x4, .on24x5, .on24x6,
-.on24x7, .on24x8, .on24x9, .on24x10, .on24x11, .on24x12,
-.on24x13, .on24x14, .on24x15, .on24x16, .on24x17, .on24x18,
-.on24cols
-{ width: 720px; }
+.on-24x1, .on-24x2, .on-24x3, .on-24x4, .on-24x5,
+.on-24x6, .on-24x7, .on-24x8, .on-24x9, .on-24x10,
+.on-24x11,.on-24x12,.on-24x13,.on-24x14,.on-24x15
+{ width: 831px; }
 
-.on25x1, .on25x2, .on25x3, .on25x4, .on25x5, .on25x6,
-.on25x7, .on25x8, .on25x9, .on25x10, .on25x11, .on25x12,
-.on25x13, .on25x14, .on25x15, .on25x16, .on25x17, .on25x18,
-.on25cols
-{ width: 750px; }
+.on-25x1, .on-25x2, .on-25x3, .on-25x4, .on-25x5,
+.on-25x6, .on-25x7, .on-25x8, .on-25x9, .on-25x10,
+.on-25x11,.on-25x12,.on-25x13,.on-25x14,.on-25x15
+{ width: 866px; }
 
-.on26x1, .on26x2, .on26x3, .on26x4, .on26x5, .on26x6,
-.on26x7, .on26x8, .on26x9, .on26x10, .on26x11, .on26x12,
-.on26x13, .on26x14, .on26x15, .on26x16, .on26x17, .on26x18,
-.on26cols
-{ width: 780px; }
+.on-26x1, .on-26x2, .on-26x3, .on-26x4, .on-26x5,
+.on-26x6, .on-26x7, .on-26x8, .on-26x9, .on-26x10,
+.on-26x11,.on-26x12,.on-26x13,.on-26x14,.on-26x15
+{ width: 901px; }
 
-.on27x1, .on27x2, .on27x3, .on27x4, .on27x5, .on27x6,
-.on27x7, .on27x8, .on27x9, .on27x10, .on27x11, .on27x12,
-.on27x13, .on27x14, .on27x15, .on27x16, .on27x17, .on27x18,
-.on27cols
-{ width: 810px; }
+.row,
+.three-thirds-wide,
+.on-27x1, .on-27x2, .on-27x3, .on-27x4, .on-27x5,
+.on-27x6, .on-27x7, .on-27x8, .on-27x9, .on-27x10,
+.on-27x11,.on-27x12,.on-27x13,.on-27x14,.on-27x15
+{ width: 936px; }
 
-.on28x1, .on28x2, .on28x3, .on28x4, .on28x5, .on28x6,
-.on28x7, .on28x8, .on28x9, .on28x10, .on28x11, .on28x12,
-.on28x13, .on28x14, .on28x15, .on28x16, .on28x17, .on28x18,
-.on28cols
-{ width: 840px; }
-
-.on29x1, .on29x2, .on29x3, .on29x4, .on29x5, .on29x6,
-.on29x7, .on29x8, .on29x9, .on29x10, .on29x11, .on29x12,
-.on29x13, .on29x14, .on29x15, .on29x16, .on29x17, .on29x18,
-.on29cols
-{ width: 870px; }
-
-.on30x1, .on30x2, .on30x3, .on30x4, .on30x5, .on30x6,
-.on30x7, .on30x8, .on30x9, .on30x10, .on30x11, .on30x12,
-.on30x13, .on30x14, .on30x15, .on30x16, .on30x17, .on30x18,
-.on30cols
-{ width: 900px; }
-
-.on31x1, .on31x2, .on31x3, .on31x4, .on31x5, .on31x6,
-.on31x7, .on31x8, .on31x9, .on31x10, .on31x11, .on31x12,
-.on31x13, .on31x14, .on31x15, .on31x16, .on31x17, .on31x18,
-.on31cols
-{ width: 930px; }
+/* size: height */
 
 .fullscreen,
-.row,
-.on32x1, .on32x2, .on32x3, .on32x4, .on32x5, .on32x6,
-.on32x7, .on32x8, .on32x9, .on32x10, .on32x11, .on32x12,
-.on32x13, .on32x14, .on32x15, .on32x16, .on32x17, .on32x18,
-.on32cols
-{ width: 960px; }
-
-/* defaults: declare first for lowest priority */
-.lefthalf, .righthalf,
-.on1col,  .on2cols, .on3cols, .on4cols, .on5cols,
-.on6cols, .on7cols, .on8cols, .on9cols, .on10cols,
-.on11cols, .on12cols, .on13cols, .on14cols, .on15cols,
-.on16cols, .on17cols, .on18cols, .on19cols, .on20cols,
-.on21cols, .on22cols, .on23cols, .on24cols, .on25cols,
-.on26cols, .on27cols, .on28cols, .on29cols, .on30cols,
-.on31cols, .on32cols
+.left-half,
+.right-half
 { height: 540px; }
+
+.top-half,
+.bottom-half,
+{ height: 270px; }
 
 .cell,
 .row,
-.on1x1, .on2x1, .on3x1, .on4x1, .on5x1, .on6x1,
-.on7x1, .on8x1, .on9x1, .on10x1, .on11x1, .on12x1,
-.on13x1, .on14x1, .on15x1, .on16x1, .on17x1, .on18x1,
-.on19x1, .on20x1, .on21x1, .on22x1, .on23x1, .on24x1,
-.on25x1, .on26x1, .on27x1, .on28x1, .on29x1, .on30x1,
-.on31x1, .on32x1,
-.on1row
-{ height: 30px; }
+.on-1x1, .on-2x1, .on-3x1,
+.on-4x1, .on-5x1, .on-6x1,
+.on-7x1, .on-8x1, .on-9x1,
+.on-10x1,.on-11x1,.on-12x1,
+.on-13x1,.on-14x1,.on-15x1,
+.on-16x1,.on-17x1,.on-18x1,
+.on-19x1,.on-20x1,.on-21x1,
+.on-22x1,.on-23x1,.on-24x1,
+.on-25x1,.on-26x1,.on-27x1
+{ height: 26px; }
 
-.on1x2, .on2x2, .on3x2, .on4x2, .on5x2, .on6x2,
-.on7x2, .on8x2, .on9x2, .on10x2, .on11x2, .on12x2,
-.on13x2, .on14x2, .on15x2, .on16x2, .on17x2, .on18x2,
-.on19x2, .on20x2, .on21x2, .on22x2, .on23x2, .on24x2,
-.on25x2, .on26x2, .on27x2, .on28x2, .on29x2, .on30x2,
-.on31x2, .on32x2,
-.on2rows
-{ height: 60px; }
+.on-1x2, .on-2x2, .on-3x2,
+.on-4x2, .on-5x2, .on-6x2,
+.on-7x2, .on-8x2, .on-9x2,
+.on-10x2,.on-11x2,.on-12x2,
+.on-13x2,.on-14x2,.on-15x2,
+.on-16x2,.on-17x2,.on-18x2,
+.on-19x2,.on-20x2,.on-21x2,
+.on-22x2,.on-23x2,.on-24x2,
+.on-25x2,.on-26x2,.on-27x2
+{ height:  61px; }
 
-.on1x3, .on2x3, .on3x3, .on4x3, .on5x3, .on6x3,
-.on7x3, .on8x3, .on9x3, .on10x3, .on11x3, .on12x3,
-.on13x3, .on14x3, .on15x3, .on16x3, .on17x3, .on18x3,
-.on19x3, .on20x3, .on21x3, .on22x3, .on23x3, .on24x3,
-.on25x3, .on26x3, .on27x3, .on28x3, .on29x3, .on30x3,
-.on31x3, .on32x3,
-.on3rows
-{ height: 90px; }
+.on-1x3, .on-2x3, .on-3x3,
+.on-4x3, .on-5x3, .on-6x3,
+.on-7x3, .on-8x3, .on-9x3,
+.on-10x3,.on-11x3,.on-12x3,
+.on-13x3,.on-14x3,.on-15x3,
+.on-16x3,.on-17x3,.on-18x3,
+.on-19x3,.on-20x3,.on-21x3,
+.on-22x3,.on-23x3,.on-24x3,
+.on-25x3,.on-26x3,.on-27x3
+{ height:  96px; }
 
-.on1x4, .on2x4, .on3x4, .on4x4, .on5x4, .on6x4,
-.on7x4, .on8x4, .on9x4, .on10x4, .on11x4, .on12x4,
-.on13x4, .on14x4, .on15x4, .on16x4, .on17x4, .on18x4,
-.on19x4, .on20x4, .on21x4, .on22x4, .on23x4, .on24x4,
-.on25x4, .on26x4, .on27x4, .on28x4, .on29x4, .on30x4,
-.on31x4, .on32x4,
-.on4rows
-{ height: 120px; }
+.on-1x4, .on-2x4, .on-3x4,
+.on-4x4, .on-5x4, .on-6x4,
+.on-7x4, .on-8x4, .on-9x4,
+.on-10x4,.on-11x4,.on-12x4,
+.on-13x4,.on-14x4,.on-15x4,
+.on-16x4,.on-17x4,.on-18x4,
+.on-19x4,.on-20x4,.on-21x4,
+.on-22x4,.on-23x4,.on-24x4,
+.on-25x4,.on-26x4,.on-27x4
+{ height: 131px; }
 
-.on1x5, .on2x5, .on3x5, .on4x5, .on5x5, .on6x5,
-.on7x5, .on8x5, .on9x5, .on10x5, .on11x5, .on12x5,
-.on13x5, .on14x5, .on15x5, .on16x5, .on17x5, .on18x5,
-.on19x5, .on20x5, .on21x5, .on22x5, .on23x5, .on24x5,
-.on25x5, .on26x5, .on27x5, .on28x5, .on29x5, .on30x5,
-.on31x5, .on32x5,
-.on5rows
-{ height: 150px; }
+.north-west,
+.north,
+.north-east,
+.west,
+.center,
+.east,
+.south-west,
+.south,
+.south-east,
+.one-third-high,
+.on-1x5, .on-2x5, .on-3x5,
+.on-4x5, .on-5x5, .on-6x5,
+.on-7x5, .on-8x5, .on-9x5,
+.on-10x5,.on-11x5,.on-12x5,
+.on-13x5,.on-14x5,.on-15x5,
+.on-16x5,.on-17x5,.on-18x5,
+.on-19x5,.on-20x5,.on-21x5,
+.on-22x5,.on-23x5,.on-24x5,
+.on-25x5,.on-26x5,.on-27x5
+{ height: 166px; }
 
-.on1x6, .on2x6, .on3x6, .on4x6, .on5x6, .on6x6,
-.on7x6, .on8x6, .on9x6, .on10x6, .on11x6, .on12x6,
-.on13x6, .on14x6, .on15x6, .on16x6, .on17x6, .on18x6,
-.on19x6, .on20x6, .on21x6, .on22x6, .on23x6, .on24x6,
-.on25x6, .on26x6, .on27x6, .on28x6, .on29x6, .on30x6,
-.on31x6, .on32x6,
-.on6rows
-{ height: 180px; }
+.on-1x6, .on-2x6, .on-3x6,
+.on-4x6, .on-5x6, .on-6x6,
+.on-7x6, .on-8x6, .on-9x6,
+.on-10x6,.on-11x6,.on-12x6,
+.on-13x6,.on-14x6,.on-15x6,
+.on-16x6,.on-17x6,.on-18x6,
+.on-19x6,.on-20x6,.on-21x6,
+.on-22x6,.on-23x6,.on-24x6,
+.on-25x6,.on-26x6,.on-27x6
+{ height: 201px; }
 
-.on1x7, .on2x7, .on3x7, .on4x7, .on5x7, .on6x7,
-.on7x7, .on8x7, .on9x7, .on10x7, .on11x7, .on12x7,
-.on13x7, .on14x7, .on15x7, .on16x7, .on17x7, .on18x7,
-.on19x7, .on20x7, .on21x7, .on22x7, .on23x7, .on24x7,
-.on25x7, .on26x7, .on27x7, .on28x7, .on29x7, .on30x7,
-.on31x7, .on32x7,
-.on7rows
-{ height: 210px; }
+.on-1x7, .on-2x7, .on-3x7,
+.on-4x7, .on-5x7, .on-6x7,
+.on-7x7, .on-8x7, .on-9x7,
+.on-10x7,.on-11x7,.on-12x7,
+.on-13x7,.on-14x7,.on-15x7,
+.on-16x7,.on-17x7,.on-18x7,
+.on-19x7,.on-20x7,.on-21x7,
+.on-22x7,.on-23x7,.on-24x7,
+.on-25x7,.on-26x7,.on-27x7
+{ height: 236px; }
 
-.on1x8, .on2x8, .on3x8, .on4x8, .on5x8, .on6x8,
-.on7x8, .on8x8, .on9x8, .on10x8, .on11x8, .on12x8,
-.on13x8, .on14x8, .on15x8, .on16x8, .on17x8, .on18x8,
-.on19x8, .on20x8, .on21x8, .on22x8, .on23x8, .on24x8,
-.on25x8, .on26x8, .on27x8, .on28x8, .on29x8, .on30x8,
-.on31x8, .on32x8,
-.on8rows
-{ height: 240px; }
+.on-1x8, .on-2x8, .on-3x8,
+.on-4x8, .on-5x8, .on-6x8,
+.on-7x8, .on-8x8, .on-9x8,
+.on-10x8,.on-11x8,.on-12x8,
+.on-13x8,.on-14x8,.on-15x8,
+.on-16x8,.on-17x8,.on-18x8,
+.on-19x8,.on-20x8,.on-21x8,
+.on-22x8,.on-23x8,.on-24x8,
+.on-25x8,.on-26x8,.on-27x8
+{ height: 271px; }
 
-.tophalf, .bottomhalf,
-.on1x9, .on2x9, .on3x9, .on4x9, .on5x9, .on6x9,
-.on7x9, .on8x9, .on9x9, .on10x9, .on11x9, .on12x9,
-.on13x9, .on14x9, .on15x9, .on16x9, .on17x9, .on18x9,
-.on19x9, .on20x9, .on21x9, .on22x9, .on23x9, .on24x9,
-.on25x9, .on26x9, .on27x9, .on28x9, .on29x9, .on30x9,
-.on31x9, .on32x9,
-.on9rows
-{ height: 270px; }
+.on-1x9, .on-2x9, .on-3x9,
+.on-4x9, .on-5x9, .on-6x9,
+.on-7x9, .on-8x9, .on-9x9,
+.on-10x9,.on-11x9,.on-12x9,
+.on-13x9,.on-14x9,.on-15x9,
+.on-16x9,.on-17x9,.on-18x9,
+.on-19x9,.on-20x9,.on-21x9,
+.on-22x9,.on-23x9,.on-24x9,
+.on-25x9,.on-26x9,.on-27x9
+{ height: 306px; }
 
-.on1x10, .on2x10, .on3x10, .on4x10, .on5x10, .on6x10,
-.on7x10, .on8x10, .on9x10, .on10x10, .on11x10, .on12x10,
-.on13x10, .on14x10, .on15x10, .on16x10, .on17x10, .on18x10,
-.on19x10, .on20x10, .on21x10, .on22x10, .on23x10, .on24x10,
-.on25x10, .on26x10, .on27x10, .on28x10, .on29x10, .on30x10,
-.on31x10, .on32x10,
-.on10rows
-{ height: 300px; }
+.two-thirds-high,
+.on-1x10, .on-2x10, .on-3x10,
+.on-4x10, .on-5x10, .on-6x10,
+.on-7x10, .on-8x10, .on-9x10,
+.on-10x10,.on-11x10,.on-12x10,
+.on-13x10,.on-14x10,.on-15x10,
+.on-16x10,.on-17x10,.on-18x10,
+.on-19x10,.on-20x10,.on-21x10,
+.on-22x10,.on-23x10,.on-24x10,
+.on-25x10,.on-26x10,.on-27x10
+{ height: 341px; }
 
-.on1x11, .on2x11, .on3x11, .on4x11, .on5x11, .on6x11,
-.on7x11, .on8x11, .on9x11, .on10x11, .on11x11, .on12x11,
-.on13x11, .on14x11, .on15x11, .on16x11, .on17x11, .on18x11,
-.on19x11, .on20x11, .on21x11, .on22x11, .on23x11, .on24x11,
-.on25x11, .on26x11, .on27x11, .on28x11, .on29x11, .on30x11,
-.on31x11, .on32x11,
-.on11rows
-{ height: 330px; }
+.on-1x11, .on-2x11, .on-3x11,
+.on-4x11, .on-5x11, .on-6x11,
+.on-7x11, .on-8x11, .on-9x11,
+.on-10x11,.on-11x11,.on-12x11,
+.on-13x11,.on-14x11,.on-15x11,
+.on-16x11,.on-17x11,.on-18x11,
+.on-19x11,.on-20x11,.on-21x11,
+.on-22x11,.on-23x11,.on-24x11,
+.on-25x11,.on-26x11,.on-27x11
+{ height: 376px; }
 
-.on1x12, .on2x12, .on3x12, .on4x12, .on5x12, .on6x12,
-.on7x12, .on8x12, .on9x12, .on10x12, .on11x12, .on12x12,
-.on13x12, .on14x12, .on15x12, .on16x12, .on17x12, .on18x12,
-.on19x12, .on20x12, .on21x12, .on22x12, .on23x12, .on24x12,
-.on25x12, .on26x12, .on27x12, .on28x12, .on29x12, .on30x12,
-.on31x12, .on32x12,
-.on12rows
-{ height: 360px; }
+.on-1x12, .on-2x12, .on-3x12,
+.on-4x12, .on-5x12, .on-6x12,
+.on-7x12, .on-8x12, .on-9x12,
+.on-10x12,.on-11x12,.on-12x12,
+.on-13x12,.on-14x12,.on-15x12,
+.on-16x12,.on-17x12,.on-18x12,
+.on-19x12,.on-20x12,.on-21x12,
+.on-22x12,.on-23x12,.on-24x12,
+.on-25x12,.on-26x12,.on-27x12
+{ height: 411px; }
 
-.on1x13, .on2x13, .on3x13, .on4x13, .on5x13, .on6x13,
-.on7x13, .on8x13, .on9x13, .on10x13, .on11x13, .on12x13,
-.on13x13, .on14x13, .on15x13, .on16x13, .on17x13, .on18x13,
-.on19x13, .on20x13, .on21x13, .on22x13, .on23x13, .on24x13,
-.on25x13, .on26x13, .on27x13, .on28x13, .on29x13, .on30x13,
-.on31x13, .on32x13,
-.on13rows
-{ height: 390px; }
+.on-1x13, .on-2x13, .on-3x13,
+.on-4x13, .on-5x13, .on-6x13,
+.on-7x13, .on-8x13, .on-9x13,
+.on-10x13,.on-11x13,.on-12x13,
+.on-13x13,.on-14x13,.on-15x13,
+.on-16x13,.on-17x13,.on-18x13,
+.on-19x13,.on-20x13,.on-21x13,
+.on-22x13,.on-23x13,.on-24x13,
+.on-25x13,.on-26x13,.on-27x13
+{ height: 446px; }
 
-.on1x14, .on2x14, .on3x14, .on4x14, .on5x14, .on6x14,
-.on7x14, .on8x14, .on9x14, .on10x14, .on11x14, .on12x14,
-.on13x14, .on14x14, .on15x14, .on16x14, .on17x14, .on18x14,
-.on19x14, .on20x14, .on21x14, .on22x14, .on23x14, .on24x14,
-.on25x14, .on26x14, .on27x14, .on28x14, .on29x14, .on30x14,
-.on31x14, .on32x14,
-.on14rows
-{ height: 420px; }
+.on-1x14, .on-2x14, .on-3x14,
+.on-4x14, .on-5x14, .on-6x14,
+.on-7x14, .on-8x14, .on-9x14,
+.on-10x14,.on-11x14,.on-12x14,
+.on-13x14,.on-14x14,.on-15x14,
+.on-16x14,.on-17x14,.on-18x14,
+.on-19x14,.on-20x14,.on-21x14,
+.on-22x14,.on-23x14,.on-24x14,
+.on-25x14,.on-26x14,.on-27x14
+{ height: 481px; }
 
-.on1x15, .on2x15, .on3x15, .on4x15, .on5x15, .on6x15,
-.on7x15, .on8x15, .on9x15, .on10x15, .on11x15, .on12x15,
-.on13x15, .on14x15, .on15x15, .on16x15, .on17x15, .on18x15,
-.on19x15, .on20x15, .on21x15, .on22x15, .on23x15, .on24x15,
-.on25x15, .on26x15, .on27x15, .on28x15, .on29x15, .on30x15,
-.on31x15, .on32x15,
-.on15rows
-{ height: 450px; }
-
-.on1x16, .on2x16, .on3x16, .on4x16, .on5x16, .on6x16,
-.on7x16, .on8x16, .on9x16, .on10x16, .on11x16, .on12x16,
-.on13x16, .on14x16, .on15x16, .on16x16, .on17x16, .on18x16,
-.on19x16, .on20x16, .on21x16, .on22x16, .on23x16, .on24x16,
-.on25x16, .on26x16, .on27x16, .on28x16, .on29x16, .on30x16,
-.on31x16, .on32x16,
-.on16rows
-{ height: 480px; }
-
-.on1x17, .on2x17, .on3x17, .on4x17, .on5x17, .on6x17,
-.on7x17, .on8x17, .on9x17, .on10x17, .on11x17, .on12x17,
-.on13x17, .on14x17, .on15x17, .on16x17, .on17x17, .on18x17,
-.on19x17, .on20x17, .on21x17, .on22x17, .on23x17, .on24x17,
-.on25x17, .on26x17, .on27x17, .on28x17, .on29x17, .on30x17,
-.on31x17, .on32x17,
-.on17rows
-{ height: 510px; }
-
-.fullscreen,
-.on1x18, .on2x18, .on3x18, .on4x18, .on5x18, .on6x18,
-.on7x18, .on8x18, .on9x18, .on10x18, .on11x18, .on12x18,
-.on13x18, .on14x18, .on15x18, .on16x18, .on17x18, .on18x18,
-.on19x18, .on20x18, .on21x18, .on22x18, .on23x18, .on24x18,
-.on25x18, .on26x18, .on27x18, .on28x18, .on29x18, .on30x18,
-.on31x18, .on32x18,
-.on18rows
-{ height: 540px; }
+.column,
+.three-thirds-high,
+.on-1x15, .on-2x15, .on-3x15,
+.on-4x15, .on-5x15, .on-6x15,
+.on-7x15, .on-8x15, .on-9x15,
+.on-10x15,.on-11x15,.on-12x15,
+.on-13x15,.on-14x15,.on-15x15,
+.on-16x15,.on-17x15,.on-18x15,
+.on-19x15,.on-20x15,.on-21x15,
+.on-22x15,.on-23x15,.on-24x15,
+.on-25x15,.on-26x15,.on-27x15
+{ height: 516px; }
 

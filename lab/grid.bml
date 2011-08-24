@@ -5,12 +5,12 @@
     <title>Grid using CSS Styles for layout</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-23" />
+    <meta name="DC.date" content="2011-08-24" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
   </head>
-  <body>
+  <body class="on-white">
 
     <div class="fullscreen">
       <object class="fullscreen" type="image/jpeg" data="img/grid/grid.jpg" />
@@ -44,11 +44,6 @@
     <p class="Y1 cell black">Y1</p>
     <p class="Z1 cell white on-black">Z1</p>
     <p class="AA1 cell black">AA1</p>
-    <p class="AB1 cell white on-black">AB1</p>
-    <p class="AC1 cell black">AC1</p>
-    <p class="AD1 cell white on-black">AD1</p>
-    <p class="AE1 cell black">AE1</p>
-    <p class="AF1 cell white on-black">AF1</p>
 
     <!-- row 2 -->
     <p class="A2 cell black">A2</p>
@@ -78,11 +73,6 @@
     <p class="Y2 cell black">Y2</p>
     <p class="Z2 cell white on-black">Z2</p>
     <p class="AA2 cell black">AA2</p>
-    <p class="AB2 cell white on-black">AB2</p>
-    <p class="AC2 cell black">AC2</p>
-    <p class="AD2 cell white on-black">AD2</p>
-    <p class="AE2 cell black">AE2</p>
-    <p class="AF2 cell white on-black">AF2</p>
 
     <!-- row 3 -->
     <p class="A3 cell black">A3</p>
@@ -112,11 +102,6 @@
     <p class="Y3 cell black">Y3</p>
     <p class="Z3 cell white on-black">Z3</p>
     <p class="AA3 cell black">AA3</p>
-    <p class="AB3 cell white on-black">AB3</p>
-    <p class="AC3 cell black">AC3</p>
-    <p class="AD3 cell white on-black">AD3</p>
-    <p class="AE3 cell black">AE3</p>
-    <p class="AF3 cell white on-black">AF3</p>
 
     <!-- row 4 -->
     <p class="A4 cell black">A4</p>
@@ -146,11 +131,6 @@
     <p class="Y4 cell black">Y4</p>
     <p class="Z4 cell white on-black">Z4</p>
     <p class="AA4 cell black">AA4</p>
-    <p class="AB4 cell white on-black">AB4</p>
-    <p class="AC4 cell black">AC4</p>
-    <p class="AD4 cell white on-black">AD4</p>
-    <p class="AE4 cell black">AE4</p>
-    <p class="AF4 cell white on-black">AF4</p>
 
     <!-- row 5 -->
     <p class="A5 cell black">A5</p>
@@ -180,11 +160,6 @@
     <p class="Y5 cell black">Y5</p>
     <p class="Z5 cell white on-black">Z5</p>
     <p class="AA5 cell black">AA5</p>
-    <p class="AB5 cell white on-black">AB5</p>
-    <p class="AC5 cell black">AC5</p>
-    <p class="AD5 cell white on-black">AD5</p>
-    <p class="AE5 cell black">AE5</p>
-    <p class="AF5 cell white on-black">AF5</p>
 
     <!-- row 6 -->
     <p class="A6 cell black">A6</p>
@@ -214,11 +189,6 @@
     <p class="Y6 cell black">Y6</p>
     <p class="Z6 cell white on-black">Z6</p>
     <p class="AA6 cell black">AA6</p>
-    <p class="AB6 cell white on-black">AB6</p>
-    <p class="AC6 cell black">AC6</p>
-    <p class="AD6 cell white on-black">AD6</p>
-    <p class="AE6 cell black">AE6</p>
-    <p class="AF6 cell white on-black">AF6</p>
 
     <!-- row 7 -->
     <p class="A7 cell black">A7</p>
@@ -248,11 +218,6 @@
     <p class="Y7 cell black">Y7</p>
     <p class="Z7 cell white on-black">Z7</p>
     <p class="AA7 cell black">AA7</p>
-    <p class="AB7 cell white on-black">AB7</p>
-    <p class="AC7 cell black">AC7</p>
-    <p class="AD7 cell white on-black">AD7</p>
-    <p class="AE7 cell black">AE7</p>
-    <p class="AF7 cell white on-black">AF7</p>
 
     <!-- row 8 -->
     <p class="A8 cell black">A8</p>
@@ -282,11 +247,6 @@
     <p class="Y8 cell black">Y8</p>
     <p class="Z8 cell white on-black">Z8</p>
     <p class="AA8 cell black">AA8</p>
-    <p class="AB8 cell white on-black">AB8</p>
-    <p class="AC8 cell black">AC8</p>
-    <p class="AD8 cell white on-black">AD8</p>
-    <p class="AE8 cell black">AE8</p>
-    <p class="AF8 cell white on-black">AF8</p>
 
     <!-- row 9 -->
     <p class="A9 cell black">A9</p>
@@ -316,11 +276,6 @@
     <p class="Y9 cell black">Y9</p>
     <p class="Z9 cell white on-black">Z9</p>
     <p class="AA9 cell black">AA9</p>
-    <p class="AB9 cell white on-black">AB9</p>
-    <p class="AC9 cell black">AC9</p>
-    <p class="AD9 cell white on-black">AD9</p>
-    <p class="AE9 cell black">AE9</p>
-    <p class="AF9 cell white on-black">AF9</p>
 
     <!-- row 10 -->
     <p class="A10 cell black">A10</p>
@@ -350,11 +305,6 @@
     <p class="Y10 cell black">Y10</p>
     <p class="Z10 cell white on-black">Z10</p>
     <p class="AA10 cell black">AA10</p>
-    <p class="AB10 cell white on-black">AB10</p>
-    <p class="AC10 cell black">AC10</p>
-    <p class="AD10 cell white on-black">AD10</p>
-    <p class="AE10 cell black">AE10</p>
-    <p class="AF10 cell white on-black">AF10</p>
 
     <!-- row 11 -->
     <p class="A11 cell black">A11</p>
@@ -384,11 +334,6 @@
     <p class="Y11 cell black">Y11</p>
     <p class="Z11 cell white on-black">Z11</p>
     <p class="AA11 cell black">AA11</p>
-    <p class="AB11 cell white on-black">AB11</p>
-    <p class="AC11 cell black">AC11</p>
-    <p class="AD11 cell white on-black">AD11</p>
-    <p class="AE11 cell black">AE11</p>
-    <p class="AF11 cell white on-black">AF11</p>
 
     <!-- row 12 -->
     <p class="A12 cell black">A12</p>
@@ -418,11 +363,6 @@
     <p class="Y12 cell black">Y12</p>
     <p class="Z12 cell white on-black">Z12</p>
     <p class="AA12 cell black">AA12</p>
-    <p class="AB12 cell white on-black">AB12</p>
-    <p class="AC12 cell black">AC12</p>
-    <p class="AD12 cell white on-black">AD12</p>
-    <p class="AE12 cell black">AE12</p>
-    <p class="AF12 cell white on-black">AF12</p>
 
     <!-- row 13 -->
     <p class="A13 cell black">A13</p>
@@ -452,11 +392,6 @@
     <p class="Y13 cell black">Y13</p>
     <p class="Z13 cell white on-black">Z13</p>
     <p class="AA13 cell black">AA13</p>
-    <p class="AB13 cell white on-black">AB13</p>
-    <p class="AC13 cell black">AC13</p>
-    <p class="AD13 cell white on-black">AD13</p>
-    <p class="AE13 cell black">AE13</p>
-    <p class="AF13 cell white on-black">AF13</p>
 
     <!-- row 14 -->
     <p class="A14 cell black">A14</p>
@@ -486,11 +421,6 @@
     <p class="Y14 cell black">Y14</p>
     <p class="Z14 cell white on-black">Z14</p>
     <p class="AA14 cell black">AA14</p>
-    <p class="AB14 cell white on-black">AB14</p>
-    <p class="AC14 cell black">AC14</p>
-    <p class="AD14 cell white on-black">AD14</p>
-    <p class="AE14 cell black">AE14</p>
-    <p class="AF14 cell white on-black">AF14</p>
 
     <!-- row 15 -->
     <p class="A15 cell black">A15</p>
@@ -520,113 +450,6 @@
     <p class="Y15 cell black">Y15</p>
     <p class="Z15 cell white on-black">Z15</p>
     <p class="AA15 cell black">AA15</p>
-    <p class="AB15 cell white on-black">AB15</p>
-    <p class="AC15 cell black">AC15</p>
-    <p class="AD15 cell white on-black">AD15</p>
-    <p class="AE15 cell black">AE15</p>
-    <p class="AF15 cell white on-black">AF15</p>
-
-    <!-- row 16 -->
-    <p class="A16 cell black">A16</p>
-    <p class="B16 cell white on-black">B16</p>
-    <p class="C16 cell black">C16</p>
-    <p class="D16 cell white on-black">D16</p>
-    <p class="E16 cell black">E16</p>
-    <p class="F16 cell white on-black">F16</p>
-    <p class="G16 cell black">G16</p>
-    <p class="H16 cell white on-black">H16</p>
-    <p class="I16 cell black">I16</p>
-    <p class="J16 cell white on-black">J16</p>
-    <p class="K16 cell black">K16</p>
-    <p class="L16 cell white on-black">L16</p>
-    <p class="M16 cell black">M16</p>
-    <p class="N16 cell white on-black">N16</p>
-    <p class="O16 cell black">O16</p>
-    <p class="P16 cell white on-black">P16</p>
-    <p class="Q16 cell black">Q16</p>
-    <p class="R16 cell white on-black">R16</p>
-    <p class="S16 cell black">S16</p>
-    <p class="T16 cell white on-black">T16</p>
-    <p class="U16 cell black">U16</p>
-    <p class="V16 cell white on-black">V16</p>
-    <p class="W16 cell black">W16</p>
-    <p class="X16 cell white on-black">X16</p>
-    <p class="Y16 cell black">Y16</p>
-    <p class="Z16 cell white on-black">Z16</p>
-    <p class="AA16 cell black">AA16</p>
-    <p class="AB16 cell white on-black">AB16</p>
-    <p class="AC16 cell black">AC16</p>
-    <p class="AD16 cell white on-black">AD16</p>
-    <p class="AE16 cell black">AE16</p>
-    <p class="AF16 cell white on-black">AF16</p>
-
-    <!-- row 17 -->
-    <p class="A17 cell black">A17</p>
-    <p class="B17 cell white on-black">B17</p>
-    <p class="C17 cell black">C17</p>
-    <p class="D17 cell white on-black">D17</p>
-    <p class="E17 cell black">E17</p>
-    <p class="F17 cell white on-black">F17</p>
-    <p class="G17 cell black">G17</p>
-    <p class="H17 cell white on-black">H17</p>
-    <p class="I17 cell black">I17</p>
-    <p class="J17 cell white on-black">J17</p>
-    <p class="K17 cell black">K17</p>
-    <p class="L17 cell white on-black">L17</p>
-    <p class="M17 cell black">M17</p>
-    <p class="N17 cell white on-black">N17</p>
-    <p class="O17 cell black">O17</p>
-    <p class="P17 cell white on-black">P17</p>
-    <p class="Q17 cell black">Q17</p>
-    <p class="R17 cell white on-black">R17</p>
-    <p class="S17 cell black">S17</p>
-    <p class="T17 cell white on-black">T17</p>
-    <p class="U17 cell black">U17</p>
-    <p class="V17 cell white on-black">V17</p>
-    <p class="W17 cell black">W17</p>
-    <p class="X17 cell white on-black">X17</p>
-    <p class="Y17 cell black">Y17</p>
-    <p class="Z17 cell white on-black">Z17</p>
-    <p class="AA17 cell black">AA17</p>
-    <p class="AB17 cell white on-black">AB17</p>
-    <p class="AC17 cell black">AC17</p>
-    <p class="AD17 cell white on-black">AD17</p>
-    <p class="AE17 cell black">AE17</p>
-    <p class="AF17 cell white on-black">AF17</p>
-
-    <!-- row 18 -->
-    <p class="A18 cell black">A18</p>
-    <p class="B18 cell white on-black">B18</p>
-    <p class="C18 cell black">C18</p>
-    <p class="D18 cell white on-black">D18</p>
-    <p class="E18 cell black">E18</p>
-    <p class="F18 cell white on-black">F18</p>
-    <p class="G18 cell black">G18</p>
-    <p class="H18 cell white on-black">H18</p>
-    <p class="I18 cell black">I18</p>
-    <p class="J18 cell white on-black">J18</p>
-    <p class="K18 cell black">K18</p>
-    <p class="L18 cell white on-black">L18</p>
-    <p class="M18 cell black">M18</p>
-    <p class="N18 cell white on-black">N18</p>
-    <p class="O18 cell black">O18</p>
-    <p class="P18 cell white on-black">P18</p>
-    <p class="Q18 cell black">Q18</p>
-    <p class="R18 cell white on-black">R18</p>
-    <p class="S18 cell black">S18</p>
-    <p class="T18 cell white on-black">T18</p>
-    <p class="U18 cell black">U18</p>
-    <p class="V18 cell white on-black">V18</p>
-    <p class="W18 cell black">W18</p>
-    <p class="X18 cell white on-black">X18</p>
-    <p class="Y18 cell black">Y18</p>
-    <p class="Z18 cell white on-black">Z18</p>
-    <p class="AA18 cell black">AA18</p>
-    <p class="AB18 cell white on-black">AB18</p>
-    <p class="AC18 cell black">AC18</p>
-    <p class="AD18 cell white on-black">AD18</p>
-    <p class="AE18 cell black">AE18</p>
-    <p class="AF18 cell white on-black">AF18</p>
 
   </body>
 </bml>

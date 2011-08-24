@@ -86,14 +86,14 @@
   </head>
   <body id="body" class="body" style="background-color-index: 0"
         onload="onload();" onunload="onunload();">
-    <div class="G2 on18x15 on-yellow"></div>
+    <div class="G2 on-18x15 on-yellow"></div>
     <div class="F1 fullscreen">
       <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
         class="A1 fullscreen"/>
     </div>
 
     <p class="I4 row title">Title</p>
-    <p class="I6 on3rows">
+    <p class="I6 on-27x3">
       Line 1
       Line 2
       Line 3
