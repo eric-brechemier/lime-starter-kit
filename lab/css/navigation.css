@@ -4,7 +4,7 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-27
+ * Version: 2011-09-08
  */
 
 /*
@@ -189,9 +189,11 @@
   nav-left: 10; nav-up: 10;
 }
 
-/* Styles for links in default/focused/active states */
+/* Styles for links in default/focused/active states
+   Defined for anchor elements and any element with the class 'link'
+ */
 
-a {
+a, .link {
   border-width:   2px;
   border-style: dotted;
   border-top-color-index:    8;
@@ -201,7 +203,7 @@ a {
   grayscale-color-index:  8  8;
   color-index: 4;
 }
-a:focus {
+a:focus, .link:focus {
   border-top-color-index:    1;
   border-right-color-index:  1;
   border-bottom-color-index: 1;
@@ -211,6 +213,6 @@ a:focus {
   font-weight: bold;
 }
 
-a:active {
+a:active, .link:active {
   color-index: 3;
 }
