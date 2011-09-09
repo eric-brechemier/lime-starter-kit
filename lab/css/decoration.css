@@ -4,7 +4,7 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-31
+ * Version: 2011-09-09
  */
 
 /* rules for the styles of lines of borders and underlines.
@@ -26,29 +26,34 @@
    This rule overrides default color declarations in colors.css;
    for this to work, this stylesheet must be included after colors.css */
 .underline, .underline1, .underline2, .underline3, .underline4,
-.underline:focus, .underline1:focus, .underline2:focus, .underline4:focus {
+.underline:focus, .underline1:focus, .underline2:focus, .underline4:focus,
+.underline:active, .underline1:active, .underline2:active, .underline4:active {
   border-top-color-index:    8;
   border-right-color-index:  8;
   border-left-color-index:   8;
 }
 
 .no-top-border,
-.no-top-border:focus {
+.no-top-border:focus,
+.no-top-border:active {
   border-top-color-index:    8;
 }
 
 .no-right-border,
-.no-right-border:focus {
+.no-right-border:focus,
+.no-right-border:active {
   border-right-color-index:  8;
 }
 
 .no-bottom-border,
-.no-bottom-border:focus {
+.no-bottom-border:focus,
+.no-bottom-border:active {
   border-bottom-color-index: 8;
 }
 
 .no-left-border,
-.no-left-border:focus {
+.no-left-border:focus,
+.no-left-border:active {
   border-left-color-index:   8;
 }
 
