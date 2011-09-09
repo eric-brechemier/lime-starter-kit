@@ -4,190 +4,8 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-09-08
+ * Version: 2011-09-09
  */
-
-/*
-   Navigation index definition
- + right/down goes to next item by default
- */
-
-.link1of1, .link1of2, .link1of3, .link1of4,  .link1of5,  .link1of6,
-.link1of7, .link1of8, .link1of9, .link1of10, .link1of11, .link1of12 {
-  nav-index: 0;
-  nav-down:  1; nav-right: 1;
-}
-
-           .link2of2, .link2of3, .link2of4,  .link2of5,  .link2of6,
-.link2of7, .link2of8, .link2of9, .link2of10, .link2of11, .link2of12 {
-  nav-index: 1;
-  nav-down:  2; nav-right: 2;
-}
-
-                      .link3of3, .link3of4,  .link3of5,  .link3of6,
-.link3of7, .link3of8, .link3of9, .link3of10, .link3of11, .link3of12 {
-  nav-index: 2;
-  nav-down:  3; nav-right: 3;
-}
-
-                                 .link4of4,  .link4of5,  .link4of6,
-.link4of7, .link4of8, .link4of9, .link4of10, .link4of11, .link4of12 {
-  nav-index: 3;
-  nav-down:  4; nav-right: 4;
-}
-
-                                             .link5of5,  .link5of6,
-.link5of7, .link5of8, .link5of9, .link5of10, .link5of11, .link5of12 {
-  nav-index: 4;
-  nav-down:  5; nav-right: 5;
-}
-
-                                                         .link6of6,
-.link6of7, .link6of8, .link6of9, .link6of10, .link6of11, .link6of12 {
-  nav-index: 5;
-  nav-down:  6; nav-right: 6;
-}
-
-.link7of7, .link7of8, .link7of9, .link7of10, .link7of11, .link7of12 {
-  nav-index: 6;
-  nav-down:  7; nav-right: 7;
-}
-
-           .link8of8, .link8of9, .link8of10, .link8of11, .link8of12 {
-  nav-index: 7;
-  nav-down:  8; nav-right: 8;
-}
-
-                      .link9of9, .link9of10, .link9of11, .link9of12 {
-  nav-index: 8;
-  nav-down:  9; nav-right: 9;
-}
-
-                                .link10of10, .link10of11, .link10of12 {
-  nav-index: 9;
-  nav-down:  10; nav-right: 10;
-}
-
-                                             .link11of11, .link11of12 {
-  nav-index: 10;
-  nav-down:  11; nav-right: 11;
-}
-
-                                                          .link12of12 {
-  nav-index: 11;
-  nav-down:  12; nav-right: 12;
-}
-
-
-/*
-   right/down loops back to first item on last item
- */
-
-           .link2of2, .link3of3, .link4of4,   .link5of5,   .link6of6,
-.link7of7, .link8of8, .link9of9, .link10of10, .link11of11, .link12of12 {
-  nav-down: 0; nav-right: 0;
-}
-
-/*
-   left/up loops back to last item on first item
- */
-
-.link1of2 {
-  nav-left: 1; nav-up: 1;
-}
-
-.link1of3 {
-  nav-left: 2; nav-up: 2;
-}
-
-.link1of4 {
-  nav-left: 3; nav-up: 3;
-}
-
-.link1of5 {
-  nav-left: 4; nav-up: 4;
-}
-
-.link1of6 {
-  nav-left: 5; nav-up: 5;
-}
-
-.link1of7 {
-  nav-left: 6; nav-up: 6;
-}
-
-.link1of8 {
-  nav-left: 7; nav-up: 7;
-}
-
-.link1of9 {
-  nav-left: 8; nav-up: 8;
-}
-
-.link1of10 {
-  nav-left: 9; nav-up: 9;
-}
-
-.link1of11 {
-  nav-left: 10; nav-up: 10;
-}
-
-.link1of12 {
-  nav-left: 11; nav-up: 11;
-}
-
-/*
-   left/up goes back to previous item on all but first item
- */
-
-           .link2of2, .link2of3, .link2of4,  .link2of5,  .link2of6,
-.link2of7, .link2of8, .link2of9, .link2of10, .link2of11, .link2of12 {
-  nav-left: 0; nav-up: 0;
-}
-
-                      .link3of3, .link3of4,  .link3of5,  .link3of6,
-.link3of7, .link3of8, .link3of9, .link3of10, .link3of11, .link3of12 {
-  nav-left: 1; nav-up: 1;
-}
-
-                                 .link4of4,  .link4of5,  .link4of6,
-.link4of7, .link4of8, .link4of9, .link4of10, .link4of11, .link4of12 {
-  nav-left: 2; nav-up: 2;
-}
-
-                                             .link5of5,  .link5of6,
-.link5of7, .link5of8, .link5of9, .link5of10, .link5of11, .link5of12 {
-  nav-left: 3; nav-up: 3;
-}
-
-                                                         .link6of6,
-.link6of7, .link6of8, .link6of9, .link6of10, .link6of11, .link6of12 {
-  nav-left: 4; nav-up: 4;
-}
-
-.link7of7, .link7of8, .link7of9, .link7of10, .link7of11, .link7of12 {
-  nav-left: 5; nav-up: 5;
-}
-
-           .link8of8, .link8of9, .link8of10, .link8of11, .link8of12 {
-  nav-left: 6; nav-up: 6;
-}
-
-                      .link9of9, .link9of10, .link9of11, .link9of12 {
-  nav-left: 7; nav-up: 7;
-}
-
-                                .link10of10, .link10of11, .link10of12 {
-  nav-left: 8; nav-up: 8;
-}
-
-                                             .link11of11, .link11of12 {
-  nav-left: 9; nav-up: 9;
-}
-
-                                                          .link12of12 {
-  nav-left: 10; nav-up: 10;
-}
 
 /* Styles for links in default/focused/active states
    Defined for anchor elements and any element with the class 'link'
@@ -216,3 +34,512 @@ a:focus, .link:focus {
 a:active, .link:active {
   color-index: 3;
 }
+
+/* Navigation index definition
+   By default, link{N} is after-link{N-1} and before-link{N+1}
+   therefore below-link{N-1} and above-link{N+1}
+ */
+.link1 {nav-index:  0; nav-left:  0; nav-top:  0; nav-right:  1; nav-down:  1;}
+.link2 {nav-index:  1; nav-left:  0; nav-top:  0; nav-right:  2; nav-down:  2;}
+.link3 {nav-index:  2; nav-left:  1; nav-top:  1; nav-right:  3; nav-down:  3;}
+.link4 {nav-index:  3; nav-left:  2; nav-top:  2; nav-right:  4; nav-down:  4;}
+.link5 {nav-index:  4; nav-left:  3; nav-top:  3; nav-right:  5; nav-down:  5;}
+.link6 {nav-index:  5; nav-left:  4; nav-top:  4; nav-right:  6; nav-down:  6;}
+.link7 {nav-index:  6; nav-left:  5; nav-top:  5; nav-right:  7; nav-down:  7;}
+.link8 {nav-index:  7; nav-left:  6; nav-top:  6; nav-right:  8; nav-down:  8;}
+.link9 {nav-index:  8; nav-left:  7; nav-top:  7; nav-right:  9; nav-down:  9;}
+.link10{nav-index:  9; nav-left:  8; nav-top:  8; nav-right: 10; nav-down: 10;}
+.link11{nav-index: 10; nav-left:  9; nav-top:  9; nav-right: 11; nav-down: 11;}
+.link12{nav-index: 11; nav-left: 10; nav-top: 10; nav-right: 12; nav-down: 12;}
+.link13{nav-index: 12; nav-left: 11; nav-top: 11; nav-right: 13; nav-down: 13;}
+.link14{nav-index: 13; nav-left: 12; nav-top: 12; nav-right: 14; nav-down: 14;}
+.link15{nav-index: 14; nav-left: 13; nav-top: 13; nav-right: 15; nav-down: 15;}
+.link16{nav-index: 15; nav-left: 14; nav-top: 14; nav-right: 16; nav-down: 16;}
+.link17{nav-index: 16; nav-left: 15; nav-top: 15; nav-right: 17; nav-down: 17;}
+.link18{nav-index: 17; nav-left: 16; nav-top: 16; nav-right: 18; nav-down: 18;}
+.link19{nav-index: 18; nav-left: 17; nav-top: 17; nav-right: 19; nav-down: 19;}
+.link20{nav-index: 19; nav-left: 18; nav-top: 18; nav-right: 20; nav-down: 20;}
+.link21{nav-index: 20; nav-left: 19; nav-top: 19; nav-right: 21; nav-down: 21;}
+.link22{nav-index: 21; nav-left: 20; nav-top: 20; nav-right: 22; nav-down: 22;}
+.link23{nav-index: 22; nav-left: 21; nav-top: 21; nav-right: 23; nav-down: 23;}
+.link24{nav-index: 23; nav-left: 22; nav-top: 22; nav-right: 24; nav-down: 24;}
+.link25{nav-index: 24; nav-left: 23; nav-top: 23; nav-right: 25; nav-down: 25;}
+.link26{nav-index: 25; nav-left: 24; nav-top: 24; nav-right: 26; nav-down: 26;}
+.link27{nav-index: 26; nav-left: 25; nav-top: 25; nav-right: 27; nav-down: 27;}
+.link28{nav-index: 27; nav-left: 26; nav-top: 26; nav-right: 28; nav-down: 28;}
+.link29{nav-index: 28; nav-left: 27; nav-top: 27; nav-right: 29; nav-down: 29;}
+.link30{nav-index: 29; nav-left: 28; nav-top: 28; nav-right: 30; nav-down: 30;}
+.link31{nav-index: 30; nav-left: 29; nav-top: 29; nav-right: 31; nav-down: 31;}
+.link32{nav-index: 31; nav-left: 30; nav-top: 30; nav-right: 32; nav-down: 32;}
+.link33{nav-index: 32; nav-left: 31; nav-top: 31; nav-right: 33; nav-down: 33;}
+.link34{nav-index: 33; nav-left: 32; nav-top: 32; nav-right: 34; nav-down: 34;}
+.link35{nav-index: 34; nav-left: 33; nav-top: 33; nav-right: 35; nav-down: 35;}
+.link36{nav-index: 35; nav-left: 34; nav-top: 34; nav-right: 36; nav-down: 36;}
+.link37{nav-index: 36; nav-left: 35; nav-top: 35; nav-right: 37; nav-down: 37;}
+.link38{nav-index: 37; nav-left: 36; nav-top: 36; nav-right: 38; nav-down: 38;}
+.link39{nav-index: 38; nav-left: 37; nav-top: 37; nav-right: 39; nav-down: 39;}
+.link40{nav-index: 39; nav-left: 38; nav-top: 38; nav-right: 40; nav-down: 40;}
+.link41{nav-index: 40; nav-left: 39; nav-top: 39; nav-right: 41; nav-down: 41;}
+.link42{nav-index: 41; nav-left: 40; nav-top: 40; nav-right: 42; nav-down: 42;}
+.link43{nav-index: 42; nav-left: 41; nav-top: 41; nav-right: 43; nav-down: 43;}
+.link44{nav-index: 43; nav-left: 42; nav-top: 42; nav-right: 44; nav-down: 44;}
+.link45{nav-index: 44; nav-left: 43; nav-top: 43; nav-right: 45; nav-down: 45;}
+.link46{nav-index: 45; nav-left: 44; nav-top: 44; nav-right: 46; nav-down: 46;}
+.link47{nav-index: 46; nav-left: 45; nav-top: 45; nav-right: 47; nav-down: 47;}
+.link48{nav-index: 47; nav-left: 46; nav-top: 46; nav-right: 48; nav-down: 48;}
+.link49{nav-index: 48; nav-left: 47; nav-top: 47; nav-right: 49; nav-down: 49;}
+.link50{nav-index: 49; nav-left: 48; nav-top: 48; nav-right: 50; nav-down: 50;}
+.link51{nav-index: 50; nav-left: 49; nav-top: 49; nav-right: 51; nav-down: 51;}
+.link52{nav-index: 51; nav-left: 50; nav-top: 50; nav-right: 52; nav-down: 52;}
+.link53{nav-index: 52; nav-left: 51; nav-top: 51; nav-right: 53; nav-down: 53;}
+.link54{nav-index: 53; nav-left: 52; nav-top: 52; nav-right: 54; nav-down: 54;}
+.link55{nav-index: 54; nav-left: 53; nav-top: 53; nav-right: 55; nav-down: 55;}
+.link56{nav-index: 55; nav-left: 54; nav-top: 54; nav-right: 56; nav-down: 56;}
+.link57{nav-index: 56; nav-left: 55; nav-top: 55; nav-right: 57; nav-down: 57;}
+.link58{nav-index: 57; nav-left: 56; nav-top: 56; nav-right: 58; nav-down: 58;}
+.link59{nav-index: 58; nav-left: 57; nav-top: 57; nav-right: 59; nav-down: 59;}
+.link60{nav-index: 59; nav-left: 58; nav-top: 58; nav-right: 60; nav-down: 60;}
+.link61{nav-index: 60; nav-left: 59; nav-top: 59; nav-right: 61; nav-down: 61;}
+.link62{nav-index: 61; nav-left: 60; nav-top: 60; nav-right: 62; nav-down: 62;}
+.link63{nav-index: 62; nav-left: 61; nav-top: 61; nav-right: 63; nav-down: 63;}
+.link64{nav-index: 63; nav-left: 62; nav-top: 62; nav-right: 64; nav-down: 64;}
+.link65{nav-index: 64; nav-left: 63; nav-top: 63; nav-right: 65; nav-down: 65;}
+.link66{nav-index: 65; nav-left: 64; nav-top: 64; nav-right: 66; nav-down: 66;}
+.link67{nav-index: 66; nav-left: 65; nav-top: 65; nav-right: 67; nav-down: 67;}
+.link68{nav-index: 67; nav-left: 66; nav-top: 66; nav-right: 68; nav-down: 68;}
+.link69{nav-index: 68; nav-left: 67; nav-top: 67; nav-right: 69; nav-down: 69;}
+.link70{nav-index: 69; nav-left: 68; nav-top: 68; nav-right: 70; nav-down: 70;}
+.link71{nav-index: 70; nav-left: 69; nav-top: 69; nav-right: 71; nav-down: 71;}
+.link72{nav-index: 71; nav-left: 70; nav-top: 70; nav-right: 72; nav-down: 72;}
+.link73{nav-index: 72; nav-left: 71; nav-top: 71; nav-right: 73; nav-down: 73;}
+.link74{nav-index: 73; nav-left: 72; nav-top: 72; nav-right: 74; nav-down: 74;}
+.link75{nav-index: 74; nav-left: 73; nav-top: 73; nav-right: 75; nav-down: 75;}
+.link76{nav-index: 75; nav-left: 74; nav-top: 74; nav-right: 76; nav-down: 76;}
+.link77{nav-index: 76; nav-left: 75; nav-top: 75; nav-right: 77; nav-down: 77;}
+.link78{nav-index: 77; nav-left: 76; nav-top: 76; nav-right: 78; nav-down: 78;}
+.link79{nav-index: 78; nav-left: 77; nav-top: 77; nav-right: 79; nav-down: 79;}
+.link80{nav-index: 79; nav-left: 78; nav-top: 78; nav-right: 80; nav-down: 80;}
+.link81{nav-index: 80; nav-left: 79; nav-top: 79; nav-right: 81; nav-down: 81;}
+.link82{nav-index: 81; nav-left: 80; nav-top: 80; nav-right: 82; nav-down: 82;}
+.link83{nav-index: 82; nav-left: 81; nav-top: 81; nav-right: 83; nav-down: 83;}
+.link84{nav-index: 83; nav-left: 82; nav-top: 82; nav-right: 84; nav-down: 84;}
+.link85{nav-index: 84; nav-left: 83; nav-top: 83; nav-right: 85; nav-down: 85;}
+.link86{nav-index: 85; nav-left: 84; nav-top: 84; nav-right: 86; nav-down: 86;}
+.link87{nav-index: 86; nav-left: 85; nav-top: 85; nav-right: 87; nav-down: 87;}
+.link88{nav-index: 87; nav-left: 86; nav-top: 86; nav-right: 88; nav-down: 88;}
+.link89{nav-index: 88; nav-left: 87; nav-top: 87; nav-right: 89; nav-down: 89;}
+.link90{nav-index: 89; nav-left: 88; nav-top: 88; nav-right: 90; nav-down: 90;}
+.link91{nav-index: 90; nav-left: 89; nav-top: 89; nav-right: 91; nav-down: 91;}
+.link92{nav-index: 91; nav-left: 90; nav-top: 90; nav-right: 92; nav-down: 92;}
+.link93{nav-index: 92; nav-left: 91; nav-top: 91; nav-right: 93; nav-down: 93;}
+.link94{nav-index: 93; nav-left: 92; nav-top: 92; nav-right: 94; nav-down: 94;}
+.link95{nav-index: 94; nav-left: 93; nav-top: 93; nav-right: 95; nav-down: 95;}
+.link96{nav-index: 95; nav-left: 94; nav-top: 94; nav-right: 96; nav-down: 96;}
+.link97{nav-index: 96; nav-left: 95; nav-top: 95; nav-right: 97; nav-down: 97;}
+.link98{nav-index: 97; nav-left: 96; nav-top: 96; nav-right: 98; nav-down: 98;}
+.link99{nav-index: 98; nav-left: 97; nav-top: 97; nav-right: 99; nav-down: 99;}
+
+/* By default after-link{N} is also below-link{N} */
+.after-link1  { nav-left:  0; nav-up:  0; }
+.after-link2  { nav-left:  1; nav-up:  1; }
+.after-link3  { nav-left:  2; nav-up:  2; }
+.after-link4  { nav-left:  3; nav-up:  3; }
+.after-link5  { nav-left:  4; nav-up:  4; }
+.after-link6  { nav-left:  5; nav-up:  5; }
+.after-link7  { nav-left:  6; nav-up:  6; }
+.after-link8  { nav-left:  7; nav-up:  7; }
+.after-link9  { nav-left:  8; nav-up:  8; }
+.after-link10 { nav-left:  9; nav-up:  9; }
+.after-link11 { nav-left: 10; nav-up: 10; }
+.after-link12 { nav-left: 11; nav-up: 11; }
+.after-link13 { nav-left: 12; nav-up: 12; }
+.after-link14 { nav-left: 13; nav-up: 13; }
+.after-link15 { nav-left: 14; nav-up: 14; }
+.after-link16 { nav-left: 15; nav-up: 15; }
+.after-link17 { nav-left: 16; nav-up: 16; }
+.after-link18 { nav-left: 17; nav-up: 17; }
+.after-link19 { nav-left: 18; nav-up: 18; }
+.after-link20 { nav-left: 19; nav-up: 19; }
+.after-link21 { nav-left: 20; nav-up: 20; }
+.after-link22 { nav-left: 21; nav-up: 21; }
+.after-link23 { nav-left: 22; nav-up: 22; }
+.after-link24 { nav-left: 23; nav-up: 23; }
+.after-link25 { nav-left: 24; nav-up: 24; }
+.after-link26 { nav-left: 25; nav-up: 25; }
+.after-link27 { nav-left: 26; nav-up: 26; }
+.after-link28 { nav-left: 27; nav-up: 27; }
+.after-link29 { nav-left: 28; nav-up: 28; }
+.after-link30 { nav-left: 29; nav-up: 29; }
+.after-link31 { nav-left: 30; nav-up: 30; }
+.after-link32 { nav-left: 31; nav-up: 31; }
+.after-link33 { nav-left: 32; nav-up: 32; }
+.after-link34 { nav-left: 33; nav-up: 33; }
+.after-link35 { nav-left: 34; nav-up: 34; }
+.after-link36 { nav-left: 35; nav-up: 35; }
+.after-link37 { nav-left: 36; nav-up: 36; }
+.after-link38 { nav-left: 37; nav-up: 37; }
+.after-link39 { nav-left: 38; nav-up: 38; }
+.after-link40 { nav-left: 39; nav-up: 39; }
+.after-link41 { nav-left: 40; nav-up: 40; }
+.after-link42 { nav-left: 41; nav-up: 41; }
+.after-link43 { nav-left: 42; nav-up: 42; }
+.after-link44 { nav-left: 43; nav-up: 43; }
+.after-link45 { nav-left: 44; nav-up: 44; }
+.after-link46 { nav-left: 45; nav-up: 45; }
+.after-link47 { nav-left: 46; nav-up: 46; }
+.after-link48 { nav-left: 47; nav-up: 47; }
+.after-link49 { nav-left: 48; nav-up: 48; }
+.after-link50 { nav-left: 49; nav-up: 49; }
+.after-link51 { nav-left: 50; nav-up: 50; }
+.after-link52 { nav-left: 51; nav-up: 51; }
+.after-link53 { nav-left: 52; nav-up: 52; }
+.after-link54 { nav-left: 53; nav-up: 53; }
+.after-link55 { nav-left: 54; nav-up: 54; }
+.after-link56 { nav-left: 55; nav-up: 55; }
+.after-link57 { nav-left: 56; nav-up: 56; }
+.after-link58 { nav-left: 57; nav-up: 57; }
+.after-link59 { nav-left: 58; nav-up: 58; }
+.after-link60 { nav-left: 59; nav-up: 59; }
+.after-link61 { nav-left: 60; nav-up: 60; }
+.after-link62 { nav-left: 61; nav-up: 61; }
+.after-link63 { nav-left: 62; nav-up: 62; }
+.after-link64 { nav-left: 63; nav-up: 63; }
+.after-link65 { nav-left: 64; nav-up: 64; }
+.after-link66 { nav-left: 65; nav-up: 65; }
+.after-link67 { nav-left: 66; nav-up: 66; }
+.after-link68 { nav-left: 67; nav-up: 67; }
+.after-link69 { nav-left: 68; nav-up: 68; }
+.after-link70 { nav-left: 69; nav-up: 69; }
+.after-link71 { nav-left: 70; nav-up: 70; }
+.after-link72 { nav-left: 71; nav-up: 71; }
+.after-link73 { nav-left: 72; nav-up: 72; }
+.after-link74 { nav-left: 73; nav-up: 73; }
+.after-link75 { nav-left: 74; nav-up: 74; }
+.after-link76 { nav-left: 75; nav-up: 75; }
+.after-link77 { nav-left: 76; nav-up: 76; }
+.after-link78 { nav-left: 77; nav-up: 77; }
+.after-link79 { nav-left: 78; nav-up: 78; }
+.after-link80 { nav-left: 79; nav-up: 79; }
+.after-link81 { nav-left: 80; nav-up: 80; }
+.after-link82 { nav-left: 81; nav-up: 81; }
+.after-link83 { nav-left: 82; nav-up: 82; }
+.after-link84 { nav-left: 83; nav-up: 83; }
+.after-link85 { nav-left: 84; nav-up: 84; }
+.after-link86 { nav-left: 85; nav-up: 85; }
+.after-link87 { nav-left: 86; nav-up: 86; }
+.after-link88 { nav-left: 87; nav-up: 87; }
+.after-link89 { nav-left: 88; nav-up: 88; }
+.after-link90 { nav-left: 89; nav-up: 89; }
+.after-link91 { nav-left: 90; nav-up: 90; }
+.after-link92 { nav-left: 91; nav-up: 91; }
+.after-link93 { nav-left: 92; nav-up: 92; }
+.after-link94 { nav-left: 93; nav-up: 93; }
+.after-link95 { nav-left: 94; nav-up: 94; }
+.after-link96 { nav-left: 95; nav-up: 95; }
+.after-link97 { nav-left: 96; nav-up: 96; }
+.after-link98 { nav-left: 97; nav-up: 97; }
+.after-link99 { nav-left: 98; nav-up: 98; }
+
+/* By default before-link{N} is also above-link{N} */
+.before-link1  { nav-right:  0; nav-down:  0; }
+.before-link2  { nav-right:  1; nav-down:  1; }
+.before-link3  { nav-right:  2; nav-down:  2; }
+.before-link4  { nav-right:  3; nav-down:  3; }
+.before-link5  { nav-right:  4; nav-down:  4; }
+.before-link6  { nav-right:  5; nav-down:  5; }
+.before-link7  { nav-right:  6; nav-down:  6; }
+.before-link8  { nav-right:  7; nav-down:  7; }
+.before-link9  { nav-right:  8; nav-down:  8; }
+.before-link10 { nav-right:  9; nav-down:  9; }
+.before-link11 { nav-right: 10; nav-down: 10; }
+.before-link12 { nav-right: 11; nav-down: 11; }
+.before-link13 { nav-right: 12; nav-down: 12; }
+.before-link14 { nav-right: 13; nav-down: 13; }
+.before-link15 { nav-right: 14; nav-down: 14; }
+.before-link16 { nav-right: 15; nav-down: 15; }
+.before-link17 { nav-right: 16; nav-down: 16; }
+.before-link18 { nav-right: 17; nav-down: 17; }
+.before-link19 { nav-right: 18; nav-down: 18; }
+.before-link20 { nav-right: 19; nav-down: 19; }
+.before-link21 { nav-right: 20; nav-down: 20; }
+.before-link22 { nav-right: 21; nav-down: 21; }
+.before-link23 { nav-right: 22; nav-down: 22; }
+.before-link24 { nav-right: 23; nav-down: 23; }
+.before-link25 { nav-right: 24; nav-down: 24; }
+.before-link26 { nav-right: 25; nav-down: 25; }
+.before-link27 { nav-right: 26; nav-down: 26; }
+.before-link28 { nav-right: 27; nav-down: 27; }
+.before-link29 { nav-right: 28; nav-down: 28; }
+.before-link30 { nav-right: 29; nav-down: 29; }
+.before-link31 { nav-right: 30; nav-down: 30; }
+.before-link32 { nav-right: 31; nav-down: 31; }
+.before-link33 { nav-right: 32; nav-down: 32; }
+.before-link34 { nav-right: 33; nav-down: 33; }
+.before-link35 { nav-right: 34; nav-down: 34; }
+.before-link36 { nav-right: 35; nav-down: 35; }
+.before-link37 { nav-right: 36; nav-down: 36; }
+.before-link38 { nav-right: 37; nav-down: 37; }
+.before-link39 { nav-right: 38; nav-down: 38; }
+.before-link40 { nav-right: 39; nav-down: 39; }
+.before-link41 { nav-right: 40; nav-down: 40; }
+.before-link42 { nav-right: 41; nav-down: 41; }
+.before-link43 { nav-right: 42; nav-down: 42; }
+.before-link44 { nav-right: 43; nav-down: 43; }
+.before-link45 { nav-right: 44; nav-down: 44; }
+.before-link46 { nav-right: 45; nav-down: 45; }
+.before-link47 { nav-right: 46; nav-down: 46; }
+.before-link48 { nav-right: 47; nav-down: 47; }
+.before-link49 { nav-right: 48; nav-down: 48; }
+.before-link50 { nav-right: 49; nav-down: 49; }
+.before-link51 { nav-right: 50; nav-down: 50; }
+.before-link52 { nav-right: 51; nav-down: 51; }
+.before-link53 { nav-right: 52; nav-down: 52; }
+.before-link54 { nav-right: 53; nav-down: 53; }
+.before-link55 { nav-right: 54; nav-down: 54; }
+.before-link56 { nav-right: 55; nav-down: 55; }
+.before-link57 { nav-right: 56; nav-down: 56; }
+.before-link58 { nav-right: 57; nav-down: 57; }
+.before-link59 { nav-right: 58; nav-down: 58; }
+.before-link60 { nav-right: 59; nav-down: 59; }
+.before-link61 { nav-right: 60; nav-down: 60; }
+.before-link62 { nav-right: 61; nav-down: 61; }
+.before-link63 { nav-right: 62; nav-down: 62; }
+.before-link64 { nav-right: 63; nav-down: 63; }
+.before-link65 { nav-right: 64; nav-down: 64; }
+.before-link66 { nav-right: 65; nav-down: 65; }
+.before-link67 { nav-right: 66; nav-down: 66; }
+.before-link68 { nav-right: 67; nav-down: 67; }
+.before-link69 { nav-right: 68; nav-down: 68; }
+.before-link70 { nav-right: 69; nav-down: 69; }
+.before-link71 { nav-right: 70; nav-down: 70; }
+.before-link72 { nav-right: 71; nav-down: 71; }
+.before-link73 { nav-right: 72; nav-down: 72; }
+.before-link74 { nav-right: 73; nav-down: 73; }
+.before-link75 { nav-right: 74; nav-down: 74; }
+.before-link76 { nav-right: 75; nav-down: 75; }
+.before-link77 { nav-right: 76; nav-down: 76; }
+.before-link78 { nav-right: 77; nav-down: 77; }
+.before-link79 { nav-right: 78; nav-down: 78; }
+.before-link80 { nav-right: 79; nav-down: 79; }
+.before-link81 { nav-right: 80; nav-down: 80; }
+.before-link82 { nav-right: 81; nav-down: 81; }
+.before-link83 { nav-right: 82; nav-down: 82; }
+.before-link84 { nav-right: 83; nav-down: 83; }
+.before-link85 { nav-right: 84; nav-down: 84; }
+.before-link86 { nav-right: 85; nav-down: 85; }
+.before-link87 { nav-right: 86; nav-down: 86; }
+.before-link88 { nav-right: 87; nav-down: 87; }
+.before-link89 { nav-right: 88; nav-down: 88; }
+.before-link90 { nav-right: 89; nav-down: 89; }
+.before-link91 { nav-right: 90; nav-down: 90; }
+.before-link92 { nav-right: 91; nav-down: 91; }
+.before-link93 { nav-right: 92; nav-down: 92; }
+.before-link94 { nav-right: 93; nav-down: 93; }
+.before-link95 { nav-right: 94; nav-down: 94; }
+.before-link96 { nav-right: 95; nav-down: 95; }
+.before-link97 { nav-right: 96; nav-down: 96; }
+.before-link98 { nav-right: 97; nav-down: 97; }
+.before-link99 { nav-right: 98; nav-down: 98; }
+
+/* above-link{N} */
+.above-link1  { nav-down:  0; }
+.above-link2  { nav-down:  1; }
+.above-link3  { nav-down:  2; }
+.above-link4  { nav-down:  3; }
+.above-link5  { nav-down:  4; }
+.above-link6  { nav-down:  5; }
+.above-link7  { nav-down:  6; }
+.above-link8  { nav-down:  7; }
+.above-link9  { nav-down:  8; }
+.above-link10 { nav-down:  9; }
+.above-link11 { nav-down: 10; }
+.above-link12 { nav-down: 11; }
+.above-link13 { nav-down: 12; }
+.above-link14 { nav-down: 13; }
+.above-link15 { nav-down: 14; }
+.above-link16 { nav-down: 15; }
+.above-link17 { nav-down: 16; }
+.above-link18 { nav-down: 17; }
+.above-link19 { nav-down: 18; }
+.above-link20 { nav-down: 19; }
+.above-link21 { nav-down: 20; }
+.above-link22 { nav-down: 21; }
+.above-link23 { nav-down: 22; }
+.above-link24 { nav-down: 23; }
+.above-link25 { nav-down: 24; }
+.above-link26 { nav-down: 25; }
+.above-link27 { nav-down: 26; }
+.above-link28 { nav-down: 27; }
+.above-link29 { nav-down: 28; }
+.above-link30 { nav-down: 29; }
+.above-link31 { nav-down: 30; }
+.above-link32 { nav-down: 31; }
+.above-link33 { nav-down: 32; }
+.above-link34 { nav-down: 33; }
+.above-link35 { nav-down: 34; }
+.above-link36 { nav-down: 35; }
+.above-link37 { nav-down: 36; }
+.above-link38 { nav-down: 37; }
+.above-link39 { nav-down: 38; }
+.above-link40 { nav-down: 39; }
+.above-link41 { nav-down: 40; }
+.above-link42 { nav-down: 41; }
+.above-link43 { nav-down: 42; }
+.above-link44 { nav-down: 43; }
+.above-link45 { nav-down: 44; }
+.above-link46 { nav-down: 45; }
+.above-link47 { nav-down: 46; }
+.above-link48 { nav-down: 47; }
+.above-link49 { nav-down: 48; }
+.above-link50 { nav-down: 49; }
+.above-link51 { nav-down: 50; }
+.above-link52 { nav-down: 51; }
+.above-link53 { nav-down: 52; }
+.above-link54 { nav-down: 53; }
+.above-link55 { nav-down: 54; }
+.above-link56 { nav-down: 55; }
+.above-link57 { nav-down: 56; }
+.above-link58 { nav-down: 57; }
+.above-link59 { nav-down: 58; }
+.above-link60 { nav-down: 59; }
+.above-link61 { nav-down: 60; }
+.above-link62 { nav-down: 61; }
+.above-link63 { nav-down: 62; }
+.above-link64 { nav-down: 63; }
+.above-link65 { nav-down: 64; }
+.above-link66 { nav-down: 65; }
+.above-link67 { nav-down: 66; }
+.above-link68 { nav-down: 67; }
+.above-link69 { nav-down: 68; }
+.above-link70 { nav-down: 69; }
+.above-link71 { nav-down: 70; }
+.above-link72 { nav-down: 71; }
+.above-link73 { nav-down: 72; }
+.above-link74 { nav-down: 73; }
+.above-link75 { nav-down: 74; }
+.above-link76 { nav-down: 75; }
+.above-link77 { nav-down: 76; }
+.above-link78 { nav-down: 77; }
+.above-link79 { nav-down: 78; }
+.above-link80 { nav-down: 79; }
+.above-link81 { nav-down: 80; }
+.above-link82 { nav-down: 81; }
+.above-link83 { nav-down: 82; }
+.above-link84 { nav-down: 83; }
+.above-link85 { nav-down: 84; }
+.above-link86 { nav-down: 85; }
+.above-link87 { nav-down: 86; }
+.above-link88 { nav-down: 87; }
+.above-link89 { nav-down: 88; }
+.above-link90 { nav-down: 89; }
+.above-link91 { nav-down: 90; }
+.above-link92 { nav-down: 91; }
+.above-link93 { nav-down: 92; }
+.above-link94 { nav-down: 93; }
+.above-link95 { nav-down: 94; }
+.above-link96 { nav-down: 95; }
+.above-link97 { nav-down: 96; }
+.above-link98 { nav-down: 97; }
+.above-link99 { nav-down: 98; }
+
+/* below-link{N} */
+.below-link1  { nav-up:  0; }
+.below-link2  { nav-up:  1; }
+.below-link3  { nav-up:  2; }
+.below-link4  { nav-up:  3; }
+.below-link5  { nav-up:  4; }
+.below-link6  { nav-up:  5; }
+.below-link7  { nav-up:  6; }
+.below-link8  { nav-up:  7; }
+.below-link9  { nav-up:  8; }
+.below-link10 { nav-up:  9; }
+.below-link11 { nav-up: 10; }
+.below-link12 { nav-up: 11; }
+.below-link13 { nav-up: 12; }
+.below-link14 { nav-up: 13; }
+.below-link15 { nav-up: 14; }
+.below-link16 { nav-up: 15; }
+.below-link17 { nav-up: 16; }
+.below-link18 { nav-up: 17; }
+.below-link19 { nav-up: 18; }
+.below-link20 { nav-up: 19; }
+.below-link21 { nav-up: 20; }
+.below-link22 { nav-up: 21; }
+.below-link23 { nav-up: 22; }
+.below-link24 { nav-up: 23; }
+.below-link25 { nav-up: 24; }
+.below-link26 { nav-up: 25; }
+.below-link27 { nav-up: 26; }
+.below-link28 { nav-up: 27; }
+.below-link29 { nav-up: 28; }
+.below-link30 { nav-up: 29; }
+.below-link31 { nav-up: 30; }
+.below-link32 { nav-up: 31; }
+.below-link33 { nav-up: 32; }
+.below-link34 { nav-up: 33; }
+.below-link35 { nav-up: 34; }
+.below-link36 { nav-up: 35; }
+.below-link37 { nav-up: 36; }
+.below-link38 { nav-up: 37; }
+.below-link39 { nav-up: 38; }
+.below-link40 { nav-up: 39; }
+.below-link41 { nav-up: 40; }
+.below-link42 { nav-up: 41; }
+.below-link43 { nav-up: 42; }
+.below-link44 { nav-up: 43; }
+.below-link45 { nav-up: 44; }
+.below-link46 { nav-up: 45; }
+.below-link47 { nav-up: 46; }
+.below-link48 { nav-up: 47; }
+.below-link49 { nav-up: 48; }
+.below-link50 { nav-up: 49; }
+.below-link51 { nav-up: 50; }
+.below-link52 { nav-up: 51; }
+.below-link53 { nav-up: 52; }
+.below-link54 { nav-up: 53; }
+.below-link55 { nav-up: 54; }
+.below-link56 { nav-up: 55; }
+.below-link57 { nav-up: 56; }
+.below-link58 { nav-up: 57; }
+.below-link59 { nav-up: 58; }
+.below-link60 { nav-up: 59; }
+.below-link61 { nav-up: 60; }
+.below-link62 { nav-up: 61; }
+.below-link63 { nav-up: 62; }
+.below-link64 { nav-up: 63; }
+.below-link65 { nav-up: 64; }
+.below-link66 { nav-up: 65; }
+.below-link67 { nav-up: 66; }
+.below-link68 { nav-up: 67; }
+.below-link69 { nav-up: 68; }
+.below-link70 { nav-up: 69; }
+.below-link71 { nav-up: 70; }
+.below-link72 { nav-up: 71; }
+.below-link73 { nav-up: 72; }
+.below-link74 { nav-up: 73; }
+.below-link75 { nav-up: 74; }
+.below-link76 { nav-up: 75; }
+.below-link77 { nav-up: 76; }
+.below-link78 { nav-up: 77; }
+.below-link79 { nav-up: 78; }
+.below-link80 { nav-up: 79; }
+.below-link81 { nav-up: 80; }
+.below-link82 { nav-up: 81; }
+.below-link83 { nav-up: 82; }
+.below-link84 { nav-up: 83; }
+.below-link85 { nav-up: 84; }
+.below-link86 { nav-up: 85; }
+.below-link87 { nav-up: 86; }
+.below-link88 { nav-up: 87; }
+.below-link89 { nav-up: 88; }
+.below-link90 { nav-up: 89; }
+.below-link91 { nav-up: 90; }
+.below-link92 { nav-up: 91; }
+.below-link93 { nav-up: 92; }
+.below-link94 { nav-up: 93; }
+.below-link95 { nav-up: 94; }
+.below-link96 { nav-up: 95; }
+.below-link97 { nav-up: 96; }
+.below-link98 { nav-up: 97; }
+.below-link99 { nav-up: 98; }
+

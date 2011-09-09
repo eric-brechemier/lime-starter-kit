@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?bml bml-version="100.0" ?>
+<bml>
+  <head xmlns="http://www.w3.org/1999/xhtml">
+    <title>Navigation Experiment</title>
+    <meta name="DC.creator" content="Eric Bréchemier" />
+    <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
+    <meta name="DC.date" content="2011-09-09" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/decoration.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+  </head>
+  <body xmlns="http://www.w3.org/1999/xhtml">
+
+    <div class="fullscreen">
+      <object class="fullscreen" type="image/jpeg" data="img/grid/grid.jpg" />
+    </div>
+
+
+    <p class="M2 cell link12 link before-link1 above-link1">
+      12
+    </p>
+
+    <p class="P3 cell">
+      <a class="link1 after-link12"
+        href="navigation.bml">1</a>
+    </p>
+
+    <p class="R5 cell">
+      <a class="link2"
+        href="navigation.bml">2</a>
+    </p>
+
+    <p class="S8 cell link3 link after-link4 above-link4">
+      3
+    </p>
+
+    <p class="R11 cell">
+      <a class="link4 before-link3 below-link3 after-link5 above-link5"
+        href="navigation.bml">4</a>
+    </p>
+
+    <p class="P13 cell">
+      <a class="link5 before-link4 below-link4 after-link6 above-link6"
+        href="navigation.bml">5</a>
+    </p>
+
+    <p class="M14 cell link link6 before-link5 after-link7">
+      6
+    </p>
+
+    <p class="J13 cell">
+      <a class="link7 before-link6 after-link8"
+        href="navigation.bml">7</a>
+    </p>
+
+    <p class="H11 cell">
+      <a class="link8 before-link7 after-link9"
+        href="navigation.bml">8</a>
+    </p>
+
+    <p class="F8 cell link9 link below-link10 above-link8">
+      9
+    </p>
+
+    <p class="H5 cell">
+      <a class="link10 above-link9 below-link11"
+        href="navigation.bml">10</a>
+    </p>
+
+    <p class="J3 cell">
+      <a class="link11 above-link10 below-link12"
+        href="navigation.bml">11</a>
+    </p>
+
+  </body>
+</bml>

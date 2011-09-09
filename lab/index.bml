@@ -5,7 +5,7 @@
     <title>List of LIME-HTML documents part of LIME Starter Kit's Lab</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2011-09-08" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -15,39 +15,44 @@
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="A1 row">
-      <a class="link1of9 underline1"
+      <a class="link1of10 underline1"
         href="min.bml">Minimal Document</a>
     </p>
     <p class="A2 row">
-      <a class="link2of9 underline2"
+      <a class="link2of10 underline2"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
     <p class="A3 row">
-      <a class="link3of9"
+      <a class="link3of10"
         href="colors.bml">Colors</a>
     </p>
     <p class="A4 row">
-      <a class="link4of9 border"
+      <a class="link4of10 border"
         href="images.bml">Images</a>
     </p>
     <p class="A5 row white">
-      <a class="link5of9 solid no-top-border no-right-border"
+      <a class="link5of10 solid no-top-border no-right-border"
         href="layout.bml">Layout</a>
       /
-      <a class="link6of9 no-left-border no-bottom-border"
+      <a class="link6of10 no-left-border no-bottom-border"
         href="grid.bml">Grid</a>
     </p>
     <p class="A6 row">
-      <a class="link7of9 dotted border2"
-        href="text.bml">Text</a>
+      <a class="link7of10" href="navigation.bml">
+        Navigation
+      </a>
     </p>
     <p class="A7 row">
-      <a class="link8of9 border4"
+      <a class="link8of10 dotted border2"
+        href="text.bml">Text</a>
+    </p>
+    <p class="A8 row">
+      <a class="link9of10 border4"
         href="decoration.bml">Decoration</a>
     </p>
 
-    <p class="A9 row">
-      <a class="link9of9"
+    <p class="A10 row">
+      <a class="link10of10"
         href="define.bml">define.js</a>
     </p>
 
