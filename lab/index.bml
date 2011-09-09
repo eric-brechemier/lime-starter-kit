@@ -15,44 +15,44 @@
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
     <p class="A1 row">
-      <a class="link1of10 underline1"
+      <a class="link1 after-link10 underline1"
         href="min.bml">Minimal Document</a>
     </p>
     <p class="A2 row">
-      <a class="link2of10 underline2"
+      <a class="link2 underline2"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
     <p class="A3 row">
-      <a class="link3of10"
+      <a class="link3"
         href="colors.bml">Colors</a>
     </p>
     <p class="A4 row">
-      <a class="link4of10 border"
+      <a class="link4 border"
         href="images.bml">Images</a>
     </p>
     <p class="A5 row white">
-      <a class="link5of10 solid no-top-border no-right-border"
+      <a class="link5 above-link7 solid no-top-border no-right-border"
         href="layout.bml">Layout</a>
       /
-      <a class="link6of10 no-left-border no-bottom-border"
+      <a class="link6 below-link4 no-left-border no-bottom-border"
         href="grid.bml">Grid</a>
     </p>
     <p class="A6 row">
-      <a class="link7of10" href="navigation.bml">
+      <a class="link7 below-link5" href="navigation.bml">
         Navigation
       </a>
     </p>
     <p class="A7 row">
-      <a class="link8of10 dotted border2"
+      <a class="link8 dotted border2"
         href="text.bml">Text</a>
     </p>
     <p class="A8 row">
-      <a class="link9of10 border4"
+      <a class="link9 border4"
         href="decoration.bml">Decoration</a>
     </p>
 
     <p class="A10 row">
-      <a class="link10of10"
+      <a class="link10 before-link1"
         href="define.bml">define.js</a>
     </p>
 
