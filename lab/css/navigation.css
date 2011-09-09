@@ -32,6 +32,10 @@ a:focus, .link:focus {
 }
 
 a:active, .link:active {
+  border-top-color-index:    3;
+  border-right-color-index:  3;
+  border-bottom-color-index: 3;
+  border-left-color-index:   3;
   color-index: 3;
 }
 
