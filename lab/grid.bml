@@ -5,7 +5,7 @@
     <title>Grid using CSS Styles for layout</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2011-09-23" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -13,7 +13,8 @@
   <body class="on-white">
 
     <div class="fullscreen">
-      <object class="fullscreen" type="image/jpeg" data="img/grid/grid.jpg" />
+      <object class="fullscreen" type="image/jpeg"
+        data="media/grid/grid.jpg" />
     </div>
 
     <!-- row 1 -->

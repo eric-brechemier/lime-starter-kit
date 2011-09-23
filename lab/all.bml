@@ -17,7 +17,7 @@
       line-height: 30px;
     }
     body{
-      clut:url(img/palette.clt);
+      clut:url(media/palette.clt);
     }
     .title {
       font-weight: bold;
@@ -31,7 +31,7 @@
     </style>
     <!-- ISSUE: no more than one link element is allowed in DTD -->
     <link href="css/layout.css" />
-    <script src="js/define.js"></script>
+    <script src="scripts/define.ecm"></script>
     <script>
     <![CDATA[
     /* when scripts run, all elements in the document are already available */
@@ -88,7 +88,7 @@
         onload="onload();" onunload="onunload();">
     <div class="G2 on-18x15 on-yellow"></div>
     <div class="F1 fullscreen">
-      <object type="image/X-arib-png" data="img/radionette/tv-indexed.png"
+      <object type="image/X-arib-png" data="media/radionette/tv-indexed.png"
         class="A1 fullscreen"/>
     </div>
 

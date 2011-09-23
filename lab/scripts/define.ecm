@@ -1,5 +1,5 @@
 /*
- * File: define.js
+ * File: define.ecm
  * A Basic implementation of CommonJS Asynchronous Module Definition (AMD)
  * for LIME TV.
  *
