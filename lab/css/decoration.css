@@ -4,17 +4,25 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-09-09
+ * Version: 2012-01-06
  */
 
 /* rules for the styles of lines of borders and underlines.
    The default style is solid. */
-.border, .border1, .border2, .border3, .border4,
-.underline, .underline1, .underline2, .underline3, .underline4,
+.border { border-style: solid; }
+.border1 { border-style: solid; }
+.border2 { border-style: solid; }
+.border3 { border-style: solid; }
+.border4 { border-style: solid; }
+.underline { border-style: solid; }
+.underline1 { border-style: solid; }
+.underline2 { border-style: solid; }
+.underline3 { border-style: solid; }
+.underline4 { border-style: solid; }
+
 .solid {
   border-style: solid;
 }
-
 .dashed {
   border-style: dashed;
 }
@@ -25,34 +33,108 @@
 /* An underline is a border with all but the bottom border transparent.
    This rule overrides default color declarations in colors.css;
    for this to work, this stylesheet must be included after colors.css */
-.underline, .underline1, .underline2, .underline3, .underline4,
-.underline:focus, .underline1:focus, .underline2:focus, .underline4:focus,
-.underline:active, .underline1:active, .underline2:active, .underline4:active {
+.underline {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline1 {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline2 {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline3 {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline4 {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline:focus {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline1:focus {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline2:focus {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline4:focus {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline:active {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline1:active {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline2:active {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline4:active {
   border-top-color-index:    8;
   border-right-color-index:  8;
   border-left-color-index:   8;
 }
 
-.no-top-border,
-.no-top-border:focus,
+.no-top-border {
+  border-top-color-index:    8;
+}
+.no-top-border:focus {
+  border-top-color-index:    8;
+}
 .no-top-border:active {
   border-top-color-index:    8;
 }
 
-.no-right-border,
-.no-right-border:focus,
+.no-right-border {
+  border-right-color-index:  8;
+}
+.no-right-border:focus {
+  border-right-color-index:  8;
+}
 .no-right-border:active {
   border-right-color-index:  8;
 }
 
-.no-bottom-border,
-.no-bottom-border:focus,
+.no-bottom-border {
+  border-bottom-color-index: 8;
+}
+.no-bottom-border:focus {
+  border-bottom-color-index: 8;
+}
 .no-bottom-border:active {
   border-bottom-color-index: 8;
 }
 
-.no-left-border,
-.no-left-border:focus,
+.no-left-border {
+  border-left-color-index:   8;
+}
+.no-left-border:focus {
+  border-left-color-index:   8;
+}
 .no-left-border:active {
   border-left-color-index:   8;
 }
@@ -61,19 +143,33 @@
    - the number in the end indicates the thickness in px:
      border1, border2, ..., underline1, underline2 ...
    - border is an alias for border1, underline is an alias for underline1. */
-.border, .border1,
-.underline, .underline1 {
+.border {
   border-width: 1px;
 }
-.border2,
+.border1 {
+  border-width: 1px;
+}
+.underline {
+  border-width: 1px;
+}
+.underline1 {
+  border-width: 1px;
+}
+.border2 {
+  border-width: 2px;
+}
 .underline2 {
   border-width: 2px;
 }
-.border3,
+.border3 {
+  border-width: 3px;
+}
 .underline3 {
   border-width: 3px;
 }
-.border4,
+.border4{
+  border-width: 4px;
+}
 .underline4 {
   border-width: 4px;
 }

@@ -4,14 +4,14 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-09-09
+ * Version: 2012-01-06
  */
 
 /* Styles for links in default/focused/active states
    Defined for anchor elements and any element with the class 'link'
  */
 
-a, .link {
+a {
   border-width:   2px;
   border-style: dotted;
   border-top-color-index:    8;
@@ -21,7 +21,27 @@ a, .link {
   grayscale-color-index:  8  8;
   color-index: 4;
 }
-a:focus, .link:focus {
+.link {
+  border-width:   2px;
+  border-style: dotted;
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-bottom-color-index: 8;
+  border-left-color-index:   8;
+  grayscale-color-index:  8  8;
+  color-index: 4;
+}
+
+a:focus {
+  border-top-color-index:    1;
+  border-right-color-index:  1;
+  border-bottom-color-index: 1;
+  border-left-color-index:   1;
+  grayscale-color-index:   4 4;
+  color-index: 6;
+  font-weight: bold;
+}
+.link:focus {
   border-top-color-index:    1;
   border-right-color-index:  1;
   border-bottom-color-index: 1;
@@ -31,7 +51,15 @@ a:focus, .link:focus {
   font-weight: bold;
 }
 
-a:active, .link:active {
+a:active {
+  border-top-color-index:    3;
+  border-right-color-index:  3;
+  border-bottom-color-index: 3;
+  border-left-color-index:   3;
+  color-index: 3;
+}
+
+.link:active {
   border-top-color-index:    3;
   border-right-color-index:  3;
   border-bottom-color-index: 3;

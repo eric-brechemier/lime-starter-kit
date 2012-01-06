@@ -4,7 +4,7 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-08-23
+ * Version: 2012-01-06
  */
 
 /* foreground colors (text and border) */
@@ -17,7 +17,13 @@
   border-left-color-index:     0;
 }
 
-.red,
+.red {
+  color-index:                 1;
+  border-top-color-index:      1;
+  border-right-color-index:    1;
+  border-bottom-color-index:   1;
+  border-left-color-index:     1;
+}
 .bright-red {
   color-index:                 1;
   border-top-color-index:      1;
@@ -82,10 +88,34 @@
   border-left-color-index:     8;
 }
 
-.orange-brown,
-.dark-orange-brown,
-.dark-orange,
-.dark-brown,
+.orange-brown {
+  color-index:                 9;
+  border-top-color-index:      9;
+  border-right-color-index:    9;
+  border-bottom-color-index:   9;
+  border-left-color-index:     9;
+}
+.dark-orange-brown {
+  color-index:                 9;
+  border-top-color-index:      9;
+  border-right-color-index:    9;
+  border-bottom-color-index:   9;
+  border-left-color-index:     9;
+}
+.dark-orange {
+  color-index:                 9;
+  border-top-color-index:      9;
+  border-right-color-index:    9;
+  border-bottom-color-index:   9;
+  border-left-color-index:     9;
+}
+.dark-brown {
+  color-index:                 9;
+  border-top-color-index:      9;
+  border-right-color-index:    9;
+  border-bottom-color-index:   9;
+  border-left-color-index:     9;
+}
 .dark-red {
   color-index:                 9;
   border-top-color-index:      9;
@@ -94,7 +124,13 @@
   border-left-color-index:     9;
 }
 
-.dark-yellow-green,
+.dark-yellow-green {
+  color-index:                10;
+  border-top-color-index:     10;
+  border-right-color-index:   10;
+  border-bottom-color-index:  10;
+  border-left-color-index:    10;
+}
 .dark-green {
   color-index:                10;
   border-top-color-index:     10;
@@ -103,8 +139,20 @@
   border-left-color-index:    10;
 }
 
-.yellow-brown,
-.dark-yellow-brown,
+.yellow-brown {
+  color-index:                11;
+  border-top-color-index:     11;
+  border-right-color-index:   11;
+  border-bottom-color-index:  11;
+  border-left-color-index:    11;
+}
+.dark-yellow-brown {
+  color-index:                11;
+  border-top-color-index:     11;
+  border-right-color-index:   11;
+  border-bottom-color-index:  11;
+  border-left-color-index:    11;
+}
 .dark-yellow {
   color-index:                11;
   border-top-color-index:     11;
@@ -113,8 +161,20 @@
   border-left-color-index:    11;
 }
 
-.purple-blue,
-.dark-purple-blue,
+.purple-blue {
+  color-index:                12;
+  border-top-color-index:     12;
+  border-right-color-index:   12;
+  border-bottom-color-index:  12;
+  border-left-color-index:    12;
+}
+.dark-purple-blue {
+  color-index:                12;
+  border-top-color-index:     12;
+  border-right-color-index:   12;
+  border-bottom-color-index:  12;
+  border-left-color-index:    12;
+}
 .dark-blue {
   color-index:                12;
   border-top-color-index:     12;
@@ -139,13 +199,55 @@
   border-left-color-index:    14;
 }
 
-.gray,
-.grey,
-.light-gray,
-.light-grey,
-.medium-gray,
-.medium-grey,
-.bright-gray,
+.gray {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.grey {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.light-gray {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.light-grey {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.medium-gray {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.medium-grey {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
+.bright-gray {
+  color-index:                15;
+  border-top-color-index:     15;
+  border-right-color-index:   15;
+  border-bottom-color-index:  15;
+  border-left-color-index:    15;
+}
 .bright-grey {
   color-index:                15;
   border-top-color-index:     15;
@@ -154,8 +256,20 @@
   border-left-color-index:    15;
 }
 
-.darker-blue,
-.darker-purple,
+.darker-blue {
+  color-index:                16;
+  border-top-color-index:     16;
+  border-right-color-index:   16;
+  border-bottom-color-index:  16;
+  border-left-color-index:    16;
+}
+.darker-purple {
+  color-index:                16;
+  border-top-color-index:     16;
+  border-right-color-index:   16;
+  border-bottom-color-index:  16;
+  border-left-color-index:    16;
+}
 .darker-purple-blue {
   color-index:                16;
   border-top-color-index:     16;
@@ -164,8 +278,20 @@
   border-left-color-index:    16;
 }
 
-.darker-blue-green,
-.darker-green,
+.darker-blue-green {
+  color-index:                17;
+  border-top-color-index:     17;
+  border-right-color-index:   17;
+  border-bottom-color-index:  17;
+  border-left-color-index:    17;
+}
+.darker-green {
+  color-index:                17;
+  border-top-color-index:     17;
+  border-right-color-index:   17;
+  border-bottom-color-index:  17;
+  border-left-color-index:    17;
+}
 .darker-yellow-green {
   color-index:                17;
   border-top-color-index:     17;
@@ -182,7 +308,13 @@
   border-left-color-index:    18;
 }
 
-.dull-purple-blue,
+.dull-purple-blue {
+  color-index:                19;
+  border-top-color-index:     19;
+  border-right-color-index:   19;
+  border-bottom-color-index:  19;
+  border-left-color-index:    19;
+}
 .dull-blue {
   color-index:                19;
   border-top-color-index:     19;
@@ -191,7 +323,13 @@
   border-left-color-index:    19;
 }
 
-.blue,
+.blue {
+  color-index:                20;
+  border-top-color-index:     20;
+  border-right-color-index:   20;
+  border-bottom-color-index:  20;
+  border-left-color-index:    20;
+}
 .medium-blue {
   color-index:                20;
   border-top-color-index:     20;
@@ -216,7 +354,13 @@
   border-left-color-index:    22;
 }
 
-.green,
+.green {
+  color-index:                23;
+  border-top-color-index:     23;
+  border-right-color-index:   23;
+  border-bottom-color-index:  23;
+  border-left-color-index:    23;
+}
 .medium-green {
   color-index:                23;
   border-top-color-index:     23;
@@ -233,11 +377,41 @@
   border-left-color-index:    24;
 }
 
-.darker-orange-brown,
-.darker-orange,
-.brown,
-.darker-brown,
-.darker-purple-brown,
+.darker-orange-brown {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
+.darker-orange {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
+.brown {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
+.darker-brown {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
+.darker-purple-brown {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
 .darker-pink {
   color-index:                25;
   border-top-color-index:     25;
@@ -254,7 +428,13 @@
   border-left-color-index:    26;
 }
 
-.purple,
+.purple {
+  color-index:                27;
+  border-top-color-index:     27;
+  border-right-color-index:   27;
+  border-bottom-color-index:  27;
+  border-left-color-index:    27;
+}
 .dark-purple {
   color-index:                27;
   border-top-color-index:     27;
@@ -271,7 +451,13 @@
   border-left-color-index:    28;
 }
 
-.darker-yellow-brown,
+.darker-yellow-brown {
+  color-index:                29;
+  border-top-color-index:     29;
+  border-right-color-index:   29;
+  border-bottom-color-index:  29;
+  border-left-color-index:    29;
+}
 .darker-yellow {
   color-index:                29;
   border-top-color-index:     29;
@@ -280,11 +466,41 @@
   border-left-color-index:    29;
 }
 
-.dark-gray,
-.dark-grey,
-.dull-gray,
-.dull-grey,
-.darker-gray,
+.dark-gray {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
+.dark-grey {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
+.dull-gray {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
+.dull-grey {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
+.darker-gray {
+  color-index:                30;
+  border-top-color-index:     30;
+  border-right-color-index:   30;
+  border-bottom-color-index:  30;
+  border-left-color-index:    30;
+}
 .darker-grey {
   color-index:                30;
   border-top-color-index:     30;
@@ -309,7 +525,13 @@
   border-left-color-index:    32;
 }
 
-.dull-yellow-green,
+.dull-yellow-green {
+  color-index:                33;
+  border-top-color-index:     33;
+  border-right-color-index:   33;
+  border-bottom-color-index:  33;
+  border-left-color-index:    33;
+}
 .dull-green {
   color-index:                33;
   border-top-color-index:     33;
@@ -358,7 +580,13 @@
   border-left-color-index:    38;
 }
 
-.blue-green,
+.blue-green {
+  color-index:                39;
+  border-top-color-index:     39;
+  border-right-color-index:   39;
+  border-bottom-color-index:  39;
+  border-left-color-index:    39;
+}
 .medium-blue-green {
   color-index:                39;
   border-top-color-index:     39;
@@ -367,7 +595,13 @@
   border-left-color-index:    39;
 }
 
-.cyan,
+.cyan {
+  color-index:                40;
+  border-top-color-index:     40;
+  border-right-color-index:   40;
+  border-bottom-color-index:  40;
+  border-left-color-index:    40;
+}
 .medium-cyan {
   color-index:                40;
   border-top-color-index:     40;
@@ -376,8 +610,20 @@
   border-left-color-index:    40;
 }
 
-.purple-brown,
-.dark-purple-brown,
+.purple-brown {
+  color-index:                41;
+  border-top-color-index:     41;
+  border-right-color-index:   41;
+  border-bottom-color-index:  41;
+  border-left-color-index:    41;
+}
+.dark-purple-brown {
+  color-index:                41;
+  border-top-color-index:     41;
+  border-right-color-index:   41;
+  border-bottom-color-index:  41;
+  border-left-color-index:    41;
+}
 .dark-pink {
   color-index:                41;
   border-top-color-index:     41;
@@ -394,9 +640,27 @@
   border-left-color-index:    42;
 }
 
-.dull-orange-brown,
-.dull-orange,
-.dull-brown,
+.dull-orange-brown {
+  color-index:                43;
+  border-top-color-index:     43;
+  border-right-color-index:   43;
+  border-bottom-color-index:  43;
+  border-left-color-index:    43;
+}
+.dull-orange {
+  color-index:                43;
+  border-top-color-index:     43;
+  border-right-color-index:   43;
+  border-bottom-color-index:  43;
+  border-left-color-index:    43;
+}
+.dull-brown {
+  color-index:                43;
+  border-top-color-index:     43;
+  border-right-color-index:   43;
+  border-bottom-color-index:  43;
+  border-left-color-index:    43;
+}
 .dull-red {
   color-index:                43;
   border-top-color-index:     43;
@@ -405,7 +669,13 @@
   border-left-color-index:    43;
 }
 
-.dull-purple-brown,
+.dull-purple-brown {
+  color-index:                44;
+  border-top-color-index:     44;
+  border-right-color-index:   44;
+  border-bottom-color-index:  44;
+  border-left-color-index:    44;
+}
 .dull-pink {
   color-index:                44;
   border-top-color-index:     44;
@@ -430,7 +700,13 @@
   border-left-color-index:    46;
 }
 
-.dull-yellow-brown,
+.dull-yellow-brown {
+  color-index:                47;
+  border-top-color-index:     47;
+  border-right-color-index:   47;
+  border-bottom-color-index:  47;
+  border-left-color-index:    47;
+}
 .dull-yellow {
   color-index:                47;
   border-top-color-index:     47;
@@ -479,8 +755,20 @@
   border-left-color-index:    52;
 }
 
-.pink-red,
-.medium-pink-red,
+.pink-red {
+  color-index:                53;
+  border-top-color-index:     53;
+  border-right-color-index:   53;
+  border-bottom-color-index:  53;
+  border-left-color-index:    53;
+}
+.medium-pink-red {
+  color-index:                53;
+  border-top-color-index:     53;
+  border-right-color-index:   53;
+  border-bottom-color-index:  53;
+  border-left-color-index:    53;
+}
 .medium-red {
   color-index:                53;
   border-top-color-index:     53;
@@ -505,7 +793,13 @@
   border-left-color-index:    55;
 }
 
-.light-pink-red,
+.light-pink-red {
+  color-index:                56;
+  border-top-color-index:     56;
+  border-right-color-index:   56;
+  border-bottom-color-index:  56;
+  border-left-color-index:    56;
+}
 .light-red {
   color-index:                56;
   border-top-color-index:     56;
@@ -514,7 +808,13 @@
   border-left-color-index:    56;
 }
 
-.pink,
+.pink {
+  color-index:                57;
+  border-top-color-index:     57;
+  border-right-color-index:   57;
+  border-bottom-color-index:  57;
+  border-left-color-index:    57;
+}
 .medium-pink {
   color-index:                57;
   border-top-color-index:     57;
@@ -523,7 +823,13 @@
   border-left-color-index:    57;
 }
 
-.magenta,
+.magenta {
+  color-index:                58;
+  border-top-color-index:     58;
+  border-right-color-index:   58;
+  border-bottom-color-index:  58;
+  border-left-color-index:    58;
+}
 .medium-magenta {
   color-index:                58;
   border-top-color-index:     58;
@@ -532,7 +838,13 @@
   border-left-color-index:    58;
 }
 
-.orange,
+.orange {
+  color-index:                59;
+  border-top-color-index:     59;
+  border-right-color-index:   59;
+  border-bottom-color-index:  59;
+  border-left-color-index:    59;
+}
 .medium-orange {
   color-index:                59;
   border-top-color-index:     59;
@@ -565,7 +877,13 @@
   border-left-color-index:    62;
 }
 
-.yellow,
+.yellow {
+  color-index:                63;
+  border-top-color-index:     63;
+  border-right-color-index:   63;
+  border-bottom-color-index:  63;
+  border-left-color-index:    63;
+}
 .medium-yellow {
   color-index:                63;
   border-top-color-index:     63;
@@ -582,7 +900,13 @@
   border-left-color-index:    64;
 }
 
-.half-transparent,
+.half-transparent {
+  color-index:                65;
+  border-top-color-index:     65;
+  border-right-color-index:   65;
+  border-bottom-color-index:  65;
+  border-left-color-index:    65;
+}
 .transparent-black {
   color-index:                65;
   border-top-color-index:     65;
@@ -591,7 +915,13 @@
   border-left-color-index:    65;
 }
 
-.transparent-red,
+.transparent-red {
+  color-index:                66;
+  border-top-color-index:     66;
+  border-right-color-index:   66;
+  border-bottom-color-index:  66;
+  border-left-color-index:    66;
+}
 .transparent-bright-red {
   color-index:                66;
   border-top-color-index:     66;
@@ -648,10 +978,34 @@
   border-left-color-index:    72;
 }
 
-.transparent-orange-brown,
-.transparent-dark-orange-brown,
-.transparent-dark-orange,
-.transparent-dark-brown,
+.transparent-orange-brown {
+  color-index:                73;
+  border-top-color-index:     73;
+  border-right-color-index:   73;
+  border-bottom-color-index:  73;
+  border-left-color-index:    73;
+}
+.transparent-dark-orange-brown {
+  color-index:                73;
+  border-top-color-index:     73;
+  border-right-color-index:   73;
+  border-bottom-color-index:  73;
+  border-left-color-index:    73;
+}
+.transparent-dark-orange {
+  color-index:                73;
+  border-top-color-index:     73;
+  border-right-color-index:   73;
+  border-bottom-color-index:  73;
+  border-left-color-index:    73;
+}
+.transparent-dark-brown {
+  color-index:                73;
+  border-top-color-index:     73;
+  border-right-color-index:   73;
+  border-bottom-color-index:  73;
+  border-left-color-index:    73;
+}
 .transparent-dark-red {
   color-index:                73;
   border-top-color-index:     73;
@@ -660,7 +1014,13 @@
   border-left-color-index:    73;
 }
 
-.transparent-dark-yellow-green,
+.transparent-dark-yellow-green {
+  color-index:                74;
+  border-top-color-index:     74;
+  border-right-color-index:   74;
+  border-bottom-color-index:  74;
+  border-left-color-index:    74;
+}
 .transparent-dark-green {
   color-index:                74;
   border-top-color-index:     74;
@@ -669,8 +1029,20 @@
   border-left-color-index:    74;
 }
 
-.transparent-yellow-brown,
-.transparent-dark-yellow-brown,
+.transparent-yellow-brown {
+  color-index:                75;
+  border-top-color-index:     75;
+  border-right-color-index:   75;
+  border-bottom-color-index:  75;
+  border-left-color-index:    75;
+}
+.transparent-dark-yellow-brown {
+  color-index:                75;
+  border-top-color-index:     75;
+  border-right-color-index:   75;
+  border-bottom-color-index:  75;
+  border-left-color-index:    75;
+}
 .transparent-dark-yellow {
   color-index:                75;
   border-top-color-index:     75;
@@ -679,8 +1051,20 @@
   border-left-color-index:    75;
 }
 
-.transparent-purple-blue,
-.transparent-dark-purple-blue,
+.transparent-purple-blue {
+  color-index:                76;
+  border-top-color-index:     76;
+  border-right-color-index:   76;
+  border-bottom-color-index:  76;
+  border-left-color-index:    76;
+}
+.transparent-dark-purple-blue {
+  color-index:                76;
+  border-top-color-index:     76;
+  border-right-color-index:   76;
+  border-bottom-color-index:  76;
+  border-left-color-index:    76;
+}
 .transparent-dark-blue {
   color-index:                76;
   border-top-color-index:     76;
@@ -705,13 +1089,55 @@
   border-left-color-index:    78;
 }
 
-.transparent-gray,
-.transparent-grey,
-.transparent-light-gray,
-.transparent-light-grey,
-.transparent-medium-gray,
-.transparent-medium-grey,
-.transparent-bright-gray,
+.transparent-gray {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-grey {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-light-gray {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-light-grey {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-medium-gray {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-medium-grey {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
+.transparent-bright-gray {
+  color-index:                79;
+  border-top-color-index:     79;
+  border-right-color-index:   79;
+  border-bottom-color-index:  79;
+  border-left-color-index:    79;
+}
 .transparent-bright-grey {
   color-index:                79;
   border-top-color-index:     79;
@@ -720,8 +1146,20 @@
   border-left-color-index:    79;
 }
 
-.transparent-darker-blue,
-.transparent-darker-purple,
+.transparent-darker-blue {
+  color-index:                80;
+  border-top-color-index:     80;
+  border-right-color-index:   80;
+  border-bottom-color-index:  80;
+  border-left-color-index:    80;
+}
+.transparent-darker-purple {
+  color-index:                80;
+  border-top-color-index:     80;
+  border-right-color-index:   80;
+  border-bottom-color-index:  80;
+  border-left-color-index:    80;
+}
 .transparent-darker-purple-blue {
   color-index:                80;
   border-top-color-index:     80;
@@ -730,8 +1168,20 @@
   border-left-color-index:    80;
 }
 
-.transparent-darker-blue-green,
-.transparent-darker-green,
+.transparent-darker-blue-green {
+  color-index:                81;
+  border-top-color-index:     81;
+  border-right-color-index:   81;
+  border-bottom-color-index:  81;
+  border-left-color-index:    81;
+}
+.transparent-darker-green {
+  color-index:                81;
+  border-top-color-index:     81;
+  border-right-color-index:   81;
+  border-bottom-color-index:  81;
+  border-left-color-index:    81;
+}
 .transparent-darker-yellow-green {
   color-index:                81;
   border-top-color-index:     81;
@@ -748,7 +1198,13 @@
   border-left-color-index:    82;
 }
 
-.transparent-dull-purple-blue,
+.transparent-dull-purple-blue {
+  color-index:                83;
+  border-top-color-index:     83;
+  border-right-color-index:   83;
+  border-bottom-color-index:  83;
+  border-left-color-index:    83;
+}
 .transparent-dull-blue {
   color-index:                83;
   border-top-color-index:     83;
@@ -757,7 +1213,13 @@
   border-left-color-index:    83;
 }
 
-.transparent-blue,
+.transparent-blue {
+  color-index:                84;
+  border-top-color-index:     84;
+  border-right-color-index:   84;
+  border-bottom-color-index:  84;
+  border-left-color-index:    84;
+}
 .transparent-medium-blue {
   color-index:                84;
   border-top-color-index:     84;
@@ -766,7 +1228,7 @@
   border-left-color-index:    84;
 }
 
-.transparent-dark-blue-green ,
+.transparent-dark-blue-green {
   color-index:                85;
   border-top-color-index:     85;
   border-right-color-index:   85;
@@ -782,7 +1244,13 @@
   border-left-color-index:    86;
 }
 
-.transparent-green,
+.transparent-green {
+  color-index:                87;
+  border-top-color-index:     87;
+  border-right-color-index:   87;
+  border-bottom-color-index:  87;
+  border-left-color-index:    87;
+}
 .transparent-medium-green {
   color-index:                87;
   border-top-color-index:     87;
@@ -799,11 +1267,41 @@
   border-left-color-index:    88;
 }
 
-.transparent-darker-orange-brown,
-.transparent-darker-orange,
-.transparent-brown,
-.transparent-darker-brown,
-.transparent-darker-purple-brown,
+.transparent-darker-orange-brown {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
+.transparent-darker-orange {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
+.transparent-brown {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
+.transparent-darker-brown {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
+.transparent-darker-purple-brown {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
 .transparent-darker-pink {
   color-index:                89;
   border-top-color-index:     89;
@@ -820,7 +1318,13 @@
   border-left-color-index:    90;
 }
 
-.transparent-purple,
+.transparent-purple {
+  color-index:                91;
+  border-top-color-index:     91;
+  border-right-color-index:   91;
+  border-bottom-color-index:  91;
+  border-left-color-index:    91;
+}
 .transparent-dark-purple {
   color-index:                91;
   border-top-color-index:     91;
@@ -837,7 +1341,13 @@
   border-left-color-index:    92;
 }
 
-.transparent-darker-yellow-brown,
+.transparent-darker-yellow-brown {
+  color-index:                93;
+  border-top-color-index:     93;
+  border-right-color-index:   93;
+  border-bottom-color-index:  93;
+  border-left-color-index:    93;
+}
 .transparent-darker-yellow {
   color-index:                93;
   border-top-color-index:     93;
@@ -846,11 +1356,41 @@
   border-left-color-index:    93;
 }
 
-.transparent-dark-gray,
-.transparent-dark-grey,
-.transparent-dull-gray,
-.transparent-dull-grey,
-.transparent-darker-gray,
+.transparent-dark-gray {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
+.transparent-dark-grey {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
+.transparent-dull-gray {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
+.transparent-dull-grey {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
+.transparent-darker-gray {
+  color-index:                94;
+  border-top-color-index:     94;
+  border-right-color-index:   94;
+  border-bottom-color-index:  94;
+  border-left-color-index:    94;
+}
 .transparent-darker-grey {
   color-index:                94;
   border-top-color-index:     94;
@@ -875,7 +1415,13 @@
   border-left-color-index:    96;
 }
 
-.transparent-dull-yellow-green,
+.transparent-dull-yellow-green {
+  color-index:                97;
+  border-top-color-index:     97;
+  border-right-color-index:   97;
+  border-bottom-color-index:  97;
+  border-left-color-index:    97;
+}
 .transparent-dull-green {
   color-index:                97;
   border-top-color-index:     97;
@@ -924,7 +1470,13 @@
   border-left-color-index:   102;
 }
 
-.transparent-blue-green,
+.transparent-blue-green {
+  color-index:               103;
+  border-top-color-index:    103;
+  border-right-color-index:  103;
+  border-bottom-color-index: 103;
+  border-left-color-index:   103;
+}
 .transparent-medium-blue-green {
   color-index:               103;
   border-top-color-index:    103;
@@ -933,7 +1485,13 @@
   border-left-color-index:   103;
 }
 
-.transparent-cyan,
+.transparent-cyan {
+  color-index:               104;
+  border-top-color-index:    104;
+  border-right-color-index:  104;
+  border-bottom-color-index: 104;
+  border-left-color-index:   104;
+}
 .transparent-medium-cyan {
   color-index:               104;
   border-top-color-index:    104;
@@ -942,8 +1500,20 @@
   border-left-color-index:   104;
 }
 
-.transparent-purple-brown,
-.transparent-dark-purple-brown,
+.transparent-purple-brown {
+  color-index:               105;
+  border-top-color-index:    105;
+  border-right-color-index:  105;
+  border-bottom-color-index: 105;
+  border-left-color-index:   105;
+}
+.transparent-dark-purple-brown {
+  color-index:               105;
+  border-top-color-index:    105;
+  border-right-color-index:  105;
+  border-bottom-color-index: 105;
+  border-left-color-index:   105;
+}
 .transparent-dark-pink {
   color-index:               105;
   border-top-color-index:    105;
@@ -960,9 +1530,27 @@
   border-left-color-index:   106;
 }
 
-.transparent-dull-orange-brown,
-.transparent-dull-orange,
-.transparent-dull-brown,
+.transparent-dull-orange-brown {
+  color-index:               107;
+  border-top-color-index:    107;
+  border-right-color-index:  107;
+  border-bottom-color-index: 107;
+  border-left-color-index:   107;
+}
+.transparent-dull-orange {
+  color-index:               107;
+  border-top-color-index:    107;
+  border-right-color-index:  107;
+  border-bottom-color-index: 107;
+  border-left-color-index:   107;
+}
+.transparent-dull-brown {
+  color-index:               107;
+  border-top-color-index:    107;
+  border-right-color-index:  107;
+  border-bottom-color-index: 107;
+  border-left-color-index:   107;
+}
 .transparent-dull-red {
   color-index:               107;
   border-top-color-index:    107;
@@ -971,7 +1559,13 @@
   border-left-color-index:   107;
 }
 
-.transparent-dull-purple-brown,
+.transparent-dull-purple-brown {
+  color-index:               108;
+  border-top-color-index:    108;
+  border-right-color-index:  108;
+  border-bottom-color-index: 108;
+  border-left-color-index:   108;
+}
 .transparent-dull-pink {
   color-index:               108;
   border-top-color-index:    108;
@@ -996,7 +1590,13 @@
   border-left-color-index:   110;
 }
 
-.transparent-dull-yellow-brown,
+.transparent-dull-yellow-brown {
+  color-index:               111;
+  border-top-color-index:    111;
+  border-right-color-index:  111;
+  border-bottom-color-index: 111;
+  border-left-color-index:   111;
+}
 .transparent-dull-yellow {
   color-index:               111;
   border-top-color-index:    111;
@@ -1045,8 +1645,20 @@
   border-left-color-index:   116;
 }
 
-.transparent-pink-red,
-.transparent-medium-pink-red,
+.transparent-pink-red {
+  color-index:               117;
+  border-top-color-index:    117;
+  border-right-color-index:  117;
+  border-bottom-color-index: 117;
+  border-left-color-index:   117;
+}
+.transparent-medium-pink-red {
+  color-index:               117;
+  border-top-color-index:    117;
+  border-right-color-index:  117;
+  border-bottom-color-index: 117;
+  border-left-color-index:   117;
+}
 .transparent-medium-red {
   color-index:               117;
   border-top-color-index:    117;
@@ -1071,7 +1683,13 @@
   border-left-color-index:   119;
 }
 
-.transparent-light-pink-red,
+.transparent-light-pink-red {
+  color-index:               120;
+  border-top-color-index:    120;
+  border-right-color-index:  120;
+  border-bottom-color-index: 120;
+  border-left-color-index:   120;
+}
 .transparent-light-red {
   color-index:               120;
   border-top-color-index:    120;
@@ -1080,7 +1698,13 @@
   border-left-color-index:   120;
 }
 
-.transparent-pink,
+.transparent-pink {
+  color-index:               121;
+  border-top-color-index:    121;
+  border-right-color-index:  121;
+  border-bottom-color-index: 121;
+  border-left-color-index:   121;
+}
 .transparent-medium-pink {
   color-index:               121;
   border-top-color-index:    121;
@@ -1089,7 +1713,13 @@
   border-left-color-index:   121;
 }
 
-.transparent-magenta,
+.transparent-magenta {
+  color-index:               122;
+  border-top-color-index:    122;
+  border-right-color-index:  122;
+  border-bottom-color-index: 122;
+  border-left-color-index:   122;
+}
 .transparent-medium-magenta {
   color-index:               122;
   border-top-color-index:    122;
@@ -1098,7 +1728,13 @@
   border-left-color-index:   122;
 }
 
-.transparent-orange,
+.transparent-orange {
+  color-index:               123;
+  border-top-color-index:    123;
+  border-right-color-index:  123;
+  border-bottom-color-index: 123;
+  border-left-color-index:   123;
+}
 .transparent-medium-orange {
   color-index:               123;
   border-top-color-index:    123;
@@ -1131,7 +1767,13 @@
   border-left-color-index:   126;
 }
 
-.transparent-yellow,
+.transparent-yellow {
+  color-index:               127;
+  border-top-color-index:    127;
+  border-right-color-index:  127;
+  border-bottom-color-index: 127;
+  border-left-color-index:   127;
+}
 .transparent-medium-yellow {
   color-index:               127;
   border-top-color-index:    127;
@@ -1146,7 +1788,10 @@
   background-color-index:      0;
 }
 
-.on-red,
+.on-red {
+  background-color-index:      1;
+}
+
 .on-bright-red {
   background-color-index:      1;
 }
@@ -1179,27 +1824,45 @@
   background-color-index:      8;
 }
 
-.on-orange-brown,
-.on-dark-orange-brown,
-.on-dark-orange,
-.on-dark-brown,
+.on-orange-brown {
+  background-color-index:      9;
+}
+.on-dark-orange-brown {
+  background-color-index:      9;
+}
+.on-dark-orange {
+  background-color-index:      9;
+}
+.on-dark-brown {
+  background-color-index:      9;
+}
 .on-dark-red {
   background-color-index:      9;
 }
 
-.on-dark-yellow-green,
+.on-dark-yellow-green {
+  background-color-index:     10;
+}
 .on-dark-green {
   background-color-index:     10;
 }
 
-.on-yellow-brown,
-.on-dark-yellow-brown,
+.on-yellow-brown {
+  background-color-index:     11;
+}
+.on-dark-yellow-brown {
+  background-color-index:     11;
+}
 .on-dark-yellow {
   background-color-index:     11;
 }
 
-.on-purple-blue,
-.on-dark-purple-blue,
+.on-purple-blue {
+  background-color-index:     12;
+}
+.on-dark-purple-blue {
+  background-color-index:     12;
+}
 .on-dark-blue {
   background-color-index:     12;
 }
@@ -1212,25 +1875,47 @@
   background-color-index:     14;
 }
 
-.on-gray,
-.on-grey,
-.on-light-gray,
-.on-light-grey,
-.on-medium-gray,
-.on-medium-grey,
-.on-bright-gray,
+.on-gray {
+  background-color-index:     15;
+}
+.on-grey {
+  background-color-index:     15;
+}
+.on-light-gray {
+  background-color-index:     15;
+}
+.on-light-grey {
+  background-color-index:     15;
+}
+.on-medium-gray {
+  background-color-index:     15;
+}
+.on-medium-grey {
+  background-color-index:     15;
+}
+.on-bright-gray {
+  background-color-index:     15;
+}
 .on-bright-grey {
   background-color-index:     15;
 }
 
-.on-darker-blue,
-.on-darker-purple,
+.on-darker-blue {
+  background-color-index:     16;
+}
+.on-darker-purple {
+  background-color-index:     16;
+}
 .on-darker-purple-blue {
   background-color-index:     16;
 }
 
-.on-darker-blue-green,
-.on-darker-green,
+.on-darker-blue-green {
+  background-color-index:     17;
+}
+.on-darker-green {
+  background-color-index:     17;
+}
 .on-darker-yellow-green {
   background-color-index:     17;
 }
@@ -1239,12 +1924,16 @@
   background-color-index:     18;
 }
 
-.on-dull-purple-blue,
+.on-dull-purple-blue {
+  background-color-index:     19;
+}
 .on-dull-blue {
   background-color-index:     19;
 }
 
-.on-blue,
+.on-blue {
+  background-color-index:     20;
+}
 .on-medium-blue {
   background-color-index:     20;
 }
@@ -1257,7 +1946,9 @@
   background-color-index:     22;
 }
 
-.on-green,
+.on-green {
+  background-color-index:     23;
+}
 .on-medium-green {
   background-color-index:     23;
 }
@@ -1266,11 +1957,21 @@
   background-color-index:     24;
 }
 
-.on-darker-orange-brown,
-.on-darker-orange,
-.on-brown,
-.on-darker-brown,
-.on-darker-purple-brown,
+.on-darker-orange-brown {
+  background-color-index:     25;
+}
+.on-darker-orange {
+  background-color-index:     25;
+}
+.on-brown {
+  background-color-index:     25;
+}
+.on-darker-brown {
+  background-color-index:     25;
+}
+.on-darker-purple-brown {
+  background-color-index:     25;
+}
 .on-darker-pink {
   background-color-index:     25;
 }
@@ -1279,7 +1980,9 @@
   background-color-index:     26;
 }
 
-.on-purple,
+.on-purple {
+  background-color-index:     27;
+}
 .on-dark-purple {
   background-color-index:     27;
 }
@@ -1288,16 +1991,28 @@
   background-color-index:     28;
 }
 
-.on-darker-yellow-brown,
+.on-darker-yellow-brown {
+  background-color-index:     29;
+}
 .on-darker-yellow {
   background-color-index:     29;
 }
 
-.on-dark-gray,
-.on-dark-grey,
-.on-dull-gray,
-.on-dull-grey,
-.on-darker-gray,
+.on-dark-gray {
+  background-color-index:     30;
+}
+.on-dark-grey {
+  background-color-index:     30;
+}
+.on-dull-gray {
+  background-color-index:     30;
+}
+.on-dull-grey {
+  background-color-index:     30;
+}
+.on-darker-gray {
+  background-color-index:     30;
+}
 .on-darker-grey {
   background-color-index:     30;
 }
@@ -1310,7 +2025,9 @@
   background-color-index:     32;
 }
 
-.on-dull-yellow-green,
+.on-dull-yellow-green {
+  background-color-index:     33;
+}
 .on-dull-green {
   background-color-index:     33;
 }
@@ -1335,18 +2052,26 @@
   background-color-index:     38;
 }
 
-.on-blue-green,
+.on-blue-green {
+  background-color-index:     39;
+}
 .on-medium-blue-green {
   background-color-index:     39;
 }
 
-.on-cyan,
+.on-cyan {
+  background-color-index:     40;
+}
 .on-medium-cyan {
   background-color-index:     40;
 }
 
-.on-purple-brown,
-.on-dark-purple-brown,
+.on-purple-brown {
+  background-color-index:     41;
+}
+.on-dark-purple-brown {
+  background-color-index:     41;
+}
 .on-dark-pink {
   background-color-index:     41;
 }
@@ -1355,14 +2080,22 @@
   background-color-index:     42;
 }
 
-.on-dull-orange-brown,
-.on-dull-orange,
-.on-dull-brown,
+.on-dull-orange-brown {
+  background-color-index:     43;
+}
+.on-dull-orange {
+  background-color-index:     43;
+}
+.on-dull-brown {
+  background-color-index:     43;
+}
 .on-dull-red {
   background-color-index:     43;
 }
 
-.on-dull-purple-brown,
+.on-dull-purple-brown {
+  background-color-index:     44;
+}
 .on-dull-pink {
   background-color-index:     44;
 }
@@ -1375,7 +2108,9 @@
   background-color-index:     46;
 }
 
-.on-dull-yellow-brown,
+.on-dull-yellow-brown {
+  background-color-index:     47;
+}
 .on-dull-yellow {
   background-color-index:     47;
 }
@@ -1400,8 +2135,12 @@
   background-color-index:     52;
 }
 
-.on-pink-red,
-.on-medium-pink-red,
+.on-pink-red {
+  background-color-index:     53;
+}
+.on-medium-pink-red {
+  background-color-index:     53;
+}
 .on-medium-red {
   background-color-index:     53;
 }
@@ -1414,22 +2153,30 @@
   background-color-index:     55;
 }
 
-.on-light-pink-red,
+.on-light-pink-red {
+  background-color-index:     56;
+}
 .on-light-red {
   background-color-index:     56;
 }
 
-.on-pink,
+.on-pink {
+  background-color-index:     57;
+}
 .on-medium-pink {
   background-color-index:     57;
 }
 
-.on-magenta,
+.on-magenta {
+  background-color-index:     58;
+}
 .on-medium-magenta {
   background-color-index:     58;
 }
 
-.on-orange,
+.on-orange {
+  background-color-index:     59;
+}
 .on-medium-orange {
   background-color-index:     59;
 }
@@ -1446,7 +2193,9 @@
   background-color-index:     62;
 }
 
-.on-yellow,
+.on-yellow {
+  background-color-index:     63;
+}
 .on-medium-yellow {
   background-color-index:     63;
 }
@@ -1455,12 +2204,16 @@
   background-color-index:     64;
 }
 
-.on-half-transparent,
+.on-half-transparent {
+  background-color-index:     65;
+}
 .on-transparent-black {
   background-color-index:     65;
 }
 
-.on-transparent-red,
+.on-transparent-red {
+  background-color-index:     66;
+}
 .on-transparent-bright-red {
   background-color-index:     66;
 }
@@ -1489,27 +2242,45 @@
   background-color-index:     72;
 }
 
-.on-transparent-orange-brown,
-.on-transparent-dark-orange-brown,
-.on-transparent-dark-orange,
-.on-transparent-dark-brown,
+.on-transparent-orange-brown {
+  background-color-index:     73;
+}
+.on-transparent-dark-orange-brown {
+  background-color-index:     73;
+}
+.on-transparent-dark-orange {
+  background-color-index:     73;
+}
+.on-transparent-dark-brown {
+  background-color-index:     73;
+}
 .on-transparent-dark-red {
   background-color-index:     73;
 }
 
-.on-transparent-dark-yellow-green,
+.on-transparent-dark-yellow-green {
+  background-color-index:     74;
+}
 .on-transparent-dark-green {
   background-color-index:     74;
 }
 
-.on-transparent-yellow-brown,
-.on-transparent-dark-yellow-brown,
+.on-transparent-yellow-brown {
+  background-color-index:     75;
+}
+.on-transparent-dark-yellow-brown {
+  background-color-index:     75;
+}
 .on-transparent-dark-yellow {
   background-color-index:     75;
 }
 
-.on-transparent-purple-blue,
-.on-transparent-dark-purple-blue,
+.on-transparent-purple-blue {
+  background-color-index:     76;
+}
+.on-transparent-dark-purple-blue {
+  background-color-index:     76;
+}
 .on-transparent-dark-blue {
   background-color-index:     76;
 }
@@ -1522,25 +2293,47 @@
   background-color-index:     78;
 }
 
-.on-transparent-gray,
-.on-transparent-grey,
-.on-transparent-light-gray,
-.on-transparent-light-grey,
-.on-transparent-medium-gray,
-.on-transparent-medium-grey,
-.on-transparent-bright-gray,
+.on-transparent-gray {
+  background-color-index:     79;
+}
+.on-transparent-grey {
+  background-color-index:     79;
+}
+.on-transparent-light-gray {
+  background-color-index:     79;
+}
+.on-transparent-light-grey {
+  background-color-index:     79;
+}
+.on-transparent-medium-gray {
+  background-color-index:     79;
+}
+.on-transparent-medium-grey {
+  background-color-index:     79;
+}
+.on-transparent-bright-gray {
+  background-color-index:     79;
+}
 .on-transparent-bright-grey {
   background-color-index:     79;
 }
 
-.on-transparent-darker-blue,
-.on-transparent-darker-purple,
+.on-transparent-darker-blue {
+  background-color-index:     80;
+}
+.on-transparent-darker-purple {
+  background-color-index:     80;
+}
 .on-transparent-darker-purple-blue {
   background-color-index:     80;
 }
 
-.on-transparent-darker-blue-green,
-.on-transparent-darker-green,
+.on-transparent-darker-blue-green {
+  background-color-index:     81;
+}
+.on-transparent-darker-green {
+  background-color-index:     81;
+}
 .on-transparent-darker-yellow-green {
   background-color-index:     81;
 }
@@ -1549,17 +2342,21 @@
   background-color-index:     82;
 }
 
-.on-transparent-dull-purple-blue,
+.on-transparent-dull-purple-blue {
+  background-color-index:     83;
+}
 .on-transparent-dull-blue {
   background-color-index:     83;
 }
 
-.on-transparent-blue,
+.on-transparent-blue {
+  background-color-index:     84;
+}
 .on-transparent-medium-blue {
   background-color-index:     84;
 }
 
-.on-transparent-dark-blue-green ,
+.on-transparent-dark-blue-green {
   background-color-index:     85;
 }
 
@@ -1567,7 +2364,9 @@
   background-color-index:     86;
 }
 
-.on-transparent-green,
+.on-transparent-green {
+  background-color-index:     87;
+}
 .on-transparent-medium-green {
   background-color-index:     87;
 }
@@ -1576,11 +2375,21 @@
   background-color-index:     88;
 }
 
-.on-transparent-darker-orange-brown,
-.on-transparent-darker-orange,
-.on-transparent-brown,
-.on-transparent-darker-brown,
-.on-transparent-darker-purple-brown,
+.on-transparent-darker-orange-brown {
+  background-color-index:     89;
+}
+.on-transparent-darker-orange {
+  background-color-index:     89;
+}
+.on-transparent-brown {
+  background-color-index:     89;
+}
+.on-transparent-darker-brown {
+  background-color-index:     89;
+}
+.on-transparent-darker-purple-brown {
+  background-color-index:     89;
+}
 .on-transparent-darker-pink {
   background-color-index:     89;
 }
@@ -1589,7 +2398,9 @@
   background-color-index:     90;
 }
 
-.on-transparent-purple,
+.on-transparent-purple {
+  background-color-index:     91;
+}
 .on-transparent-dark-purple {
   background-color-index:     91;
 }
@@ -1598,16 +2409,28 @@
   background-color-index:     92;
 }
 
-.on-transparent-darker-yellow-brown,
+.on-transparent-darker-yellow-brown {
+  background-color-index:     93;
+}
 .on-transparent-darker-yellow {
   background-color-index:     93;
 }
 
-.on-transparent-dark-gray,
-.on-transparent-dark-grey,
-.on-transparent-dull-gray,
-.on-transparent-dull-grey,
-.on-transparent-darker-gray,
+.on-transparent-dark-gray {
+  background-color-index:     94;
+}
+.on-transparent-dark-grey {
+  background-color-index:     94;
+}
+.on-transparent-dull-gray {
+  background-color-index:     94;
+}
+.on-transparent-dull-grey {
+  background-color-index:     94;
+}
+.on-transparent-darker-gray {
+  background-color-index:     94;
+}
 .on-transparent-darker-grey {
   background-color-index:     94;
 }
@@ -1620,7 +2443,9 @@
   background-color-index:     96;
 }
 
-.on-transparent-dull-yellow-green,
+.on-transparent-dull-yellow-green {
+  background-color-index:     97;
+}
 .on-transparent-dull-green {
   background-color-index:     97;
 }
@@ -1645,18 +2470,26 @@
   background-color-index:    102;
 }
 
-.on-transparent-blue-green,
+.on-transparent-blue-green {
+  background-color-index:    103;
+}
 .on-transparent-medium-blue-green {
   background-color-index:    103;
 }
 
-.on-transparent-cyan,
+.on-transparent-cyan {
+  background-color-index:    104;
+}
 .on-transparent-medium-cyan {
   background-color-index:    104;
 }
 
-.on-transparent-purple-brown,
-.on-transparent-dark-purple-brown,
+.on-transparent-purple-brown {
+  background-color-index:    105;
+}
+.on-transparent-dark-purple-brown {
+  background-color-index:    105;
+}
 .on-transparent-dark-pink {
   background-color-index:    105;
 }
@@ -1665,14 +2498,22 @@
   background-color-index:    106;
 }
 
-.on-transparent-dull-orange-brown,
-.on-transparent-dull-orange,
-.on-transparent-dull-brown,
+.on-transparent-dull-orange-brown {
+  background-color-index:    107;
+}
+.on-transparent-dull-orange {
+  background-color-index:    107;
+}
+.on-transparent-dull-brown {
+  background-color-index:    107;
+}
 .on-transparent-dull-red {
   background-color-index:    107;
 }
 
-.on-transparent-dull-purple-brown,
+.on-transparent-dull-purple-brown {
+  background-color-index:    108;
+}
 .on-transparent-dull-pink {
   background-color-index:    108;
 }
@@ -1685,7 +2526,9 @@
   background-color-index:    110;
 }
 
-.on-transparent-dull-yellow-brown,
+.on-transparent-dull-yellow-brown {
+  background-color-index:    111;
+}
 .on-transparent-dull-yellow {
   background-color-index:    111;
 }
@@ -1710,8 +2553,12 @@
   background-color-index:    116;
 }
 
-.on-transparent-pink-red,
-.on-transparent-medium-pink-red,
+.on-transparent-pink-red {
+  background-color-index:    117;
+}
+.on-transparent-medium-pink-red {
+  background-color-index:    117;
+}
 .on-transparent-medium-red {
   background-color-index:    117;
 }
@@ -1724,22 +2571,30 @@
   background-color-index:    119;
 }
 
-.on-transparent-light-pink-red,
+.on-transparent-light-pink-red {
+  background-color-index:    120;
+}
 .on-transparent-light-red {
   background-color-index:    120;
 }
 
-.on-transparent-pink,
+.on-transparent-pink {
+  background-color-index:    121;
+}
 .on-transparent-medium-pink {
   background-color-index:    121;
 }
 
-.on-transparent-magenta,
+.on-transparent-magenta {
+  background-color-index:    122;
+}
 .on-transparent-medium-magenta {
   background-color-index:    122;
 }
 
-.on-transparent-orange,
+.on-transparent-orange {
+  background-color-index:    123;
+}
 .on-transparent-medium-orange {
   background-color-index:    123;
 }
@@ -1756,7 +2611,9 @@
   background-color-index:    126;
 }
 
-.on-transparent-yellow,
+.on-transparent-yellow {
+  background-color-index:    127;
+}
 .on-transparent-medium-yellow {
   background-color-index:    127;
 }

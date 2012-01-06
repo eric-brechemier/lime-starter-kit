@@ -4,12 +4,15 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-08-24
+ * Version: 2012-01-06
  */
 
 /* Define default line-height to match the height of a row in the grid layout,
    in order to center the text vertically in one cell */
-div, p {
+div {
+  line-height: 26px;
+}
+p {
   line-height: 26px;
 }
 
