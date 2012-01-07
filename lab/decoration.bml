@@ -5,7 +5,7 @@
     <title>CSS Styles for borders and underlines</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2012-01-07" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -13,52 +13,52 @@
     <link rel="stylesheet" href="css/decoration.css" />
   </head>
   <body class="black on-white">
-    <p class="A1 on-3x1">Default</p>
-    <p class="A2 on-3x1 border">Border</p>
-    <p class="A3 on-3x1 border1">Border1</p>
-    <p class="A4 on-3x1 border2">Border2</p>
-    <p class="A5 on-3x1 border3">Border3</p>
-    <p class="A6 on-3x1 border4">Border4</p>
+    <p class="colA row1 on-3cols on-1row">Default</p>
+    <p class="colA row2 on-3cols on-1row border">Border</p>
+    <p class="colA row3 on-3cols on-1row border1">Border1</p>
+    <p class="colA row4 on-3cols on-1row border2">Border2</p>
+    <p class="colA row5 on-3cols on-1row border3">Border3</p>
+    <p class="colA row6 on-3cols on-1row border4">Border4</p>
 
-    <p class="D2 on-6x1 dashed border">Dashed Border</p>
-    <p class="D3 on-6x1 dashed border1">Dashed Border1</p>
-    <p class="D4 on-6x1 dashed border2">Dashed Border2</p>
-    <p class="D5 on-6x1 dashed border3">Dashed Border3</p>
-    <p class="D6 on-6x1 dashed border4">Dashed Border4</p>
+    <p class="colD row2 on-6cols on-1row dashed border">Dashed Border</p>
+    <p class="colD row3 on-6cols on-1row dashed border1">Dashed Border1</p>
+    <p class="colD row4 on-6cols on-1row dashed border2">Dashed Border2</p>
+    <p class="colD row5 on-6cols on-1row dashed border3">Dashed Border3</p>
+    <p class="colD row6 on-6cols on-1row dashed border4">Dashed Border4</p>
 
-    <p class="J2 on-6x1 dotted border">Dotted Border</p>
-    <p class="J3 on-6x1 dotted border1">Dotted Border1</p>
-    <p class="J4 on-6x1 dotted border2">Dotted Border2</p>
-    <p class="J5 on-6x1 dotted border3">Dotted Border3</p>
-    <p class="J6 on-6x1 dotted border4">Dotted Border4</p>
+    <p class="colJ row2 on-6cols on-1row dotted border">Dotted Border</p>
+    <p class="colJ row3 on-6cols on-1row dotted border1">Dotted Border1</p>
+    <p class="colJ row4 on-6cols on-1row dotted border2">Dotted Border2</p>
+    <p class="colJ row5 on-6cols on-1row dotted border3">Dotted Border3</p>
+    <p class="colJ row6 on-6cols on-1row dotted border4">Dotted Border4</p>
 
-    <p class="A7 on-4x1 underline">Underline</p>
-    <p class="A8 on-4x1 underline1">Underline1</p>
-    <p class="A9 on-4x1 underline2">Underline2</p>
-    <p class="A10 on-4x1 underline3">Underline3</p>
-    <p class="A11 on-4x1 underline4">Underline4</p>
+    <p class="colA row7 on-4cols on-1row underline">Underline</p>
+    <p class="colA row8 on-4cols on-1row underline1">Underline1</p>
+    <p class="colA row9 on-4cols on-1row underline2">Underline2</p>
+    <p class="colA row10 on-4cols on-1row underline3">Underline3</p>
+    <p class="colA row11 on-4cols on-1row underline4">Underline4</p>
 
-    <p class="E7 on-7x1 dashed underline">Dashed Underline</p>
-    <p class="E8 on-7x1 dashed underline1">Dashed Underline1</p>
-    <p class="E9 on-7x1 dashed underline2">Dashed Underline2</p>
-    <p class="E10 on-7x1 dashed underline3">Dashed Underline3</p>
-    <p class="E11 on-7x1 dashed underline4">Dashed Underline4</p>
+    <p class="colE row7 on-7cols on-1row dashed underline">Dashed Underline</p>
+    <p class="colE row8 on-7cols on-1row dashed underline1">Dashed Underline1</p>
+    <p class="colE row9 on-7cols on-1row dashed underline2">Dashed Underline2</p>
+    <p class="colE row10 on-7cols on-1row dashed underline3">Dashed Underline3</p>
+    <p class="colE row11 on-7cols on-1row dashed underline4">Dashed Underline4</p>
 
-    <p class="L7 on-7x1 dotted underline">Dotted Underline</p>
-    <p class="L8 on-7x1 dotted underline1">Dotted Underline1</p>
-    <p class="L9 on-7x1 dotted underline2">Dotted Underline2</p>
-    <p class="L10 on-7x1 dotted underline3">Dotted Underline3</p>
-    <p class="L11 on-7x1 dotted underline4">Dotted Underline4</p>
+    <p class="colL row7 on-7cols on-1row dotted underline">Dotted Underline</p>
+    <p class="colL row8 on-7cols on-1row dotted underline1">Dotted Underline1</p>
+    <p class="colL row9 on-7cols on-1row dotted underline2">Dotted Underline2</p>
+    <p class="colL row10 on-7cols on-1row dotted underline3">Dotted Underline3</p>
+    <p class="colL row11 on-7cols on-1row dotted underline4">Dotted Underline4</p>
 
-    <p class="T2 on-8x1 no-top-border border">No Top Border</p>
-    <p class="T4 on-8x1 no-right-border border">No Right Border</p>
-    <p class="T6 on-8x1 no-bottom-border border">No Bottom Border</p>
-    <p class="T8 on-8x1 no-left-border border">No Left Border</p>
-    <p class="T10 on-8x2 border no-top-border no-left-border">
+    <p class="colT row2 on-8cols on-1row no-top-border border">No Top Border</p>
+    <p class="colT row4 on-8cols on-1row no-right-border border">No Right Border</p>
+    <p class="colT row6 on-8cols on-1row no-bottom-border border">No Bottom Border</p>
+    <p class="colT row8 on-8cols on-1row no-left-border border">No Left Border</p>
+    <p class="colT row10 on-8cols on-2rows border no-top-border no-left-border">
       No Top Border<br/>
       No Left Border
     </p>
-    <p class="T13 on-8x2 border no-bottom-border no-right-border">
+    <p class="colT row13 on-8cols on-2rows border no-bottom-border no-right-border">
       No Bottom Border<br/>
       No Right Border
     </p>

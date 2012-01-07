@@ -5,37 +5,37 @@
     <title>CSS Styles for text</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2012-01-07" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
   </head>
   <body>
-    <p class="black on-white A1 on-7x1">Default</p>
-    <p class="black on-white A2 on-7x1 align-left">Left</p>
-    <p class="black on-white A3 on-7x1 align-center">Center</p>
-    <p class="black on-white A4 on-7x1 align-right">Right</p>
+    <p class="black on-white colA row1 on-7cols on-1row">Default</p>
+    <p class="black on-white colA row2 on-7cols on-1row align-left">Left</p>
+    <p class="black on-white colA row3 on-7cols on-1row align-center">Center</p>
+    <p class="black on-white colA row4 on-7cols on-1row align-right">Right</p>
 
-    <p class="black on-white H1 on-5x1">Default</p>
-    <p class="black on-white H2 on-5x1 bold">Bold</p>
+    <p class="black on-white colH row1 on-5cols on-1row">Default</p>
+    <p class="black on-white colH row2 on-5cols on-1row bold">Bold</p>
 
-    <p class="black on-white A5 on-7x1">Default</p>
-    <p class="white on-black A6 on-7x1 xx-small">xx-small</p>
-    <p class="black on-white A7 on-7x1 x-small">x-small</p>
-    <p class="white on-black A8 on-7x1 small">small</p>
-    <p class="black on-white A9 on-7x1 medium">medium</p>
-    <p class="white on-black A10 on-7x2 large">large</p>
-    <p class="black on-white A12 on-7x2 x-large">x-large</p>
-    <p class="white on-black A14 on-7x2 xx-large">xx-large</p>
+    <p class="black on-white colA row5 on-7cols on-1row">Default</p>
+    <p class="white on-black colA row6 on-7cols on-1row xx-small">xx-small</p>
+    <p class="black on-white colA row7 on-7cols on-1row x-small">x-small</p>
+    <p class="white on-black colA row8 on-7cols on-1row small">small</p>
+    <p class="black on-white colA row9 on-7cols on-1row medium">medium</p>
+    <p class="white on-black colA row10 on-7cols on-2rows large">large</p>
+    <p class="black on-white colA row12 on-7cols on-2rows x-large">x-large</p>
+    <p class="white on-black colA row14 on-7cols on-2rows xx-large">xx-large</p>
 
-    <p class="black on-white H7 on-6x1 xx-narrow">xx-narrow</p>
-    <p class="black on-white H8 on-6x1 x-narrow">x-narrow</p>
-    <p class="black on-white H9 on-6x1 narrow">narrow</p>
-    <p class="black on-white H10 on-6x1">Default</p>
-    <p class="black on-white H11 on-6x1 wide">WIDE</p>
-    <p class="black on-white H12 on-6x1 x-wide">X-WIDE</p>
-    <p class="black on-white H13 on-6x1 xx-wide">XX-WIDE</p>
+    <p class="black on-white colH row7 on-6cols on-1row xx-narrow">xx-narrow</p>
+    <p class="black on-white colH row8 on-6cols on-1row x-narrow">x-narrow</p>
+    <p class="black on-white colH row9 on-6cols on-1row narrow">narrow</p>
+    <p class="black on-white colH row10 on-6cols on-1row">Default</p>
+    <p class="black on-white colH row11 on-6cols on-1row wide">WIDE</p>
+    <p class="black on-white colH row12 on-6cols on-1row x-wide">X-WIDE</p>
+    <p class="black on-white colH row13 on-6cols on-1row xx-wide">XX-WIDE</p>
 
   </body>
 </bml>

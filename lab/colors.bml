@@ -5,19 +5,19 @@
     <title>CSS Styles for colors</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2012-01-07" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
   </head>
   <body class="on-yellow">
-    <div class="A1 row on-blue"></div>
-    <p class="A3 row yellow on-blue">Hello IPTV World!!!</p>
-    <div class="A5 row on-blue"></div>
-    <div class="A7 row on-blue"></div>
-    <div class="A9 row on-blue"></div>
-    <div class="A11 row on-blue"></div>
-    <div class="A13 row on-blue"></div>
-    <div class="A15 row on-blue"></div>
+    <div class="colA row1 row on-blue"></div>
+    <p class="colA row3 row yellow on-blue">Hello IPTV World!!!</p>
+    <div class="colA row5 row on-blue"></div>
+    <div class="colA row7 row on-blue"></div>
+    <div class="colA row9 row on-blue"></div>
+    <div class="colA row11 row on-blue"></div>
+    <div class="colA row13 row on-blue"></div>
+    <div class="colA row15 row on-blue"></div>
   </body>
 </bml>

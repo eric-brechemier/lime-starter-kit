@@ -86,19 +86,19 @@
   </head>
   <body id="body" class="body" style="background-color-index: 0"
         onload="onload();" onunload="onunload();">
-    <div class="G2 on-18x15 on-yellow"></div>
-    <div class="F1 fullscreen">
+    <div class="colG row2 on-18cols on-15rows on-yellow"></div>
+    <div class="colF row1 fullscreen">
       <object type="image/X-arib-png" data="media/radionette/tv-indexed.png"
-        class="A1 fullscreen"/>
+        class="colA row1 fullscreen"/>
     </div>
 
-    <p class="I4 row title">Title</p>
-    <p class="I6 on-27x3">
+    <p class="colI row4 row title">Title</p>
+    <p class="colI row6 on-27cols on-3rows">
       Line 1
       Line 2
       Line 3
     </p>
-    <div class="I10 row">
+    <div class="colI row10 row">
       <input />
     </div>
   </body>
