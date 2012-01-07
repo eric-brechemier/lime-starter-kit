@@ -5,7 +5,7 @@
     <title>Tests for define.js</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-09-23" />
+    <meta name="DC.date" content="2012-01-07" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -75,13 +75,14 @@
     </script>
   </head>
   <body class="on-white">
-    <p class="A1 row">Tests of define.ecm</p>
-    <p class="A2 on-27x2 status-text" id="bezen.test.status">0 / 0</p>
-    <div class="A4 on-26x1 progress-bar">
-      <div class="on-26x1 progress" id="bezen.test.progress"></div>
+    <p class="colA row1 row">Tests of define.ecm</p>
+    <p class="colA row2 on-27cols on-2rows status-text"
+      id="bezen.test.status">0 / 0</p>
+    <div class="colA row4 on-26cols on-1row progress-bar">
+      <div class="on-26cols on-1row progress" id="bezen.test.progress"></div>
     </div>
-    <p class="A5 on-26x10 green on-black console" id="bezen.log">
-    Tests of define.ecm<br/>
+    <p class="colA row5 on-26cols on-10rows green on-black console"
+      id="bezen.log">Tests of define.ecm<br/>
     </p>
   </body>
 </bml>
