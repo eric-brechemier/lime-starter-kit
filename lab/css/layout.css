@@ -4,7 +4,7 @@
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2012-01-06
+ * Version: 2012-01-07
  */
 
 /*
@@ -32,18 +32,145 @@
  12px |
  */
 
+.fullscreen {
+  left: 0px;
+  top: 0px;
+  width: 960px;
+  height: 540px;
+}
+
+.top-half {
+  left: 0px;
+  top: 0px;
+  width: 960px;
+  height: 270px;
+}
+
+.bottom-half {
+  left: 0px;
+  top: 270px;
+  width: 960px;
+  height: 270px;
+}
+
+.left-half {
+  left: 0px;
+  top: 0px;
+  width: 480px;
+  height: 540px;
+}
+
+.right-half {
+  left: 480px;
+  top: 0px;
+  width: 480px;
+  height: 540px;
+}
+
+.north-west {
+  left:  12px;
+  top: 12px;
+  width: 306px;
+  height: 166px;
+}
+
+.west {
+  left:  12px;
+  top: 187px;
+  width: 306px;
+  height: 166px;
+}
+
+.south-west {
+  left:  12px;
+  top: 362px;
+  width: 306px;
+  height: 166px;
+}
+
+.north {
+  left: 327px;
+  top: 12px;
+  width: 306px;
+  height: 166px;
+}
+
+.center {
+  left: 327px;
+  top: 187px;
+  width: 306px;
+  height: 166px;
+}
+
+.south {
+  left: 327px;
+  top: 362px;
+  width: 306px;
+  height: 166px;
+}
+
+.north-east {
+  left: 642px;
+  top: 12px;
+  width: 306px;
+  height: 166px;
+}
+
+.east {
+  left: 642px;
+  top: 187px;
+  width: 306px;
+  height: 166px;
+}
+
+.south-east {
+  left: 642px;
+  top: 362px;
+  width: 306px;
+  height: 166px;
+}
+
+.cell {
+  width: 26px;
+  height: 26px;
+}
+
+.column {
+  width: 26px;
+  height: 516px;
+}
+
+.row {
+  height: 26px;
+  width: 936px;
+}
+
+.one-third-wide {
+  width: 306px;
+}
+
+.two-thirds-wide {
+  width: 621px;
+}
+
+.three-thirds-wide {
+  width: 936px;
+}
+
+.one-third-high {
+  height: 166px;
+}
+
+.two-thirds-high {
+  height: 341px;
+}
+
+.three-thirds-high {
+  height: 516px;
+}
+
 /* position: left */
 
-.fullscreen { left:   0px; }
-.top-half { left:   0px; }
-.bottom-half { left:   0px; }
-.left-half { left:   0px; }
-
-.right-half { left: 480px; }
-
-.north-west { left:  12px; }
-.west { left:  12px; }
-.south-west { left:  12px; }
 .A1 { left:  12px; }
 .A2 { left:  12px; }
 .A3 { left:  12px; }
@@ -188,9 +315,6 @@
 .I14 { left: 292px; }
 .I15 { left: 292px; }
 
-.north { left: 327px; }
-.center { left: 327px; }
-.south { left: 327px; }
 .J1 { left: 327px; }
 .J2 { left: 327px; }
 .J3 { left: 327px; }
@@ -335,9 +459,6 @@
 .R14 { left: 607px; }
 .R15 { left: 607px; }
 
-.north-east { left: 642px; }
-.east { left: 642px; }
-.south-east { left: 642px; }
 .S1 { left: 642px; }
 .S2 { left: 642px; }
 .S3 { left: 642px; }
@@ -484,16 +605,6 @@
 
 /* position: top */
 
-.fullscreen { top: 0px; }
-.top-half { top: 0px; }
-.left-half { top: 0px; }
-.right-half { top: 0px; }
-
-.bottom-half { top: 270px; }
-
-.north-west { top: 12px; }
-.north { top: 12px; }
-.north-east { top: 12px; }
 .A1 { top: 12px; }
 .B1 { top: 12px; }
 .C1 { top: 12px; }
@@ -634,9 +745,6 @@
 .Z5 { top: 152px; }
 .AA5 { top: 152px; }
 
-.west { top: 187px; }
-.center { top: 187px; }
-.east { top: 187px; }
 .A6 { top: 187px; }
 .B6 { top: 187px; }
 .C6 { top: 187px; }
@@ -777,9 +885,6 @@
 .Z10 { top: 327px; }
 .AA10 { top: 327px; }
 
-.south-east { top: 362px; }
-.south { top: 362px; }
-.south-west { top: 362px; }
 .A11 { top: 362px; }
 .B11 { top: 362px; }
 .C11 { top: 362px; }
@@ -922,15 +1027,6 @@
 
 /* size: width */
 
-.fullscreen { width: 960px; }
-.top-half { width: 960px; }
-.bottom-half { width: 960px; }
-
-.right-half { width: 480px; }
-.left-half { width: 480px; }
-
-.cell { width: 26px; }
-.column { width: 26px; }
 .on-1x1 { width: 26px; }
 .on-1x2 { width: 26px; }
 .on-1x3 { width: 26px; }
@@ -1059,16 +1155,6 @@
 .on-8x14 { width: 271px; }
 .on-8x15 { width: 271px; }
 
-.north-west { width: 306px; }
-.north { width: 306px; }
-.north-east { width: 306px; }
-.west { width: 306px; }
-.center { width: 306px; }
-.east { width: 306px; }
-.south-west { width: 306px; }
-.south { width: 306px; }
-.south-east { width: 306px; }
-.one-third-wide { width: 306px; }
 .on-9x1 { width: 306px; }
 .on-9x2 { width: 306px; }
 .on-9x3 { width: 306px; }
@@ -1213,7 +1299,6 @@
 .on-17x14 { width: 586px; }
 .on-17x15 { width: 586px; }
 
-.two-thirds-wide { width: 621px; }
 .on-18x1 { width: 621px; }
 .on-18x2 { width: 621px; }
 .on-18x3 { width: 621px; }
@@ -1358,8 +1443,6 @@
 .on-26x14 { width: 901px; }
 .on-26x15 { width: 901px; }
 
-.row { width: 936px; }
-.three-thirds-wide { width: 936px; }
 .on-27x1 { width: 936px; }
 .on-27x2 { width: 936px; }
 .on-27x3 { width: 936px; }
@@ -1378,15 +1461,6 @@
 
 /* size: height */
 
-.fullscreen { height: 540px; }
-.left-half { height: 540px; }
-.right-half { height: 540px; }
-
-.top-half { height: 270px; }
-.bottom-half { height: 270px; }
-
-.cell { height: 26px; }
-.row { height: 26px; }
 .on-1x1 { height: 26px; }
 .on-2x1 { height: 26px; }
 .on-3x1 { height: 26px; }
@@ -1499,16 +1573,6 @@
 .on-26x4 { height: 131px; }
 .on-27x4 { height: 131px; }
 
-.north-west { height: 166px; }
-.north { height: 166px; }
-.north-east { height: 166px; }
-.west { height: 166px; }
-.center { height: 166px; }
-.east { height: 166px; }
-.south-west { height: 166px; }
-.south { height: 166px; }
-.south-east { height: 166px; }
-.one-third-high { height: 166px; }
 .on-1x5 { height: 166px; }
 .on-2x5 { height: 166px; }
 .on-3x5 { height: 166px; }
@@ -1649,7 +1713,6 @@
 .on-26x9 { height: 306px; }
 .on-27x9 { height: 306px; }
 
-.two-thirds-high { height: 341px; }
 .on-1x10 { height: 341px; }
 .on-2x10 { height: 341px; }
 .on-3x10 { height: 341px; }
@@ -1790,8 +1853,6 @@
 .on-26x14 { height: 481px; }
 .on-27x14 { height: 481px; }
 
-.column { height: 516px; }
-.three-thirds-high { height: 516px; }
 .on-1x15 { height: 516px; }
 .on-2x15 { height: 516px; }
 .on-3x15 { height: 516px; }
