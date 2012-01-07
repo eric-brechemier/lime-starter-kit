@@ -14,44 +14,44 @@
     <link rel="stylesheet" href="css/navigation.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
-    <p class="colA row1 row">
+    <p class="colB row2 row">
       <a class="link1 after-link10 underline1"
         href="min.bml">Minimal Document</a>
     </p>
-    <p class="colA row2 row">
+    <p class="colB row3 row">
       <a class="link2 underline2"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
-    <p class="colA row3 row">
+    <p class="colB row4 row">
       <a class="link3"
         href="colors.bml">Colors</a>
     </p>
-    <p class="colA row4 row">
+    <p class="colB row5 row">
       <a class="link4 border"
         href="images.bml">Images</a>
     </p>
-    <p class="colA row5 row white">
+    <p class="colB row6 row white">
       <a class="link5 above-link7 solid no-top-border no-right-border"
         href="layout.bml">Layout</a>
       /
       <a class="link6 below-link4 no-left-border no-bottom-border"
         href="grid.bml">Grid</a>
     </p>
-    <p class="colA row6 row">
+    <p class="colB row7 row">
       <a class="link7 below-link5" href="navigation.bml">
         Navigation
       </a>
     </p>
-    <p class="colA row7 row">
+    <p class="colB row8 row">
       <a class="link8 dotted border2"
         href="text.bml">Text</a>
     </p>
-    <p class="colA row8 row">
+    <p class="colB row9 row">
       <a class="link9 border4"
         href="decoration.bml">Decoration</a>
     </p>
 
-    <p class="colA row10 row">
+    <p class="colB row11 row">
       <a class="link10 before-link1"
         href="define.bml">define.ecm</a>
     </p>
