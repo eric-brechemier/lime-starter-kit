@@ -1799,842 +1799,842 @@
 /* background colors */
 
 .on-black {
-  background-color-index:      0;
+  background-color-index: 0;
 }
 
 .on-red {
-  background-color-index:      1;
+  background-color-index: 1;
 }
 
 .on-bright-red {
-  background-color-index:      1;
+  background-color-index: 1;
 }
 
 .on-bright-green {
-  background-color-index:      2;
+  background-color-index: 2;
 }
 
 .on-bright-yellow {
-  background-color-index:      3;
+  background-color-index: 3;
 }
 
 .on-bright-blue {
-  background-color-index:      4;
+  background-color-index: 4;
 }
 
 .on-bright-magenta {
-  background-color-index:      5;
+  background-color-index: 5;
 }
 
 .on-bright-cyan {
-  background-color-index:      6;
+  background-color-index: 6;
 }
 
 .on-white {
-  background-color-index:      7;
+  background-color-index: 7;
 }
 
 .on-transparent {
-  background-color-index:      8;
+  background-color-index: 8;
 }
 
 .on-orange-brown {
-  background-color-index:      9;
+  background-color-index: 9;
 }
 .on-dark-orange-brown {
-  background-color-index:      9;
+  background-color-index: 9;
 }
 .on-dark-orange {
-  background-color-index:      9;
+  background-color-index: 9;
 }
 .on-dark-brown {
-  background-color-index:      9;
+  background-color-index: 9;
 }
 .on-dark-red {
-  background-color-index:      9;
+  background-color-index: 9;
 }
 
 .on-dark-yellow-green {
-  background-color-index:     10;
+  background-color-index: 10;
 }
 .on-dark-green {
-  background-color-index:     10;
+  background-color-index: 10;
 }
 
 .on-yellow-brown {
-  background-color-index:     11;
+  background-color-index: 11;
 }
 .on-dark-yellow-brown {
-  background-color-index:     11;
+  background-color-index: 11;
 }
 .on-dark-yellow {
-  background-color-index:     11;
+  background-color-index: 11;
 }
 
 .on-purple-blue {
-  background-color-index:     12;
+  background-color-index: 12;
 }
 .on-dark-purple-blue {
-  background-color-index:     12;
+  background-color-index: 12;
 }
 .on-dark-blue {
-  background-color-index:     12;
+  background-color-index: 12;
 }
 
 .on-dark-magenta {
-  background-color-index:     13;
+  background-color-index: 13;
 }
 
 .on-dark-cyan {
-  background-color-index:     14;
+  background-color-index: 14;
 }
 
 .on-gray {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-grey {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-light-gray {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-light-grey {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-medium-gray {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-medium-grey {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-bright-gray {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 .on-bright-grey {
-  background-color-index:     15;
+  background-color-index: 15;
 }
 
 .on-darker-blue {
-  background-color-index:     16;
+  background-color-index: 16;
 }
 .on-darker-purple {
-  background-color-index:     16;
+  background-color-index: 16;
 }
 .on-darker-purple-blue {
-  background-color-index:     16;
+  background-color-index: 16;
 }
 
 .on-darker-blue-green {
-  background-color-index:     17;
+  background-color-index: 17;
 }
 .on-darker-green {
-  background-color-index:     17;
+  background-color-index: 17;
 }
 .on-darker-yellow-green {
-  background-color-index:     17;
+  background-color-index: 17;
 }
 
 .on-darker-cyan {
-  background-color-index:     18;
+  background-color-index: 18;
 }
 
 .on-dull-purple-blue {
-  background-color-index:     19;
+  background-color-index: 19;
 }
 .on-dull-blue {
-  background-color-index:     19;
+  background-color-index: 19;
 }
 
 .on-blue {
-  background-color-index:     20;
+  background-color-index: 20;
 }
 .on-medium-blue {
-  background-color-index:     20;
+  background-color-index: 20;
 }
 
 .on-dark-blue-green {
-  background-color-index:     21;
+  background-color-index: 21;
 }
 
 .on-light-blue {
-  background-color-index:     22;
+  background-color-index: 22;
 }
 
 .on-green {
-  background-color-index:     23;
+  background-color-index: 23;
 }
 .on-medium-green {
-  background-color-index:     23;
+  background-color-index: 23;
 }
 
 .on-bright-blue-green {
-  background-color-index:     24;
+  background-color-index: 24;
 }
 
 .on-darker-orange-brown {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-darker-orange {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-brown {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-darker-red {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-darker-brown {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-darker-purple-brown {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 .on-darker-pink {
-  background-color-index:     25;
+  background-color-index: 25;
 }
 
 .on-darker-magenta {
-  background-color-index:     26;
+  background-color-index: 26;
 }
 
 .on-purple {
-  background-color-index:     27;
+  background-color-index: 27;
 }
 .on-dark-purple {
-  background-color-index:     27;
+  background-color-index: 27;
 }
 
 .on-bright-purple-blue {
-  background-color-index:     28;
+  background-color-index: 28;
 }
 
 .on-darker-yellow-brown {
-  background-color-index:     29;
+  background-color-index: 29;
 }
 .on-darker-yellow {
-  background-color-index:     29;
+  background-color-index: 29;
 }
 
 .on-dark-gray {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 .on-dark-grey {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 .on-dull-gray {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 .on-dull-grey {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 .on-darker-gray {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 .on-darker-grey {
-  background-color-index:     30;
+  background-color-index: 30;
 }
 
 .on-dull-purple {
-  background-color-index:     31;
+  background-color-index: 31;
 }
 
 .on-medium-purple-blue {
-  background-color-index:     32;
+  background-color-index: 32;
 }
 
 .on-dull-yellow-green {
-  background-color-index:     33;
+  background-color-index: 33;
 }
 .on-dull-green {
-  background-color-index:     33;
+  background-color-index: 33;
 }
 
 .on-dull-blue-green {
-  background-color-index:     34;
+  background-color-index: 34;
 }
 
 .on-dull-cyan {
-  background-color-index:     35;
+  background-color-index: 35;
 }
 
 .on-light-purple-blue {
-  background-color-index:     36;
+  background-color-index: 36;
 }
 
 .on-bright-yellow-green {
-  background-color-index:     37;
+  background-color-index: 37;
 }
 
 .on-light-green {
-  background-color-index:     38;
+  background-color-index: 38;
 }
 
 .on-blue-green {
-  background-color-index:     39;
+  background-color-index: 39;
 }
 .on-medium-blue-green {
-  background-color-index:     39;
+  background-color-index: 39;
 }
 
 .on-cyan {
-  background-color-index:     40;
+  background-color-index: 40;
 }
 .on-medium-cyan {
-  background-color-index:     40;
+  background-color-index: 40;
 }
 
 .on-purple-brown {
-  background-color-index:     41;
+  background-color-index: 41;
 }
 .on-dark-purple-brown {
-  background-color-index:     41;
+  background-color-index: 41;
 }
 .on-dark-pink {
-  background-color-index:     41;
+  background-color-index: 41;
 }
 
 .on-bright-purple {
-  background-color-index:     42;
+  background-color-index: 42;
 }
 
 .on-dull-orange-brown {
-  background-color-index:     43;
+  background-color-index: 43;
 }
 .on-dull-orange {
-  background-color-index:     43;
+  background-color-index: 43;
 }
 .on-dull-brown {
-  background-color-index:     43;
+  background-color-index: 43;
 }
 .on-dull-red {
-  background-color-index:     43;
+  background-color-index: 43;
 }
 
 .on-dull-purple-brown {
-  background-color-index:     44;
+  background-color-index: 44;
 }
 .on-dull-pink {
-  background-color-index:     44;
+  background-color-index: 44;
 }
 
 .on-dull-magenta {
-  background-color-index:     45;
+  background-color-index: 45;
 }
 
 .on-medium-purple {
-  background-color-index:     46;
+  background-color-index: 46;
 }
 
 .on-dull-yellow-brown {
-  background-color-index:     47;
+  background-color-index: 47;
 }
 .on-dull-yellow {
-  background-color-index:     47;
+  background-color-index: 47;
 }
 
 .on-light-purple {
-  background-color-index:     48;
+  background-color-index: 48;
 }
 
 .on-medium-yellow-green {
-  background-color-index:     49;
+  background-color-index: 49;
 }
 
 .on-light-yellow-green {
-  background-color-index:     50;
+  background-color-index: 50;
 }
 
 .on-light-blue-green {
-  background-color-index:     51;
+  background-color-index: 51;
 }
 
 .on-light-cyan {
-  background-color-index:     52;
+  background-color-index: 52;
 }
 
 .on-pink-red {
-  background-color-index:     53;
+  background-color-index: 53;
 }
 .on-medium-pink-red {
-  background-color-index:     53;
+  background-color-index: 53;
 }
 .on-medium-red {
-  background-color-index:     53;
+  background-color-index: 53;
 }
 
 .on-bright-pink {
-  background-color-index:     54;
+  background-color-index: 54;
 }
 
 .on-bright-orange {
-  background-color-index:     55;
+  background-color-index: 55;
 }
 
 .on-light-pink-red {
-  background-color-index:     56;
+  background-color-index: 56;
 }
 .on-light-red {
-  background-color-index:     56;
+  background-color-index: 56;
 }
 
 .on-pink {
-  background-color-index:     57;
+  background-color-index: 57;
 }
 .on-medium-pink {
-  background-color-index:     57;
+  background-color-index: 57;
 }
 
 .on-magenta {
-  background-color-index:     58;
+  background-color-index: 58;
 }
 .on-medium-magenta {
-  background-color-index:     58;
+  background-color-index: 58;
 }
 
 .on-orange {
-  background-color-index:     59;
+  background-color-index: 59;
 }
 .on-medium-orange {
-  background-color-index:     59;
+  background-color-index: 59;
 }
 
 .on-light-orange {
-  background-color-index:     60;
+  background-color-index: 60;
 }
 
 .on-light-pink {
-  background-color-index:     61;
+  background-color-index: 61;
 }
 
 .on-light-magenta {
-  background-color-index:     62;
+  background-color-index: 62;
 }
 
 .on-yellow {
-  background-color-index:     63;
+  background-color-index: 63;
 }
 .on-medium-yellow {
-  background-color-index:     63;
+  background-color-index: 63;
 }
 
 .on-light-yellow {
-  background-color-index:     64;
+  background-color-index: 64;
 }
 
 .on-half-transparent {
-  background-color-index:     65;
+  background-color-index: 65;
 }
 .on-transparent-black {
-  background-color-index:     65;
+  background-color-index: 65;
 }
 
 .on-transparent-red {
-  background-color-index:     66;
+  background-color-index: 66;
 }
 .on-transparent-bright-red {
-  background-color-index:     66;
+  background-color-index: 66;
 }
 
 .on-transparent-bright-green {
-  background-color-index:     67;
+  background-color-index: 67;
 }
 
 .on-transparent-bright-yellow {
-  background-color-index:     68;
+  background-color-index: 68;
 }
 
 .on-transparent-bright-blue {
-  background-color-index:     69;
+  background-color-index: 69;
 }
 
 .on-transparent-bright-magenta {
-  background-color-index:     70;
+  background-color-index: 70;
 }
 
 .on-transparent-bright-cyan {
-  background-color-index:     71;
+  background-color-index: 71;
 }
 
 .on-transparent-white {
-  background-color-index:     72;
+  background-color-index: 72;
 }
 
 .on-transparent-orange-brown {
-  background-color-index:     73;
+  background-color-index: 73;
 }
 .on-transparent-dark-orange-brown {
-  background-color-index:     73;
+  background-color-index: 73;
 }
 .on-transparent-dark-orange {
-  background-color-index:     73;
+  background-color-index: 73;
 }
 .on-transparent-dark-brown {
-  background-color-index:     73;
+  background-color-index: 73;
 }
 .on-transparent-dark-red {
-  background-color-index:     73;
+  background-color-index: 73;
 }
 
 .on-transparent-dark-yellow-green {
-  background-color-index:     74;
+  background-color-index: 74;
 }
 .on-transparent-dark-green {
-  background-color-index:     74;
+  background-color-index: 74;
 }
 
 .on-transparent-yellow-brown {
-  background-color-index:     75;
+  background-color-index: 75;
 }
 .on-transparent-dark-yellow-brown {
-  background-color-index:     75;
+  background-color-index: 75;
 }
 .on-transparent-dark-yellow {
-  background-color-index:     75;
+  background-color-index: 75;
 }
 
 .on-transparent-purple-blue {
-  background-color-index:     76;
+  background-color-index: 76;
 }
 .on-transparent-dark-purple-blue {
-  background-color-index:     76;
+  background-color-index: 76;
 }
 .on-transparent-dark-blue {
-  background-color-index:     76;
+  background-color-index: 76;
 }
 
 .on-transparent-dark-magenta {
-  background-color-index:     77;
+  background-color-index: 77;
 }
 
 .on-transparent-dark-cyan {
-  background-color-index:     78;
+  background-color-index: 78;
 }
 
 .on-transparent-gray {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-grey {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-light-gray {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-light-grey {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-medium-gray {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-medium-grey {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-bright-gray {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 .on-transparent-bright-grey {
-  background-color-index:     79;
+  background-color-index: 79;
 }
 
 .on-transparent-darker-blue {
-  background-color-index:     80;
+  background-color-index: 80;
 }
 .on-transparent-darker-purple {
-  background-color-index:     80;
+  background-color-index: 80;
 }
 .on-transparent-darker-purple-blue {
-  background-color-index:     80;
+  background-color-index: 80;
 }
 
 .on-transparent-darker-blue-green {
-  background-color-index:     81;
+  background-color-index: 81;
 }
 .on-transparent-darker-green {
-  background-color-index:     81;
+  background-color-index: 81;
 }
 .on-transparent-darker-yellow-green {
-  background-color-index:     81;
+  background-color-index: 81;
 }
 
 .on-transparent-darker-cyan {
-  background-color-index:     82;
+  background-color-index: 82;
 }
 
 .on-transparent-dull-purple-blue {
-  background-color-index:     83;
+  background-color-index: 83;
 }
 .on-transparent-dull-blue {
-  background-color-index:     83;
+  background-color-index: 83;
 }
 
 .on-transparent-blue {
-  background-color-index:     84;
+  background-color-index: 84;
 }
 .on-transparent-medium-blue {
-  background-color-index:     84;
+  background-color-index: 84;
 }
 
 .on-transparent-dark-blue-green {
-  background-color-index:     85;
+  background-color-index: 85;
 }
 
 .on-transparent-light-blue {
-  background-color-index:     86;
+  background-color-index: 86;
 }
 
 .on-transparent-green {
-  background-color-index:     87;
+  background-color-index: 87;
 }
 .on-transparent-medium-green {
-  background-color-index:     87;
+  background-color-index: 87;
 }
 
 .on-transparent-bright-blue-green {
-  background-color-index:     88;
+  background-color-index: 88;
 }
 
 .on-transparent-darker-orange-brown {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-darker-orange {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-brown {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-darker-red {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-darker-brown {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-darker-purple-brown {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 .on-transparent-darker-pink {
-  background-color-index:     89;
+  background-color-index: 89;
 }
 
 .on-transparent-darker-magenta {
-  background-color-index:     90;
+  background-color-index: 90;
 }
 
 .on-transparent-purple {
-  background-color-index:     91;
+  background-color-index: 91;
 }
 .on-transparent-dark-purple {
-  background-color-index:     91;
+  background-color-index: 91;
 }
 
 .on-transparent-bright-purple-blue {
-  background-color-index:     92;
+  background-color-index: 92;
 }
 
 .on-transparent-darker-yellow-brown {
-  background-color-index:     93;
+  background-color-index: 93;
 }
 .on-transparent-darker-yellow {
-  background-color-index:     93;
+  background-color-index: 93;
 }
 
 .on-transparent-dark-gray {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 .on-transparent-dark-grey {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 .on-transparent-dull-gray {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 .on-transparent-dull-grey {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 .on-transparent-darker-gray {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 .on-transparent-darker-grey {
-  background-color-index:     94;
+  background-color-index: 94;
 }
 
 .on-transparent-dull-purple {
-  background-color-index:     95;
+  background-color-index: 95;
 }
 
 .on-transparent-medium-purple-blue {
-  background-color-index:     96;
+  background-color-index: 96;
 }
 
 .on-transparent-dull-yellow-green {
-  background-color-index:     97;
+  background-color-index: 97;
 }
 .on-transparent-dull-green {
-  background-color-index:     97;
+  background-color-index: 97;
 }
 
 .on-transparent-dull-blue-green {
-  background-color-index:     98;
+  background-color-index: 98;
 }
 
 .on-transparent-dull-cyan {
-  background-color-index:     99;
+  background-color-index: 99;
 }
 
 .on-transparent-light-purple-blue {
-  background-color-index:    100;
+  background-color-index: 100;
 }
 
 .on-transparent-bright-yellow-green {
-  background-color-index:    101;
+  background-color-index: 101;
 }
 
 .on-transparent-light-green {
-  background-color-index:    102;
+  background-color-index: 102;
 }
 
 .on-transparent-blue-green {
-  background-color-index:    103;
+  background-color-index: 103;
 }
 .on-transparent-medium-blue-green {
-  background-color-index:    103;
+  background-color-index: 103;
 }
 
 .on-transparent-cyan {
-  background-color-index:    104;
+  background-color-index: 104;
 }
 .on-transparent-medium-cyan {
-  background-color-index:    104;
+  background-color-index: 104;
 }
 
 .on-transparent-purple-brown {
-  background-color-index:    105;
+  background-color-index: 105;
 }
 .on-transparent-dark-purple-brown {
-  background-color-index:    105;
+  background-color-index: 105;
 }
 .on-transparent-dark-pink {
-  background-color-index:    105;
+  background-color-index: 105;
 }
 
 .on-transparent-bright-purple {
-  background-color-index:    106;
+  background-color-index: 106;
 }
 
 .on-transparent-dull-orange-brown {
-  background-color-index:    107;
+  background-color-index: 107;
 }
 .on-transparent-dull-orange {
-  background-color-index:    107;
+  background-color-index: 107;
 }
 .on-transparent-dull-brown {
-  background-color-index:    107;
+  background-color-index: 107;
 }
 .on-transparent-dull-red {
-  background-color-index:    107;
+  background-color-index: 107;
 }
 
 .on-transparent-dull-purple-brown {
-  background-color-index:    108;
+  background-color-index: 108;
 }
 .on-transparent-dull-pink {
-  background-color-index:    108;
+  background-color-index: 108;
 }
 
 .on-transparent-dull-magenta {
-  background-color-index:    109;
+  background-color-index: 109;
 }
 
 .on-transparent-medium-purple {
-  background-color-index:    110;
+  background-color-index: 110;
 }
 
 .on-transparent-dull-yellow-brown {
-  background-color-index:    111;
+  background-color-index: 111;
 }
 .on-transparent-dull-yellow {
-  background-color-index:    111;
+  background-color-index: 111;
 }
 
 .on-transparent-light-purple {
-  background-color-index:    112;
+  background-color-index: 112;
 }
 
 .on-transparent-medium-yellow-green {
-  background-color-index:    113;
+  background-color-index: 113;
 }
 
 .on-transparent-light-yellow-green {
-  background-color-index:    114;
+  background-color-index: 114;
 }
 
 .on-transparent-light-blue-green {
-  background-color-index:    115;
+  background-color-index: 115;
 }
 
 .on-transparent-light-cyan {
-  background-color-index:    116;
+  background-color-index: 116;
 }
 
 .on-transparent-pink-red {
-  background-color-index:    117;
+  background-color-index: 117;
 }
 .on-transparent-medium-pink-red {
-  background-color-index:    117;
+  background-color-index: 117;
 }
 .on-transparent-medium-red {
-  background-color-index:    117;
+  background-color-index: 117;
 }
 
 .on-transparent-bright-pink {
-  background-color-index:    118;
+  background-color-index: 118;
 }
 
 .on-transparent-bright-orange {
-  background-color-index:    119;
+  background-color-index: 119;
 }
 
 .on-transparent-light-pink-red {
-  background-color-index:    120;
+  background-color-index: 120;
 }
 .on-transparent-light-red {
-  background-color-index:    120;
+  background-color-index: 120;
 }
 
 .on-transparent-pink {
-  background-color-index:    121;
+  background-color-index: 121;
 }
 .on-transparent-medium-pink {
-  background-color-index:    121;
+  background-color-index: 121;
 }
 
 .on-transparent-magenta {
-  background-color-index:    122;
+  background-color-index: 122;
 }
 .on-transparent-medium-magenta {
-  background-color-index:    122;
+  background-color-index: 122;
 }
 
 .on-transparent-orange {
-  background-color-index:    123;
+  background-color-index: 123;
 }
 .on-transparent-medium-orange {
-  background-color-index:    123;
+  background-color-index: 123;
 }
 
 .on-transparent-light-orange {
-  background-color-index:    124;
+  background-color-index: 124;
 }
 
 .on-transparent-light-pink {
-  background-color-index:    125;
+  background-color-index: 125;
 }
 
 .on-transparent-light-magenta {
-  background-color-index:    126;
+  background-color-index: 126;
 }
 
 .on-transparent-yellow {
-  background-color-index:    127;
+  background-color-index: 127;
 }
 .on-transparent-medium-yellow {
-  background-color-index:    127;
+  background-color-index: 127;
 }
 
