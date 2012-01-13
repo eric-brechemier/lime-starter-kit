@@ -398,6 +398,13 @@
   border-bottom-color-index:  25;
   border-left-color-index:    25;
 }
+.darker-red {
+  color-index:                25;
+  border-top-color-index:     25;
+  border-right-color-index:   25;
+  border-bottom-color-index:  25;
+  border-left-color-index:    25;
+}
 .darker-brown {
   color-index:                25;
   border-top-color-index:     25;
@@ -1288,6 +1295,13 @@
   border-bottom-color-index:  89;
   border-left-color-index:    89;
 }
+.transparent-darker-red {
+  color-index:                89;
+  border-top-color-index:     89;
+  border-right-color-index:   89;
+  border-bottom-color-index:  89;
+  border-left-color-index:    89;
+}
 .transparent-darker-brown {
   color-index:                89;
   border-top-color-index:     89;
@@ -1966,6 +1980,9 @@
 .on-brown {
   background-color-index:     25;
 }
+.on-darker-red {
+  background-color-index:     25;
+}
 .on-darker-brown {
   background-color-index:     25;
 }
@@ -2382,6 +2399,9 @@
   background-color-index:     89;
 }
 .on-transparent-brown {
+  background-color-index:     89;
+}
+.on-transparent-darker-red {
   background-color-index:     89;
 }
 .on-transparent-darker-brown {
