@@ -730,6 +730,13 @@
   border-left-color-index:    48;
 }
 
+.yellow-green {
+  color-index:                49;
+  border-top-color-index:     49;
+  border-right-color-index:   49;
+  border-bottom-color-index:  49;
+  border-left-color-index:    49;
+}
 .medium-yellow-green {
   color-index:                49;
   border-top-color-index:     49;
@@ -1627,6 +1634,13 @@
   border-left-color-index:   112;
 }
 
+.transparent-yellow-green {
+  color-index:               113;
+  border-top-color-index:    113;
+  border-right-color-index:  113;
+  border-bottom-color-index: 113;
+  border-left-color-index:   113;
+}
 .transparent-medium-yellow-green {
   color-index:               113;
   border-top-color-index:    113;
@@ -2136,6 +2150,9 @@
   background-color-index: 48;
 }
 
+.on-yellow-green {
+  background-color-index: 49;
+}
 .on-medium-yellow-green {
   background-color-index: 49;
 }
@@ -2557,6 +2574,9 @@
   background-color-index: 112;
 }
 
+.on-transparent-yellow-green {
+  background-color-index: 113;
+}
 .on-transparent-medium-yellow-green {
   background-color-index: 113;
 }
