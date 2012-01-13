@@ -5,9 +5,18 @@
     <title>CSS Styles for layout</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2011-08-24" />
+    <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/layout/bottom-half.css" />
+    <link rel="stylesheet" href="css/layout/right-half.css" />
+    <link rel="stylesheet" href="css/layout/north-west.css" />
+    <link rel="stylesheet" href="css/layout/north.css" />
+    <link rel="stylesheet" href="css/layout/north-east.css" />
+    <link rel="stylesheet" href="css/layout/west.css" />
+    <link rel="stylesheet" href="css/layout/south-west.css" />
+    <link rel="stylesheet" href="css/layout/south.css" />
+    <link rel="stylesheet" href="css/layout/south-east.css" />
+    <link rel="stylesheet" href="css/layout/three-thirds-wide.css" />
     <link rel="stylesheet" href="css/colors.css" />
   </head>
   <body class="on-yellow">

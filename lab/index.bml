@@ -7,7 +7,18 @@
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
     <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/layout/colB.css" />
+    <link rel="stylesheet" href="css/layout/row2.css" />
+    <link rel="stylesheet" href="css/layout/row3.css" />
+    <link rel="stylesheet" href="css/layout/row4.css" />
+    <link rel="stylesheet" href="css/layout/row5.css" />
+    <link rel="stylesheet" href="css/layout/row6.css" />
+    <link rel="stylesheet" href="css/layout/row7.css" />
+    <link rel="stylesheet" href="css/layout/row8.css" />
+    <link rel="stylesheet" href="css/layout/row9.css" />
+    <link rel="stylesheet" href="css/layout/row11.css" />
+    <link rel="stylesheet" href="css/layout/on-27cols.css" />
+    <link rel="stylesheet" href="css/layout/on-1row.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/decoration/border.css" />
@@ -24,44 +35,44 @@
     <link rel="stylesheet" href="css/navigation.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
-    <p class="colB row2 row">
+    <p class="colB row2 on-27cols on-1row">
       <a class="link1 after-link10 underline1"
         href="min.bml">Minimal Document</a>
     </p>
-    <p class="colB row3 row">
+    <p class="colB row3 on-27cols on-1row">
       <a class="link2 underline2"
         href="all.bml">Maximum Document Featuring All Elements</a>
     </p>
-    <p class="colB row4 row">
+    <p class="colB row4 on-27cols on-1row">
       <a class="link3"
         href="colors.bml">Colors</a>
     </p>
-    <p class="colB row5 row">
+    <p class="colB row5 on-27cols on-1row">
       <a class="link4 border"
         href="images.bml">Images</a>
     </p>
-    <p class="colB row6 row white">
+    <p class="colB row6 on-27cols on-1row white">
       <a class="link5 above-link7 solid no-top-border no-right-border"
         href="layout.bml">Layout</a>
       /
       <a class="link6 below-link4 no-left-border no-bottom-border"
         href="grid.bml">Grid</a>
     </p>
-    <p class="colB row7 row">
+    <p class="colB row7 on-27cols on-1row">
       <a class="link7 below-link5" href="navigation.bml">
         Navigation
       </a>
     </p>
-    <p class="colB row8 row">
+    <p class="colB row8 on-27cols on-1row">
       <a class="link8 dotted border2"
         href="text.bml">Text</a>
     </p>
-    <p class="colB row9 row">
+    <p class="colB row9 on-27cols on-1row">
       <a class="link9 border4"
         href="decoration.bml">Decoration</a>
     </p>
 
-    <p class="colB row11 row">
+    <p class="colB row11 on-27cols on-1row">
       <a class="link10 before-link1"
         href="define.bml">define.ecm</a>
     </p>

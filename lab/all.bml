@@ -22,15 +22,26 @@
     .title {
       font-weight: bold;
     }
-    .onwhite {
-      background-color-index: 7;
-    }
-    .onyellow {
+    .on-yellow {
       background-color-index: 3;
     }
+    .colA { left: 12px; }
+    .colF { left: 187px; }
+    .colG { left: 222px; }
+    .colI { left: 292px; }
+    .row1 { top: 12px; }
+    .row2 { top: 47px; }
+    .row4 { top: 117px; }
+    .row6 { top: 187px; }
+    .row10 { top: 327px; }
+    .on-18cols { width: 621px; }
+    .on-27cols { width: 936px; }
+    .on-1row { height: 26px; }
+    .on-3rows { height: 96px; }
+    .on-15rows { height: 516px; }
     </style>
     <!-- ISSUE: no more than one link element is allowed in DTD -->
-    <link href="css/layout.css" />
+    <link href="css/layout/fullscreen.css" />
     <script src="scripts/define.ecm"></script>
     <script>
     <![CDATA[
@@ -92,13 +103,13 @@
         class="colA row1 fullscreen"/>
     </div>
 
-    <p class="colI row4 row title">Title</p>
+    <p class="colI row4 on-27cols on-1row title">Title</p>
     <p class="colI row6 on-27cols on-3rows">
       Line 1
       Line 2
       Line 3
     </p>
-    <div class="colI row10 row">
+    <div class="colI row10 on-27cols on-1row">
       <input />
     </div>
   </body>

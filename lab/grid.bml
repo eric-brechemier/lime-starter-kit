@@ -5,9 +5,53 @@
     <title>Grid using CSS Styles for layout</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-07" />
+    <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/layout/fullscreen.css" />
+    <link rel="stylesheet" href="css/layout/colA.css" />
+    <link rel="stylesheet" href="css/layout/colB.css" />
+    <link rel="stylesheet" href="css/layout/colC.css" />
+    <link rel="stylesheet" href="css/layout/colD.css" />
+    <link rel="stylesheet" href="css/layout/colE.css" />
+    <link rel="stylesheet" href="css/layout/colF.css" />
+    <link rel="stylesheet" href="css/layout/colG.css" />
+    <link rel="stylesheet" href="css/layout/colH.css" />
+    <link rel="stylesheet" href="css/layout/colI.css" />
+    <link rel="stylesheet" href="css/layout/colJ.css" />
+    <link rel="stylesheet" href="css/layout/colK.css" />
+    <link rel="stylesheet" href="css/layout/colL.css" />
+    <link rel="stylesheet" href="css/layout/colM.css" />
+    <link rel="stylesheet" href="css/layout/colN.css" />
+    <link rel="stylesheet" href="css/layout/colO.css" />
+    <link rel="stylesheet" href="css/layout/colP.css" />
+    <link rel="stylesheet" href="css/layout/colQ.css" />
+    <link rel="stylesheet" href="css/layout/colR.css" />
+    <link rel="stylesheet" href="css/layout/colS.css" />
+    <link rel="stylesheet" href="css/layout/colT.css" />
+    <link rel="stylesheet" href="css/layout/colU.css" />
+    <link rel="stylesheet" href="css/layout/colV.css" />
+    <link rel="stylesheet" href="css/layout/colW.css" />
+    <link rel="stylesheet" href="css/layout/colX.css" />
+    <link rel="stylesheet" href="css/layout/colY.css" />
+    <link rel="stylesheet" href="css/layout/colZ.css" />
+    <link rel="stylesheet" href="css/layout/colAA.css" />
+    <link rel="stylesheet" href="css/layout/row1.css" />
+    <link rel="stylesheet" href="css/layout/row2.css" />
+    <link rel="stylesheet" href="css/layout/row3.css" />
+    <link rel="stylesheet" href="css/layout/row4.css" />
+    <link rel="stylesheet" href="css/layout/row5.css" />
+    <link rel="stylesheet" href="css/layout/row6.css" />
+    <link rel="stylesheet" href="css/layout/row7.css" />
+    <link rel="stylesheet" href="css/layout/row8.css" />
+    <link rel="stylesheet" href="css/layout/row9.css" />
+    <link rel="stylesheet" href="css/layout/row10.css" />
+    <link rel="stylesheet" href="css/layout/row11.css" />
+    <link rel="stylesheet" href="css/layout/row12.css" />
+    <link rel="stylesheet" href="css/layout/row13.css" />
+    <link rel="stylesheet" href="css/layout/row14.css" />
+    <link rel="stylesheet" href="css/layout/row15.css" />
+    <link rel="stylesheet" href="css/layout/on-1col.css" />
+    <link rel="stylesheet" href="css/layout/on-1row.css" />
     <link rel="stylesheet" href="css/colors.css" />
   </head>
   <body class="on-white">
@@ -18,439 +62,439 @@
     </div>
 
     <!-- row 1 -->
-    <p class="colA row1 cell black">A1</p>
-    <p class="colB row1 cell white on-black">B1</p>
-    <p class="colC row1 cell black">C1</p>
-    <p class="colD row1 cell white on-black">D1</p>
-    <p class="colE row1 cell black">E1</p>
-    <p class="colF row1 cell white on-black">F1</p>
-    <p class="colG row1 cell black">G1</p>
-    <p class="colH row1 cell white on-black">H1</p>
-    <p class="colI row1 cell black">I1</p>
-    <p class="colJ row1 cell white on-black">J1</p>
-    <p class="colK row1 cell black">K1</p>
-    <p class="colL row1 cell white on-black">L1</p>
-    <p class="colM row1 cell black">M1</p>
-    <p class="colN row1 cell white on-black">N1</p>
-    <p class="colO row1 cell black">O1</p>
-    <p class="colP row1 cell white on-black">P1</p>
-    <p class="colQ row1 cell black">Q1</p>
-    <p class="colR row1 cell white on-black">R1</p>
-    <p class="colS row1 cell black">S1</p>
-    <p class="colT row1 cell white on-black">T1</p>
-    <p class="colU row1 cell black">U1</p>
-    <p class="colV row1 cell white on-black">V1</p>
-    <p class="colW row1 cell black">W1</p>
-    <p class="colX row1 cell white on-black">X1</p>
-    <p class="colY row1 cell black">Y1</p>
-    <p class="colZ row1 cell white on-black">Z1</p>
-    <p class="colAA row1 cell black">AA1</p>
+    <p class="colA row1 on-1col on-1row black">A1</p>
+    <p class="colB row1 on-1col on-1row white on-black">B1</p>
+    <p class="colC row1 on-1col on-1row black">C1</p>
+    <p class="colD row1 on-1col on-1row white on-black">D1</p>
+    <p class="colE row1 on-1col on-1row black">E1</p>
+    <p class="colF row1 on-1col on-1row white on-black">F1</p>
+    <p class="colG row1 on-1col on-1row black">G1</p>
+    <p class="colH row1 on-1col on-1row white on-black">H1</p>
+    <p class="colI row1 on-1col on-1row black">I1</p>
+    <p class="colJ row1 on-1col on-1row white on-black">J1</p>
+    <p class="colK row1 on-1col on-1row black">K1</p>
+    <p class="colL row1 on-1col on-1row white on-black">L1</p>
+    <p class="colM row1 on-1col on-1row black">M1</p>
+    <p class="colN row1 on-1col on-1row white on-black">N1</p>
+    <p class="colO row1 on-1col on-1row black">O1</p>
+    <p class="colP row1 on-1col on-1row white on-black">P1</p>
+    <p class="colQ row1 on-1col on-1row black">Q1</p>
+    <p class="colR row1 on-1col on-1row white on-black">R1</p>
+    <p class="colS row1 on-1col on-1row black">S1</p>
+    <p class="colT row1 on-1col on-1row white on-black">T1</p>
+    <p class="colU row1 on-1col on-1row black">U1</p>
+    <p class="colV row1 on-1col on-1row white on-black">V1</p>
+    <p class="colW row1 on-1col on-1row black">W1</p>
+    <p class="colX row1 on-1col on-1row white on-black">X1</p>
+    <p class="colY row1 on-1col on-1row black">Y1</p>
+    <p class="colZ row1 on-1col on-1row white on-black">Z1</p>
+    <p class="colAA row1 on-1col on-1row black">AA1</p>
 
     <!-- row 2 -->
-    <p class="colA row2 cell black">A2</p>
-    <p class="colB row2 cell white on-black">B2</p>
-    <p class="colC row2 cell black">C2</p>
-    <p class="colD row2 cell white on-black">D2</p>
-    <p class="colE row2 cell black">E2</p>
-    <p class="colF row2 cell white on-black">F2</p>
-    <p class="colG row2 cell black">G2</p>
-    <p class="colH row2 cell white on-black">H2</p>
-    <p class="colI row2 cell black">I2</p>
-    <p class="colJ row2 cell white on-black">J2</p>
-    <p class="colK row2 cell black">K2</p>
-    <p class="colL row2 cell white on-black">L2</p>
-    <p class="colM row2 cell black">M2</p>
-    <p class="colN row2 cell white on-black">N2</p>
-    <p class="colO row2 cell black">O2</p>
-    <p class="colP row2 cell white on-black">P2</p>
-    <p class="colQ row2 cell black">Q2</p>
-    <p class="colR row2 cell white on-black">R2</p>
-    <p class="colS row2 cell black">S2</p>
-    <p class="colT row2 cell white on-black">T2</p>
-    <p class="colU row2 cell black">U2</p>
-    <p class="colV row2 cell white on-black">V2</p>
-    <p class="colW row2 cell black">W2</p>
-    <p class="colX row2 cell white on-black">X2</p>
-    <p class="colY row2 cell black">Y2</p>
-    <p class="colZ row2 cell white on-black">Z2</p>
-    <p class="colAA row2 cell black">AA2</p>
+    <p class="colA row2 on-1col on-1row black">A2</p>
+    <p class="colB row2 on-1col on-1row white on-black">B2</p>
+    <p class="colC row2 on-1col on-1row black">C2</p>
+    <p class="colD row2 on-1col on-1row white on-black">D2</p>
+    <p class="colE row2 on-1col on-1row black">E2</p>
+    <p class="colF row2 on-1col on-1row white on-black">F2</p>
+    <p class="colG row2 on-1col on-1row black">G2</p>
+    <p class="colH row2 on-1col on-1row white on-black">H2</p>
+    <p class="colI row2 on-1col on-1row black">I2</p>
+    <p class="colJ row2 on-1col on-1row white on-black">J2</p>
+    <p class="colK row2 on-1col on-1row black">K2</p>
+    <p class="colL row2 on-1col on-1row white on-black">L2</p>
+    <p class="colM row2 on-1col on-1row black">M2</p>
+    <p class="colN row2 on-1col on-1row white on-black">N2</p>
+    <p class="colO row2 on-1col on-1row black">O2</p>
+    <p class="colP row2 on-1col on-1row white on-black">P2</p>
+    <p class="colQ row2 on-1col on-1row black">Q2</p>
+    <p class="colR row2 on-1col on-1row white on-black">R2</p>
+    <p class="colS row2 on-1col on-1row black">S2</p>
+    <p class="colT row2 on-1col on-1row white on-black">T2</p>
+    <p class="colU row2 on-1col on-1row black">U2</p>
+    <p class="colV row2 on-1col on-1row white on-black">V2</p>
+    <p class="colW row2 on-1col on-1row black">W2</p>
+    <p class="colX row2 on-1col on-1row white on-black">X2</p>
+    <p class="colY row2 on-1col on-1row black">Y2</p>
+    <p class="colZ row2 on-1col on-1row white on-black">Z2</p>
+    <p class="colAA row2 on-1col on-1row black">AA2</p>
 
     <!-- row 3 -->
-    <p class="colA row3 cell black">A3</p>
-    <p class="colB row3 cell white on-black">B3</p>
-    <p class="colC row3 cell black">C3</p>
-    <p class="colD row3 cell white on-black">D3</p>
-    <p class="colE row3 cell black">E3</p>
-    <p class="colF row3 cell white on-black">F3</p>
-    <p class="colG row3 cell black">G3</p>
-    <p class="colH row3 cell white on-black">H3</p>
-    <p class="colI row3 cell black">I3</p>
-    <p class="colJ row3 cell white on-black">J3</p>
-    <p class="colK row3 cell black">K3</p>
-    <p class="colL row3 cell white on-black">L3</p>
-    <p class="colM row3 cell black">M3</p>
-    <p class="colN row3 cell white on-black">N3</p>
-    <p class="colO row3 cell black">O3</p>
-    <p class="colP row3 cell white on-black">P3</p>
-    <p class="colQ row3 cell black">Q3</p>
-    <p class="colR row3 cell white on-black">R3</p>
-    <p class="colS row3 cell black">S3</p>
-    <p class="colT row3 cell white on-black">T3</p>
-    <p class="colU row3 cell black">U3</p>
-    <p class="colV row3 cell white on-black">V3</p>
-    <p class="colW row3 cell black">W3</p>
-    <p class="colX row3 cell white on-black">X3</p>
-    <p class="colY row3 cell black">Y3</p>
-    <p class="colZ row3 cell white on-black">Z3</p>
-    <p class="colAA row3 cell black">AA3</p>
+    <p class="colA row3 on-1col on-1row black">A3</p>
+    <p class="colB row3 on-1col on-1row white on-black">B3</p>
+    <p class="colC row3 on-1col on-1row black">C3</p>
+    <p class="colD row3 on-1col on-1row white on-black">D3</p>
+    <p class="colE row3 on-1col on-1row black">E3</p>
+    <p class="colF row3 on-1col on-1row white on-black">F3</p>
+    <p class="colG row3 on-1col on-1row black">G3</p>
+    <p class="colH row3 on-1col on-1row white on-black">H3</p>
+    <p class="colI row3 on-1col on-1row black">I3</p>
+    <p class="colJ row3 on-1col on-1row white on-black">J3</p>
+    <p class="colK row3 on-1col on-1row black">K3</p>
+    <p class="colL row3 on-1col on-1row white on-black">L3</p>
+    <p class="colM row3 on-1col on-1row black">M3</p>
+    <p class="colN row3 on-1col on-1row white on-black">N3</p>
+    <p class="colO row3 on-1col on-1row black">O3</p>
+    <p class="colP row3 on-1col on-1row white on-black">P3</p>
+    <p class="colQ row3 on-1col on-1row black">Q3</p>
+    <p class="colR row3 on-1col on-1row white on-black">R3</p>
+    <p class="colS row3 on-1col on-1row black">S3</p>
+    <p class="colT row3 on-1col on-1row white on-black">T3</p>
+    <p class="colU row3 on-1col on-1row black">U3</p>
+    <p class="colV row3 on-1col on-1row white on-black">V3</p>
+    <p class="colW row3 on-1col on-1row black">W3</p>
+    <p class="colX row3 on-1col on-1row white on-black">X3</p>
+    <p class="colY row3 on-1col on-1row black">Y3</p>
+    <p class="colZ row3 on-1col on-1row white on-black">Z3</p>
+    <p class="colAA row3 on-1col on-1row black">AA3</p>
 
     <!-- row 4 -->
-    <p class="colA row4 cell black">A4</p>
-    <p class="colB row4 cell white on-black">B4</p>
-    <p class="colC row4 cell black">C4</p>
-    <p class="colD row4 cell white on-black">D4</p>
-    <p class="colE row4 cell black">E4</p>
-    <p class="colF row4 cell white on-black">F4</p>
-    <p class="colG row4 cell black">G4</p>
-    <p class="colH row4 cell white on-black">H4</p>
-    <p class="colI row4 cell black">I4</p>
-    <p class="colJ row4 cell white on-black">J4</p>
-    <p class="colK row4 cell black">K4</p>
-    <p class="colL row4 cell white on-black">L4</p>
-    <p class="colM row4 cell black">M4</p>
-    <p class="colN row4 cell white on-black">N4</p>
-    <p class="colO row4 cell black">O4</p>
-    <p class="colP row4 cell white on-black">P4</p>
-    <p class="colQ row4 cell black">Q4</p>
-    <p class="colR row4 cell white on-black">R4</p>
-    <p class="colS row4 cell black">S4</p>
-    <p class="colT row4 cell white on-black">T4</p>
-    <p class="colU row4 cell black">U4</p>
-    <p class="colV row4 cell white on-black">V4</p>
-    <p class="colW row4 cell black">W4</p>
-    <p class="colX row4 cell white on-black">X4</p>
-    <p class="colY row4 cell black">Y4</p>
-    <p class="colZ row4 cell white on-black">Z4</p>
-    <p class="colAA row4 cell black">AA4</p>
+    <p class="colA row4 on-1col on-1row black">A4</p>
+    <p class="colB row4 on-1col on-1row white on-black">B4</p>
+    <p class="colC row4 on-1col on-1row black">C4</p>
+    <p class="colD row4 on-1col on-1row white on-black">D4</p>
+    <p class="colE row4 on-1col on-1row black">E4</p>
+    <p class="colF row4 on-1col on-1row white on-black">F4</p>
+    <p class="colG row4 on-1col on-1row black">G4</p>
+    <p class="colH row4 on-1col on-1row white on-black">H4</p>
+    <p class="colI row4 on-1col on-1row black">I4</p>
+    <p class="colJ row4 on-1col on-1row white on-black">J4</p>
+    <p class="colK row4 on-1col on-1row black">K4</p>
+    <p class="colL row4 on-1col on-1row white on-black">L4</p>
+    <p class="colM row4 on-1col on-1row black">M4</p>
+    <p class="colN row4 on-1col on-1row white on-black">N4</p>
+    <p class="colO row4 on-1col on-1row black">O4</p>
+    <p class="colP row4 on-1col on-1row white on-black">P4</p>
+    <p class="colQ row4 on-1col on-1row black">Q4</p>
+    <p class="colR row4 on-1col on-1row white on-black">R4</p>
+    <p class="colS row4 on-1col on-1row black">S4</p>
+    <p class="colT row4 on-1col on-1row white on-black">T4</p>
+    <p class="colU row4 on-1col on-1row black">U4</p>
+    <p class="colV row4 on-1col on-1row white on-black">V4</p>
+    <p class="colW row4 on-1col on-1row black">W4</p>
+    <p class="colX row4 on-1col on-1row white on-black">X4</p>
+    <p class="colY row4 on-1col on-1row black">Y4</p>
+    <p class="colZ row4 on-1col on-1row white on-black">Z4</p>
+    <p class="colAA row4 on-1col on-1row black">AA4</p>
 
     <!-- row 5 -->
-    <p class="colA row5 cell black">A5</p>
-    <p class="colB row5 cell white on-black">B5</p>
-    <p class="colC row5 cell black">C5</p>
-    <p class="colD row5 cell white on-black">D5</p>
-    <p class="colE row5 cell black">E5</p>
-    <p class="colF row5 cell white on-black">F5</p>
-    <p class="colG row5 cell black">G5</p>
-    <p class="colH row5 cell white on-black">H5</p>
-    <p class="colI row5 cell black">I5</p>
-    <p class="colJ row5 cell white on-black">J5</p>
-    <p class="colK row5 cell black">K5</p>
-    <p class="colL row5 cell white on-black">L5</p>
-    <p class="colM row5 cell black">M5</p>
-    <p class="colN row5 cell white on-black">N5</p>
-    <p class="colO row5 cell black">O5</p>
-    <p class="colP row5 cell white on-black">P5</p>
-    <p class="colQ row5 cell black">Q5</p>
-    <p class="colR row5 cell white on-black">R5</p>
-    <p class="colS row5 cell black">S5</p>
-    <p class="colT row5 cell white on-black">T5</p>
-    <p class="colU row5 cell black">U5</p>
-    <p class="colV row5 cell white on-black">V5</p>
-    <p class="colW row5 cell black">W5</p>
-    <p class="colX row5 cell white on-black">X5</p>
-    <p class="colY row5 cell black">Y5</p>
-    <p class="colZ row5 cell white on-black">Z5</p>
-    <p class="colAA row5 cell black">AA5</p>
+    <p class="colA row5 on-1col on-1row black">A5</p>
+    <p class="colB row5 on-1col on-1row white on-black">B5</p>
+    <p class="colC row5 on-1col on-1row black">C5</p>
+    <p class="colD row5 on-1col on-1row white on-black">D5</p>
+    <p class="colE row5 on-1col on-1row black">E5</p>
+    <p class="colF row5 on-1col on-1row white on-black">F5</p>
+    <p class="colG row5 on-1col on-1row black">G5</p>
+    <p class="colH row5 on-1col on-1row white on-black">H5</p>
+    <p class="colI row5 on-1col on-1row black">I5</p>
+    <p class="colJ row5 on-1col on-1row white on-black">J5</p>
+    <p class="colK row5 on-1col on-1row black">K5</p>
+    <p class="colL row5 on-1col on-1row white on-black">L5</p>
+    <p class="colM row5 on-1col on-1row black">M5</p>
+    <p class="colN row5 on-1col on-1row white on-black">N5</p>
+    <p class="colO row5 on-1col on-1row black">O5</p>
+    <p class="colP row5 on-1col on-1row white on-black">P5</p>
+    <p class="colQ row5 on-1col on-1row black">Q5</p>
+    <p class="colR row5 on-1col on-1row white on-black">R5</p>
+    <p class="colS row5 on-1col on-1row black">S5</p>
+    <p class="colT row5 on-1col on-1row white on-black">T5</p>
+    <p class="colU row5 on-1col on-1row black">U5</p>
+    <p class="colV row5 on-1col on-1row white on-black">V5</p>
+    <p class="colW row5 on-1col on-1row black">W5</p>
+    <p class="colX row5 on-1col on-1row white on-black">X5</p>
+    <p class="colY row5 on-1col on-1row black">Y5</p>
+    <p class="colZ row5 on-1col on-1row white on-black">Z5</p>
+    <p class="colAA row5 on-1col on-1row black">AA5</p>
 
     <!-- row 6 -->
-    <p class="colA row6 cell black">A6</p>
-    <p class="colB row6 cell white on-black">B6</p>
-    <p class="colC row6 cell black">C6</p>
-    <p class="colD row6 cell white on-black">D6</p>
-    <p class="colE row6 cell black">E6</p>
-    <p class="colF row6 cell white on-black">F6</p>
-    <p class="colG row6 cell black">G6</p>
-    <p class="colH row6 cell white on-black">H6</p>
-    <p class="colI row6 cell black">I6</p>
-    <p class="colJ row6 cell white on-black">J6</p>
-    <p class="colK row6 cell black">K6</p>
-    <p class="colL row6 cell white on-black">L6</p>
-    <p class="colM row6 cell black">M6</p>
-    <p class="colN row6 cell white on-black">N6</p>
-    <p class="colO row6 cell black">O6</p>
-    <p class="colP row6 cell white on-black">P6</p>
-    <p class="colQ row6 cell black">Q6</p>
-    <p class="colR row6 cell white on-black">R6</p>
-    <p class="colS row6 cell black">S6</p>
-    <p class="colT row6 cell white on-black">T6</p>
-    <p class="colU row6 cell black">U6</p>
-    <p class="colV row6 cell white on-black">V6</p>
-    <p class="colW row6 cell black">W6</p>
-    <p class="colX row6 cell white on-black">X6</p>
-    <p class="colY row6 cell black">Y6</p>
-    <p class="colZ row6 cell white on-black">Z6</p>
-    <p class="colAA row6 cell black">AA6</p>
+    <p class="colA row6 on-1col on-1row black">A6</p>
+    <p class="colB row6 on-1col on-1row white on-black">B6</p>
+    <p class="colC row6 on-1col on-1row black">C6</p>
+    <p class="colD row6 on-1col on-1row white on-black">D6</p>
+    <p class="colE row6 on-1col on-1row black">E6</p>
+    <p class="colF row6 on-1col on-1row white on-black">F6</p>
+    <p class="colG row6 on-1col on-1row black">G6</p>
+    <p class="colH row6 on-1col on-1row white on-black">H6</p>
+    <p class="colI row6 on-1col on-1row black">I6</p>
+    <p class="colJ row6 on-1col on-1row white on-black">J6</p>
+    <p class="colK row6 on-1col on-1row black">K6</p>
+    <p class="colL row6 on-1col on-1row white on-black">L6</p>
+    <p class="colM row6 on-1col on-1row black">M6</p>
+    <p class="colN row6 on-1col on-1row white on-black">N6</p>
+    <p class="colO row6 on-1col on-1row black">O6</p>
+    <p class="colP row6 on-1col on-1row white on-black">P6</p>
+    <p class="colQ row6 on-1col on-1row black">Q6</p>
+    <p class="colR row6 on-1col on-1row white on-black">R6</p>
+    <p class="colS row6 on-1col on-1row black">S6</p>
+    <p class="colT row6 on-1col on-1row white on-black">T6</p>
+    <p class="colU row6 on-1col on-1row black">U6</p>
+    <p class="colV row6 on-1col on-1row white on-black">V6</p>
+    <p class="colW row6 on-1col on-1row black">W6</p>
+    <p class="colX row6 on-1col on-1row white on-black">X6</p>
+    <p class="colY row6 on-1col on-1row black">Y6</p>
+    <p class="colZ row6 on-1col on-1row white on-black">Z6</p>
+    <p class="colAA row6 on-1col on-1row black">AA6</p>
 
     <!-- row 7 -->
-    <p class="colA row7 cell black">A7</p>
-    <p class="colB row7 cell white on-black">B7</p>
-    <p class="colC row7 cell black">C7</p>
-    <p class="colD row7 cell white on-black">D7</p>
-    <p class="colE row7 cell black">E7</p>
-    <p class="colF row7 cell white on-black">F7</p>
-    <p class="colG row7 cell black">G7</p>
-    <p class="colH row7 cell white on-black">H7</p>
-    <p class="colI row7 cell black">I7</p>
-    <p class="colJ row7 cell white on-black">J7</p>
-    <p class="colK row7 cell black">K7</p>
-    <p class="colL row7 cell white on-black">L7</p>
-    <p class="colM row7 cell black">M7</p>
-    <p class="colN row7 cell white on-black">N7</p>
-    <p class="colO row7 cell black">O7</p>
-    <p class="colP row7 cell white on-black">P7</p>
-    <p class="colQ row7 cell black">Q7</p>
-    <p class="colR row7 cell white on-black">R7</p>
-    <p class="colS row7 cell black">S7</p>
-    <p class="colT row7 cell white on-black">T7</p>
-    <p class="colU row7 cell black">U7</p>
-    <p class="colV row7 cell white on-black">V7</p>
-    <p class="colW row7 cell black">W7</p>
-    <p class="colX row7 cell white on-black">X7</p>
-    <p class="colY row7 cell black">Y7</p>
-    <p class="colZ row7 cell white on-black">Z7</p>
-    <p class="colAA row7 cell black">AA7</p>
+    <p class="colA row7 on-1col on-1row black">A7</p>
+    <p class="colB row7 on-1col on-1row white on-black">B7</p>
+    <p class="colC row7 on-1col on-1row black">C7</p>
+    <p class="colD row7 on-1col on-1row white on-black">D7</p>
+    <p class="colE row7 on-1col on-1row black">E7</p>
+    <p class="colF row7 on-1col on-1row white on-black">F7</p>
+    <p class="colG row7 on-1col on-1row black">G7</p>
+    <p class="colH row7 on-1col on-1row white on-black">H7</p>
+    <p class="colI row7 on-1col on-1row black">I7</p>
+    <p class="colJ row7 on-1col on-1row white on-black">J7</p>
+    <p class="colK row7 on-1col on-1row black">K7</p>
+    <p class="colL row7 on-1col on-1row white on-black">L7</p>
+    <p class="colM row7 on-1col on-1row black">M7</p>
+    <p class="colN row7 on-1col on-1row white on-black">N7</p>
+    <p class="colO row7 on-1col on-1row black">O7</p>
+    <p class="colP row7 on-1col on-1row white on-black">P7</p>
+    <p class="colQ row7 on-1col on-1row black">Q7</p>
+    <p class="colR row7 on-1col on-1row white on-black">R7</p>
+    <p class="colS row7 on-1col on-1row black">S7</p>
+    <p class="colT row7 on-1col on-1row white on-black">T7</p>
+    <p class="colU row7 on-1col on-1row black">U7</p>
+    <p class="colV row7 on-1col on-1row white on-black">V7</p>
+    <p class="colW row7 on-1col on-1row black">W7</p>
+    <p class="colX row7 on-1col on-1row white on-black">X7</p>
+    <p class="colY row7 on-1col on-1row black">Y7</p>
+    <p class="colZ row7 on-1col on-1row white on-black">Z7</p>
+    <p class="colAA row7 on-1col on-1row black">AA7</p>
 
     <!-- row 8 -->
-    <p class="colA row8 cell black">A8</p>
-    <p class="colB row8 cell white on-black">B8</p>
-    <p class="colC row8 cell black">C8</p>
-    <p class="colD row8 cell white on-black">D8</p>
-    <p class="colE row8 cell black">E8</p>
-    <p class="colF row8 cell white on-black">F8</p>
-    <p class="colG row8 cell black">G8</p>
-    <p class="colH row8 cell white on-black">H8</p>
-    <p class="colI row8 cell black">I8</p>
-    <p class="colJ row8 cell white on-black">J8</p>
-    <p class="colK row8 cell black">K8</p>
-    <p class="colL row8 cell white on-black">L8</p>
-    <p class="colM row8 cell black">M8</p>
-    <p class="colN row8 cell white on-black">N8</p>
-    <p class="colO row8 cell black">O8</p>
-    <p class="colP row8 cell white on-black">P8</p>
-    <p class="colQ row8 cell black">Q8</p>
-    <p class="colR row8 cell white on-black">R8</p>
-    <p class="colS row8 cell black">S8</p>
-    <p class="colT row8 cell white on-black">T8</p>
-    <p class="colU row8 cell black">U8</p>
-    <p class="colV row8 cell white on-black">V8</p>
-    <p class="colW row8 cell black">W8</p>
-    <p class="colX row8 cell white on-black">X8</p>
-    <p class="colY row8 cell black">Y8</p>
-    <p class="colZ row8 cell white on-black">Z8</p>
-    <p class="colAA row8 cell black">AA8</p>
+    <p class="colA row8 on-1col on-1row black">A8</p>
+    <p class="colB row8 on-1col on-1row white on-black">B8</p>
+    <p class="colC row8 on-1col on-1row black">C8</p>
+    <p class="colD row8 on-1col on-1row white on-black">D8</p>
+    <p class="colE row8 on-1col on-1row black">E8</p>
+    <p class="colF row8 on-1col on-1row white on-black">F8</p>
+    <p class="colG row8 on-1col on-1row black">G8</p>
+    <p class="colH row8 on-1col on-1row white on-black">H8</p>
+    <p class="colI row8 on-1col on-1row black">I8</p>
+    <p class="colJ row8 on-1col on-1row white on-black">J8</p>
+    <p class="colK row8 on-1col on-1row black">K8</p>
+    <p class="colL row8 on-1col on-1row white on-black">L8</p>
+    <p class="colM row8 on-1col on-1row black">M8</p>
+    <p class="colN row8 on-1col on-1row white on-black">N8</p>
+    <p class="colO row8 on-1col on-1row black">O8</p>
+    <p class="colP row8 on-1col on-1row white on-black">P8</p>
+    <p class="colQ row8 on-1col on-1row black">Q8</p>
+    <p class="colR row8 on-1col on-1row white on-black">R8</p>
+    <p class="colS row8 on-1col on-1row black">S8</p>
+    <p class="colT row8 on-1col on-1row white on-black">T8</p>
+    <p class="colU row8 on-1col on-1row black">U8</p>
+    <p class="colV row8 on-1col on-1row white on-black">V8</p>
+    <p class="colW row8 on-1col on-1row black">W8</p>
+    <p class="colX row8 on-1col on-1row white on-black">X8</p>
+    <p class="colY row8 on-1col on-1row black">Y8</p>
+    <p class="colZ row8 on-1col on-1row white on-black">Z8</p>
+    <p class="colAA row8 on-1col on-1row black">AA8</p>
 
     <!-- row 9 -->
-    <p class="colA row9 cell black">A9</p>
-    <p class="colB row9 cell white on-black">B9</p>
-    <p class="colC row9 cell black">C9</p>
-    <p class="colD row9 cell white on-black">D9</p>
-    <p class="colE row9 cell black">E9</p>
-    <p class="colF row9 cell white on-black">F9</p>
-    <p class="colG row9 cell black">G9</p>
-    <p class="colH row9 cell white on-black">H9</p>
-    <p class="colI row9 cell black">I9</p>
-    <p class="colJ row9 cell white on-black">J9</p>
-    <p class="colK row9 cell black">K9</p>
-    <p class="colL row9 cell white on-black">L9</p>
-    <p class="colM row9 cell black">M9</p>
-    <p class="colN row9 cell white on-black">N9</p>
-    <p class="colO row9 cell black">O9</p>
-    <p class="colP row9 cell white on-black">P9</p>
-    <p class="colQ row9 cell black">Q9</p>
-    <p class="colR row9 cell white on-black">R9</p>
-    <p class="colS row9 cell black">S9</p>
-    <p class="colT row9 cell white on-black">T9</p>
-    <p class="colU row9 cell black">U9</p>
-    <p class="colV row9 cell white on-black">V9</p>
-    <p class="colW row9 cell black">W9</p>
-    <p class="colX row9 cell white on-black">X9</p>
-    <p class="colY row9 cell black">Y9</p>
-    <p class="colZ row9 cell white on-black">Z9</p>
-    <p class="colAA row9 cell black">AA9</p>
+    <p class="colA row9 on-1col on-1row black">A9</p>
+    <p class="colB row9 on-1col on-1row white on-black">B9</p>
+    <p class="colC row9 on-1col on-1row black">C9</p>
+    <p class="colD row9 on-1col on-1row white on-black">D9</p>
+    <p class="colE row9 on-1col on-1row black">E9</p>
+    <p class="colF row9 on-1col on-1row white on-black">F9</p>
+    <p class="colG row9 on-1col on-1row black">G9</p>
+    <p class="colH row9 on-1col on-1row white on-black">H9</p>
+    <p class="colI row9 on-1col on-1row black">I9</p>
+    <p class="colJ row9 on-1col on-1row white on-black">J9</p>
+    <p class="colK row9 on-1col on-1row black">K9</p>
+    <p class="colL row9 on-1col on-1row white on-black">L9</p>
+    <p class="colM row9 on-1col on-1row black">M9</p>
+    <p class="colN row9 on-1col on-1row white on-black">N9</p>
+    <p class="colO row9 on-1col on-1row black">O9</p>
+    <p class="colP row9 on-1col on-1row white on-black">P9</p>
+    <p class="colQ row9 on-1col on-1row black">Q9</p>
+    <p class="colR row9 on-1col on-1row white on-black">R9</p>
+    <p class="colS row9 on-1col on-1row black">S9</p>
+    <p class="colT row9 on-1col on-1row white on-black">T9</p>
+    <p class="colU row9 on-1col on-1row black">U9</p>
+    <p class="colV row9 on-1col on-1row white on-black">V9</p>
+    <p class="colW row9 on-1col on-1row black">W9</p>
+    <p class="colX row9 on-1col on-1row white on-black">X9</p>
+    <p class="colY row9 on-1col on-1row black">Y9</p>
+    <p class="colZ row9 on-1col on-1row white on-black">Z9</p>
+    <p class="colAA row9 on-1col on-1row black">AA9</p>
 
     <!-- row 10 -->
-    <p class="colA row10 cell black">A10</p>
-    <p class="colB row10 cell white on-black">B10</p>
-    <p class="colC row10 cell black">C10</p>
-    <p class="colD row10 cell white on-black">D10</p>
-    <p class="colE row10 cell black">E10</p>
-    <p class="colF row10 cell white on-black">F10</p>
-    <p class="colG row10 cell black">G10</p>
-    <p class="colH row10 cell white on-black">H10</p>
-    <p class="colI row10 cell black">I10</p>
-    <p class="colJ row10 cell white on-black">J10</p>
-    <p class="colK row10 cell black">K10</p>
-    <p class="colL row10 cell white on-black">L10</p>
-    <p class="colM row10 cell black">M10</p>
-    <p class="colN row10 cell white on-black">N10</p>
-    <p class="colO row10 cell black">O10</p>
-    <p class="colP row10 cell white on-black">P10</p>
-    <p class="colQ row10 cell black">Q10</p>
-    <p class="colR row10 cell white on-black">R10</p>
-    <p class="colS row10 cell black">S10</p>
-    <p class="colT row10 cell white on-black">T10</p>
-    <p class="colU row10 cell black">U10</p>
-    <p class="colV row10 cell white on-black">V10</p>
-    <p class="colW row10 cell black">W10</p>
-    <p class="colX row10 cell white on-black">X10</p>
-    <p class="colY row10 cell black">Y10</p>
-    <p class="colZ row10 cell white on-black">Z10</p>
-    <p class="colAA row10 cell black">AA10</p>
+    <p class="colA row10 on-1col on-1row black">A10</p>
+    <p class="colB row10 on-1col on-1row white on-black">B10</p>
+    <p class="colC row10 on-1col on-1row black">C10</p>
+    <p class="colD row10 on-1col on-1row white on-black">D10</p>
+    <p class="colE row10 on-1col on-1row black">E10</p>
+    <p class="colF row10 on-1col on-1row white on-black">F10</p>
+    <p class="colG row10 on-1col on-1row black">G10</p>
+    <p class="colH row10 on-1col on-1row white on-black">H10</p>
+    <p class="colI row10 on-1col on-1row black">I10</p>
+    <p class="colJ row10 on-1col on-1row white on-black">J10</p>
+    <p class="colK row10 on-1col on-1row black">K10</p>
+    <p class="colL row10 on-1col on-1row white on-black">L10</p>
+    <p class="colM row10 on-1col on-1row black">M10</p>
+    <p class="colN row10 on-1col on-1row white on-black">N10</p>
+    <p class="colO row10 on-1col on-1row black">O10</p>
+    <p class="colP row10 on-1col on-1row white on-black">P10</p>
+    <p class="colQ row10 on-1col on-1row black">Q10</p>
+    <p class="colR row10 on-1col on-1row white on-black">R10</p>
+    <p class="colS row10 on-1col on-1row black">S10</p>
+    <p class="colT row10 on-1col on-1row white on-black">T10</p>
+    <p class="colU row10 on-1col on-1row black">U10</p>
+    <p class="colV row10 on-1col on-1row white on-black">V10</p>
+    <p class="colW row10 on-1col on-1row black">W10</p>
+    <p class="colX row10 on-1col on-1row white on-black">X10</p>
+    <p class="colY row10 on-1col on-1row black">Y10</p>
+    <p class="colZ row10 on-1col on-1row white on-black">Z10</p>
+    <p class="colAA row10 on-1col on-1row black">AA10</p>
 
     <!-- row 11 -->
-    <p class="colA row11 cell black">A11</p>
-    <p class="colB row11 cell white on-black">B11</p>
-    <p class="colC row11 cell black">C11</p>
-    <p class="colD row11 cell white on-black">D11</p>
-    <p class="colE row11 cell black">E11</p>
-    <p class="colF row11 cell white on-black">F11</p>
-    <p class="colG row11 cell black">G11</p>
-    <p class="colH row11 cell white on-black">H11</p>
-    <p class="colI row11 cell black">I11</p>
-    <p class="colJ row11 cell white on-black">J11</p>
-    <p class="colK row11 cell black">K11</p>
-    <p class="colL row11 cell white on-black">L11</p>
-    <p class="colM row11 cell black">M11</p>
-    <p class="colN row11 cell white on-black">N11</p>
-    <p class="colO row11 cell black">O11</p>
-    <p class="colP row11 cell white on-black">P11</p>
-    <p class="colQ row11 cell black">Q11</p>
-    <p class="colR row11 cell white on-black">R11</p>
-    <p class="colS row11 cell black">S11</p>
-    <p class="colT row11 cell white on-black">T11</p>
-    <p class="colU row11 cell black">U11</p>
-    <p class="colV row11 cell white on-black">V11</p>
-    <p class="colW row11 cell black">W11</p>
-    <p class="colX row11 cell white on-black">X11</p>
-    <p class="colY row11 cell black">Y11</p>
-    <p class="colZ row11 cell white on-black">Z11</p>
-    <p class="colAA row11 cell black">AA11</p>
+    <p class="colA row11 on-1col on-1row black">A11</p>
+    <p class="colB row11 on-1col on-1row white on-black">B11</p>
+    <p class="colC row11 on-1col on-1row black">C11</p>
+    <p class="colD row11 on-1col on-1row white on-black">D11</p>
+    <p class="colE row11 on-1col on-1row black">E11</p>
+    <p class="colF row11 on-1col on-1row white on-black">F11</p>
+    <p class="colG row11 on-1col on-1row black">G11</p>
+    <p class="colH row11 on-1col on-1row white on-black">H11</p>
+    <p class="colI row11 on-1col on-1row black">I11</p>
+    <p class="colJ row11 on-1col on-1row white on-black">J11</p>
+    <p class="colK row11 on-1col on-1row black">K11</p>
+    <p class="colL row11 on-1col on-1row white on-black">L11</p>
+    <p class="colM row11 on-1col on-1row black">M11</p>
+    <p class="colN row11 on-1col on-1row white on-black">N11</p>
+    <p class="colO row11 on-1col on-1row black">O11</p>
+    <p class="colP row11 on-1col on-1row white on-black">P11</p>
+    <p class="colQ row11 on-1col on-1row black">Q11</p>
+    <p class="colR row11 on-1col on-1row white on-black">R11</p>
+    <p class="colS row11 on-1col on-1row black">S11</p>
+    <p class="colT row11 on-1col on-1row white on-black">T11</p>
+    <p class="colU row11 on-1col on-1row black">U11</p>
+    <p class="colV row11 on-1col on-1row white on-black">V11</p>
+    <p class="colW row11 on-1col on-1row black">W11</p>
+    <p class="colX row11 on-1col on-1row white on-black">X11</p>
+    <p class="colY row11 on-1col on-1row black">Y11</p>
+    <p class="colZ row11 on-1col on-1row white on-black">Z11</p>
+    <p class="colAA row11 on-1col on-1row black">AA11</p>
 
     <!-- row 12 -->
-    <p class="colA row12 cell black">A12</p>
-    <p class="colB row12 cell white on-black">B12</p>
-    <p class="colC row12 cell black">C12</p>
-    <p class="colD row12 cell white on-black">D12</p>
-    <p class="colE row12 cell black">E12</p>
-    <p class="colF row12 cell white on-black">F12</p>
-    <p class="colG row12 cell black">G12</p>
-    <p class="colH row12 cell white on-black">H12</p>
-    <p class="colI row12 cell black">I12</p>
-    <p class="colJ row12 cell white on-black">J12</p>
-    <p class="colK row12 cell black">K12</p>
-    <p class="colL row12 cell white on-black">L12</p>
-    <p class="colM row12 cell black">M12</p>
-    <p class="colN row12 cell white on-black">N12</p>
-    <p class="colO row12 cell black">O12</p>
-    <p class="colP row12 cell white on-black">P12</p>
-    <p class="colQ row12 cell black">Q12</p>
-    <p class="colR row12 cell white on-black">R12</p>
-    <p class="colS row12 cell black">S12</p>
-    <p class="colT row12 cell white on-black">T12</p>
-    <p class="colU row12 cell black">U12</p>
-    <p class="colV row12 cell white on-black">V12</p>
-    <p class="colW row12 cell black">W12</p>
-    <p class="colX row12 cell white on-black">X12</p>
-    <p class="colY row12 cell black">Y12</p>
-    <p class="colZ row12 cell white on-black">Z12</p>
-    <p class="colAA row12 cell black">AA12</p>
+    <p class="colA row12 on-1col on-1row black">A12</p>
+    <p class="colB row12 on-1col on-1row white on-black">B12</p>
+    <p class="colC row12 on-1col on-1row black">C12</p>
+    <p class="colD row12 on-1col on-1row white on-black">D12</p>
+    <p class="colE row12 on-1col on-1row black">E12</p>
+    <p class="colF row12 on-1col on-1row white on-black">F12</p>
+    <p class="colG row12 on-1col on-1row black">G12</p>
+    <p class="colH row12 on-1col on-1row white on-black">H12</p>
+    <p class="colI row12 on-1col on-1row black">I12</p>
+    <p class="colJ row12 on-1col on-1row white on-black">J12</p>
+    <p class="colK row12 on-1col on-1row black">K12</p>
+    <p class="colL row12 on-1col on-1row white on-black">L12</p>
+    <p class="colM row12 on-1col on-1row black">M12</p>
+    <p class="colN row12 on-1col on-1row white on-black">N12</p>
+    <p class="colO row12 on-1col on-1row black">O12</p>
+    <p class="colP row12 on-1col on-1row white on-black">P12</p>
+    <p class="colQ row12 on-1col on-1row black">Q12</p>
+    <p class="colR row12 on-1col on-1row white on-black">R12</p>
+    <p class="colS row12 on-1col on-1row black">S12</p>
+    <p class="colT row12 on-1col on-1row white on-black">T12</p>
+    <p class="colU row12 on-1col on-1row black">U12</p>
+    <p class="colV row12 on-1col on-1row white on-black">V12</p>
+    <p class="colW row12 on-1col on-1row black">W12</p>
+    <p class="colX row12 on-1col on-1row white on-black">X12</p>
+    <p class="colY row12 on-1col on-1row black">Y12</p>
+    <p class="colZ row12 on-1col on-1row white on-black">Z12</p>
+    <p class="colAA row12 on-1col on-1row black">AA12</p>
 
     <!-- row 13 -->
-    <p class="colA row13 cell black">A13</p>
-    <p class="colB row13 cell white on-black">B13</p>
-    <p class="colC row13 cell black">C13</p>
-    <p class="colD row13 cell white on-black">D13</p>
-    <p class="colE row13 cell black">E13</p>
-    <p class="colF row13 cell white on-black">F13</p>
-    <p class="colG row13 cell black">G13</p>
-    <p class="colH row13 cell white on-black">H13</p>
-    <p class="colI row13 cell black">I13</p>
-    <p class="colJ row13 cell white on-black">J13</p>
-    <p class="colK row13 cell black">K13</p>
-    <p class="colL row13 cell white on-black">L13</p>
-    <p class="colM row13 cell black">M13</p>
-    <p class="colN row13 cell white on-black">N13</p>
-    <p class="colO row13 cell black">O13</p>
-    <p class="colP row13 cell white on-black">P13</p>
-    <p class="colQ row13 cell black">Q13</p>
-    <p class="colR row13 cell white on-black">R13</p>
-    <p class="colS row13 cell black">S13</p>
-    <p class="colT row13 cell white on-black">T13</p>
-    <p class="colU row13 cell black">U13</p>
-    <p class="colV row13 cell white on-black">V13</p>
-    <p class="colW row13 cell black">W13</p>
-    <p class="colX row13 cell white on-black">X13</p>
-    <p class="colY row13 cell black">Y13</p>
-    <p class="colZ row13 cell white on-black">Z13</p>
-    <p class="colAA row13 cell black">AA13</p>
+    <p class="colA row13 on-1col on-1row black">A13</p>
+    <p class="colB row13 on-1col on-1row white on-black">B13</p>
+    <p class="colC row13 on-1col on-1row black">C13</p>
+    <p class="colD row13 on-1col on-1row white on-black">D13</p>
+    <p class="colE row13 on-1col on-1row black">E13</p>
+    <p class="colF row13 on-1col on-1row white on-black">F13</p>
+    <p class="colG row13 on-1col on-1row black">G13</p>
+    <p class="colH row13 on-1col on-1row white on-black">H13</p>
+    <p class="colI row13 on-1col on-1row black">I13</p>
+    <p class="colJ row13 on-1col on-1row white on-black">J13</p>
+    <p class="colK row13 on-1col on-1row black">K13</p>
+    <p class="colL row13 on-1col on-1row white on-black">L13</p>
+    <p class="colM row13 on-1col on-1row black">M13</p>
+    <p class="colN row13 on-1col on-1row white on-black">N13</p>
+    <p class="colO row13 on-1col on-1row black">O13</p>
+    <p class="colP row13 on-1col on-1row white on-black">P13</p>
+    <p class="colQ row13 on-1col on-1row black">Q13</p>
+    <p class="colR row13 on-1col on-1row white on-black">R13</p>
+    <p class="colS row13 on-1col on-1row black">S13</p>
+    <p class="colT row13 on-1col on-1row white on-black">T13</p>
+    <p class="colU row13 on-1col on-1row black">U13</p>
+    <p class="colV row13 on-1col on-1row white on-black">V13</p>
+    <p class="colW row13 on-1col on-1row black">W13</p>
+    <p class="colX row13 on-1col on-1row white on-black">X13</p>
+    <p class="colY row13 on-1col on-1row black">Y13</p>
+    <p class="colZ row13 on-1col on-1row white on-black">Z13</p>
+    <p class="colAA row13 on-1col on-1row black">AA13</p>
 
     <!-- row 14 -->
-    <p class="colA row14 cell black">A14</p>
-    <p class="colB row14 cell white on-black">B14</p>
-    <p class="colC row14 cell black">C14</p>
-    <p class="colD row14 cell white on-black">D14</p>
-    <p class="colE row14 cell black">E14</p>
-    <p class="colF row14 cell white on-black">F14</p>
-    <p class="colG row14 cell black">G14</p>
-    <p class="colH row14 cell white on-black">H14</p>
-    <p class="colI row14 cell black">I14</p>
-    <p class="colJ row14 cell white on-black">J14</p>
-    <p class="colK row14 cell black">K14</p>
-    <p class="colL row14 cell white on-black">L14</p>
-    <p class="colM row14 cell black">M14</p>
-    <p class="colN row14 cell white on-black">N14</p>
-    <p class="colO row14 cell black">O14</p>
-    <p class="colP row14 cell white on-black">P14</p>
-    <p class="colQ row14 cell black">Q14</p>
-    <p class="colR row14 cell white on-black">R14</p>
-    <p class="colS row14 cell black">S14</p>
-    <p class="colT row14 cell white on-black">T14</p>
-    <p class="colU row14 cell black">U14</p>
-    <p class="colV row14 cell white on-black">V14</p>
-    <p class="colW row14 cell black">W14</p>
-    <p class="colX row14 cell white on-black">X14</p>
-    <p class="colY row14 cell black">Y14</p>
-    <p class="colZ row14 cell white on-black">Z14</p>
-    <p class="colAA row14 cell black">AA14</p>
+    <p class="colA row14 on-1col on-1row black">A14</p>
+    <p class="colB row14 on-1col on-1row white on-black">B14</p>
+    <p class="colC row14 on-1col on-1row black">C14</p>
+    <p class="colD row14 on-1col on-1row white on-black">D14</p>
+    <p class="colE row14 on-1col on-1row black">E14</p>
+    <p class="colF row14 on-1col on-1row white on-black">F14</p>
+    <p class="colG row14 on-1col on-1row black">G14</p>
+    <p class="colH row14 on-1col on-1row white on-black">H14</p>
+    <p class="colI row14 on-1col on-1row black">I14</p>
+    <p class="colJ row14 on-1col on-1row white on-black">J14</p>
+    <p class="colK row14 on-1col on-1row black">K14</p>
+    <p class="colL row14 on-1col on-1row white on-black">L14</p>
+    <p class="colM row14 on-1col on-1row black">M14</p>
+    <p class="colN row14 on-1col on-1row white on-black">N14</p>
+    <p class="colO row14 on-1col on-1row black">O14</p>
+    <p class="colP row14 on-1col on-1row white on-black">P14</p>
+    <p class="colQ row14 on-1col on-1row black">Q14</p>
+    <p class="colR row14 on-1col on-1row white on-black">R14</p>
+    <p class="colS row14 on-1col on-1row black">S14</p>
+    <p class="colT row14 on-1col on-1row white on-black">T14</p>
+    <p class="colU row14 on-1col on-1row black">U14</p>
+    <p class="colV row14 on-1col on-1row white on-black">V14</p>
+    <p class="colW row14 on-1col on-1row black">W14</p>
+    <p class="colX row14 on-1col on-1row white on-black">X14</p>
+    <p class="colY row14 on-1col on-1row black">Y14</p>
+    <p class="colZ row14 on-1col on-1row white on-black">Z14</p>
+    <p class="colAA row14 on-1col on-1row black">AA14</p>
 
     <!-- row 15 -->
-    <p class="colA row15 cell black">A15</p>
-    <p class="colB row15 cell white on-black">B15</p>
-    <p class="colC row15 cell black">C15</p>
-    <p class="colD row15 cell white on-black">D15</p>
-    <p class="colE row15 cell black">E15</p>
-    <p class="colF row15 cell white on-black">F15</p>
-    <p class="colG row15 cell black">G15</p>
-    <p class="colH row15 cell white on-black">H15</p>
-    <p class="colI row15 cell black">I15</p>
-    <p class="colJ row15 cell white on-black">J15</p>
-    <p class="colK row15 cell black">K15</p>
-    <p class="colL row15 cell white on-black">L15</p>
-    <p class="colM row15 cell black">M15</p>
-    <p class="colN row15 cell white on-black">N15</p>
-    <p class="colO row15 cell black">O15</p>
-    <p class="colP row15 cell white on-black">P15</p>
-    <p class="colQ row15 cell black">Q15</p>
-    <p class="colR row15 cell white on-black">R15</p>
-    <p class="colS row15 cell black">S15</p>
-    <p class="colT row15 cell white on-black">T15</p>
-    <p class="colU row15 cell black">U15</p>
-    <p class="colV row15 cell white on-black">V15</p>
-    <p class="colW row15 cell black">W15</p>
-    <p class="colX row15 cell white on-black">X15</p>
-    <p class="colY row15 cell black">Y15</p>
-    <p class="colZ row15 cell white on-black">Z15</p>
-    <p class="colAA row15 cell black">AA15</p>
+    <p class="colA row15 on-1col on-1row black">A15</p>
+    <p class="colB row15 on-1col on-1row white on-black">B15</p>
+    <p class="colC row15 on-1col on-1row black">C15</p>
+    <p class="colD row15 on-1col on-1row white on-black">D15</p>
+    <p class="colE row15 on-1col on-1row black">E15</p>
+    <p class="colF row15 on-1col on-1row white on-black">F15</p>
+    <p class="colG row15 on-1col on-1row black">G15</p>
+    <p class="colH row15 on-1col on-1row white on-black">H15</p>
+    <p class="colI row15 on-1col on-1row black">I15</p>
+    <p class="colJ row15 on-1col on-1row white on-black">J15</p>
+    <p class="colK row15 on-1col on-1row black">K15</p>
+    <p class="colL row15 on-1col on-1row white on-black">L15</p>
+    <p class="colM row15 on-1col on-1row black">M15</p>
+    <p class="colN row15 on-1col on-1row white on-black">N15</p>
+    <p class="colO row15 on-1col on-1row black">O15</p>
+    <p class="colP row15 on-1col on-1row white on-black">P15</p>
+    <p class="colQ row15 on-1col on-1row black">Q15</p>
+    <p class="colR row15 on-1col on-1row white on-black">R15</p>
+    <p class="colS row15 on-1col on-1row black">S15</p>
+    <p class="colT row15 on-1col on-1row white on-black">T15</p>
+    <p class="colU row15 on-1col on-1row black">U15</p>
+    <p class="colV row15 on-1col on-1row white on-black">V15</p>
+    <p class="colW row15 on-1col on-1row black">W15</p>
+    <p class="colX row15 on-1col on-1row white on-black">X15</p>
+    <p class="colY row15 on-1col on-1row black">Y15</p>
+    <p class="colZ row15 on-1col on-1row white on-black">Z15</p>
+    <p class="colAA row15 on-1col on-1row black">AA15</p>
 
   </body>
 </bml>

@@ -7,7 +7,23 @@
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
     <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/layout/fullscreen.css" />
+    <link rel="stylesheet" href="css/layout/colF.css" />
+    <link rel="stylesheet" href="css/layout/colH.css" />
+    <link rel="stylesheet" href="css/layout/colJ.css" />
+    <link rel="stylesheet" href="css/layout/colM.css" />
+    <link rel="stylesheet" href="css/layout/colP.css" />
+    <link rel="stylesheet" href="css/layout/colR.css" />
+    <link rel="stylesheet" href="css/layout/colS.css" />
+    <link rel="stylesheet" href="css/layout/row2.css" />
+    <link rel="stylesheet" href="css/layout/row3.css" />
+    <link rel="stylesheet" href="css/layout/row5.css" />
+    <link rel="stylesheet" href="css/layout/row8.css" />
+    <link rel="stylesheet" href="css/layout/row11.css" />
+    <link rel="stylesheet" href="css/layout/row13.css" />
+    <link rel="stylesheet" href="css/layout/row14.css" />
+    <link rel="stylesheet" href="css/layout/on-1col.css" />
+    <link rel="stylesheet" href="css/layout/on-1row.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/navigation.css" />
@@ -19,58 +35,58 @@
     </div>
 
 
-    <p class="colM row2 cell link12 link before-link1 above-link1 below-link12">
+    <p class="colM row2 on-1col on-1row link12 link before-link1 above-link1 below-link12">
       12
     </p>
 
-    <p class="colP row3 cell">
+    <p class="colP row3 on-1col on-1row">
       <a class="link1 after-link12"
         href="navigation.bml">1</a>
     </p>
 
-    <p class="colR row5 cell">
+    <p class="colR row5 on-1col on-1row">
       <a class="link2"
         href="navigation.bml">2</a>
     </p>
 
-    <p class="colS row8 cell link3 link after-link4 above-link4 before-link3">
+    <p class="colS row8 on-1col on-1row link3 link after-link4 above-link4 before-link3">
       3
     </p>
 
-    <p class="colR row11 cell">
+    <p class="colR row11 on-1col on-1row">
       <a class="link4 before-link3 below-link3 after-link5 above-link5"
         href="navigation.bml">4</a>
     </p>
 
-    <p class="colP row13 cell">
+    <p class="colP row13 on-1col on-1row">
       <a class="link5 before-link4 below-link4 after-link6 above-link6"
         href="navigation.bml">5</a>
     </p>
 
-    <p class="colM row14 cell link link6 before-link5 after-link7 above-link6">
+    <p class="colM row14 on-1col on-1row link link6 before-link5 after-link7 above-link6">
       6
     </p>
 
-    <p class="colJ row13 cell">
+    <p class="colJ row13 on-1col on-1row">
       <a class="link7 before-link6 after-link8"
         href="navigation.bml">7</a>
     </p>
 
-    <p class="colH row11 cell">
+    <p class="colH row11 on-1col on-1row">
       <a class="link8 before-link7 after-link9"
         href="navigation.bml">8</a>
     </p>
 
-    <p class="colF row8 cell link9 link below-link10 above-link8 after-link9">
+    <p class="colF row8 on-1col on-1row link9 link below-link10 above-link8 after-link9">
       9
     </p>
 
-    <p class="colH row5 cell">
+    <p class="colH row5 on-1col on-1row">
       <a class="link10 above-link9 below-link11"
         href="navigation.bml">10</a>
     </p>
 
-    <p class="colJ row3 cell">
+    <p class="colJ row3 on-1col on-1row">
       <a class="link11 above-link10 below-link12"
         href="navigation.bml">11</a>
     </p>
