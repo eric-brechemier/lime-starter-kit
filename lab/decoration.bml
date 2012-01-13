@@ -32,7 +32,8 @@
     <link rel="stylesheet" href="css/layout/on-8cols.css" />
     <link rel="stylesheet" href="css/layout/on-1row.css" />
     <link rel="stylesheet" href="css/layout/on-2rows.css" />
-    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/colors/black.css" />
+    <link rel="stylesheet" href="css/colors/on-white.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/decoration/border.css" />
     <link rel="stylesheet" href="css/decoration/border1.css" />

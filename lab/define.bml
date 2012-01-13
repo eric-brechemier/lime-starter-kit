@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="css/layout/on-1row.css" />
     <link rel="stylesheet" href="css/layout/on-2rows.css" />
     <link rel="stylesheet" href="css/layout/on-10rows.css" />
-    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/colors/green.css" />
+    <link rel="stylesheet" href="css/colors/on-black.css" />
+    <link rel="stylesheet" href="css/colors/on-white.css" />
     <link rel="stylesheet" href="css/navigation.css" />
     <link rel="stylesheet" href="bezen.org/test/style/test.css" />
 

@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="css/layout/row15.css" />
     <link rel="stylesheet" href="css/layout/on-27cols.css" />
     <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/colors/yellow.css" />
+    <link rel="stylesheet" href="css/colors/on-blue.css" />
+    <link rel="stylesheet" href="css/colors/on-yellow.css" />
   </head>
   <body class="on-yellow">
     <div class="colA row1 on-27cols on-1row on-blue"></div>

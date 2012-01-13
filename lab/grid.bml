@@ -52,7 +52,10 @@
     <link rel="stylesheet" href="css/layout/row15.css" />
     <link rel="stylesheet" href="css/layout/on-1col.css" />
     <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/colors/black.css" />
+    <link rel="stylesheet" href="css/colors/white.css" />
+    <link rel="stylesheet" href="css/colors/on-black.css" />
+    <link rel="stylesheet" href="css/colors/on-white.css" />
   </head>
   <body class="on-white">
 

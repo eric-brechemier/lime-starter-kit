@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/layout/row11.css" />
     <link rel="stylesheet" href="css/layout/on-27cols.css" />
     <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/colors/white.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/decoration/border.css" />
     <link rel="stylesheet" href="css/decoration/border2.css" />
