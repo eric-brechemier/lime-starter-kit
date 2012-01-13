@@ -1,5 +1,5 @@
 /*
- * Directory: decoration.css
+ * Directory: decoration
  * Styles for borders and underlines
  *
  * Author:  Eric Bréchemier
