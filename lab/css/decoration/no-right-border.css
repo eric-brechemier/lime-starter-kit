@@ -1,0 +1,9 @@
+.no-right-border {
+  border-right-color-index:  8;
+}
+.no-right-border:focus {
+  border-right-color-index:  8;
+}
+.no-right-border:active {
+  border-right-color-index:  8;
+}

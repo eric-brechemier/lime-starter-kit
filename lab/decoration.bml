@@ -5,12 +5,27 @@
     <title>CSS Styles for borders and underlines</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-07" />
+    <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
-    <link rel="stylesheet" href="css/decoration.css" />
+    <link rel="stylesheet" href="css/decoration/border.css" />
+    <link rel="stylesheet" href="css/decoration/border1.css" />
+    <link rel="stylesheet" href="css/decoration/border2.css" />
+    <link rel="stylesheet" href="css/decoration/border3.css" />
+    <link rel="stylesheet" href="css/decoration/border4.css" />
+    <link rel="stylesheet" href="css/decoration/underline.css" />
+    <link rel="stylesheet" href="css/decoration/underline1.css" />
+    <link rel="stylesheet" href="css/decoration/underline2.css" />
+    <link rel="stylesheet" href="css/decoration/underline3.css" />
+    <link rel="stylesheet" href="css/decoration/underline4.css" />
+    <link rel="stylesheet" href="css/decoration/dashed.css" />
+    <link rel="stylesheet" href="css/decoration/dotted.css" />
+    <link rel="stylesheet" href="css/decoration/no-top-border.css" />
+    <link rel="stylesheet" href="css/decoration/no-right-border.css" />
+    <link rel="stylesheet" href="css/decoration/no-bottom-border.css" />
+    <link rel="stylesheet" href="css/decoration/no-left-border.css" />
   </head>
   <body class="black on-white">
     <p class="colA row1 on-3cols on-1row">Default</p>

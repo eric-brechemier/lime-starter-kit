@@ -5,12 +5,11 @@
     <title>Navigation Experiment</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-07" />
+    <meta name="DC.date" content="2012-01-13" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/typography.css" />
-    <link rel="stylesheet" href="css/decoration.css" />
     <link rel="stylesheet" href="css/navigation.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">

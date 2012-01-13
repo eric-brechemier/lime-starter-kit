@@ -1,0 +1,17 @@
+.underline2 {
+  border-style: solid;
+  border-width: 2px;
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline2:focus {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
+.underline2:active {
+  border-top-color-index:    8;
+  border-right-color-index:  8;
+  border-left-color-index:   8;
+}
