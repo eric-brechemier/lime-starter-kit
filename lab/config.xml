@@ -3,7 +3,7 @@
   id="https://github.com/eric-brechemier/lime-starter-kit.git"
   width="960" height="540"
   viewmodes="fullscreen"
-  version="2012-01-07">
+  version="2012-01-20">
   <name>LIME Starter Kit Lab</name>
   <description xml:lang="en">Experiments part of LIME Starter Kit</description>
   <author
@@ -13,6 +13,6 @@
   <license>BSD License - http://creativecommons.org/licenses/BSD/</license>
   <language>en</language>
   <icon src="media/icon.png" />
-  <content src="index.bml" type="application/x-lime" />
+  <content src="startup.bml" type="application/x-lime" />
   <tag>lime tv opensource development github</tag>
 </widget>
