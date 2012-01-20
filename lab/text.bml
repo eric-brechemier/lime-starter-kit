@@ -32,7 +32,26 @@
     <link rel="stylesheet" href="css/colors/white.css" />
     <link rel="stylesheet" href="css/colors/on-black.css" />
     <link rel="stylesheet" href="css/colors/on-white.css" />
-    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/typography/align-left.css" />
+    <link rel="stylesheet" href="css/typography/align-center.css" />
+    <link rel="stylesheet" href="css/typography/align-right.css" />
+    <link rel="stylesheet" href="css/typography/bold.css" />
+    <link rel="stylesheet" href="css/typography/round-gothic.css" />
+    <link rel="stylesheet" href="css/typography/round-gothic-bold.css" />
+    <link rel="stylesheet" href="css/typography/square-gothic.css" />
+    <link rel="stylesheet" href="css/typography/xx-small.css" />
+    <link rel="stylesheet" href="css/typography/x-small.css" />
+    <link rel="stylesheet" href="css/typography/small.css" />
+    <link rel="stylesheet" href="css/typography/medium.css" />
+    <link rel="stylesheet" href="css/typography/large.css" />
+    <link rel="stylesheet" href="css/typography/x-large.css" />
+    <link rel="stylesheet" href="css/typography/xx-large.css" />
+    <link rel="stylesheet" href="css/typography/xx-narrow.css" />
+    <link rel="stylesheet" href="css/typography/x-narrow.css" />
+    <link rel="stylesheet" href="css/typography/narrow.css" />
+    <link rel="stylesheet" href="css/typography/wide.css" />
+    <link rel="stylesheet" href="css/typography/x-wide.css" />
+    <link rel="stylesheet" href="css/typography/xx-wide.css" />
   </head>
   <body>
     <p class="black on-white colA row1 on-7cols on-1row">Default</p>

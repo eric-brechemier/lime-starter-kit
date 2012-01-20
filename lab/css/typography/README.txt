@@ -1,5 +1,5 @@
 /*
- * File: typography.css
+ * Folder: typography
  * Styles for text
  *
  * Author:  Eric Bréchemier
@@ -9,12 +9,7 @@
 
 /* Define default line-height to match the height of a row in the grid layout,
    in order to center the text vertically in one cell */
-div {
-  line-height: 26px;
-}
-p {
-  line-height: 26px;
-}
+default-line-height.css
 
 /* font size and associated line height */
 /* These font sizes follow a Double-Stranded Fibonacci series,
@@ -25,31 +20,31 @@ p {
    http://blogs.claritycon.com/design/2011/08/14/design-for-software-typography-part-1/
 */
 /* center vertically in one cell */
-.xx-small  { font-size: 14px; line-height: 26px; }
-.x-small   { font-size: 16px; line-height: 26px; }
-.small     { font-size: 20px; line-height: 26px; }
-.medium    { font-size: 24px; line-height: 26px; }
+xx-small.css
+x-small.css
+small.css
+medium.css
 /* center vertically in two cells */
-.large     { font-size: 34px; line-height: 61px; }
-.x-large   { font-size: 40px; line-height: 61px; }
-.xx-large  { font-size: 48px; line-height: 61px; }
+large.css
+x-large.css
+xx-large.css
 /* Note: the largest font size available in LIME Viewer is 49px */
 
 /* letter spacing */
-.xx-narrow  { letter-spacing: -4px; }
-.x-narrow   { letter-spacing: -2px; }
-.narrow     { letter-spacing: -1px; }
-.wide       { letter-spacing:  1px; }
-.x-wide     { letter-spacing:  4px; }
-.xx-wide    { letter-spacing:  8px; }
+xx-narrow.css
+x-narrow.css
+narrow.css
+wide.css
+x-wide.css
+xx-wide.css
 
 /* text alignment */
-.align-left    { text-align: left; }
-.align-center  { text-align: center; }
-.align-right   { text-align: right; }
+align-left.css
+align-center.css
+align-right.css
 
 /* font-weight */
-.bold { font-weight: bold; }
+bold.css
 
 /* font-family, default is "round gothic" */
 /*
@@ -59,6 +54,6 @@ p {
   - bold round gothic: 30px,
   - square gothic: 20px, 24px
 */
-.round-gothic { font-family: "round gothic"; }
-.round-gothic-bold { font-family: "bold round gothic"; }
-.square-gothic { font-family: "square gothic"; }
+round-gothic.css
+round-gothic-bold.css
+square-gothic.css

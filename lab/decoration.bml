@@ -5,7 +5,7 @@
     <title>CSS Styles for borders and underlines</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-13" />
+    <meta name="DC.date" content="2012-01-20" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout/colA.css" />
     <link rel="stylesheet" href="css/layout/colD.css" />
@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/layout/on-2rows.css" />
     <link rel="stylesheet" href="css/colors/black.css" />
     <link rel="stylesheet" href="css/colors/on-white.css" />
-    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/typography/default-line-height.css" />
     <link rel="stylesheet" href="css/decoration/border.css" />
     <link rel="stylesheet" href="css/decoration/border1.css" />
     <link rel="stylesheet" href="css/decoration/border2.css" />
