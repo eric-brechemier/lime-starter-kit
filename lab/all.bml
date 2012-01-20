@@ -19,35 +19,12 @@
     body{
       clut:url(media/palette.clt);
     }
-    div {
-      line-height: 26px;
-    }
-    p {
-      line-height: 26px;
-    }
     .title {
       font-weight: bold;
     }
-    .on-yellow {
-      background-color-index: 3;
-    }
-    .colA { left: 12px; }
-    .colF { left: 187px; }
-    .colG { left: 222px; }
-    .colI { left: 292px; }
-    .row1 { top: 12px; }
-    .row2 { top: 47px; }
-    .row4 { top: 117px; }
-    .row6 { top: 187px; }
-    .row10 { top: 327px; }
-    .on-18cols { width: 621px; }
-    .on-27cols { width: 936px; }
-    .on-1row { height: 26px; }
-    .on-3rows { height: 96px; }
-    .on-15rows { height: 516px; }
     </style>
     <!-- ISSUE: no more than one link element is allowed in DTD -->
-    <link href="css/layout/fullscreen.css" />
+    <link href="css/tv.css" />
     <script src="scripts/define.ecm"></script>
     <script>
     <![CDATA[

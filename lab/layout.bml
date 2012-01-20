@@ -6,39 +6,21 @@
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
     <meta name="DC.date" content="2012-01-20" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout/bottom-half.css" />
-    <link rel="stylesheet" href="css/layout/right-half.css" />
-    <link rel="stylesheet" href="css/layout/north-west.css" />
-    <link rel="stylesheet" href="css/layout/north.css" />
-    <link rel="stylesheet" href="css/layout/north-east.css" />
-    <link rel="stylesheet" href="css/layout/west.css" />
-    <link rel="stylesheet" href="css/layout/south-west.css" />
-    <link rel="stylesheet" href="css/layout/south.css" />
-    <link rel="stylesheet" href="css/layout/south-east.css" />
-    <link rel="stylesheet" href="css/layout/three-thirds-wide.css" />
-    <link rel="stylesheet" href="css/colors/on-white.css" />
-    <link rel="stylesheet" href="css/colors/on-yellow.css" />
-    <link rel="stylesheet" href="css/colors/on-green.css" />
-    <link rel="stylesheet" href="css/colors/on-light-blue.css" />
-    <link rel="stylesheet" href="css/colors/on-pink-red.css" />
-    <link rel="stylesheet" href="css/colors/white.css" />
-    <link rel="stylesheet" href="css/colors/light-blue.css" />
-    <link rel="stylesheet" href="css/colors/black.css" />
+    <link rel="stylesheet" href="css/tv.css" />
   </head>
   <body class="on-yellow">
     <div class="bottom-half on-green">
       <div class="right-half black on-pink-red"></div>
     </div>
-    <p class="north-west white on-light-blue">North West</p>
-    <p class="north light-blue on-white">North</p>
-    <p class="north-east white on-light-blue">North East</p>
+    <p class="north-west white on-purple-blue">North West</p>
+    <p class="north purple on-gray">North</p>
+    <p class="north-east dark-gray on-blue-green">North East</p>
 
     <p class="west three-thirds-wide black on-white">Three thirds</p>
 
-    <p class="south-west white on-light-blue">South West</p>
-    <p class="south light-blue on-white">South</p>
-    <p class="south-east white on-light-blue">South East</p>
+    <p class="south-west gray on-purple-brown">South West</p>
+    <p class="south blue on-pink">South</p>
+    <p class="south-east white on-purple">South East</p>
 
   </body>
 </bml>

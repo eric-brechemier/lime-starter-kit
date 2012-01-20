@@ -5,21 +5,8 @@
     <title>CSS Styles for colors</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-13" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout/colA.css" />
-    <link rel="stylesheet" href="css/layout/row1.css" />
-    <link rel="stylesheet" href="css/layout/row3.css" />
-    <link rel="stylesheet" href="css/layout/row5.css" />
-    <link rel="stylesheet" href="css/layout/row7.css" />
-    <link rel="stylesheet" href="css/layout/row11.css" />
-    <link rel="stylesheet" href="css/layout/row13.css" />
-    <link rel="stylesheet" href="css/layout/row15.css" />
-    <link rel="stylesheet" href="css/layout/on-27cols.css" />
-    <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/colors/yellow.css" />
-    <link rel="stylesheet" href="css/colors/on-blue.css" />
-    <link rel="stylesheet" href="css/colors/on-yellow.css" />
+    <meta name="DC.date" content="2012-01-20" />
+    <link rel="stylesheet" href="css/tv.css" />
   </head>
   <body class="on-yellow">
     <div class="colA row1 on-27cols on-1row on-blue"></div>

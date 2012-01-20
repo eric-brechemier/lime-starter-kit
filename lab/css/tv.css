@@ -1,9 +1,284 @@
 /*
- * File: base.css
- * Base Styles
+ * File: tv.css
+ * A selection of styles from the LIME Starter Kit lab
  *
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-18
+ * Version: 2012-01-20
  */
 @import url("screen/base.css") screen;
+
+/* Layout (104 rules) */
+.fullscreen {left: 0px; top: 0px; width: 960px; height: 540px;}
+.top-half {left: 0px; top: 0px; width: 960px; height: 270px;}
+.bottom-half {left: 0px; top: 270px; width: 960px; height: 270px;}
+.left-half {left: 0px; top: 0px; width: 480px; height: 540px;}
+.right-half {left: 480px; top: 0px; width: 480px; height: 540px;}
+.north-west {left: 12px; top: 12px; width: 306px; height: 166px;}
+.north {left: 327px; top: 12px; width: 306px; height: 166px;}
+.north-east {left: 642px; top: 12px; width: 306px; height: 166px;}
+.west {left: 12px; top: 187px; width: 306px; height: 166px;}
+.center {left: 327px; top: 187px; width: 306px; height: 166px;}
+.east {left: 642px; top: 187px; width: 306px; height: 166px;}
+.south-west {left: 12px; top: 362px; width: 306px; height: 166px;}
+.south {left: 327px; top: 362px; width: 306px; height: 166px;}
+.south-east {left: 642px; top: 362px; width: 306px; height: 166px;}
+.one-third-wide {width: 306px;}
+.two-thirds-wide {width: 621px;}
+.three-thirds-wide {width: 936px;}
+.one-third-high {height: 166px;}
+.two-thirds-high {height: 341px;}
+.three-thirds-high {height: 516px;}
+.colA {left: 12px;}
+.colB {left: 47px;}
+.colC {left: 82px;}
+.colD {left: 117px;}
+.colE {left: 152px;}
+.colF {left: 187px;}
+.colG {left: 222px;}
+.colH {left: 257px;}
+.colI {left: 292px;}
+.colJ {left: 327px;}
+.colK {left: 362px;}
+.colL {left: 397px;}
+.colM {left: 432px;}
+.colN {left: 467px;}
+.colO {left: 502px;}
+.colP {left: 537px;}
+.colQ {left: 572px;}
+.colR {left: 607px;}
+.colS {left: 642px;}
+.colT {left: 677px;}
+.colU {left: 712px;}
+.colV {left: 747px;}
+.colW {left: 782px;}
+.colX {left: 817px;}
+.colY {left: 852px;}
+.colZ {left: 887px;}
+.colAA {left: 922px;}
+.row1 {top: 12px;}
+.row2 {top: 47px;}
+.row3 {top: 82px;}
+.row4 {top: 117px;}
+.row5 {top: 152px;}
+.row6 {top: 187px;}
+.row7 {top: 222px;}
+.row8 {top: 257px;}
+.row9 {top: 292px;}
+.row10 {top: 327px;}
+.row11 {top: 362px;}
+.row12 {top: 397px;}
+.row13 {top: 432px;}
+.row14 {top: 467px;}
+.row15 {top: 502px;}
+.on-1col {width: 26px;}
+.on-2cols {width: 61px;}
+.on-3cols {width: 96px;}
+.on-4cols {width: 131px;}
+.on-5cols {width: 166px;}
+.on-6cols {width: 201px;}
+.on-7cols {width: 236px;}
+.on-8cols {width: 271px;}
+.on-9cols {width: 306px;}
+.on-10cols {width: 341px;}
+.on-11cols {width: 376px;}
+.on-12cols {width: 411px;}
+.on-13cols {width: 446px;}
+.on-14cols {width: 481px;}
+.on-15cols {width: 516px;}
+.on-16cols {width: 551px;}
+.on-17cols {width: 586px;}
+.on-18cols {width: 621px;}
+.on-19cols {width: 656px;}
+.on-20cols {width: 691px;}
+.on-21cols {width: 726px;}
+.on-22cols {width: 761px;}
+.on-23cols {width: 796px;}
+.on-24cols {width: 831px;}
+.on-25cols {width: 866px;}
+.on-26cols {width: 901px;}
+.on-27cols {width: 936px;}
+.on-1row {height: 26px;}
+.on-2rows {height: 61px;}
+.on-3rows {height: 96px;}
+.on-4rows {height: 131px;}
+.on-5rows {height: 166px;}
+.on-6rows {height: 201px;}
+.on-7rows {height: 236px;}
+.on-8rows {height: 271px;}
+.on-9rows {height: 306px;}
+.on-10rows {height: 341px;}
+.on-11rows {height: 376px;}
+.on-12rows {height: 411px;}
+.on-13rows {height: 446px;}
+.on-14rows {height: 481px;}
+.on-15rows {height: 516px;}
+
+/* Colors (42 rules) */
+.white {color-index: 7; border-top-color-index: 7; border-right-color-index: 7; border-bottom-color-index: 7; border-left-color-index: 7;}
+.gray {color-index: 15; border-top-color-index: 15; border-right-color-index: 15; border-bottom-color-index: 15; border-left-color-index: 15;}
+.dark-gray {color-index: 30; border-top-color-index: 30; border-right-color-index: 30; border-bottom-color-index: 30; border-left-color-index: 30;}
+.black {color-index: 0; border-top-color-index: 0; border-right-color-index: 0; border-bottom-color-index: 0; border-left-color-index: 0;}
+.magenta {color-index: 58; border-top-color-index: 58; border-right-color-index: 58; border-bottom-color-index: 58; border-left-color-index: 58;}
+.purple {color-index: 27; border-top-color-index: 27; border-right-color-index: 27; border-bottom-color-index: 27; border-left-color-index: 27;}
+.purple-blue {color-index: 12; border-top-color-index: 12; border-right-color-index: 12; border-bottom-color-index: 12; border-left-color-index: 12;}
+.blue {color-index: 20; border-top-color-index: 20; border-right-color-index: 20; border-bottom-color-index: 20; border-left-color-index: 20;}
+.cyan {color-index: 40; border-top-color-index: 40; border-right-color-index: 40; border-bottom-color-index: 40; border-left-color-index: 40;}
+.blue-green {color-index: 39; border-top-color-index: 39; border-right-color-index: 39; border-bottom-color-index: 39; border-left-color-index: 39;}
+.green {color-index: 23; border-top-color-index: 23; border-right-color-index: 23; border-bottom-color-index: 23; border-left-color-index: 23;}
+.yellow-green {color-index: 49; border-top-color-index: 49; border-right-color-index: 49; border-bottom-color-index: 49; border-left-color-index: 49;}
+.yellow {color-index: 63; border-top-color-index: 63; border-right-color-index: 63; border-bottom-color-index: 63; border-left-color-index: 63;}
+.yellow-brown {color-index: 11; border-top-color-index: 11; border-right-color-index: 11; border-bottom-color-index: 11; border-left-color-index: 11;}
+.orange {color-index: 59; border-top-color-index: 59; border-right-color-index: 59; border-bottom-color-index: 59; border-left-color-index: 59;}
+.orange-brown {color-index: 9; border-top-color-index: 9; border-right-color-index: 9; border-bottom-color-index: 9; border-left-color-index: 9;}
+.pink-red {color-index: 53; border-top-color-index: 53; border-right-color-index: 53; border-bottom-color-index: 53; border-left-color-index: 53;}
+.red {color-index: 1; border-top-color-index: 1; border-right-color-index: 1; border-bottom-color-index: 1; border-left-color-index: 1;}
+.brown {color-index: 25; border-top-color-index: 25; border-right-color-index: 25; border-bottom-color-index: 25; border-left-color-index: 25;}
+.pink {color-index: 57; border-top-color-index: 57; border-right-color-index: 57; border-bottom-color-index: 57; border-left-color-index: 57;}
+.purple-brown {color-index: 41; border-top-color-index: 41; border-right-color-index: 41; border-bottom-color-index: 41; border-left-color-index: 41;}
+.on-white {background-color-index: 7;}
+.on-gray {background-color-index: 15;}
+.on-dark-gray {background-color-index: 30;}
+.on-black {background-color-index: 0;}
+.on-magenta {background-color-index: 58;}
+.on-purple {background-color-index: 27;}
+.on-purple-blue {background-color-index: 12;}
+.on-blue {background-color-index: 20;}
+.on-cyan {background-color-index: 40;}
+.on-blue-green {background-color-index: 39;}
+.on-green {background-color-index: 23;}
+.on-yellow-green {background-color-index: 49;}
+.on-yellow {background-color-index: 63;}
+.on-yellow-brown {background-color-index: 11;}
+.on-orange {background-color-index: 59;}
+.on-orange-brown {background-color-index: 9;}
+.on-pink-red {background-color-index: 53;}
+.on-red {background-color-index: 1;}
+.on-brown {background-color-index: 25;}
+.on-pink {background-color-index: 57;}
+.on-purple-brown {background-color-index: 41;}
+
+/* Typography (22 rules) */
+div {line-height: 26px;}
+p {line-height: 26px;}
+.xx-small {font-size: 14px; line-height: 26px;}
+.x-small {font-size: 16px; line-height: 26px;}
+.small {font-size: 20px; line-height: 26px;}
+.medium {font-size: 24px; line-height: 26px;}
+.large {font-size: 34px; line-height: 61px;}
+.x-large {font-size: 40px; line-height: 61px;}
+.xx-large {font-size: 48px; line-height: 61px;}
+.xx-narrow {letter-spacing: -4px;}
+.x-narrow {letter-spacing: -2px;}
+.narrow {letter-spacing: -1px;}
+.wide {letter-spacing: 1px;}
+.x-wide {letter-spacing: 4px;}
+.xx-wide {letter-spacing: 8px;}
+.align-left {text-align: left;}
+.align-center {text-align: center;}
+.align-right {text-align: right;}
+.bold {font-weight: bold;}
+.round-gothic {font-family: "round gothic";}
+.round-gothic-bold {font-family: "bold round gothic";}
+.square-gothic {font-family: "square gothic";}
+
+/* Decoration (30 rules) */
+.border {border-style: solid; border-width: 1px;}
+.border2 {border-style: solid; border-width: 2px;}
+.border3 {border-style: solid; border-width: 3px;}
+.border4 {border-style: solid; border-width: 4px;}
+.underline {border-style: solid; border-width: 1px; border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline:focus {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline:active {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline2 {border-style: solid; border-width: 2px; border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline2:focus {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline2:active {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline3 {border-style: solid; border-width: 3px; border-top-color-index: 8; border-right-color-index:  8; border-left-color-index: 8;}
+.underline3:focus {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline3:active {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline4 {border-style: solid; border-width: 4px; border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline4:focus {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.underline4:active {border-top-color-index: 8; border-right-color-index: 8; border-left-color-index: 8;}
+.no-top-border {border-top-color-index: 8;}
+.no-top-border:focus {border-top-color-index: 8;}
+.no-top-border:active {border-top-color-index: 8;}
+.no-right-border {border-right-color-index: 8;}
+.no-right-border:focus {border-right-color-index: 8;}
+.no-right-border:active {border-right-color-index: 8;}
+.no-bottom-border {border-bottom-color-index: 8;}
+.no-bottom-border:focus {border-bottom-color-index: 8;}
+.no-bottom-border:active {border-bottom-color-index: 8;}
+.no-left-border {border-left-color-index: 8;}
+.no-left-border:focus {border-left-color-index: 8;}
+.no-left-border:active {border-left-color-index: 8;}
+.dashed {border-style: dashed;}
+.dotted {border-style: dotted;}
+
+/* Navigation (66 rules) */
+a {border-width: 2px; border-style: dotted; border-top-color-index: 8; border-right-color-index: 8; border-bottom-color-index: 8; border-left-color-index: 8; grayscale-color-index: 8 8; color-index: 4;}
+a:focus {border-top-color-index: 1; border-right-color-index: 1; border-bottom-color-index: 1; border-left-color-index: 1; grayscale-color-index: 4 4; color-index: 6; font-weight: bold;}
+a:active {border-top-color-index: 3; border-right-color-index: 3; border-bottom-color-index: 3; border-left-color-index: 3; color-index: 3;}
+.link {border-width: 2px; border-style: dotted; border-top-color-index: 8; border-right-color-index: 8; border-bottom-color-index: 8; border-left-color-index: 8; grayscale-color-index: 8 8; color-index: 4;}
+.link:focus {border-top-color-index: 1; border-right-color-index: 1; border-bottom-color-index: 1; border-left-color-index: 1; grayscale-color-index: 4 4; color-index: 6; font-weight: bold;}
+.link:active {border-top-color-index: 3; border-right-color-index: 3; border-bottom-color-index: 3; border-left-color-index: 3; color-index: 3;}
+.link1 {nav-index:  0; nav-left:  0; nav-up:  0; nav-right:  1; nav-down:  1;}
+.link2 {nav-index:  1; nav-left:  0; nav-up:  0; nav-right:  2; nav-down:  2;}
+.link3 {nav-index:  2; nav-left:  1; nav-up:  1; nav-right:  3; nav-down:  3;}
+.link4 {nav-index:  3; nav-left:  2; nav-up:  2; nav-right:  4; nav-down:  4;}
+.link5 {nav-index:  4; nav-left:  3; nav-up:  3; nav-right:  5; nav-down:  5;}
+.link6 {nav-index:  5; nav-left:  4; nav-up:  4; nav-right:  6; nav-down:  6;}
+.link7 {nav-index:  6; nav-left:  5; nav-up:  5; nav-right:  7; nav-down:  7;}
+.link8 {nav-index:  7; nav-left:  6; nav-up:  6; nav-right:  8; nav-down:  8;}
+.link9 {nav-index:  8; nav-left:  7; nav-up:  7; nav-right:  9; nav-down:  9;}
+.link10 {nav-index:  9; nav-left:  8; nav-up:  8; nav-right: 10; nav-down: 10;}
+.link11 {nav-index: 10; nav-left:  9; nav-up:  9; nav-right: 11; nav-down: 11;}
+.link12 {nav-index: 11; nav-left: 10; nav-up: 10; nav-right: 12; nav-down: 12;}
+.after-link1 {nav-left: 0; nav-up: 0;}
+.after-link2 {nav-left: 1; nav-up: 1;}
+.after-link3 {nav-left: 2; nav-up: 2;}
+.after-link4 {nav-left: 3; nav-up: 3;}
+.after-link5 {nav-left: 4; nav-up: 4;}
+.after-link6 {nav-left: 5; nav-up: 5;}
+.after-link7 {nav-left: 6; nav-up: 6;}
+.after-link8 {nav-left: 7; nav-up: 7;}
+.after-link9 {nav-left: 8; nav-up: 8;}
+.after-link10 {nav-left:  9; nav-up:  9;}
+.after-link11 {nav-left: 10; nav-up: 10;}
+.after-link12 {nav-left: 11; nav-up: 11;}
+.before-link1 {nav-right: 0; nav-down: 0;}
+.before-link2 {nav-right: 1; nav-down: 1;}
+.before-link3 {nav-right: 2; nav-down: 2;}
+.before-link4 {nav-right: 3; nav-down: 3;}
+.before-link5 {nav-right: 4; nav-down: 4;}
+.before-link6 {nav-right: 5; nav-down: 5;}
+.before-link7 {nav-right: 6; nav-down: 6;}
+.before-link8 {nav-right: 7; nav-down: 7;}
+.before-link9 {nav-right: 8; nav-down: 8;}
+.before-link10 {nav-right:  9; nav-down:  9;}
+.before-link11 {nav-right: 10; nav-down: 10;}
+.before-link12 {nav-right: 11; nav-down: 11;}
+.above-link1 {nav-down: 0;}
+.above-link2 {nav-down: 1;}
+.above-link3 {nav-down: 2;}
+.above-link4 {nav-down: 3;}
+.above-link5 {nav-down: 4;}
+.above-link6 {nav-down: 5;}
+.above-link7 {nav-down: 6;}
+.above-link8 {nav-down: 7;}
+.above-link9 {nav-down: 8;}
+.above-link10 {nav-down: 9;}
+.above-link11 {nav-down: 10;}
+.above-link12 {nav-down: 11;}
+.below-link1 {nav-up: 0;}
+.below-link2 {nav-up: 1;}
+.below-link3 {nav-up: 2;}
+.below-link4 {nav-up: 3;}
+.below-link5 {nav-up: 4;}
+.below-link6 {nav-up: 5;}
+.below-link7 {nav-up: 6;}
+.below-link8 {nav-up: 7;}
+.below-link9 {nav-up: 8;}
+.below-link10 {nav-up: 9;}
+.below-link11 {nav-up: 10;}
+.below-link12 {nav-up: 11;}
+

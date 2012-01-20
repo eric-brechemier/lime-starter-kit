@@ -5,14 +5,8 @@
     <title>Images</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-13" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout/fullscreen.css" />
-    <link rel="stylesheet" href="css/layout/colA.css" />
-    <link rel="stylesheet" href="css/layout/colB.css" />
-    <link rel="stylesheet" href="css/layout/row1.css" />
-    <link rel="stylesheet" href="css/layout/row2.css" />
-    <link rel="stylesheet" href="css/colors/on-bright-yellow.css" />
+    <meta name="DC.date" content="2012-01-20" />
+    <link rel="stylesheet" href="css/tv.css" />
     <!-- a matching color palette must be specified for indexed colors...-->
     <style>
     body{
@@ -22,8 +16,8 @@
 
   </head>
   <body>
-
-    <div class="fullscreen on-bright-yellow">
+    <!-- all colors have been redefined by the color palette -->
+    <div class="fullscreen on-pink">
       <object type="image/X-arib-png"
         data="media/radionette/screen-indexed.png"
         class="colA row2" style="width:604px;height:540px;"/>

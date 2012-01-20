@@ -6,52 +6,7 @@
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
     <meta name="DC.date" content="2012-01-20" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout/colA.css" />
-    <link rel="stylesheet" href="css/layout/colH.css" />
-    <link rel="stylesheet" href="css/layout/row1.css" />
-    <link rel="stylesheet" href="css/layout/row2.css" />
-    <link rel="stylesheet" href="css/layout/row3.css" />
-    <link rel="stylesheet" href="css/layout/row4.css" />
-    <link rel="stylesheet" href="css/layout/row5.css" />
-    <link rel="stylesheet" href="css/layout/row6.css" />
-    <link rel="stylesheet" href="css/layout/row7.css" />
-    <link rel="stylesheet" href="css/layout/row8.css" />
-    <link rel="stylesheet" href="css/layout/row9.css" />
-    <link rel="stylesheet" href="css/layout/row10.css" />
-    <link rel="stylesheet" href="css/layout/row11.css" />
-    <link rel="stylesheet" href="css/layout/row12.css" />
-    <link rel="stylesheet" href="css/layout/row13.css" />
-    <link rel="stylesheet" href="css/layout/row14.css" />
-    <link rel="stylesheet" href="css/layout/on-5cols.css" />
-    <link rel="stylesheet" href="css/layout/on-6cols.css" />
-    <link rel="stylesheet" href="css/layout/on-7cols.css" />
-    <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/layout/on-2rows.css" />
-    <link rel="stylesheet" href="css/colors/black.css" />
-    <link rel="stylesheet" href="css/colors/white.css" />
-    <link rel="stylesheet" href="css/colors/on-black.css" />
-    <link rel="stylesheet" href="css/colors/on-white.css" />
-    <link rel="stylesheet" href="css/typography/align-left.css" />
-    <link rel="stylesheet" href="css/typography/align-center.css" />
-    <link rel="stylesheet" href="css/typography/align-right.css" />
-    <link rel="stylesheet" href="css/typography/bold.css" />
-    <link rel="stylesheet" href="css/typography/round-gothic.css" />
-    <link rel="stylesheet" href="css/typography/round-gothic-bold.css" />
-    <link rel="stylesheet" href="css/typography/square-gothic.css" />
-    <link rel="stylesheet" href="css/typography/xx-small.css" />
-    <link rel="stylesheet" href="css/typography/x-small.css" />
-    <link rel="stylesheet" href="css/typography/small.css" />
-    <link rel="stylesheet" href="css/typography/medium.css" />
-    <link rel="stylesheet" href="css/typography/large.css" />
-    <link rel="stylesheet" href="css/typography/x-large.css" />
-    <link rel="stylesheet" href="css/typography/xx-large.css" />
-    <link rel="stylesheet" href="css/typography/xx-narrow.css" />
-    <link rel="stylesheet" href="css/typography/x-narrow.css" />
-    <link rel="stylesheet" href="css/typography/narrow.css" />
-    <link rel="stylesheet" href="css/typography/wide.css" />
-    <link rel="stylesheet" href="css/typography/x-wide.css" />
-    <link rel="stylesheet" href="css/typography/xx-wide.css" />
+    <link rel="stylesheet" href="css/tv.css" />
   </head>
   <body>
     <p class="black on-white colA row1 on-7cols on-1row">Default</p>

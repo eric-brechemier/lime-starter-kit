@@ -6,66 +6,7 @@
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
     <meta name="DC.date" content="2012-01-20" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout/fullscreen.css" />
-    <link rel="stylesheet" href="css/layout/colF.css" />
-    <link rel="stylesheet" href="css/layout/colH.css" />
-    <link rel="stylesheet" href="css/layout/colJ.css" />
-    <link rel="stylesheet" href="css/layout/colM.css" />
-    <link rel="stylesheet" href="css/layout/colP.css" />
-    <link rel="stylesheet" href="css/layout/colR.css" />
-    <link rel="stylesheet" href="css/layout/colS.css" />
-    <link rel="stylesheet" href="css/layout/row2.css" />
-    <link rel="stylesheet" href="css/layout/row3.css" />
-    <link rel="stylesheet" href="css/layout/row5.css" />
-    <link rel="stylesheet" href="css/layout/row8.css" />
-    <link rel="stylesheet" href="css/layout/row11.css" />
-    <link rel="stylesheet" href="css/layout/row13.css" />
-    <link rel="stylesheet" href="css/layout/row14.css" />
-    <link rel="stylesheet" href="css/layout/on-1col.css" />
-    <link rel="stylesheet" href="css/layout/on-1row.css" />
-    <link rel="stylesheet" href="css/typography/default-line-height.css" />
-    <link rel="stylesheet" href="css/navigation/a.css" />
-    <link rel="stylesheet" href="css/navigation/link.css" />
-    <link rel="stylesheet" href="css/navigation/link1.css" />
-    <link rel="stylesheet" href="css/navigation/link2.css" />
-    <link rel="stylesheet" href="css/navigation/link3.css" />
-    <link rel="stylesheet" href="css/navigation/link4.css" />
-    <link rel="stylesheet" href="css/navigation/link5.css" />
-    <link rel="stylesheet" href="css/navigation/link6.css" />
-    <link rel="stylesheet" href="css/navigation/link7.css" />
-    <link rel="stylesheet" href="css/navigation/link8.css" />
-    <link rel="stylesheet" href="css/navigation/link9.css" />
-    <link rel="stylesheet" href="css/navigation/link10.css" />
-    <link rel="stylesheet" href="css/navigation/link11.css" />
-    <link rel="stylesheet" href="css/navigation/link12.css" />
-    <link rel="stylesheet" href="css/navigation/link12.css" />
-    <link rel="stylesheet" href="css/navigation/after-link4.css" />
-    <link rel="stylesheet" href="css/navigation/after-link5.css" />
-    <link rel="stylesheet" href="css/navigation/after-link6.css" />
-    <link rel="stylesheet" href="css/navigation/after-link7.css" />
-    <link rel="stylesheet" href="css/navigation/after-link8.css" />
-    <link rel="stylesheet" href="css/navigation/after-link9.css" />
-    <link rel="stylesheet" href="css/navigation/after-link12.css" />
-    <link rel="stylesheet" href="css/navigation/before-link1.css" />
-    <link rel="stylesheet" href="css/navigation/before-link3.css" />
-    <link rel="stylesheet" href="css/navigation/before-link4.css" />
-    <link rel="stylesheet" href="css/navigation/before-link5.css" />
-    <link rel="stylesheet" href="css/navigation/before-link6.css" />
-    <link rel="stylesheet" href="css/navigation/before-link7.css" />
-    <link rel="stylesheet" href="css/navigation/above-link1.css" />
-    <link rel="stylesheet" href="css/navigation/above-link4.css" />
-    <link rel="stylesheet" href="css/navigation/above-link5.css" />
-    <link rel="stylesheet" href="css/navigation/above-link6.css" />
-    <link rel="stylesheet" href="css/navigation/above-link8.css" />
-    <link rel="stylesheet" href="css/navigation/above-link9.css" />
-    <link rel="stylesheet" href="css/navigation/above-link10.css" />
-    <link rel="stylesheet" href="css/navigation/below-link2.css" />
-    <link rel="stylesheet" href="css/navigation/below-link3.css" />
-    <link rel="stylesheet" href="css/navigation/below-link4.css" />
-    <link rel="stylesheet" href="css/navigation/below-link10.css" />
-    <link rel="stylesheet" href="css/navigation/below-link11.css" />
-    <link rel="stylesheet" href="css/navigation/below-link12.css" />
+    <link rel="stylesheet" href="css/tv.css" />
   </head>
   <body xmlns="http://www.w3.org/1999/xhtml">
 
