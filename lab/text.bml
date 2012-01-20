@@ -5,7 +5,7 @@
     <title>CSS Styles for text</title>
     <meta name="DC.creator" content="Eric Bréchemier" />
     <meta name="DC.rights" content="http://creativecommons.org/licenses/BSD/"/>
-    <meta name="DC.date" content="2012-01-13" />
+    <meta name="DC.date" content="2012-01-20" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout/colA.css" />
     <link rel="stylesheet" href="css/layout/colH.css" />
@@ -42,6 +42,10 @@
 
     <p class="black on-white colH row1 on-5cols on-1row">Default</p>
     <p class="black on-white colH row2 on-5cols on-1row bold">Bold</p>
+
+    <p class="black on-white colH row3 on-7cols on-1row round-gothic">round gothic</p>
+    <p class="black on-white colH row4 on-7cols on-1row round-gothic-bold">round gothic bold</p>
+    <p class="black on-white colH row5 on-7cols on-1row square-gothic">square gothic</p>
 
     <p class="black on-white colA row5 on-7cols on-1row">Default</p>
     <p class="white on-black colA row6 on-7cols on-1row xx-small">xx-small</p>
