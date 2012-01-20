@@ -11,10 +11,9 @@
   <body class="black on-white">
     <p class="colA row1 on-3cols on-1row">Default</p>
     <p class="colA row2 on-3cols on-1row border">Border</p>
-    <p class="colA row3 on-3cols on-1row border1">Border1</p>
-    <p class="colA row4 on-3cols on-1row border2">Border2</p>
-    <p class="colA row5 on-3cols on-1row border3">Border3</p>
-    <p class="colA row6 on-3cols on-1row border4">Border4</p>
+    <p class="colA row3 on-3cols on-1row border2">Border2</p>
+    <p class="colA row4 on-3cols on-1row border3">Border3</p>
+    <p class="colA row5 on-3cols on-1row border4">Border4</p>
 
     <p class="colD row2 on-6cols on-1row dashed border">Dashed Border</p>
     <p class="colD row3 on-6cols on-1row dashed border1">Dashed Border1</p>
@@ -28,20 +27,17 @@
     <p class="colJ row5 on-6cols on-1row dotted border3">Dotted Border3</p>
     <p class="colJ row6 on-6cols on-1row dotted border4">Dotted Border4</p>
 
-    <p class="colA row7 on-4cols on-1row underline">Underline</p>
-    <p class="colA row8 on-4cols on-1row underline1">Underline1</p>
+    <p class="colA row8 on-4cols on-1row underline">Underline</p>
     <p class="colA row9 on-4cols on-1row underline2">Underline2</p>
     <p class="colA row10 on-4cols on-1row underline3">Underline3</p>
     <p class="colA row11 on-4cols on-1row underline4">Underline4</p>
 
-    <p class="colE row7 on-7cols on-1row dashed underline">Dashed Underline</p>
-    <p class="colE row8 on-7cols on-1row dashed underline1">Dashed Underline1</p>
+    <p class="colE row8 on-7cols on-1row dashed underline">Dashed Underline</p>
     <p class="colE row9 on-7cols on-1row dashed underline2">Dashed Underline2</p>
     <p class="colE row10 on-7cols on-1row dashed underline3">Dashed Underline3</p>
     <p class="colE row11 on-7cols on-1row dashed underline4">Dashed Underline4</p>
 
-    <p class="colL row7 on-7cols on-1row dotted underline">Dotted Underline</p>
-    <p class="colL row8 on-7cols on-1row dotted underline1">Dotted Underline1</p>
+    <p class="colL row8 on-7cols on-1row dotted underline">Dotted Underline</p>
     <p class="colL row9 on-7cols on-1row dotted underline2">Dotted Underline2</p>
     <p class="colL row10 on-7cols on-1row dotted underline3">Dotted Underline3</p>
     <p class="colL row11 on-7cols on-1row dotted underline4">Dotted Underline4</p>
