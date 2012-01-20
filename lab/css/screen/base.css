@@ -24,7 +24,7 @@
  * - reformatted for readability
  * - replaced tv with screen in the media to have these default styles applied
  *   in a Web browser.
- * - added sans-serif to the font stack, in case "round gothic" is not found
+ * - added "MS Gothic" and sans-serif to the font stack after "round gothic"
  * - replaced rules using color indexes with equivalent rules using color
  *   values. For grayscale-color-index, I defined an outline using the
  *   text-shadow property, with the first color index value on top/left
@@ -34,7 +34,7 @@
  * (for the modifications)
  * Author:  Eric Bréchemier
  * License: http://creativecommons.org/licenses/BSD/
- * Version: 2011-07-18
+ * Version: 2012-01-20
  */
 @media screen {
 /* @media tv { */
@@ -146,7 +146,7 @@
   /* text */
 
   body {
-    font-family : "round gothic", sans-serif;
+    font-family : "round gothic", "MS Gothic", sans-serif;
     font-size : 24px
   }
 
