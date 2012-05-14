@@ -1,26 +1,3 @@
-.link {
-  border-width:   2px;
-  border-style: dotted;
-  border-top-color-index:    8;
-  border-right-color-index:  8;
-  border-bottom-color-index: 8;
-  border-left-color-index:   8;
-  grayscale-color-index:  8  8;
-  color-index: 4;
-}
-.link:focus {
-  border-top-color-index:    1;
-  border-right-color-index:  1;
-  border-bottom-color-index: 1;
-  border-left-color-index:   1;
-  grayscale-color-index:   4 4;
-  color-index: 6;
-  font-weight: bold;
-}
-.link:active {
-  border-top-color-index:    3;
-  border-right-color-index:  3;
-  border-bottom-color-index: 3;
-  border-left-color-index:   3;
-  color-index: 3;
-}
+.link {border-width: 2px; border-style: dotted; border-top-color-index: 8; border-right-color-index: 8; border-bottom-color-index: 8; border-left-color-index: 8; grayscale-color-index: 8 8; color-index: 4;}
+.link:focus { border-top-color-index: 1; border-right-color-index: 1; border-bottom-color-index: 1; border-left-color-index: 1; grayscale-color-index: 4 4; color-index: 6; font-weight: bold;}
+.link:active { border-top-color-index: 3; border-right-color-index: 3; border-bottom-color-index: 3; border-left-color-index: 3; color-index: 3;}
