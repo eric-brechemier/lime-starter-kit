@@ -1,9 +1,3 @@
-.no-top-border {
-  border-top-color-index:    8;
-}
-.no-top-border:focus {
-  border-top-color-index:    8;
-}
-.no-top-border:active {
-  border-top-color-index:    8;
-}
+.no-top-border {border-top-color-index: 8;}
+.no-top-border:focus {border-top-color-index: 8;}
+.no-top-border:active {border-top-color-index: 8;}
